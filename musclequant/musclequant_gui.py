@@ -1170,19 +1170,16 @@ def folder_preview(viewer: "napari.Viewer", folder: Path = Path(".")) -> None:
     except Exception:
         pass
 
-if __name__ == "__main__":
-    # Lazy Qt imports so they don't run if this module is ever imported as a library
+def main():
     from qtpy.QtWidgets import QApplication, QSplashScreen
     from qtpy.QtGui import QPixmap
 
-    # Ensure there is a QApplication before we create the splash/viewer
     app = QApplication.instance()
     if app is None:
         app = QApplication([])
 
-    # Create a tiny splash screen
     pixmap = QPixmap(400, 200)
-    pixmap.fill(Qt.white)  # simple white background
+    pixmap.fill(Qt.white)
 
     splash = QSplashScreen(pixmap)
     splash.showMessage(
@@ -1190,9 +1187,8 @@ if __name__ == "__main__":
         Qt.AlignCenter | Qt.AlignBottom
     )
     splash.show()
-    app.processEvents()  # let the splash actually paint
+    app.processEvents()
 
-    # Now build the napari viewer + UI while the splash is visible
     viewer = napari.Viewer()
 
     quickbar = make_quick_toolbar(viewer)
@@ -1201,7 +1197,6 @@ if __name__ == "__main__":
 
     viewer.window.add_dock_widget(scroll_panel, area="right", name="MuscleQuant")
 
-    # Close the splash once UI is ready
     splash.close()
 
     print("""
@@ -1213,3 +1208,7 @@ MuscleQuant tips:
 """)
 
     napari.run()
+
+
+if __name__ == "__main__":
+    main()

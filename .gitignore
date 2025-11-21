@@ -19,4 +19,4 @@ dist/
 
 # IDEs
 .vscode/
-.idea/
+.idea/.DS_Store
