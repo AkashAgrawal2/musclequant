@@ -1,0 +1,32 @@
+name: Build Windows MuscleQuant App
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build exe
+        run: |
+          pyinstaller --name MuscleQuant --windowed --noconfirm musclequant_gui.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: MuscleQuant-windows
+          path: dist/MuscleQuant.exe
