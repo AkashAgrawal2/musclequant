@@ -29,5 +29,3 @@ pyinstaller --noconfirm --clean --windowed --name MuscleQuant \
 Artifacts:
 - macOS: `dist/MuscleQuant.app`
 - Windows: `dist/MuscleQuant/MuscleQuant.exe`
-
-If PyInstaller complains about missing modules, add another `--collect-all` for that package.
