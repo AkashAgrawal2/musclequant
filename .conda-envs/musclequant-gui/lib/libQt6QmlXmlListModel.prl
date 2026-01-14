@@ -1,0 +1,5 @@
+QMAKE_PRL_TARGET = libQt6QmlXmlListModel.dylib
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.9.2
+QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6Qml.dylib $$[QT_INSTALL_LIBS]/libQt6Network.dylib $$[QT_INSTALL_LIBS]/libQt6Core.dylib -framework IOKit -framework DiskArbitration -framework UniformTypeIdentifiers
+QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6Qml.dylib;$$[QT_INSTALL_LIBS]/libQt6Network.dylib;$$[QT_INSTALL_LIBS]/libQt6Core.dylib;-framework IOKit;-framework DiskArbitration;-framework UniformTypeIdentifiers

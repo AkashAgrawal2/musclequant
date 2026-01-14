@@ -1,0 +1,293 @@
+{
+  "build": "pyhff2d567_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "build <0"
+  ],
+  "depends": [
+    "colorama",
+    "pyproject_hooks",
+    "python >=3.9",
+    "tomli >=1.1.0",
+    "importlib-metadata >=4.6",
+    "packaging >=19.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/python-build-1.3.0-pyhff2d567_0",
+  "files": [
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/build-1.3.0.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/build/__init__.py",
+    "lib/python3.11/site-packages/build/__main__.py",
+    "lib/python3.11/site-packages/build/_builder.py",
+    "lib/python3.11/site-packages/build/_compat/__init__.py",
+    "lib/python3.11/site-packages/build/_compat/importlib.py",
+    "lib/python3.11/site-packages/build/_compat/tarfile.py",
+    "lib/python3.11/site-packages/build/_compat/tomllib.py",
+    "lib/python3.11/site-packages/build/_ctx.py",
+    "lib/python3.11/site-packages/build/_exceptions.py",
+    "lib/python3.11/site-packages/build/_types.py",
+    "lib/python3.11/site-packages/build/_util.py",
+    "lib/python3.11/site-packages/build/env.py",
+    "lib/python3.11/site-packages/build/py.typed",
+    "lib/python3.11/site-packages/build/util.py",
+    "lib/python3.11/site-packages/build/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/_builder.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/_compat/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/_compat/__pycache__/importlib.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/_compat/__pycache__/tarfile.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/_compat/__pycache__/tomllib.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/_ctx.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/_exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/_types.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/_util.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/env.cpython-311.pyc",
+    "lib/python3.11/site-packages/build/__pycache__/util.cpython-311.pyc",
+    "bin/python-build",
+    "bin/pyproject-build"
+  ],
+  "fn": "python-build-1.3.0-pyhff2d567_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/python-build-1.3.0-pyhff2d567_0",
+    "type": 1
+  },
+  "md5": "ed5d43e9ef92cc2a9872f9bdfe94b984",
+  "name": "python-build",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/python-build-1.3.0-pyhff2d567_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8bf61ef1c4aeb139423ab04e5a97248889f4864c5be948b4daf602f5aa531dfc",
+        "sha256_in_prefix": "8bf61ef1c4aeb139423ab04e5a97248889f4864c5be948b4daf602f5aa531dfc",
+        "size_in_bytes": 5608
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "12a73419a87a8e48809847ba2e4004e83c5e6293f9c2fc91258e73322ced2dbc",
+        "sha256_in_prefix": "12a73419a87a8e48809847ba2e4004e83c5e6293f9c2fc91258e73322ced2dbc",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+        "sha256_in_prefix": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b50848af2163ee12f1f67f814e915bb338655a5f962fcc1d189ba5f0eec3465f",
+        "sha256_in_prefix": "b50848af2163ee12f1f67f814e915bb338655a5f962fcc1d189ba5f0eec3465f",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3186db33a24662e6e02234e070ba4d219a5cd0f59b8bd991016ed586d733952f",
+        "sha256_in_prefix": "3186db33a24662e6e02234e070ba4d219a5cd0f59b8bd991016ed586d733952f",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/build-1.3.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "aaf9a29ca5907971ccf07de025375db34539a8d5eeebce20b46099805722106f",
+        "sha256_in_prefix": "aaf9a29ca5907971ccf07de025375db34539a8d5eeebce20b46099805722106f",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "site-packages/build/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "70e41a66e4e0ac1291e40266f66f91e19f3fd7c882fe731924837d01f143d503",
+        "sha256_in_prefix": "70e41a66e4e0ac1291e40266f66f91e19f3fd7c882fe731924837d01f143d503",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "site-packages/build/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "3d857229a5732557ab2b53d47ebd25391ed0db2ffc968b89d4603b49645f9286",
+        "sha256_in_prefix": "3d857229a5732557ab2b53d47ebd25391ed0db2ffc968b89d4603b49645f9286",
+        "size_in_bytes": 15512
+      },
+      {
+        "_path": "site-packages/build/_builder.py",
+        "path_type": "hardlink",
+        "sha256": "6a442f4197a08ff90c8f5f559f311e29d156ee015d7f55bf275f9f48a9f29075",
+        "sha256_in_prefix": "6a442f4197a08ff90c8f5f559f311e29d156ee015d7f55bf275f9f48a9f29075",
+        "size_in_bytes": 13469
+      },
+      {
+        "_path": "site-packages/build/_compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build/_compat/importlib.py",
+        "path_type": "hardlink",
+        "sha256": "99d518627e5c89abc143acc513eda08450e8b4a642e10b9f6ca3323e0e61dd62",
+        "sha256_in_prefix": "99d518627e5c89abc143acc513eda08450e8b4a642e10b9f6ca3323e0e61dd62",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/build/_compat/tarfile.py",
+        "path_type": "hardlink",
+        "sha256": "4bc7d39aa1706d717c969b74e93dbdb8298ea188c0e07f57e8ffbb931645ebcb",
+        "sha256_in_prefix": "4bc7d39aa1706d717c969b74e93dbdb8298ea188c0e07f57e8ffbb931645ebcb",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "site-packages/build/_compat/tomllib.py",
+        "path_type": "hardlink",
+        "sha256": "253faaf5f06efef3ade1f3d62a1d9b20abdf928eb7df3ffbe05fd33ff635edcb",
+        "sha256_in_prefix": "253faaf5f06efef3ade1f3d62a1d9b20abdf928eb7df3ffbe05fd33ff635edcb",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "site-packages/build/_ctx.py",
+        "path_type": "hardlink",
+        "sha256": "d701c1fc9f1b1283ab0de7f94b4d557c3b540b14af30eb8e9cb4735d5f10c28f",
+        "sha256_in_prefix": "d701c1fc9f1b1283ab0de7f94b4d557c3b540b14af30eb8e9cb4735d5f10c28f",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "site-packages/build/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "971118af8d9e1bec207cb6dc321964b3871cd2ef8fdf330cf2c6d6ada20dc08e",
+        "sha256_in_prefix": "971118af8d9e1bec207cb6dc321964b3871cd2ef8fdf330cf2c6d6ada20dc08e",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "site-packages/build/_types.py",
+        "path_type": "hardlink",
+        "sha256": "2f2de70148a2e74bc806191d35b00621c648df1df99663902f335198cfe6534e",
+        "sha256_in_prefix": "2f2de70148a2e74bc806191d35b00621c648df1df99663902f335198cfe6534e",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "site-packages/build/_util.py",
+        "path_type": "hardlink",
+        "sha256": "0f8c45c680383d3dbbc5a96ff5afb97e50ad66064734568aa6220cd97a5d33db",
+        "sha256_in_prefix": "0f8c45c680383d3dbbc5a96ff5afb97e50ad66064734568aa6220cd97a5d33db",
+        "size_in_bytes": 2325
+      },
+      {
+        "_path": "site-packages/build/env.py",
+        "path_type": "hardlink",
+        "sha256": "17c94328ed1c6bdc101bd49181121e1359609a3919ae7bbae716d4a885b6916f",
+        "sha256_in_prefix": "17c94328ed1c6bdc101bd49181121e1359609a3919ae7bbae716d4a885b6916f",
+        "size_in_bytes": 14241
+      },
+      {
+        "_path": "site-packages/build/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/build/util.py",
+        "path_type": "hardlink",
+        "sha256": "22a64c723f32bdf72e3e525241b9a81e61d4f6de4885070e0eb8ff5a477cd356",
+        "sha256_in_prefix": "22a64c723f32bdf72e3e525241b9a81e61d4f6de4885070e0eb8ff5a477cd356",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/_builder.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/_compat/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/_compat/__pycache__/importlib.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/_compat/__pycache__/tarfile.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/_compat/__pycache__/tomllib.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/_ctx.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/_exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/_types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/_util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/env.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/build/__pycache__/util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/python-build",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/pyproject-build",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b2df2264f0936b9f95e13ac79b596fac86d3b649812da03a61543e11e669714c",
+  "size": 26074,
+  "subdir": "noarch",
+  "timestamp": 1754131610000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-build-1.3.0-pyhff2d567_0.conda",
+  "version": "1.3.0"
+}

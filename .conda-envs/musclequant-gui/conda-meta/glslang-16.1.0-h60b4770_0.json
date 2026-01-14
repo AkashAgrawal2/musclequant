@@ -1,0 +1,260 @@
+{
+  "build": "h60b4770_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=19",
+    "spirv-tools >=2025,<2026.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/glslang-16.1.0-h60b4770_0",
+  "files": [
+    "bin/glslang",
+    "bin/glslangValidator",
+    "include/glslang/Include/ResourceLimits.h",
+    "include/glslang/Include/glslang_c_interface.h",
+    "include/glslang/Include/glslang_c_shader_types.h",
+    "include/glslang/Include/visibility.h",
+    "include/glslang/MachineIndependent/Versions.h",
+    "include/glslang/Public/ResourceLimits.h",
+    "include/glslang/Public/ShaderLang.h",
+    "include/glslang/Public/resource_limits_c.h",
+    "include/glslang/SPIRV/GlslangToSpv.h",
+    "include/glslang/SPIRV/Logger.h",
+    "include/glslang/SPIRV/SpvTools.h",
+    "include/glslang/SPIRV/disassemble.h",
+    "include/glslang/SPIRV/spirv.hpp11",
+    "include/glslang/build_info.h",
+    "lib/cmake/glslang/glslang-config-version.cmake",
+    "lib/cmake/glslang/glslang-config.cmake",
+    "lib/cmake/glslang/glslang-targets-release.cmake",
+    "lib/cmake/glslang/glslang-targets.cmake",
+    "lib/libSPIRV.16.1.0.dylib",
+    "lib/libSPIRV.16.dylib",
+    "lib/libSPIRV.dylib",
+    "lib/libglslang-default-resource-limits.16.1.0.dylib",
+    "lib/libglslang-default-resource-limits.16.dylib",
+    "lib/libglslang-default-resource-limits.dylib",
+    "lib/libglslang.16.1.0.dylib",
+    "lib/libglslang.16.dylib",
+    "lib/libglslang.dylib"
+  ],
+  "fn": "glslang-16.1.0-h60b4770_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/glslang-16.1.0-h60b4770_0",
+    "type": 1
+  },
+  "md5": "57cd681cd0078c5edbbac7a0f86c9e2c",
+  "name": "glslang",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/glslang-16.1.0-h60b4770_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/glslang",
+        "path_type": "hardlink",
+        "sha256": "81573cb6ecf140bf5c2166bd46995bae26606e1bc9e03003ec60e15a6ca128c2",
+        "sha256_in_prefix": "81573cb6ecf140bf5c2166bd46995bae26606e1bc9e03003ec60e15a6ca128c2",
+        "size_in_bytes": 165952
+      },
+      {
+        "_path": "bin/glslangValidator",
+        "path_type": "softlink",
+        "sha256": "81573cb6ecf140bf5c2166bd46995bae26606e1bc9e03003ec60e15a6ca128c2",
+        "size_in_bytes": 165952
+      },
+      {
+        "_path": "include/glslang/Include/ResourceLimits.h",
+        "path_type": "hardlink",
+        "sha256": "a8b162ebbbf953334ee86464c5020bb606be7def97e2bc2edc7dbb435c9560af",
+        "sha256_in_prefix": "a8b162ebbbf953334ee86464c5020bb606be7def97e2bc2edc7dbb435c9560af",
+        "size_in_bytes": 5664
+      },
+      {
+        "_path": "include/glslang/Include/glslang_c_interface.h",
+        "path_type": "hardlink",
+        "sha256": "c9cc37d924c314920856847f01c96a79bc98ecf08c8f44f3a184be9bf1b4af02",
+        "sha256_in_prefix": "c9cc37d924c314920856847f01c96a79bc98ecf08c8f44f3a184be9bf1b4af02",
+        "size_in_bytes": 12889
+      },
+      {
+        "_path": "include/glslang/Include/glslang_c_shader_types.h",
+        "path_type": "hardlink",
+        "sha256": "fc7aa76efe4eccd90706e3a3b9950b3542018b02d8c3b8863926a7093d3d962e",
+        "sha256_in_prefix": "fc7aa76efe4eccd90706e3a3b9950b3542018b02d8c3b8863926a7093d3d962e",
+        "size_in_bytes": 9351
+      },
+      {
+        "_path": "include/glslang/Include/visibility.h",
+        "path_type": "hardlink",
+        "sha256": "0e48f93441577e0e45afca8e425f0ace7765fb5e135d9d505c12961a3edc68ac",
+        "sha256_in_prefix": "0e48f93441577e0e45afca8e425f0ace7765fb5e135d9d505c12961a3edc68ac",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "include/glslang/MachineIndependent/Versions.h",
+        "path_type": "hardlink",
+        "sha256": "ae1aa8747fd9c7878fc4af42f37f5aecac1276748ca618445bd43aeab2597b5a",
+        "sha256_in_prefix": "ae1aa8747fd9c7878fc4af42f37f5aecac1276748ca618445bd43aeab2597b5a",
+        "size_in_bytes": 27552
+      },
+      {
+        "_path": "include/glslang/Public/ResourceLimits.h",
+        "path_type": "hardlink",
+        "sha256": "addf6ae69ffe48712320011beb8375d3f912461709709e2bad2fe1c8a7b8cda7",
+        "sha256_in_prefix": "addf6ae69ffe48712320011beb8375d3f912461709709e2bad2fe1c8a7b8cda7",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "include/glslang/Public/ShaderLang.h",
+        "path_type": "hardlink",
+        "sha256": "6644431f7d14acb74a3d74dcf12e4d8f86a3dcb583ff23f43be27b1b256db4d2",
+        "sha256_in_prefix": "6644431f7d14acb74a3d74dcf12e4d8f86a3dcb583ff23f43be27b1b256db4d2",
+        "size_in_bytes": 44097
+      },
+      {
+        "_path": "include/glslang/Public/resource_limits_c.h",
+        "path_type": "hardlink",
+        "sha256": "4e01ee67e30be094659e9579db280005fc92a97ac3f57644a7827ff8fcc8fba8",
+        "sha256_in_prefix": "4e01ee67e30be094659e9579db280005fc92a97ac3f57644a7827ff8fcc8fba8",
+        "size_in_bytes": 2394
+      },
+      {
+        "_path": "include/glslang/SPIRV/GlslangToSpv.h",
+        "path_type": "hardlink",
+        "sha256": "f8285c9ac1e62bc4d74e03f69a5577f2d71c7bcbc78b3d9c27de5e23ccca4fc6",
+        "sha256_in_prefix": "f8285c9ac1e62bc4d74e03f69a5577f2d71c7bcbc78b3d9c27de5e23ccca4fc6",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "include/glslang/SPIRV/Logger.h",
+        "path_type": "hardlink",
+        "sha256": "0a6a1f0a8c50e8dabb01e0d5c4047e3d0976d3a5a968e26a03224c882d40664f",
+        "sha256_in_prefix": "0a6a1f0a8c50e8dabb01e0d5c4047e3d0976d3a5a968e26a03224c882d40664f",
+        "size_in_bytes": 2740
+      },
+      {
+        "_path": "include/glslang/SPIRV/SpvTools.h",
+        "path_type": "hardlink",
+        "sha256": "4016a66e43c6d016b28393f8eec85cccf69311900b719ac093239cb10954e745",
+        "sha256_in_prefix": "4016a66e43c6d016b28393f8eec85cccf69311900b719ac093239cb10954e745",
+        "size_in_bytes": 5280
+      },
+      {
+        "_path": "include/glslang/SPIRV/disassemble.h",
+        "path_type": "hardlink",
+        "sha256": "eac9c7213408196d29fed8517fb97515411e8a2eed2880daafb75bfce578eb1c",
+        "sha256_in_prefix": "eac9c7213408196d29fed8517fb97515411e8a2eed2880daafb75bfce578eb1c",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "include/glslang/SPIRV/spirv.hpp11",
+        "path_type": "hardlink",
+        "sha256": "967514d76ddf8c39e431b5a95b6e7c02195e27a28018b5e6f949fe1e809c5f24",
+        "sha256_in_prefix": "967514d76ddf8c39e431b5a95b6e7c02195e27a28018b5e6f949fe1e809c5f24",
+        "size_in_bytes": 287228
+      },
+      {
+        "_path": "include/glslang/build_info.h",
+        "path_type": "hardlink",
+        "sha256": "29c4185daac025297c51ade12ea4e03c620fddbef9835c74999313551676d9ba",
+        "sha256_in_prefix": "29c4185daac025297c51ade12ea4e03c620fddbef9835c74999313551676d9ba",
+        "size_in_bytes": 2895
+      },
+      {
+        "_path": "lib/cmake/glslang/glslang-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "6ba4d47c0dbe9cff150408092f885d432c7d2d2e8713e56e324402fdabc75629",
+        "sha256_in_prefix": "6ba4d47c0dbe9cff150408092f885d432c7d2d2e8713e56e324402fdabc75629",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/cmake/glslang/glslang-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "ac6ceca69acab18396a4da0867c380713ca94d792bfad5a67e9638101df5cd85",
+        "sha256_in_prefix": "ac6ceca69acab18396a4da0867c380713ca94d792bfad5a67e9638101df5cd85",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "lib/cmake/glslang/glslang-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "b5c97d5c86ab82f98be6b46bf09857777d639a3302ccc258f54605d2d1e534cf",
+        "sha256_in_prefix": "b5c97d5c86ab82f98be6b46bf09857777d639a3302ccc258f54605d2d1e534cf",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "lib/cmake/glslang/glslang-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "cc03ce874abb4cd413df8ca5401dd639dee93d0a54129da3ce4a53c6df48a1dd",
+        "sha256_in_prefix": "cc03ce874abb4cd413df8ca5401dd639dee93d0a54129da3ce4a53c6df48a1dd",
+        "size_in_bytes": 5100
+      },
+      {
+        "_path": "lib/libSPIRV.16.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "f64db50230fa11c239b3be4d58148caa8577aa3e6cdbf6fd92248c16edad70c5",
+        "sha256_in_prefix": "f64db50230fa11c239b3be4d58148caa8577aa3e6cdbf6fd92248c16edad70c5",
+        "size_in_bytes": 17904
+      },
+      {
+        "_path": "lib/libSPIRV.16.dylib",
+        "path_type": "softlink",
+        "sha256": "f64db50230fa11c239b3be4d58148caa8577aa3e6cdbf6fd92248c16edad70c5",
+        "size_in_bytes": 17904
+      },
+      {
+        "_path": "lib/libSPIRV.dylib",
+        "path_type": "softlink",
+        "sha256": "f64db50230fa11c239b3be4d58148caa8577aa3e6cdbf6fd92248c16edad70c5",
+        "size_in_bytes": 17904
+      },
+      {
+        "_path": "lib/libglslang-default-resource-limits.16.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "e0d0b02a7cb781b21ee05681fbe515bc13571780330c2ae5ec6ce257ba788f34",
+        "sha256_in_prefix": "e0d0b02a7cb781b21ee05681fbe515bc13571780330c2ae5ec6ce257ba788f34",
+        "size_in_bytes": 74656
+      },
+      {
+        "_path": "lib/libglslang-default-resource-limits.16.dylib",
+        "path_type": "softlink",
+        "sha256": "e0d0b02a7cb781b21ee05681fbe515bc13571780330c2ae5ec6ce257ba788f34",
+        "size_in_bytes": 74656
+      },
+      {
+        "_path": "lib/libglslang-default-resource-limits.dylib",
+        "path_type": "softlink",
+        "sha256": "e0d0b02a7cb781b21ee05681fbe515bc13571780330c2ae5ec6ce257ba788f34",
+        "size_in_bytes": 74656
+      },
+      {
+        "_path": "lib/libglslang.16.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "0f7a1eeb3ae431a6cd953c2858a11bb3de586dd55784df755c0e3cc5443995d8",
+        "sha256_in_prefix": "0f7a1eeb3ae431a6cd953c2858a11bb3de586dd55784df755c0e3cc5443995d8",
+        "size_in_bytes": 2934160
+      },
+      {
+        "_path": "lib/libglslang.16.dylib",
+        "path_type": "softlink",
+        "sha256": "0f7a1eeb3ae431a6cd953c2858a11bb3de586dd55784df755c0e3cc5443995d8",
+        "size_in_bytes": 2934160
+      },
+      {
+        "_path": "lib/libglslang.dylib",
+        "path_type": "softlink",
+        "sha256": "0f7a1eeb3ae431a6cd953c2858a11bb3de586dd55784df755c0e3cc5443995d8",
+        "size_in_bytes": 2934160
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3b73e49f06035620edd7a856f4ad92b5b9dc3b6b70bec86e48ad19070d80f92a",
+  "size": 847142,
+  "subdir": "osx-arm64",
+  "timestamp": 1764720906000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/glslang-16.1.0-h60b4770_0.conda",
+  "version": "16.1.0"
+}

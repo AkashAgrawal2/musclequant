@@ -1,0 +1,66 @@
+{
+  "build": "h8f1351a_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "gmp >=6.3.0,<7.0a0",
+    "mpfr >=4.2.1,<5.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/mpc-1.3.1-h8f1351a_1",
+  "files": [
+    "include/mpc.h",
+    "lib/libmpc.3.dylib",
+    "lib/libmpc.dylib",
+    "share/info/mpc.info"
+  ],
+  "fn": "mpc-1.3.1-h8f1351a_1.conda",
+  "license": "LGPL-3.0-or-later",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/mpc-1.3.1-h8f1351a_1",
+    "type": 1
+  },
+  "md5": "a5635df796b71f6ca400fc7026f50701",
+  "name": "mpc",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/mpc-1.3.1-h8f1351a_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/mpc.h",
+        "path_type": "hardlink",
+        "sha256": "bca641f4c59f5303d3212650cc00fec0ee2659a220067535dee9029761e83849",
+        "sha256_in_prefix": "bca641f4c59f5303d3212650cc00fec0ee2659a220067535dee9029761e83849",
+        "size_in_bytes": 16949
+      },
+      {
+        "_path": "lib/libmpc.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "de0436cd434b8d0d032f871a49df0bf69073a9db04186f03e9f69dd1ae95b34d",
+        "sha256_in_prefix": "de0436cd434b8d0d032f871a49df0bf69073a9db04186f03e9f69dd1ae95b34d",
+        "size_in_bytes": 150592
+      },
+      {
+        "_path": "lib/libmpc.dylib",
+        "path_type": "softlink",
+        "sha256": "de0436cd434b8d0d032f871a49df0bf69073a9db04186f03e9f69dd1ae95b34d",
+        "size_in_bytes": 150592
+      },
+      {
+        "_path": "share/info/mpc.info",
+        "path_type": "hardlink",
+        "sha256": "319e0e3b83e1b8d10b908281d6c7cd3ed8179526472be88a34a5f1558305cc7d",
+        "sha256_in_prefix": "319e0e3b83e1b8d10b908281d6c7cd3ed8179526472be88a34a5f1558305cc7d",
+        "size_in_bytes": 113709
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2700899ad03302a1751dbf2bca135407e470dd83ac897ab91dd8675d4300f158",
+  "size": 104766,
+  "subdir": "osx-arm64",
+  "timestamp": 1725629165000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/mpc-1.3.1-h8f1351a_1.conda",
+  "version": "1.3.1"
+}

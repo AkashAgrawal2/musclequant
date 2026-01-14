@@ -1,0 +1,251 @@
+{
+  "build": "pyha07c04f_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "importlib-metadata >=1.5"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/napari-plugin-engine-0.2.0-pyha07c04f_3",
+  "files": [
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/napari_plugin_engine-0.2.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/napari_plugin_engine/__init__.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/_testsupport.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/_tracing.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/_version.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/callers.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/dist.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/exceptions.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/hooks.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/implementation.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/manager.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/markers.py",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_testsupport.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_tracing.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/callers.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/dist.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/hooks.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/implementation.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/markers.cpython-311.pyc"
+  ],
+  "fn": "napari-plugin-engine-0.2.0-pyha07c04f_3.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/napari-plugin-engine-0.2.0-pyha07c04f_3",
+    "type": 1
+  },
+  "md5": "b4272a6d738f4c5058c469666df8c0e4",
+  "name": "napari-plugin-engine",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/napari-plugin-engine-0.2.0-pyha07c04f_3.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4190215f6d41c623ce6ca657b3d37870138a3f12955f8124c3f2c0a20bbc63e3",
+        "sha256_in_prefix": "4190215f6d41c623ce6ca657b3d37870138a3f12955f8124c3f2c0a20bbc63e3",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d05244b4534344b1429eb97721c3dadcacb639e0c7a731839fce7a6b97961ca8",
+        "sha256_in_prefix": "d05244b4534344b1429eb97721c3dadcacb639e0c7a731839fce7a6b97961ca8",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8486bfc7069d11f6f47c29966d3436695e25cd7173f970991cb489aea53af593",
+        "sha256_in_prefix": "8486bfc7069d11f6f47c29966d3436695e25cd7173f970991cb489aea53af593",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bccfc6591c55310d98e793f97463c97969679fe1d46226a119dfb6d6ca9b46a5",
+        "sha256_in_prefix": "bccfc6591c55310d98e793f97463c97969679fe1d46226a119dfb6d6ca9b46a5",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "1333d6c90eb35bf0427bdc17768ad1bb44b06e7b6ebd8dc9f31c33ba2e21c2a9",
+        "sha256_in_prefix": "1333d6c90eb35bf0427bdc17768ad1bb44b06e7b6ebd8dc9f31c33ba2e21c2a9",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine-0.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "918969bef0e714a7b21cccfb2e747f3392b686c326d52b1fb0e8c419758f410f",
+        "sha256_in_prefix": "918969bef0e714a7b21cccfb2e747f3392b686c326d52b1fb0e8c419758f410f",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e58447a2c6c55325edea895e3f6ced0571ded1b54fed229394605c1f33082458",
+        "sha256_in_prefix": "e58447a2c6c55325edea895e3f6ced0571ded1b54fed229394605c1f33082458",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/_testsupport.py",
+        "path_type": "hardlink",
+        "sha256": "f18135ce8459f69cafe6b5001d9434998fad7eb2a7b3e453f05fb84be18dc82b",
+        "sha256_in_prefix": "f18135ce8459f69cafe6b5001d9434998fad7eb2a7b3e453f05fb84be18dc82b",
+        "size_in_bytes": 4696
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/_tracing.py",
+        "path_type": "hardlink",
+        "sha256": "abce8843f45b4f3089e7133348dd874d147bf6e55be9544393c6f086c5395a7e",
+        "sha256_in_prefix": "abce8843f45b4f3089e7133348dd874d147bf6e55be9544393c6f086c5395a7e",
+        "size_in_bytes": 1545
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1feaacbebc42a5d85a433c9d751fb26a312a23bd613f12dae0ac73a4fdee4b58",
+        "sha256_in_prefix": "1feaacbebc42a5d85a433c9d751fb26a312a23bd613f12dae0ac73a4fdee4b58",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/callers.py",
+        "path_type": "hardlink",
+        "sha256": "c6f659574b6842ba287dde03c70e4c2babca25891e3f9afb7df51923ae484121",
+        "sha256_in_prefix": "c6f659574b6842ba287dde03c70e4c2babca25891e3f9afb7df51923ae484121",
+        "size_in_bytes": 8036
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/dist.py",
+        "path_type": "hardlink",
+        "sha256": "267a9b0a6bfb8882e30c8edf087acafbc023754eac5b5a4944c3d67ca5189c18",
+        "sha256_in_prefix": "267a9b0a6bfb8882e30c8edf087acafbc023754eac5b5a4944c3d67ca5189c18",
+        "size_in_bytes": 4761
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "eb34fa2a06ab2ff20aa8d90c4c117a53cbdbd5515857b700eb6b4b3f5ce8b034",
+        "sha256_in_prefix": "eb34fa2a06ab2ff20aa8d90c4c117a53cbdbd5515857b700eb6b4b3f5ce8b034",
+        "size_in_bytes": 7006
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "2f2885ad21b2cfd0089822ccb3523d4b51c78f3ce5106f5a653e11acbf5564ff",
+        "sha256_in_prefix": "2f2885ad21b2cfd0089822ccb3523d4b51c78f3ce5106f5a653e11acbf5564ff",
+        "size_in_bytes": 21354
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/implementation.py",
+        "path_type": "hardlink",
+        "sha256": "430c6e9b6af797c35388c537c47eb4f83ccd11f7477a49f7bf1f78b6e6ed4ff4",
+        "sha256_in_prefix": "430c6e9b6af797c35388c537c47eb4f83ccd11f7477a49f7bf1f78b6e6ed4ff4",
+        "size_in_bytes": 5058
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/manager.py",
+        "path_type": "hardlink",
+        "sha256": "f03983b8032b44c75a8dbec86f13eaab97e191c31cdcea5ebe5ea8af798a2d8a",
+        "sha256_in_prefix": "f03983b8032b44c75a8dbec86f13eaab97e191c31cdcea5ebe5ea8af798a2d8a",
+        "size_in_bytes": 41491
+      },
+      {
+        "_path": "site-packages/napari_plugin_engine/markers.py",
+        "path_type": "hardlink",
+        "sha256": "449f1746c85df89930bbc07b12d7500d25278f9f43b17adce2bf99ec5d9c83c5",
+        "sha256_in_prefix": "449f1746c85df89930bbc07b12d7500d25278f9f43b17adce2bf99ec5d9c83c5",
+        "size_in_bytes": 5576
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_testsupport.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_tracing.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/callers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/dist.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/hooks.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/implementation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_plugin_engine/__pycache__/markers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3df4923de1a5fe455619e3f447f990d63acf7dc2e4eb365b1ee4aa760bb4c87a",
+  "size": 33203,
+  "subdir": "noarch",
+  "timestamp": 1734055978000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/napari-plugin-engine-0.2.0-pyha07c04f_3.conda",
+  "version": "0.2.0"
+}

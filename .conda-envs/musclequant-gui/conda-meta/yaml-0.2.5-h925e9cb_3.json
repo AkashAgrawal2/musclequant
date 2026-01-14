@@ -1,0 +1,74 @@
+{
+  "build": "h925e9cb_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/yaml-0.2.5-h925e9cb_3",
+  "files": [
+    "include/yaml.h",
+    "lib/libyaml-0.2.dylib",
+    "lib/libyaml.a",
+    "lib/libyaml.dylib",
+    "lib/pkgconfig/yaml-0.1.pc"
+  ],
+  "fn": "yaml-0.2.5-h925e9cb_3.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/yaml-0.2.5-h925e9cb_3",
+    "type": 1
+  },
+  "md5": "78a0fe9e9c50d2c381e8ee47e3ea437d",
+  "name": "yaml",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/yaml-0.2.5-h925e9cb_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/yaml.h",
+        "path_type": "hardlink",
+        "sha256": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954",
+        "sha256_in_prefix": "de39c9fc2b2c8584775e6d0dc0f13c8e778ceba47d419cff9d85465ca35d6954",
+        "size_in_bytes": 54439
+      },
+      {
+        "_path": "lib/libyaml-0.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "bd35850ed8775cb164780d4b74ac8c8e79e02485704f9e246d418a2ec89a8e2a",
+        "sha256_in_prefix": "bd35850ed8775cb164780d4b74ac8c8e79e02485704f9e246d418a2ec89a8e2a",
+        "size_in_bytes": 140640
+      },
+      {
+        "_path": "lib/libyaml.a",
+        "path_type": "hardlink",
+        "sha256": "d0ea64ff768d0cb855f08b551fb82d0facd19543a3ada6168d05e2c0bb225d14",
+        "sha256_in_prefix": "d0ea64ff768d0cb855f08b551fb82d0facd19543a3ada6168d05e2c0bb225d14",
+        "size_in_bytes": 141552
+      },
+      {
+        "_path": "lib/libyaml.dylib",
+        "path_type": "softlink",
+        "sha256": "bd35850ed8775cb164780d4b74ac8c8e79e02485704f9e246d418a2ec89a8e2a",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/pkgconfig/yaml-0.1.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_yaml_1753484079/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "a7b26310d099c8e4e636c3cc6cc3c34f7d6c7328b74c7dadc120ad4a4df3de32",
+        "sha256_in_prefix": "042f3a962758e1b65dac283b03005f5dfaeb8f87414496211a0df1c3bf1aee70",
+        "size_in_bytes": 463
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b03433b13d89f5567e828ea9f1a7d5c5d697bf374c28a4168d71e9464f5dafac",
+  "size": 83386,
+  "subdir": "osx-arm64",
+  "timestamp": 1753484079000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/yaml-0.2.5-h925e9cb_3.conda",
+  "version": "0.2.5"
+}

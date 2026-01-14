@@ -1,0 +1,177 @@
+{
+  "build": "py311h9cbd5c2_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "fastremap",
+    "__osx >=11.0",
+    "python_abi 3.11.* *_cp311",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "libcxx >=19",
+    "numpy >=1.23,<3"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/fill-voids-2.1.1-py311h9cbd5c2_1",
+  "files": [
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/AUTHORS",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/COPYING",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/COPYING.LESSER",
+    "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/fill_voids/__init__.py",
+    "lib/python3.11/site-packages/fill_voids/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/fill_voids/fill_voids.cpython-311-darwin.so",
+    "lib/python3.11/site-packages/fill_voids/fill_voids.hpp",
+    "lib/python3.11/site-packages/fill_voids/fill_voids.pyi",
+    "lib/python3.11/site-packages/fill_voids/fill_voids.pyx",
+    "lib/python3.11/site-packages/fill_voids/libdivide.h"
+  ],
+  "fn": "fill-voids-2.1.1-py311h9cbd5c2_1.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/fill-voids-2.1.1-py311h9cbd5c2_1",
+    "type": 1
+  },
+  "md5": "d7d80517f6a40f0182fca1429527660c",
+  "name": "fill-voids",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/fill-voids-2.1.1-py311h9cbd5c2_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b8c2bd6c6f95f90b57452649ef07fbd4a8f8bd806609161c266a11cf6d996ffd",
+        "sha256_in_prefix": "b8c2bd6c6f95f90b57452649ef07fbd4a8f8bd806609161c266a11cf6d996ffd",
+        "size_in_bytes": 5950
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "909d922374ae004bc0bdc2436c07c74829f73d5f168292abb1289961a2f351c1",
+        "sha256_in_prefix": "909d922374ae004bc0bdc2436c07c74829f73d5f168292abb1289961a2f351c1",
+        "size_in_bytes": 1469
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ab1424761111b46c49cea9d53819ee731d5a5265369f71e6bb361d967fcbc8ec",
+        "sha256_in_prefix": "ab1424761111b46c49cea9d53819ee731d5a5265369f71e6bb361d967fcbc8ec",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "84227fcc8d67ff5c550805a9a7e89d831529761a2a617bc74e0fb5c6a9fc76d9",
+        "sha256_in_prefix": "84227fcc8d67ff5c550805a9a7e89d831529761a2a617bc74e0fb5c6a9fc76d9",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "ae69ea4bae166b0c9af935c6c4955999ab39589e580341c2a6328cafeaa0f82a",
+        "sha256_in_prefix": "ae69ea4bae166b0c9af935c6c4955999ab39589e580341c2a6328cafeaa0f82a",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/COPYING",
+        "path_type": "hardlink",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "sha256_in_prefix": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "size_in_bytes": 35149
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/licenses/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "5e25442a1ee669101aa7b42e745b0a9e27c6547fe3673c30c075cd16b300f0f8",
+        "sha256_in_prefix": "5e25442a1ee669101aa7b42e745b0a9e27c6547fe3673c30c075cd16b300f0f8",
+        "size_in_bytes": 7439
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids-2.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a5d2760f3947e292b53695f7fe924498918a2a5954c8f529636f1a33fb767195",
+        "sha256_in_prefix": "a5d2760f3947e292b53695f7fe924498918a2a5954c8f529636f1a33fb767195",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7cc30332e7b526b90728accefb978935e6cb34f197a73c94c12ce7aeedcf623",
+        "sha256_in_prefix": "d7cc30332e7b526b90728accefb978935e6cb34f197a73c94c12ce7aeedcf623",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa9c6b866849d30e1c866a2a3c3641b6a9e236b2d88074974f52fb1483693c4f",
+        "sha256_in_prefix": "fa9c6b866849d30e1c866a2a3c3641b6a9e236b2d88074974f52fb1483693c4f",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/fill_voids.cpython-311-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/fill-voids_1759170725080/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "341a1d9bcf4047b83505ef24be33281b717ce434cbb36abe47f59fe2644a631c",
+        "sha256_in_prefix": "e0ad91a565e6e9c2272a4990e05527da9b92884fe6ce49f7ca13bb40256c2c04",
+        "size_in_bytes": 526688
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/fill_voids.hpp",
+        "path_type": "hardlink",
+        "sha256": "6c51a09f4660f89c57aafdba5eeb6c0581d8558a3fd763cf14f6d77f30eb15ec",
+        "sha256_in_prefix": "6c51a09f4660f89c57aafdba5eeb6c0581d8558a3fd763cf14f6d77f30eb15ec",
+        "size_in_bytes": 9926
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/fill_voids.pyi",
+        "path_type": "hardlink",
+        "sha256": "83d655611e30fafcd4f46f270d6d15e2ac05a42eb774ec8d20e6a923ca3b9de8",
+        "sha256_in_prefix": "83d655611e30fafcd4f46f270d6d15e2ac05a42eb774ec8d20e6a923ca3b9de8",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/fill_voids.pyx",
+        "path_type": "hardlink",
+        "sha256": "9d5942b079a62d2c80e14970b6ad7082d82e5e4781bb4b161106ebf23441216a",
+        "sha256_in_prefix": "9d5942b079a62d2c80e14970b6ad7082d82e5e4781bb4b161106ebf23441216a",
+        "size_in_bytes": 6059
+      },
+      {
+        "_path": "lib/python3.11/site-packages/fill_voids/libdivide.h",
+        "path_type": "hardlink",
+        "sha256": "1f21926862e1239589d5a60599d4409b2f13019f4d97aab8b90bb7f3c00cc58e",
+        "sha256_in_prefix": "1f21926862e1239589d5a60599d4409b2f13019f4d97aab8b90bb7f3c00cc58e",
+        "size_in_bytes": 133139
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "da3bbf22509a3e1df2295379f867d71d3fde63d420259756e40b2dbca3317373",
+  "size": 174210,
+  "subdir": "osx-arm64",
+  "timestamp": 1759171010000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/fill-voids-2.1.1-py311h9cbd5c2_1.conda",
+  "version": "2.1.1"
+}

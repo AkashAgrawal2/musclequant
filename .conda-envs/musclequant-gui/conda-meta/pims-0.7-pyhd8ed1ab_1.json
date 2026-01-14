@@ -1,0 +1,514 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "packaging",
+    "jinja2",
+    "pillow",
+    "tifffile",
+    "imageio",
+    "python >=3.9",
+    "numpy >=1.19",
+    "slicerator >=1.1.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/pims-0.7-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/METADATA",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/RECORD",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/WHEEL",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/PIMS-0.7.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/pims/__init__.py",
+    "lib/python3.11/site-packages/pims/_version.py",
+    "lib/python3.11/site-packages/pims/api.py",
+    "lib/python3.11/site-packages/pims/base_frames.py",
+    "lib/python3.11/site-packages/pims/bioformats.py",
+    "lib/python3.11/site-packages/pims/cine.py",
+    "lib/python3.11/site-packages/pims/display.py",
+    "lib/python3.11/site-packages/pims/ffmpeg_reader.py",
+    "lib/python3.11/site-packages/pims/frame.py",
+    "lib/python3.11/site-packages/pims/image_reader.py",
+    "lib/python3.11/site-packages/pims/image_sequence.py",
+    "lib/python3.11/site-packages/pims/imageio_reader.py",
+    "lib/python3.11/site-packages/pims/moviepy_reader.py",
+    "lib/python3.11/site-packages/pims/norpix_reader.py",
+    "lib/python3.11/site-packages/pims/process.py",
+    "lib/python3.11/site-packages/pims/pyav_reader.py",
+    "lib/python3.11/site-packages/pims/spe_stack.py",
+    "lib/python3.11/site-packages/pims/tests/__init__.py",
+    "lib/python3.11/site-packages/pims/tests/test_bioformats.py",
+    "lib/python3.11/site-packages/pims/tests/test_cine.py",
+    "lib/python3.11/site-packages/pims/tests/test_common.py",
+    "lib/python3.11/site-packages/pims/tests/test_display.py",
+    "lib/python3.11/site-packages/pims/tests/test_factories.py",
+    "lib/python3.11/site-packages/pims/tests/test_frame.py",
+    "lib/python3.11/site-packages/pims/tests/test_imseq.py",
+    "lib/python3.11/site-packages/pims/tests/test_multidimensional.py",
+    "lib/python3.11/site-packages/pims/tests/test_norpix.py",
+    "lib/python3.11/site-packages/pims/tests/test_process.py",
+    "lib/python3.11/site-packages/pims/tiff_stack.py",
+    "lib/python3.11/site-packages/pims/utils/__init__.py",
+    "lib/python3.11/site-packages/pims/utils/misc.py",
+    "lib/python3.11/site-packages/pims/utils/sort.py",
+    "lib/python3.11/site-packages/pims/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/api.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/base_frames.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/bioformats.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/cine.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/display.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/ffmpeg_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/frame.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/image_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/image_sequence.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/imageio_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/moviepy_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/norpix_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/process.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/pyav_reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/spe_stack.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_bioformats.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_cine.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_common.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_display.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_factories.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_frame.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_imseq.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_multidimensional.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_norpix.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/tests/__pycache__/test_process.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/__pycache__/tiff_stack.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/utils/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/utils/__pycache__/misc.cpython-311.pyc",
+    "lib/python3.11/site-packages/pims/utils/__pycache__/sort.cpython-311.pyc"
+  ],
+  "fn": "pims-0.7-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/pims-0.7-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "146adfd93cac5e7c6b5def8f39c917cd",
+  "name": "pims",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/pims-0.7-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "713f6638f2c2de25cf9d26d2d4a7aaad8ff9512304ecc7f192d85faac806c80f",
+        "sha256_in_prefix": "713f6638f2c2de25cf9d26d2d4a7aaad8ff9512304ecc7f192d85faac806c80f",
+        "size_in_bytes": 4457
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2acfa30e6a8f2b59fe35ec6e5129bbd775ce3e1dc6bd68ae931a96ae611acfe2",
+        "sha256_in_prefix": "2acfa30e6a8f2b59fe35ec6e5129bbd775ce3e1dc6bd68ae931a96ae611acfe2",
+        "size_in_bytes": 4613
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ab02c61d028b341eeebc0bf7a3d54824bd8a4df3f235bd619a478c98e3dd2339",
+        "sha256_in_prefix": "ab02c61d028b341eeebc0bf7a3d54824bd8a4df3f235bd619a478c98e3dd2339",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/PIMS-0.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2841ed346c9ab621493a2e630898dd09b15bf17c588ce4806a403f87dd955dbd",
+        "sha256_in_prefix": "2841ed346c9ab621493a2e630898dd09b15bf17c588ce4806a403f87dd955dbd",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pims/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac46688a004bb8f7c2296805d4cd1495e1c5cf84bb98ac83df9092ed81780d39",
+        "sha256_in_prefix": "ac46688a004bb8f7c2296805d4cd1495e1c5cf84bb98ac83df9092ed81780d39",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/pims/_version.py",
+        "path_type": "hardlink",
+        "sha256": "29a0bde64e35daddacb108a3a748e0a5d453e35cfa847b70caa081c83c589ea9",
+        "sha256_in_prefix": "29a0bde64e35daddacb108a3a748e0a5d453e35cfa847b70caa081c83c589ea9",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "site-packages/pims/api.py",
+        "path_type": "hardlink",
+        "sha256": "06d2057834e84139993f5b4cd46dc637a4915b5432e195213230d11222f06439",
+        "sha256_in_prefix": "06d2057834e84139993f5b4cd46dc637a4915b5432e195213230d11222f06439",
+        "size_in_bytes": 7244
+      },
+      {
+        "_path": "site-packages/pims/base_frames.py",
+        "path_type": "hardlink",
+        "sha256": "fec9312006084c3b9db09f6403bb487259190e03d381f4d3d559e6598c16412b",
+        "sha256_in_prefix": "fec9312006084c3b9db09f6403bb487259190e03d381f4d3d559e6598c16412b",
+        "size_in_bytes": 21666
+      },
+      {
+        "_path": "site-packages/pims/bioformats.py",
+        "path_type": "hardlink",
+        "sha256": "632fcfef833d635aae23e0b96c1c46037e9654d75389a46f22d236a78a3de1b0",
+        "sha256_in_prefix": "632fcfef833d635aae23e0b96c1c46037e9654d75389a46f22d236a78a3de1b0",
+        "size_in_bytes": 22702
+      },
+      {
+        "_path": "site-packages/pims/cine.py",
+        "path_type": "hardlink",
+        "sha256": "51ab8dd5460805b0297010e382d0b738a3467d2275b4edf0adda27f4c3e8c6d0",
+        "sha256_in_prefix": "51ab8dd5460805b0297010e382d0b738a3467d2275b4edf0adda27f4c3e8c6d0",
+        "size_in_bytes": 29983
+      },
+      {
+        "_path": "site-packages/pims/display.py",
+        "path_type": "hardlink",
+        "sha256": "523db7755fd2b16710fd313edc8335dfbebee1c6741d6840db85e05663a7a176",
+        "sha256_in_prefix": "523db7755fd2b16710fd313edc8335dfbebee1c6741d6840db85e05663a7a176",
+        "size_in_bytes": 28128
+      },
+      {
+        "_path": "site-packages/pims/ffmpeg_reader.py",
+        "path_type": "hardlink",
+        "sha256": "5c6959797103bc7b71ef4b68a3c2045e845a1aafd3d4a131b10af83cc7b12941",
+        "sha256_in_prefix": "5c6959797103bc7b71ef4b68a3c2045e845a1aafd3d4a131b10af83cc7b12941",
+        "size_in_bytes": 7695
+      },
+      {
+        "_path": "site-packages/pims/frame.py",
+        "path_type": "hardlink",
+        "sha256": "cfef1f21a6a96a007c22716d112087cec7f6c1d321ccc632a04efbd7310fb6f5",
+        "sha256_in_prefix": "cfef1f21a6a96a007c22716d112087cec7f6c1d321ccc632a04efbd7310fb6f5",
+        "size_in_bytes": 5191
+      },
+      {
+        "_path": "site-packages/pims/image_reader.py",
+        "path_type": "hardlink",
+        "sha256": "123ffaf3766b23521ca728d5ce7557e26ef73eb3b6cc3a214eac3898d01059b8",
+        "sha256_in_prefix": "123ffaf3766b23521ca728d5ce7557e26ef73eb3b6cc3a214eac3898d01059b8",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "site-packages/pims/image_sequence.py",
+        "path_type": "hardlink",
+        "sha256": "3ccacab8d79b66e39b764841068886cd7c8a2b6a51c0aea1c31f1bf9d6d39d8e",
+        "sha256_in_prefix": "3ccacab8d79b66e39b764841068886cd7c8a2b6a51c0aea1c31f1bf9d6d39d8e",
+        "size_in_bytes": 18532
+      },
+      {
+        "_path": "site-packages/pims/imageio_reader.py",
+        "path_type": "hardlink",
+        "sha256": "245c65de357a2feda383d6574b683d2adb021ee64e3e3a62a74836d6afa725a9",
+        "sha256_in_prefix": "245c65de357a2feda383d6574b683d2adb021ee64e3e3a62a74836d6afa725a9",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "site-packages/pims/moviepy_reader.py",
+        "path_type": "hardlink",
+        "sha256": "972d09916442f69d38f25f8b1fbeff5e8cb5fcaede8bcbde963ced99c5e31da0",
+        "sha256_in_prefix": "972d09916442f69d38f25f8b1fbeff5e8cb5fcaede8bcbde963ced99c5e31da0",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "site-packages/pims/norpix_reader.py",
+        "path_type": "hardlink",
+        "sha256": "24b36f5ab6445959c30162ca4d934e14cb1ca73a4cd20f92764445dd85099cb1",
+        "sha256_in_prefix": "24b36f5ab6445959c30162ca4d934e14cb1ca73a4cd20f92764445dd85099cb1",
+        "size_in_bytes": 9424
+      },
+      {
+        "_path": "site-packages/pims/process.py",
+        "path_type": "hardlink",
+        "sha256": "b5e8ea06520d510a018dd702d52001cc0802afd8cb0be93e573c34ea34778c3e",
+        "sha256_in_prefix": "b5e8ea06520d510a018dd702d52001cc0802afd8cb0be93e573c34ea34778c3e",
+        "size_in_bytes": 7091
+      },
+      {
+        "_path": "site-packages/pims/pyav_reader.py",
+        "path_type": "hardlink",
+        "sha256": "3e2a17c8ba6f88268aca7565cbaba5525cb95a839d2c425253720742ecde4cc6",
+        "sha256_in_prefix": "3e2a17c8ba6f88268aca7565cbaba5525cb95a839d2c425253720742ecde4cc6",
+        "size_in_bytes": 14093
+      },
+      {
+        "_path": "site-packages/pims/spe_stack.py",
+        "path_type": "hardlink",
+        "sha256": "3bbfe328bd48e2e984eae9bdb4928838f92752dec178458e52bf7b891b62459c",
+        "sha256_in_prefix": "3bbfe328bd48e2e984eae9bdb4928838f92752dec178458e52bf7b891b62459c",
+        "size_in_bytes": 9874
+      },
+      {
+        "_path": "site-packages/pims/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pims/tests/test_bioformats.py",
+        "path_type": "hardlink",
+        "sha256": "4d8542f8fb663813dbb528be34231c6b9cb43961e7e82b20e077ceebedc2aa53",
+        "sha256_in_prefix": "4d8542f8fb663813dbb528be34231c6b9cb43961e7e82b20e077ceebedc2aa53",
+        "size_in_bytes": 18271
+      },
+      {
+        "_path": "site-packages/pims/tests/test_cine.py",
+        "path_type": "hardlink",
+        "sha256": "4ff77e94b48c3689009f4fdbb7aafcdb9da04625c120f1c0fe867a271a42c7dc",
+        "sha256_in_prefix": "4ff77e94b48c3689009f4fdbb7aafcdb9da04625c120f1c0fe867a271a42c7dc",
+        "size_in_bytes": 2069
+      },
+      {
+        "_path": "site-packages/pims/tests/test_common.py",
+        "path_type": "hardlink",
+        "sha256": "559eed16ae3e674f04f15f12221869ae4594cdf383ba1e4e23fa5539be48d765",
+        "sha256_in_prefix": "559eed16ae3e674f04f15f12221869ae4594cdf383ba1e4e23fa5539be48d765",
+        "size_in_bytes": 18854
+      },
+      {
+        "_path": "site-packages/pims/tests/test_display.py",
+        "path_type": "hardlink",
+        "sha256": "06ec7d596047ccf4cf103ee5e82ff3d243968a116d5549fdbd68d07a0588edbd",
+        "sha256_in_prefix": "06ec7d596047ccf4cf103ee5e82ff3d243968a116d5549fdbd68d07a0588edbd",
+        "size_in_bytes": 8174
+      },
+      {
+        "_path": "site-packages/pims/tests/test_factories.py",
+        "path_type": "hardlink",
+        "sha256": "3075197e39f82733cfd7ea1de38fc852b10eb14d10d58d75ab0dc0ee382d877d",
+        "sha256_in_prefix": "3075197e39f82733cfd7ea1de38fc852b10eb14d10d58d75ab0dc0ee382d877d",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/pims/tests/test_frame.py",
+        "path_type": "hardlink",
+        "sha256": "d3db341d4f24980dcd9fc20085c08c138014ae4698779a8badcbd0354437fb12",
+        "sha256_in_prefix": "d3db341d4f24980dcd9fc20085c08c138014ae4698779a8badcbd0354437fb12",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "site-packages/pims/tests/test_imseq.py",
+        "path_type": "hardlink",
+        "sha256": "ee1a29ca0c0c73650bc19e6dfe25016c5817d2b913989261ece9f4d4853f0e23",
+        "sha256_in_prefix": "ee1a29ca0c0c73650bc19e6dfe25016c5817d2b913989261ece9f4d4853f0e23",
+        "size_in_bytes": 10410
+      },
+      {
+        "_path": "site-packages/pims/tests/test_multidimensional.py",
+        "path_type": "hardlink",
+        "sha256": "342eb1aa8ea98567c214ef789f8f11fffa4c0a577e2741a858f2e7dcdcbba271",
+        "sha256_in_prefix": "342eb1aa8ea98567c214ef789f8f11fffa4c0a577e2741a858f2e7dcdcbba271",
+        "size_in_bytes": 6540
+      },
+      {
+        "_path": "site-packages/pims/tests/test_norpix.py",
+        "path_type": "hardlink",
+        "sha256": "49deb3a2d0e663ded1ec3e5d52c1483035aa6f25f5af86377d34a5696a768d53",
+        "sha256_in_prefix": "49deb3a2d0e663ded1ec3e5d52c1483035aa6f25f5af86377d34a5696a768d53",
+        "size_in_bytes": 4607
+      },
+      {
+        "_path": "site-packages/pims/tests/test_process.py",
+        "path_type": "hardlink",
+        "sha256": "082c9a575566d953098ccc18f94448099cb1f46a3b350e005da37ffe90357b86",
+        "sha256_in_prefix": "082c9a575566d953098ccc18f94448099cb1f46a3b350e005da37ffe90357b86",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "site-packages/pims/tiff_stack.py",
+        "path_type": "hardlink",
+        "sha256": "7f085edad1928f3a5b7f1c477f576f4cf5887cb370670bee45107a5e752dc737",
+        "sha256_in_prefix": "7f085edad1928f3a5b7f1c477f576f4cf5887cb370670bee45107a5e752dc737",
+        "size_in_bytes": 14739
+      },
+      {
+        "_path": "site-packages/pims/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pims/utils/misc.py",
+        "path_type": "hardlink",
+        "sha256": "ae2ab9480e7c8809c9ac11ba20e69acfaf5cfc38c3bc99d8252f244e4ae9d47d",
+        "sha256_in_prefix": "ae2ab9480e7c8809c9ac11ba20e69acfaf5cfc38c3bc99d8252f244e4ae9d47d",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/pims/utils/sort.py",
+        "path_type": "hardlink",
+        "sha256": "4d9b6af3a33930b8d7908b11f904d887f1c9585c4da0a4b066564c4972390925",
+        "sha256_in_prefix": "4d9b6af3a33930b8d7908b11f904d887f1c9585c4da0a4b066564c4972390925",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/base_frames.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/bioformats.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/cine.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/display.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/ffmpeg_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/frame.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/image_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/image_sequence.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/imageio_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/moviepy_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/norpix_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/process.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/pyav_reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/spe_stack.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_bioformats.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_cine.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_common.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_display.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_factories.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_frame.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_imseq.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_multidimensional.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_norpix.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/tests/__pycache__/test_process.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/__pycache__/tiff_stack.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/utils/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/utils/__pycache__/misc.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pims/utils/__pycache__/sort.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc9521b3a517c9c0f5097a96ed2285b89ba3ee291320a26100261fea2130f8bf",
+  "size": 71357,
+  "subdir": "noarch",
+  "timestamp": 1734051228000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pims-0.7-pyhd8ed1ab_1.conda",
+  "version": "0.7"
+}

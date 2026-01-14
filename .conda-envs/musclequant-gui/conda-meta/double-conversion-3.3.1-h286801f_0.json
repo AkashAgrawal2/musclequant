@@ -1,0 +1,192 @@
+{
+  "build": "h286801f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=18"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/double-conversion-3.3.1-h286801f_0",
+  "files": [
+    "include/double-conversion/bignum-dtoa.h",
+    "include/double-conversion/bignum.h",
+    "include/double-conversion/cached-powers.h",
+    "include/double-conversion/diy-fp.h",
+    "include/double-conversion/double-conversion.h",
+    "include/double-conversion/double-to-string.h",
+    "include/double-conversion/fast-dtoa.h",
+    "include/double-conversion/fixed-dtoa.h",
+    "include/double-conversion/ieee.h",
+    "include/double-conversion/string-to-double.h",
+    "include/double-conversion/strtod.h",
+    "include/double-conversion/utils.h",
+    "lib/cmake/double-conversion/double-conversionConfig.cmake",
+    "lib/cmake/double-conversion/double-conversionConfigVersion.cmake",
+    "lib/cmake/double-conversion/double-conversionTargets-release.cmake",
+    "lib/cmake/double-conversion/double-conversionTargets.cmake",
+    "lib/libdouble-conversion.3.3.0.dylib",
+    "lib/libdouble-conversion.3.dylib",
+    "lib/libdouble-conversion.a",
+    "lib/libdouble-conversion.dylib"
+  ],
+  "fn": "double-conversion-3.3.1-h286801f_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/double-conversion-3.3.1-h286801f_0",
+    "type": 1
+  },
+  "md5": "4dce99b1430bf11b64432e2edcc428fa",
+  "name": "double-conversion",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/double-conversion-3.3.1-h286801f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/double-conversion/bignum-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "d11517ebb69107c515c5b45d820e1a2ff665ac64182f62fdd25bac804acf1d1f",
+        "sha256_in_prefix": "d11517ebb69107c515c5b45d820e1a2ff665ac64182f62fdd25bac804acf1d1f",
+        "size_in_bytes": 4300
+      },
+      {
+        "_path": "include/double-conversion/bignum.h",
+        "path_type": "hardlink",
+        "sha256": "6b63faea13f36f6026b56855aa8d28329ba1a91c564b9abc94b21608ca42cbfb",
+        "sha256_in_prefix": "6b63faea13f36f6026b56855aa8d28329ba1a91c564b9abc94b21608ca42cbfb",
+        "size_in_bytes": 5891
+      },
+      {
+        "_path": "include/double-conversion/cached-powers.h",
+        "path_type": "hardlink",
+        "sha256": "1da91324ffd4200b3cb41d1f0707277175cdd28fcbffa13104e14df431f00744",
+        "sha256_in_prefix": "1da91324ffd4200b3cb41d1f0707277175cdd28fcbffa13104e14df431f00744",
+        "size_in_bytes": 3021
+      },
+      {
+        "_path": "include/double-conversion/diy-fp.h",
+        "path_type": "hardlink",
+        "sha256": "f8f5d66be5684ac547f68b997d41fdc57e8dc2ca1ef2ef2e3b10c6a76c9c5b75",
+        "sha256_in_prefix": "f8f5d66be5684ac547f68b997d41fdc57e8dc2ca1ef2ef2e3b10c6a76c9c5b75",
+        "size_in_bytes": 5030
+      },
+      {
+        "_path": "include/double-conversion/double-conversion.h",
+        "path_type": "hardlink",
+        "sha256": "2754e5e7ef1a158d00f529da03dcf943dd239ccc70e798a594f22e13e8dd0f94",
+        "sha256_in_prefix": "2754e5e7ef1a158d00f529da03dcf943dd239ccc70e798a594f22e13e8dd0f94",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "include/double-conversion/double-to-string.h",
+        "path_type": "hardlink",
+        "sha256": "7e2a5e08fd57f476e789d05b789ac0376ebbb78172ebcf68db493dc1e1e5e4ef",
+        "sha256_in_prefix": "7e2a5e08fd57f476e789d05b789ac0376ebbb78172ebcf68db493dc1e1e5e4ef",
+        "size_in_bytes": 23867
+      },
+      {
+        "_path": "include/double-conversion/fast-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "523d778935995dea5d21e59f55629ba40eaf68dedfe99e82b71efd4ae75f4e40",
+        "sha256_in_prefix": "523d778935995dea5d21e59f55629ba40eaf68dedfe99e82b71efd4ae75f4e40",
+        "size_in_bytes": 4064
+      },
+      {
+        "_path": "include/double-conversion/fixed-dtoa.h",
+        "path_type": "hardlink",
+        "sha256": "5c22077d3d333998b87c578aa1a015503d162895e20e5f2ee92721c834748ee1",
+        "sha256_in_prefix": "5c22077d3d333998b87c578aa1a015503d162895e20e5f2ee92721c834748ee1",
+        "size_in_bytes": 2770
+      },
+      {
+        "_path": "include/double-conversion/ieee.h",
+        "path_type": "hardlink",
+        "sha256": "bc9a4adae492f692e19db9c279eac52d4933ddf872aff43056bceee42d65a8f5",
+        "sha256_in_prefix": "bc9a4adae492f692e19db9c279eac52d4933ddf872aff43056bceee42d65a8f5",
+        "size_in_bytes": 15223
+      },
+      {
+        "_path": "include/double-conversion/string-to-double.h",
+        "path_type": "hardlink",
+        "sha256": "1976310fdd04e3bc350c5f8f4b443ba0287abb4004b318f048ac41611278e4c9",
+        "sha256_in_prefix": "1976310fdd04e3bc350c5f8f4b443ba0287abb4004b318f048ac41611278e4c9",
+        "size_in_bytes": 10848
+      },
+      {
+        "_path": "include/double-conversion/strtod.h",
+        "path_type": "hardlink",
+        "sha256": "08c3a8f9852b6e3399b694ead7511e0ecadc96a6a61431fc1f9df003f2ff41d8",
+        "sha256_in_prefix": "08c3a8f9852b6e3399b694ead7511e0ecadc96a6a61431fc1f9df003f2ff41d8",
+        "size_in_bytes": 3038
+      },
+      {
+        "_path": "include/double-conversion/utils.h",
+        "path_type": "hardlink",
+        "sha256": "ab745c4b74fdd27d967d8026d082bff3ef59ca2ca581c163dcf266bebd413795",
+        "sha256_in_prefix": "ab745c4b74fdd27d967d8026d082bff3ef59ca2ca581c163dcf266bebd413795",
+        "size_in_bytes": 15556
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "3df3cd58df8cb429d47d5e8c6922e02f616ed0c62ee98310b89b7bbd7da50883",
+        "sha256_in_prefix": "3df3cd58df8cb429d47d5e8c6922e02f616ed0c62ee98310b89b7bbd7da50883",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "078725f44d561df4867e37d749dc4e79297ab09bdfd43161a83e08b88bef5213",
+        "sha256_in_prefix": "078725f44d561df4867e37d749dc4e79297ab09bdfd43161a83e08b88bef5213",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "50ca045f1e0f9181a9dcfe2f85bbb7b4501c7db40a0ac3f919d55f3c8d2c672a",
+        "sha256_in_prefix": "50ca045f1e0f9181a9dcfe2f85bbb7b4501c7db40a0ac3f919d55f3c8d2c672a",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "lib/cmake/double-conversion/double-conversionTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "a8b662ad4b86b4516b5e8f8922f5062476c5d65954ecaa038837faf4bdbf175d",
+        "sha256_in_prefix": "a8b662ad4b86b4516b5e8f8922f5062476c5d65954ecaa038837faf4bdbf175d",
+        "size_in_bytes": 4215
+      },
+      {
+        "_path": "lib/libdouble-conversion.3.3.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "b05e6ac59a8d4462b15df00ba1c39ae9433571c9b190fa19fe967622d2af3cdb",
+        "sha256_in_prefix": "b05e6ac59a8d4462b15df00ba1c39ae9433571c9b190fa19fe967622d2af3cdb",
+        "size_in_bytes": 93072
+      },
+      {
+        "_path": "lib/libdouble-conversion.3.dylib",
+        "path_type": "softlink",
+        "sha256": "b05e6ac59a8d4462b15df00ba1c39ae9433571c9b190fa19fe967622d2af3cdb",
+        "size_in_bytes": 93072
+      },
+      {
+        "_path": "lib/libdouble-conversion.a",
+        "path_type": "hardlink",
+        "sha256": "399c48017a12de0585563c3e71938585139e3bd0170abc42eac54271898c594f",
+        "sha256_in_prefix": "399c48017a12de0585563c3e71938585139e3bd0170abc42eac54271898c594f",
+        "size_in_bytes": 68896
+      },
+      {
+        "_path": "lib/libdouble-conversion.dylib",
+        "path_type": "softlink",
+        "sha256": "b05e6ac59a8d4462b15df00ba1c39ae9433571c9b190fa19fe967622d2af3cdb",
+        "size_in_bytes": 93072
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "819867a009793fe719b74b2b5881a7e85dc13ce504c7260a9801f3b1970fd97b",
+  "size": 63265,
+  "subdir": "osx-arm64",
+  "timestamp": 1739569780000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/double-conversion-3.3.1-h286801f_0.conda",
+  "version": "3.3.1"
+}

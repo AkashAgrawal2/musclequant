@@ -1,0 +1,13 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.9
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lz -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -llzma  -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include 

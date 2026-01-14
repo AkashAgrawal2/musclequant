@@ -1,0 +1,13 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+bindir=${prefix}/lib/qt6/bin
+libexecdir=${prefix}/lib/qt6
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt6
+
+Name: Qt6 Xml
+Description: Qt Xml module
+Version: 6.9.2
+Libs: -L${libdir} -lQt6Xml
+Cflags: -I${includedir}/QtXml -I${includedir} -DQT_XML_LIB
+Requires: Qt6Core

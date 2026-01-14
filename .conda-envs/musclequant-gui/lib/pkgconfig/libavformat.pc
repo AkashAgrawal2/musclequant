@@ -1,0 +1,14 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+libdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 61.7.100
+Requires: 
+Requires.private: libavcodec >= 61.19.100, libswresample >= 5.3.100, libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lxml2 -lbz2 -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lz -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lssl -lcrypto
+Cflags: -I${includedir}

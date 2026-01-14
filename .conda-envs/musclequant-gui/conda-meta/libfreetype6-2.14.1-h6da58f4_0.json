@@ -1,0 +1,45 @@
+{
+  "build": "h6da58f4_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "freetype >=2.14.1"
+  ],
+  "depends": [
+    "__osx >=11.0",
+    "libzlib >=1.3.1,<2.0a0",
+    "libpng >=1.6.50,<1.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libfreetype6-2.14.1-h6da58f4_0",
+  "files": [
+    "lib/libfreetype.6.dylib"
+  ],
+  "fn": "libfreetype6-2.14.1-h6da58f4_0.conda",
+  "license": "GPL-2.0-only OR FTL",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libfreetype6-2.14.1-h6da58f4_0",
+    "type": 1
+  },
+  "md5": "6d4ede03e2a8e20eb51f7f681d2a2550",
+  "name": "libfreetype6",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libfreetype6-2.14.1-h6da58f4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libfreetype.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "0a0a3c7cb2de0c99ff39a06484dea32dbed9d65cedff2851be424fc954df24b3",
+        "sha256_in_prefix": "0a0a3c7cb2de0c99ff39a06484dea32dbed9d65cedff2851be424fc954df24b3",
+        "size_in_bytes": 751360
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc4aec4c490123c0f248c1acd1aeab592afb6a44b1536734e20937cda748f7cd",
+  "size": 346703,
+  "subdir": "osx-arm64",
+  "timestamp": 1757947166000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libfreetype6-2.14.1-h6da58f4_0.conda",
+  "version": "2.14.1"
+}

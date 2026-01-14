@@ -1,0 +1,151 @@
+{
+  "build": "h9f76cd9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=11.0.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libzopfli-1.0.3-h9f76cd9_0",
+  "files": [
+    "bin/zopfli",
+    "bin/zopflipng",
+    "include/zopfli/gzip_container.h",
+    "include/zopfli/zlib_container.h",
+    "include/zopfli/zopfli.h",
+    "include/zopfli/zopflipng_lib.h",
+    "lib/cmake/Zopfli/ZopfliConfig-release.cmake",
+    "lib/cmake/Zopfli/ZopfliConfig.cmake",
+    "lib/cmake/Zopfli/ZopfliConfigVersion.cmake",
+    "lib/libzopfli.1.0.3.dylib",
+    "lib/libzopfli.1.dylib",
+    "lib/libzopfli.dylib",
+    "lib/libzopflipng.1.0.3.dylib",
+    "lib/libzopflipng.1.dylib",
+    "lib/libzopflipng.dylib"
+  ],
+  "fn": "libzopfli-1.0.3-h9f76cd9_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libzopfli-1.0.3-h9f76cd9_0",
+    "type": 1
+  },
+  "md5": "a0758d74f57741aa0d9ede13fd592e56",
+  "name": "libzopfli",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libzopfli-1.0.3-h9f76cd9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/zopfli",
+        "path_type": "hardlink",
+        "sha256": "3564af9cfa7f7c1ec9e3a55ec9d812ea6c90d2fb6ee94c70e29aea3e48196182",
+        "sha256_in_prefix": "3564af9cfa7f7c1ec9e3a55ec9d812ea6c90d2fb6ee94c70e29aea3e48196182",
+        "size_in_bytes": 68064
+      },
+      {
+        "_path": "bin/zopflipng",
+        "path_type": "hardlink",
+        "sha256": "cdccfd872f52d514aaec6f7dbea336eb46a6f8a4a3ae709683ca3680dd107b67",
+        "sha256_in_prefix": "cdccfd872f52d514aaec6f7dbea336eb46a6f8a4a3ae709683ca3680dd107b67",
+        "size_in_bytes": 73840
+      },
+      {
+        "_path": "include/zopfli/gzip_container.h",
+        "path_type": "hardlink",
+        "sha256": "8d687a588f5638965e4881802a30a547601b32ea7cb686218afbfb25ef1f0f42",
+        "sha256_in_prefix": "8d687a588f5638965e4881802a30a547601b32ea7cb686218afbfb25ef1f0f42",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "include/zopfli/zlib_container.h",
+        "path_type": "hardlink",
+        "sha256": "7744d8afea2acca76c8e9f823c4f8df3c7545ec8c9fbe0ea14b67d35f5f7c52f",
+        "sha256_in_prefix": "7744d8afea2acca76c8e9f823c4f8df3c7545ec8c9fbe0ea14b67d35f5f7c52f",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "include/zopfli/zopfli.h",
+        "path_type": "hardlink",
+        "sha256": "9cff9d2ed11be71b8bc82aed0afd2ed47391609c138ae2bb3dc18730e62ddcb1",
+        "sha256_in_prefix": "9cff9d2ed11be71b8bc82aed0afd2ed47391609c138ae2bb3dc18730e62ddcb1",
+        "size_in_bytes": 2536
+      },
+      {
+        "_path": "include/zopfli/zopflipng_lib.h",
+        "path_type": "hardlink",
+        "sha256": "458020a6b3889d650bce2d38966144fbab928199097388815eb4398a9fc949ba",
+        "sha256_in_prefix": "458020a6b3889d650bce2d38966144fbab928199097388815eb4398a9fc949ba",
+        "size_in_bytes": 3458
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfig-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "1930531b1e82bd1644c04eb562a72b22af79accfaa7d32a31f1925dc63986e1c",
+        "sha256_in_prefix": "1930531b1e82bd1644c04eb562a72b22af79accfaa7d32a31f1925dc63986e1c",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libzopfli_1607309038106/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "aa900d44a1f46610f5ed184f75e398f9ecf1ad4abfb77086cbf435b399b7927e",
+        "sha256_in_prefix": "ace8f7ebafdc32d745aefd040e5760ae6e12c870338a7b3fa41901d2430cdf2e",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "84c446992bd397cc68bc4f10250ab57a1814887edb4c63b02800487abc5bcc8b",
+        "sha256_in_prefix": "84c446992bd397cc68bc4f10250ab57a1814887edb4c63b02800487abc5bcc8b",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "lib/libzopfli.1.0.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "f328e5b30dae3a287612bb37644423b155719a913728817ad48c72dd6ed619a8",
+        "sha256_in_prefix": "f328e5b30dae3a287612bb37644423b155719a913728817ad48c72dd6ed619a8",
+        "size_in_bytes": 120864
+      },
+      {
+        "_path": "lib/libzopfli.1.dylib",
+        "path_type": "softlink",
+        "sha256": "f328e5b30dae3a287612bb37644423b155719a913728817ad48c72dd6ed619a8",
+        "size_in_bytes": 120864
+      },
+      {
+        "_path": "lib/libzopfli.dylib",
+        "path_type": "softlink",
+        "sha256": "f328e5b30dae3a287612bb37644423b155719a913728817ad48c72dd6ed619a8",
+        "size_in_bytes": 120864
+      },
+      {
+        "_path": "lib/libzopflipng.1.0.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "0bb3b8098ed64645e9710d0508b9a3786bb4b52c569d196df638d92b8d48eef1",
+        "sha256_in_prefix": "0bb3b8098ed64645e9710d0508b9a3786bb4b52c569d196df638d92b8d48eef1",
+        "size_in_bytes": 246352
+      },
+      {
+        "_path": "lib/libzopflipng.1.dylib",
+        "path_type": "softlink",
+        "sha256": "0bb3b8098ed64645e9710d0508b9a3786bb4b52c569d196df638d92b8d48eef1",
+        "size_in_bytes": 246352
+      },
+      {
+        "_path": "lib/libzopflipng.dylib",
+        "path_type": "softlink",
+        "sha256": "0bb3b8098ed64645e9710d0508b9a3786bb4b52c569d196df638d92b8d48eef1",
+        "size_in_bytes": 246352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e3003b8efe551902dc60b21c81d7164b291b26b7862704421368d26ba5c10fa0",
+  "size": 147901,
+  "subdir": "osx-arm64",
+  "timestamp": 1607309166000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libzopfli-1.0.3-h9f76cd9_0.tar.bz2",
+  "version": "1.0.3"
+}

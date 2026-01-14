@@ -1,0 +1,22 @@
+{
+    "schema_version": 2,
+    "name": "ExamplesAssetDownloaderPrivate",
+    "repository": "qtbase",
+    "version": "6.9.2",
+    "internal": true,
+    "bundle_type": "framework",
+    "platforms": [
+        {
+            "name": "Darwin",
+            "version": "20.0.0",
+            "compiler_id": "Clang",
+            "compiler_version": "19.1.7",
+            "targets": [
+                {
+                    "architecture": "arm64",
+                    "abi": "arm64-little_endian-lp64"
+                }
+            ]
+        }
+    ]
+}

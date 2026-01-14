@@ -1,0 +1,14 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+libdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 61.19.100
+Requires: 
+Requires.private: libswresample >= 5.3.100, libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lvpx -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lvpx -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lvpx -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lvpx -lm -liconv -lm -llzma -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -ldav1d -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lcairo -framework AudioToolbox -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui//Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -laom -lmp3lame -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lopus -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lSvtAv1Enc -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lx264 -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lx265 -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lopenh264 -pthread -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

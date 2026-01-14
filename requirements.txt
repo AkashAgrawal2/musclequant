@@ -1,0 +1,10 @@
+numpy
+pandas
+tifffile
+scikit-image
+scipy
+magicgui
+napari
+qtpy
+cellpose
+torch

@@ -1,0 +1,13 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+libdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.4.20
+Requires: 
+Libs: -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

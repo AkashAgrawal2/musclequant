@@ -1,0 +1,438 @@
+{
+  "build": "py311hdb8e4fa_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "python_abi 3.11.* *_cp311",
+    "python >=3.11,<3.12.0a0",
+    "python >=3.11,<3.12.0a0 *_cpython",
+    "libcxx >=19",
+    "numpy >=1.23,<3"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/partsegcore-compiled-backend-0.15.14-py311hdb8e4fa_1",
+  "files": [
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__init__.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/fast_unique.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/napari_mapping.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/version.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/_fast_unique.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/_fast_unique.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/_napari_mapping.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/calc_bounds.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/calc_bounds.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/color_image_cython.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/color_image_cython.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/fast_unique.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/__init__.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso.h",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso_bind.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso_bind.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/my_queue.h",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/napari_mapping.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__init__.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__pycache__/find_split.cpython-311.pyc",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/distance_utils.pxd",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/euclidean_cython.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/euclidean_cython.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/find_split.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/find_split.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/fuzzy_distance.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/global_consts.h",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/my_queue.h",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/path_sprawl_cython.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/path_sprawl_cython.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/sprawl_utils.pyi",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/sprawl_utils.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulate.so",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/debug_util.hpp",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/intersection.hpp",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/point.hpp",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/triangulate.hpp",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/utils.py",
+    "lib/python3.11/site-packages/PartSegCore_compiled_backend/version.py",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/METADATA",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/RECORD",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/WHEEL",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/licenses/LICENSE.txt"
+  ],
+  "fn": "partsegcore-compiled-backend-0.15.14-py311hdb8e4fa_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/partsegcore-compiled-backend-0.15.14-py311hdb8e4fa_1",
+    "type": 1
+  },
+  "md5": "4daa8e8e4a72dee0a409b75b8a52d58b",
+  "name": "partsegcore-compiled-backend",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/partsegcore-compiled-backend-0.15.14-py311hdb8e4fa_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6916ca8b60e60ea473d5feab1d569beea17ae85312ad3b0328a8a588230ea824",
+        "sha256_in_prefix": "6916ca8b60e60ea473d5feab1d569beea17ae85312ad3b0328a8a588230ea824",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c3d8d504233f9c99db099a2802829d69d010fd23895938da71ae27189f5dbf5",
+        "sha256_in_prefix": "3c3d8d504233f9c99db099a2802829d69d010fd23895938da71ae27189f5dbf5",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/fast_unique.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dca0fe387bf15187ed3049c6f7ed9a29f9975b20bf22999599abae17b735bc6",
+        "sha256_in_prefix": "8dca0fe387bf15187ed3049c6f7ed9a29f9975b20bf22999599abae17b735bc6",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/napari_mapping.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "438a546794b78bea6150eec3b580d926502339a387931722dc24d36da62e9be1",
+        "sha256_in_prefix": "438a546794b78bea6150eec3b580d926502339a387931722dc24d36da62e9be1",
+        "size_in_bytes": 4931
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/utils.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "659f7aa6ed642f6b7e97869e26d2c64ea304605f6611be5d086b67d683642dd7",
+        "sha256_in_prefix": "659f7aa6ed642f6b7e97869e26d2c64ea304605f6611be5d086b67d683642dd7",
+        "size_in_bytes": 290
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/__pycache__/version.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d3c43143a9ddd4993ec1081f70545b82d3851fb19352ebc62c2c49313bcfeb6",
+        "sha256_in_prefix": "9d3c43143a9ddd4993ec1081f70545b82d3851fb19352ebc62c2c49313bcfeb6",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/_fast_unique.pyi",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/_fast_unique.so",
+        "path_type": "hardlink",
+        "sha256": "774470ecc4b163263f4e11ccfac64b15492a4492cba9c88138bb39b3176ee05f",
+        "sha256_in_prefix": "774470ecc4b163263f4e11ccfac64b15492a4492cba9c88138bb39b3176ee05f",
+        "size_in_bytes": 367072
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/_napari_mapping.so",
+        "path_type": "hardlink",
+        "sha256": "de4fcb34c01ea8df5b0592d2932fb30b6324ce3450a09ab3775a6312de3234b4",
+        "sha256_in_prefix": "de4fcb34c01ea8df5b0592d2932fb30b6324ce3450a09ab3775a6312de3234b4",
+        "size_in_bytes": 578496
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/calc_bounds.pyi",
+        "path_type": "hardlink",
+        "sha256": "784559e569b1477db587234ce7f1f58596a145d1cc09f67f481872af80d75dc0",
+        "sha256_in_prefix": "784559e569b1477db587234ce7f1f58596a145d1cc09f67f481872af80d75dc0",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/calc_bounds.so",
+        "path_type": "hardlink",
+        "sha256": "973e6d641009b7c055d986acb5452724f313ee926834576e77614e417bfd00a2",
+        "sha256_in_prefix": "973e6d641009b7c055d986acb5452724f313ee926834576e77614e417bfd00a2",
+        "size_in_bytes": 295856
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/color_image_cython.pyi",
+        "path_type": "hardlink",
+        "sha256": "f0bf703817570152d11aa304980eb894af0e2d1896e19aef9db79fea2da49139",
+        "sha256_in_prefix": "f0bf703817570152d11aa304980eb894af0e2d1896e19aef9db79fea2da49139",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/color_image_cython.so",
+        "path_type": "hardlink",
+        "sha256": "21968a64f062e09c913cf3ff76be6ee462bcf04f70a044b05317077f18a18a34",
+        "sha256_in_prefix": "21968a64f062e09c913cf3ff76be6ee462bcf04f70a044b05317077f18a18a34",
+        "size_in_bytes": 379152
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/fast_unique.py",
+        "path_type": "hardlink",
+        "sha256": "453c2646bbcc6941a31ff90ed6c5be35a0eb6bd1b6aa5e0ebf7250465aa1184e",
+        "sha256_in_prefix": "453c2646bbcc6941a31ff90ed6c5be35a0eb6bd1b6aa5e0ebf7250465aa1184e",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3959cca384b2dcf8178d7623d48f81e96227faf7eae4936cf5041572c34bfb42",
+        "sha256_in_prefix": "3959cca384b2dcf8178d7623d48f81e96227faf7eae4936cf5041572c34bfb42",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c459ac9ba107b8a7f0f0c70eac90ac06d0a01dbc4637591ba3f9763fafffd68",
+        "sha256_in_prefix": "7c459ac9ba107b8a7f0f0c70eac90ac06d0a01dbc4637591ba3f9763fafffd68",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso.h",
+        "path_type": "hardlink",
+        "sha256": "8b88944ed95d8a73ed7033c6b80e33e59df3c6e9b11508f90f2f0f94924aa20c",
+        "sha256_in_prefix": "8b88944ed95d8a73ed7033c6b80e33e59df3c6e9b11508f90f2f0f94924aa20c",
+        "size_in_bytes": 33485
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso_bind.pyi",
+        "path_type": "hardlink",
+        "sha256": "35ccba92d4ea2416a49fb3ee06214bc82ecd964b2fd353dd0d32152cbc8d545f",
+        "sha256_in_prefix": "35ccba92d4ea2416a49fb3ee06214bc82ecd964b2fd353dd0d32152cbc8d545f",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/mso_bind.so",
+        "path_type": "hardlink",
+        "sha256": "8cbc1f133410c6d644b19808de3c22e52898c56a90a3043c5cb968647fec700c",
+        "sha256_in_prefix": "8cbc1f133410c6d644b19808de3c22e52898c56a90a3043c5cb968647fec700c",
+        "size_in_bytes": 432640
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/multiscale_opening/my_queue.h",
+        "path_type": "hardlink",
+        "sha256": "e1be094825cadad46adc23a945a59431de8e5d0525faac584527045f260851c6",
+        "sha256_in_prefix": "e1be094825cadad46adc23a945a59431de8e5d0525faac584527045f260851c6",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/napari_mapping.py",
+        "path_type": "hardlink",
+        "sha256": "2b73884ed4fb6ef59acd7869525dd33bf0941e62e0b7e7640f9b931425f52972",
+        "sha256_in_prefix": "2b73884ed4fb6ef59acd7869525dd33bf0941e62e0b7e7640f9b931425f52972",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e22573ab75af63836bc337453eae24616b20d9a29dc5a504aa8e56e8d35d538",
+        "sha256_in_prefix": "2e22573ab75af63836bc337453eae24616b20d9a29dc5a504aa8e56e8d35d538",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/__pycache__/find_split.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "797840e261df96ed0d5350fb414b432c2d06387278becb6ed326b095df445b9a",
+        "sha256_in_prefix": "797840e261df96ed0d5350fb414b432c2d06387278becb6ed326b095df445b9a",
+        "size_in_bytes": 15995
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/distance_utils.pxd",
+        "path_type": "hardlink",
+        "sha256": "d19f8f6e8b84836619ee112597032f4c07b73f50dd4da87148f3f297d299fec1",
+        "sha256_in_prefix": "d19f8f6e8b84836619ee112597032f4c07b73f50dd4da87148f3f297d299fec1",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/euclidean_cython.pyi",
+        "path_type": "hardlink",
+        "sha256": "51cb898a8c773c6473662d75eb6e46f6e9c7b5a82cf29bd45c03c42e8f2eb23e",
+        "sha256_in_prefix": "51cb898a8c773c6473662d75eb6e46f6e9c7b5a82cf29bd45c03c42e8f2eb23e",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/euclidean_cython.so",
+        "path_type": "hardlink",
+        "sha256": "90b9d02dd8398e7139bf6422615cea6be4258437faf635ecf52c70ce1fafd7af",
+        "sha256_in_prefix": "90b9d02dd8398e7139bf6422615cea6be4258437faf635ecf52c70ce1fafd7af",
+        "size_in_bytes": 92656
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/find_split.py",
+        "path_type": "hardlink",
+        "sha256": "75abe5215c969d6cbb4dd2a819824d96388e8b43b3b2929e005b0e8ecdd5fd77",
+        "sha256_in_prefix": "75abe5215c969d6cbb4dd2a819824d96388e8b43b3b2929e005b0e8ecdd5fd77",
+        "size_in_bytes": 14311
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/find_split.pyi",
+        "path_type": "hardlink",
+        "sha256": "d37d3bbd75860ee07e1cca39640f6557493a1b55da6f5a8868e9a1c943d87630",
+        "sha256_in_prefix": "d37d3bbd75860ee07e1cca39640f6557493a1b55da6f5a8868e9a1c943d87630",
+        "size_in_bytes": 2667
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/fuzzy_distance.so",
+        "path_type": "hardlink",
+        "sha256": "22296463ea7fe83ed380f73c8931fd5bc9e5d8b604a3b319c6fac81e7051c8c5",
+        "sha256_in_prefix": "22296463ea7fe83ed380f73c8931fd5bc9e5d8b604a3b319c6fac81e7051c8c5",
+        "size_in_bytes": 109856
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/global_consts.h",
+        "path_type": "hardlink",
+        "sha256": "af9fa8234013fa90076a5aaa5f3f7a25d8fd59cbc87c011b4a80a7f24351039b",
+        "sha256_in_prefix": "af9fa8234013fa90076a5aaa5f3f7a25d8fd59cbc87c011b4a80a7f24351039b",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/my_queue.h",
+        "path_type": "hardlink",
+        "sha256": "e1be094825cadad46adc23a945a59431de8e5d0525faac584527045f260851c6",
+        "sha256_in_prefix": "e1be094825cadad46adc23a945a59431de8e5d0525faac584527045f260851c6",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/path_sprawl_cython.pyi",
+        "path_type": "hardlink",
+        "sha256": "1f224ea4b64909552008b205e0a4af17e14663955765080fba5095fb6a243325",
+        "sha256_in_prefix": "1f224ea4b64909552008b205e0a4af17e14663955765080fba5095fb6a243325",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/path_sprawl_cython.so",
+        "path_type": "hardlink",
+        "sha256": "dea6e221f9c4c88b807ec496db456855b95e1e58aac0bda53dabba17a8d62247",
+        "sha256_in_prefix": "dea6e221f9c4c88b807ec496db456855b95e1e58aac0bda53dabba17a8d62247",
+        "size_in_bytes": 109824
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/sprawl_utils.pyi",
+        "path_type": "hardlink",
+        "sha256": "e0cf1b4a3b35d5aac95e6c55f72c5c3523fbfefddf404f2772d4f09dbdcd15b5",
+        "sha256_in_prefix": "e0cf1b4a3b35d5aac95e6c55f72c5c3523fbfefddf404f2772d4f09dbdcd15b5",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/sprawl_utils/sprawl_utils.so",
+        "path_type": "hardlink",
+        "sha256": "8a6d8c08a5729a65489a4ad3bf608297fd5481fc825267f6a84ec78e2e68852a",
+        "sha256_in_prefix": "8a6d8c08a5729a65489a4ad3bf608297fd5481fc825267f6a84ec78e2e68852a",
+        "size_in_bytes": 428448
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulate.so",
+        "path_type": "hardlink",
+        "sha256": "619f3113bbc5718205b8e76a60f6904ba7d291a42477b620433f686bda97bebf",
+        "sha256_in_prefix": "619f3113bbc5718205b8e76a60f6904ba7d291a42477b620433f686bda97bebf",
+        "size_in_bytes": 403712
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/debug_util.hpp",
+        "path_type": "hardlink",
+        "sha256": "c7f44f96c023cb1460526d8a151bc6fa9a1709beae344544689a3c2413bd114f",
+        "sha256_in_prefix": "c7f44f96c023cb1460526d8a151bc6fa9a1709beae344544689a3c2413bd114f",
+        "size_in_bytes": 1270
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/intersection.hpp",
+        "path_type": "hardlink",
+        "sha256": "40a02cd3bfa9cf88a92d50ec0c2aa1fbdd3b94860c481a68609f567d753e8e97",
+        "sha256_in_prefix": "40a02cd3bfa9cf88a92d50ec0c2aa1fbdd3b94860c481a68609f567d753e8e97",
+        "size_in_bytes": 13652
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/point.hpp",
+        "path_type": "hardlink",
+        "sha256": "c8f2b6b1d05b4973932def01707d69c28157096fad0d14af1b2f4b9c78854db8",
+        "sha256_in_prefix": "c8f2b6b1d05b4973932def01707d69c28157096fad0d14af1b2f4b9c78854db8",
+        "size_in_bytes": 7105
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/triangulation/triangulate.hpp",
+        "path_type": "hardlink",
+        "sha256": "0d0492d2581ca835a3046511284281e8580bf5172f80520ae99d9321f4ea9757",
+        "sha256_in_prefix": "0d0492d2581ca835a3046511284281e8580bf5172f80520ae99d9321f4ea9757",
+        "size_in_bytes": 53470
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/utils.py",
+        "path_type": "hardlink",
+        "sha256": "7b052117222c304a61d90a20ae66bb939605d4bcde620b1769b9a66567e4134c",
+        "sha256_in_prefix": "7b052117222c304a61d90a20ae66bb939605d4bcde620b1769b9a66567e4134c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.11/site-packages/PartSegCore_compiled_backend/version.py",
+        "path_type": "hardlink",
+        "sha256": "0143ffc877910d7e2168f1561c98242fb431f7db57bd469fe3b49abb3bfb9f1c",
+        "sha256_in_prefix": "0143ffc877910d7e2168f1561c98242fb431f7db57bd469fe3b49abb3bfb9f1c",
+        "size_in_bytes": 708
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "26057b4e427d234de5521ce5dc7e511281c86a576d11311e8a9dc5d4b4093ae0",
+        "sha256_in_prefix": "26057b4e427d234de5521ce5dc7e511281c86a576d11311e8a9dc5d4b4093ae0",
+        "size_in_bytes": 4065
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8278625e9703836b8fee07266c0c5128211543617d80d42ef49d34a2b6f098ac",
+        "sha256_in_prefix": "8278625e9703836b8fee07266c0c5128211543617d80d42ef49d34a2b6f098ac",
+        "size_in_bytes": 5227
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "278937d9a61fcbc16a57f7833d02bcf10e3d5087dfe34d29be3b2ff9b7bc23e3",
+        "sha256_in_prefix": "278937d9a61fcbc16a57f7833d02bcf10e3d5087dfe34d29be3b2ff9b7bc23e3",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f6e6329f8cf4f9463bb5996a865ef781268f1a0b26cd424aed40df7c85624ca7",
+        "sha256_in_prefix": "f6e6329f8cf4f9463bb5996a865ef781268f1a0b26cd424aed40df7c85624ca7",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.11/site-packages/partsegcore_compiled_backend-0.15.14.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "e482c76b74a206078605b1d089bdcfa7a877c17987f049f59fb42a00d5617953",
+        "sha256_in_prefix": "e482c76b74a206078605b1d089bdcfa7a877c17987f049f59fb42a00d5617953",
+        "size_in_bytes": 1500
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "271e85cdd48061bb1fb2e5e6a9ff0d0dbb5d5edf41e9aed2a6c9a935bf06567c",
+  "size": 622747,
+  "subdir": "osx-arm64",
+  "timestamp": 1759662043000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/partsegcore-compiled-backend-0.15.14-py311hdb8e4fa_1.conda",
+  "version": "0.15.14"
+}

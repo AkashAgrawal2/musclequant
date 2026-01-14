@@ -1,0 +1,66 @@
+{
+  "build": "hbc156a2_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libusb-1.0.29-hbc156a2_0",
+  "files": [
+    "include/libusb-1.0/libusb.h",
+    "lib/libusb-1.0.0.dylib",
+    "lib/libusb-1.0.dylib",
+    "lib/pkgconfig/libusb-1.0.pc"
+  ],
+  "fn": "libusb-1.0.29-hbc156a2_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libusb-1.0.29-hbc156a2_0",
+    "type": 1
+  },
+  "md5": "f6654e9e96e9d973981b3b2f898a5bfa",
+  "name": "libusb",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libusb-1.0.29-hbc156a2_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/libusb-1.0/libusb.h",
+        "path_type": "hardlink",
+        "sha256": "8c77e192d53960966c42d5f6ef204e3be88c9ff3ca431acdd5c6039689b3fe0b",
+        "sha256_in_prefix": "8c77e192d53960966c42d5f6ef204e3be88c9ff3ca431acdd5c6039689b3fe0b",
+        "size_in_bytes": 86294
+      },
+      {
+        "_path": "lib/libusb-1.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "14aa44e5b22e6760b0746aafc2703627e2c174c5083a17b680c812053574e3ca",
+        "sha256_in_prefix": "14aa44e5b22e6760b0746aafc2703627e2c174c5083a17b680c812053574e3ca",
+        "size_in_bytes": 152384
+      },
+      {
+        "_path": "lib/libusb-1.0.dylib",
+        "path_type": "softlink",
+        "sha256": "14aa44e5b22e6760b0746aafc2703627e2c174c5083a17b680c812053574e3ca",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/pkgconfig/libusb-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libusb_1748856224/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9321f3fb95407fd305ba58d1f7cbe011abdf6eda36ab8e1ab924df892311d766",
+        "sha256_in_prefix": "d42483ccbd2240122bd495fc4bd60bad94e429c34256ccbd3bed942d9e61009e",
+        "size_in_bytes": 643
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5eee9a2bf359e474d4548874bcfc8d29ebad0d9ba015314439c256904e40aaad",
+  "size": 83849,
+  "subdir": "osx-arm64",
+  "timestamp": 1748856224000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libusb-1.0.29-hbc156a2_0.conda",
+  "version": "1.0.29"
+}

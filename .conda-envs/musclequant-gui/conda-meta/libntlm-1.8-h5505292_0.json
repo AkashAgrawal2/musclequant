@@ -1,0 +1,74 @@
+{
+  "build": "h5505292_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libntlm-1.8-h5505292_0",
+  "files": [
+    "include/ntlm.h",
+    "lib/libntlm.0.dylib",
+    "lib/libntlm.a",
+    "lib/libntlm.dylib",
+    "lib/pkgconfig/libntlm.pc"
+  ],
+  "fn": "libntlm-1.8-h5505292_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libntlm-1.8-h5505292_0",
+    "type": 1
+  },
+  "md5": "c90c1d3bd778f5ec0d4bb4ef36cbd5b6",
+  "name": "libntlm",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libntlm-1.8-h5505292_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/ntlm.h",
+        "path_type": "hardlink",
+        "sha256": "1aa3dd7ecaf4ff87787d5afe0e4290c582860af15f5f32e0621fb74a7f0d0657",
+        "sha256_in_prefix": "1aa3dd7ecaf4ff87787d5afe0e4290c582860af15f5f32e0621fb74a7f0d0657",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "lib/libntlm.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "972645a5ee7de1f942b653a0ce01ee1e11141fa0ba6767dd82cc35d98a7948ab",
+        "sha256_in_prefix": "972645a5ee7de1f942b653a0ce01ee1e11141fa0ba6767dd82cc35d98a7948ab",
+        "size_in_bytes": 70048
+      },
+      {
+        "_path": "lib/libntlm.a",
+        "path_type": "hardlink",
+        "sha256": "12b4fa4ff2f1d8a1a3611f14e9450bf38cdd795ec3d695e1e6f948db82879169",
+        "sha256_in_prefix": "12b4fa4ff2f1d8a1a3611f14e9450bf38cdd795ec3d695e1e6f948db82879169",
+        "size_in_bytes": 35368
+      },
+      {
+        "_path": "lib/libntlm.dylib",
+        "path_type": "softlink",
+        "sha256": "972645a5ee7de1f942b653a0ce01ee1e11141fa0ba6767dd82cc35d98a7948ab",
+        "size_in_bytes": 70048
+      },
+      {
+        "_path": "lib/pkgconfig/libntlm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/libntlm_1734669971781/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "b2cb2d59d8c79f93d3a0860c0a1d967a5ebc5bf98561005bb74c9a2b03671025",
+        "sha256_in_prefix": "77a80274b3870c789a586786769b99df953a8365dc75de61d75c58b13b7883b6",
+        "size_in_bytes": 756
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ea8c680924d957e12270dca549620327d5e986f23c4bd5f45627167ca6ef7a3b",
+  "size": 31099,
+  "subdir": "osx-arm64",
+  "timestamp": 1734670168000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libntlm-1.8-h5505292_0.conda",
+  "version": "1.8"
+}

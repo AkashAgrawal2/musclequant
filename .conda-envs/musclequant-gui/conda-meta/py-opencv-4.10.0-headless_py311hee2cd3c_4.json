@@ -1,0 +1,35 @@
+{
+  "build": "headless_py311hee2cd3c_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "libopencv 4.10.0 headless_py311hd2d7de8_4",
+    "libprotobuf >=4.25.3,<4.25.4.0a0",
+    "numpy >=1.19,<3",
+    "python >=3.11,<3.12.0a0",
+    "python_abi 3.11.* *_cp311"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/py-opencv-4.10.0-headless_py311hee2cd3c_4",
+  "files": [],
+  "fn": "py-opencv-4.10.0-headless_py311hee2cd3c_4.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/py-opencv-4.10.0-headless_py311hee2cd3c_4",
+    "type": 1
+  },
+  "md5": "f04885951ce6013fed3dc0040c20e841",
+  "name": "py-opencv",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/py-opencv-4.10.0-headless_py311hee2cd3c_4.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "05994bf08512366141d3d3e677ba3fc708851696f266de42b40ab7efd436f93d",
+  "size": 1153075,
+  "subdir": "osx-arm64",
+  "timestamp": 1726971521000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/py-opencv-4.10.0-headless_py311hee2cd3c_4.conda",
+  "version": "4.10.0"
+}

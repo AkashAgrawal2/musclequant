@@ -1,0 +1,520 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "typing_extensions",
+    "python >=3.8",
+    "pydantic >=1.8",
+    "psygnal >=0.3.4",
+    "in-n-out >=0.1.5",
+    "pydantic-compat >=0.1.1"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/app-model-0.4.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/app_model-0.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/app_model/__init__.py",
+    "lib/python3.11/site-packages/app_model/_app.py",
+    "lib/python3.11/site-packages/app_model/backends/__init__.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/__init__.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_qaction.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_qkeybindingedit.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_qkeymap.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_qmainwindow.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_qmenu.py",
+    "lib/python3.11/site-packages/app_model/backends/qt/_util.py",
+    "lib/python3.11/site-packages/app_model/expressions/__init__.py",
+    "lib/python3.11/site-packages/app_model/expressions/_context.py",
+    "lib/python3.11/site-packages/app_model/expressions/_context_keys.py",
+    "lib/python3.11/site-packages/app_model/expressions/_expressions.py",
+    "lib/python3.11/site-packages/app_model/py.typed",
+    "lib/python3.11/site-packages/app_model/registries/__init__.py",
+    "lib/python3.11/site-packages/app_model/registries/_commands_reg.py",
+    "lib/python3.11/site-packages/app_model/registries/_keybindings_reg.py",
+    "lib/python3.11/site-packages/app_model/registries/_menus_reg.py",
+    "lib/python3.11/site-packages/app_model/registries/_register.py",
+    "lib/python3.11/site-packages/app_model/types/__init__.py",
+    "lib/python3.11/site-packages/app_model/types/_action.py",
+    "lib/python3.11/site-packages/app_model/types/_base.py",
+    "lib/python3.11/site-packages/app_model/types/_command_rule.py",
+    "lib/python3.11/site-packages/app_model/types/_constants.py",
+    "lib/python3.11/site-packages/app_model/types/_icon.py",
+    "lib/python3.11/site-packages/app_model/types/_keybinding_rule.py",
+    "lib/python3.11/site-packages/app_model/types/_keys/__init__.py",
+    "lib/python3.11/site-packages/app_model/types/_keys/_key_codes.py",
+    "lib/python3.11/site-packages/app_model/types/_keys/_keybindings.py",
+    "lib/python3.11/site-packages/app_model/types/_keys/_standard_bindings.py",
+    "lib/python3.11/site-packages/app_model/types/_menu_rule.py",
+    "lib/python3.11/site-packages/app_model/types/_utils.py",
+    "lib/python3.11/site-packages/app_model/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/__pycache__/_app.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qaction.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qkeybindingedit.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qkeymap.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qmainwindow.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qmenu.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_util.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/expressions/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/expressions/__pycache__/_context.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/expressions/__pycache__/_context_keys.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/expressions/__pycache__/_expressions.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/registries/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/registries/__pycache__/_commands_reg.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/registries/__pycache__/_keybindings_reg.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/registries/__pycache__/_menus_reg.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/registries/__pycache__/_register.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_action.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_base.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_command_rule.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_constants.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_icon.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_keybinding_rule.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_key_codes.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_keybindings.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_standard_bindings.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_menu_rule.cpython-311.pyc",
+    "lib/python3.11/site-packages/app_model/types/__pycache__/_utils.cpython-311.pyc"
+  ],
+  "fn": "app-model-0.4.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/app-model-0.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "dc7ad367e251b6df80400b3b3421dd7e",
+  "name": "app-model",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/app-model-0.4.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "69a661750fe19f100cf1ce190a22833b9086877516d84abd2881b2769b4030d2",
+        "sha256_in_prefix": "69a661750fe19f100cf1ce190a22833b9086877516d84abd2881b2769b4030d2",
+        "size_in_bytes": 3194
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c6f5d4ebfee3b1acb37a7356a43a83ab3470cb9a40ceb6ca4023f4d55784eeaa",
+        "sha256_in_prefix": "c6f5d4ebfee3b1acb37a7356a43a83ab3470cb9a40ceb6ca4023f4d55784eeaa",
+        "size_in_bytes": 5491
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6be156ed70e3fdbe2e0857e21ca507e1141102cb254a2e57e5350f971a9d5c12",
+        "sha256_in_prefix": "6be156ed70e3fdbe2e0857e21ca507e1141102cb254a2e57e5350f971a9d5c12",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/app_model-0.4.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e6e6d2204d30605136b1b2c18309050f6a7425329556172a3f2548d80d4002da",
+        "sha256_in_prefix": "e6e6d2204d30605136b1b2c18309050f6a7425329556172a3f2548d80d4002da",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "site-packages/app_model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c7b67b4d234f55701b0d2a44cf248df3459d455e72c0652aeab111c88e8014ba",
+        "sha256_in_prefix": "c7b67b4d234f55701b0d2a44cf248df3459d455e72c0652aeab111c88e8014ba",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/app_model/_app.py",
+        "path_type": "hardlink",
+        "sha256": "3eeba68d4e739bacb2f2ed502dd75d92a93c88035d167c9a1f2667298ba61566",
+        "sha256_in_prefix": "3eeba68d4e739bacb2f2ed502dd75d92a93c88035d167c9a1f2667298ba61566",
+        "size_in_bytes": 11661
+      },
+      {
+        "_path": "site-packages/app_model/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d4c76edb46de4fe36e8b304258990235c533854a79cb0845f96aa4bf9b1c1c16",
+        "sha256_in_prefix": "d4c76edb46de4fe36e8b304258990235c533854a79cb0845f96aa4bf9b1c1c16",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e4d82604252e15f713847bb0ddde0e28ad7da4fac187592adf12c8ff324e66c",
+        "sha256_in_prefix": "4e4d82604252e15f713847bb0ddde0e28ad7da4fac187592adf12c8ff324e66c",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_qaction.py",
+        "path_type": "hardlink",
+        "sha256": "1a912e1e245dbb293f0a4c20296ad8358e528ceb1987c319e010b6277b6719ab",
+        "sha256_in_prefix": "1a912e1e245dbb293f0a4c20296ad8358e528ceb1987c319e010b6277b6719ab",
+        "size_in_bytes": 6553
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_qkeybindingedit.py",
+        "path_type": "hardlink",
+        "sha256": "0d6fb8cba1465667c94d15d7c03423d257d1017f6e0a956ae77222e6b3b28dc3",
+        "sha256_in_prefix": "0d6fb8cba1465667c94d15d7c03423d257d1017f6e0a956ae77222e6b3b28dc3",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_qkeymap.py",
+        "path_type": "hardlink",
+        "sha256": "1444d6d07d9e00872215ced9ea36cca599d19cfa48ca7e48f3666bbbbe78e275",
+        "sha256_in_prefix": "1444d6d07d9e00872215ced9ea36cca599d19cfa48ca7e48f3666bbbbe78e275",
+        "size_in_bytes": 17014
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_qmainwindow.py",
+        "path_type": "hardlink",
+        "sha256": "5a02e90ed6fc17be8ce74366a1e86621b37db154b8d73f5a6c5479f974e52500",
+        "sha256_in_prefix": "5a02e90ed6fc17be8ce74366a1e86621b37db154b8d73f5a6c5479f974e52500",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_qmenu.py",
+        "path_type": "hardlink",
+        "sha256": "81393f2f15839cc00fd828cb55a92cc31804b62eabd599891dccfe5856741e93",
+        "sha256_in_prefix": "81393f2f15839cc00fd828cb55a92cc31804b62eabd599891dccfe5856741e93",
+        "size_in_bytes": 12191
+      },
+      {
+        "_path": "site-packages/app_model/backends/qt/_util.py",
+        "path_type": "hardlink",
+        "sha256": "11ee3fb9be36f2a2cb60a786c3d76c6c1b612be2eef35aae20cb56df894f227d",
+        "sha256_in_prefix": "11ee3fb9be36f2a2cb60a786c3d76c6c1b612be2eef35aae20cb56df894f227d",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "site-packages/app_model/expressions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e55f184fd34bc2a56d18e3f4c6112544fffe12a7231a657e09ebfaacd2fa189",
+        "sha256_in_prefix": "3e55f184fd34bc2a56d18e3f4c6112544fffe12a7231a657e09ebfaacd2fa189",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "site-packages/app_model/expressions/_context.py",
+        "path_type": "hardlink",
+        "sha256": "58769a847b2846fe1bb00a9c47be902331ea0db74b4e09c3da55146af8151df8",
+        "sha256_in_prefix": "58769a847b2846fe1bb00a9c47be902331ea0db74b4e09c3da55146af8151df8",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "site-packages/app_model/expressions/_context_keys.py",
+        "path_type": "hardlink",
+        "sha256": "a9ea26987a27315a4c31b0055219d1fa11e24202351374b64cb178b4281c3960",
+        "sha256_in_prefix": "a9ea26987a27315a4c31b0055219d1fa11e24202351374b64cb178b4281c3960",
+        "size_in_bytes": 7393
+      },
+      {
+        "_path": "site-packages/app_model/expressions/_expressions.py",
+        "path_type": "hardlink",
+        "sha256": "717078e367c973de5a87346ef144879f9c8822f85dba1d0600f573b70b05de2e",
+        "sha256_in_prefix": "717078e367c973de5a87346ef144879f9c8822f85dba1d0600f573b70b05de2e",
+        "size_in_bytes": 22205
+      },
+      {
+        "_path": "site-packages/app_model/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/app_model/registries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "064e02de821249d00d3433652543059c389e602ed6ec320d1ac9848d30d63fc7",
+        "sha256_in_prefix": "064e02de821249d00d3433652543059c389e602ed6ec320d1ac9848d30d63fc7",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "site-packages/app_model/registries/_commands_reg.py",
+        "path_type": "hardlink",
+        "sha256": "ec5a05043b30f02420b6f4ea06ded7e1204fc65290eb957a3eb76d83515e9fed",
+        "sha256_in_prefix": "ec5a05043b30f02420b6f4ea06ded7e1204fc65290eb957a3eb76d83515e9fed",
+        "size_in_bytes": 8328
+      },
+      {
+        "_path": "site-packages/app_model/registries/_keybindings_reg.py",
+        "path_type": "hardlink",
+        "sha256": "e75ef0649728a4a62aee3917b14c4865b0973405ea534cb3ec795710b8c2d033",
+        "sha256_in_prefix": "e75ef0649728a4a62aee3917b14c4865b0973405ea534cb3ec795710b8c2d033",
+        "size_in_bytes": 7652
+      },
+      {
+        "_path": "site-packages/app_model/registries/_menus_reg.py",
+        "path_type": "hardlink",
+        "sha256": "3018cf3e2afbded25e68b0a294e863e52e43c122d780c078ddd28de0602b71ba",
+        "sha256_in_prefix": "3018cf3e2afbded25e68b0a294e863e52e43c122d780c078ddd28de0602b71ba",
+        "size_in_bytes": 6062
+      },
+      {
+        "_path": "site-packages/app_model/registries/_register.py",
+        "path_type": "hardlink",
+        "sha256": "bdac543db80624a3b25a9cc331747c0ca57744572e025d2dc0778a5686c36716",
+        "sha256_in_prefix": "bdac543db80624a3b25a9cc331747c0ca57744572e025d2dc0778a5686c36716",
+        "size_in_bytes": 9611
+      },
+      {
+        "_path": "site-packages/app_model/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5ba3218d2b61a1cdf1de9cc15f2637c087309b62c363b76cf96756547c7b4c26",
+        "sha256_in_prefix": "5ba3218d2b61a1cdf1de9cc15f2637c087309b62c363b76cf96756547c7b4c26",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "site-packages/app_model/types/_action.py",
+        "path_type": "hardlink",
+        "sha256": "8d7c70f04ab88f9db8b3a368765f9d7665d79b19b3074ab6f295ecba34953821",
+        "sha256_in_prefix": "8d7c70f04ab88f9db8b3a368765f9d7665d79b19b3074ab6f295ecba34953821",
+        "size_in_bytes": 2499
+      },
+      {
+        "_path": "site-packages/app_model/types/_base.py",
+        "path_type": "hardlink",
+        "sha256": "af399a6486c8e95f82b30b3d85ff593a1d06dd95798a4956da0c212fe0d3d9cd",
+        "sha256_in_prefix": "af399a6486c8e95f82b30b3d85ff593a1d06dd95798a4956da0c212fe0d3d9cd",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "site-packages/app_model/types/_command_rule.py",
+        "path_type": "hardlink",
+        "sha256": "417cd78ed35e44d7a7747e82b12fef1511328e8b27eabb769c521979211bdba0",
+        "sha256_in_prefix": "417cd78ed35e44d7a7747e82b12fef1511328e8b27eabb769c521979211bdba0",
+        "size_in_bytes": 3754
+      },
+      {
+        "_path": "site-packages/app_model/types/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "11730899c35e4de64995e36130874cf2cd75ec0b1e6b4b541a14b61f959d96f4",
+        "sha256_in_prefix": "11730899c35e4de64995e36130874cf2cd75ec0b1e6b4b541a14b61f959d96f4",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "site-packages/app_model/types/_icon.py",
+        "path_type": "hardlink",
+        "sha256": "8392e05790e656c5d9b9de74804cb05d4450eab0dc7d2879fc97618531b8a0ba",
+        "sha256_in_prefix": "8392e05790e656c5d9b9de74804cb05d4450eab0dc7d2879fc97618531b8a0ba",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "site-packages/app_model/types/_keybinding_rule.py",
+        "path_type": "hardlink",
+        "sha256": "cc56be598a6261aa2fad02a02f64f62362239406f83b87e581849f2f9a7c6c4f",
+        "sha256_in_prefix": "cc56be598a6261aa2fad02a02f64f62362239406f83b87e581849f2f9a7c6c4f",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "site-packages/app_model/types/_keys/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e57c7e961d4f89d965117aadb99e7cc4b4265d2a924f6aff322d8eaf8ae1ca9",
+        "sha256_in_prefix": "3e57c7e961d4f89d965117aadb99e7cc4b4265d2a924f6aff322d8eaf8ae1ca9",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "site-packages/app_model/types/_keys/_key_codes.py",
+        "path_type": "hardlink",
+        "sha256": "fc117d5f6ebf09582359a32eced7eacbc8679c1cee172db24610e3fb20bdb1e9",
+        "sha256_in_prefix": "fc117d5f6ebf09582359a32eced7eacbc8679c1cee172db24610e3fb20bdb1e9",
+        "size_in_bytes": 38306
+      },
+      {
+        "_path": "site-packages/app_model/types/_keys/_keybindings.py",
+        "path_type": "hardlink",
+        "sha256": "e57e4d2014cea094c732a84ac1ac317036eb3e37c703e67389416508336c50da",
+        "sha256_in_prefix": "e57e4d2014cea094c732a84ac1ac317036eb3e37c703e67389416508336c50da",
+        "size_in_bytes": 11908
+      },
+      {
+        "_path": "site-packages/app_model/types/_keys/_standard_bindings.py",
+        "path_type": "hardlink",
+        "sha256": "b55927fa2fe17652e8ad3e9c1892aa4bb17717f8bfaa6dbeac31080a7b885483",
+        "sha256_in_prefix": "b55927fa2fe17652e8ad3e9c1892aa4bb17717f8bfaa6dbeac31080a7b885483",
+        "size_in_bytes": 7948
+      },
+      {
+        "_path": "site-packages/app_model/types/_menu_rule.py",
+        "path_type": "hardlink",
+        "sha256": "f75f7cc492b681bc4d91f9950445989c8280b8fc817d495193d08a7f39a08357",
+        "sha256_in_prefix": "f75f7cc492b681bc4d91f9950445989c8280b8fc817d495193d08a7f39a08357",
+        "size_in_bytes": 4712
+      },
+      {
+        "_path": "site-packages/app_model/types/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "247a071ad445a590377f58125dec4d1c98ce8463214c5051bbbfa3aecd6dce48",
+        "sha256_in_prefix": "247a071ad445a590377f58125dec4d1c98ce8463214c5051bbbfa3aecd6dce48",
+        "size_in_bytes": 1754
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/__pycache__/_app.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qaction.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qkeybindingedit.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qkeymap.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qmainwindow.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_qmenu.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/backends/qt/__pycache__/_util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/expressions/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/expressions/__pycache__/_context.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/expressions/__pycache__/_context_keys.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/expressions/__pycache__/_expressions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/registries/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/registries/__pycache__/_commands_reg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/registries/__pycache__/_keybindings_reg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/registries/__pycache__/_menus_reg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/registries/__pycache__/_register.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_action.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_command_rule.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_constants.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_icon.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_keybinding_rule.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_key_codes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_keybindings.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/_keys/__pycache__/_standard_bindings.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_menu_rule.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/app_model/types/__pycache__/_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "03b27890ad1ae9bf29a61783a9020cab1bee3a757a263663426486b9ab2ca77e",
+  "size": 56764,
+  "subdir": "noarch",
+  "timestamp": 1750695003000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/app-model-0.4.0-pyhd8ed1ab_0.conda",
+  "version": "0.4.0"
+}

@@ -1,0 +1,197 @@
+{
+  "build": "pyhc04f84c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "qtpy >=1.7.0",
+    "ipython >=7.7.0",
+    "ipykernel >=5.2.0,<7.0dev0",
+    "qtconsole-base >=4.5.1,!=4.7.6,!=5.4.2"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/napari-console-0.1.4-pyhc04f84c_0",
+  "files": [
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/napari_console-0.1.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/napari_console/__init__.py",
+    "lib/python3.11/site-packages/napari_console/_hookimpl.py",
+    "lib/python3.11/site-packages/napari_console/_tests/__init__.py",
+    "lib/python3.11/site-packages/napari_console/_tests/test_qt_console.py",
+    "lib/python3.11/site-packages/napari_console/_version.py",
+    "lib/python3.11/site-packages/napari_console/napari.yaml",
+    "lib/python3.11/site-packages/napari_console/qt_console.py",
+    "lib/python3.11/site-packages/napari_console/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_console/__pycache__/_hookimpl.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_console/_tests/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_console/_tests/__pycache__/test_qt_console.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_console/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_console/__pycache__/qt_console.cpython-311.pyc"
+  ],
+  "fn": "napari-console-0.1.4-pyhc04f84c_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/napari-console-0.1.4-pyhc04f84c_0",
+    "type": 1
+  },
+  "md5": "e62882b7833e9098a514e5fb91b7258d",
+  "name": "napari-console",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/napari-console-0.1.4-pyhc04f84c_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c9ac1f72996be85b3da50fadde013b35aafa4b8287330d2627515398bcb62d4c",
+        "sha256_in_prefix": "c9ac1f72996be85b3da50fadde013b35aafa4b8287330d2627515398bcb62d4c",
+        "size_in_bytes": 5657
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3fd9649f414b87e71f9e0a1cef22c3b4fc642722869d3236d60ce5041fb6310b",
+        "sha256_in_prefix": "3fd9649f414b87e71f9e0a1cef22c3b4fc642722869d3236d60ce5041fb6310b",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2bd054dede9e11e1aedb4420a29313c2b8b0be0c83c9ee0e36bc3797047eee48",
+        "sha256_in_prefix": "2bd054dede9e11e1aedb4420a29313c2b8b0be0c83c9ee0e36bc3797047eee48",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a7cba3703c41012f010585fe1f3af5801953c4b0617a702859f3e8d85dc854a6",
+        "sha256_in_prefix": "a7cba3703c41012f010585fe1f3af5801953c4b0617a702859f3e8d85dc854a6",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a10e85d5a3cba078f964d6218b5dd0d7390500ab61b241d16056d448dac54fde",
+        "sha256_in_prefix": "a10e85d5a3cba078f964d6218b5dd0d7390500ab61b241d16056d448dac54fde",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "site-packages/napari_console-0.1.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "dd6eee1e1b923557bb9b4ecff8f34fbc29babf2ea16089e34e89c75fb32a99b0",
+        "sha256_in_prefix": "dd6eee1e1b923557bb9b4ecff8f34fbc29babf2ea16089e34e89c75fb32a99b0",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/napari_console/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d4b91cf338012bb4ffec637a9fa7eb5f50f4bede9a3b227a0cfab429a4af9b3",
+        "sha256_in_prefix": "3d4b91cf338012bb4ffec637a9fa7eb5f50f4bede9a3b227a0cfab429a4af9b3",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/napari_console/_hookimpl.py",
+        "path_type": "hardlink",
+        "sha256": "84f976d905de770160f328ea75dea325fe6f251a32a395ee8224ca5f1751fa94",
+        "sha256_in_prefix": "84f976d905de770160f328ea75dea325fe6f251a32a395ee8224ca5f1751fa94",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/napari_console/_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/napari_console/_tests/test_qt_console.py",
+        "path_type": "hardlink",
+        "sha256": "be81632a0549c8629f8c24982ee6a9e8759cc95b564255b5c8911e94ff2b959c",
+        "sha256_in_prefix": "be81632a0549c8629f8c24982ee6a9e8759cc95b564255b5c8911e94ff2b959c",
+        "size_in_bytes": 3115
+      },
+      {
+        "_path": "site-packages/napari_console/_version.py",
+        "path_type": "hardlink",
+        "sha256": "acb0ab7f885ea36e4526d058fb6029ed9b965bee454bbb2a4e3b2894852e2397",
+        "sha256_in_prefix": "acb0ab7f885ea36e4526d058fb6029ed9b965bee454bbb2a4e3b2894852e2397",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "site-packages/napari_console/napari.yaml",
+        "path_type": "hardlink",
+        "sha256": "e506bac38a8ff25d1dbce9084ee13568a7b248e7cc84270ba8e15adc07fe03dc",
+        "sha256_in_prefix": "e506bac38a8ff25d1dbce9084ee13568a7b248e7cc84270ba8e15adc07fe03dc",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/napari_console/qt_console.py",
+        "path_type": "hardlink",
+        "sha256": "044f5eab9e145af75e30a6cbd230f7ae206de9df3a257cf0ab38b397250e181f",
+        "sha256_in_prefix": "044f5eab9e145af75e30a6cbd230f7ae206de9df3a257cf0ab38b397250e181f",
+        "size_in_bytes": 7500
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/__pycache__/_hookimpl.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/_tests/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/_tests/__pycache__/test_qt_console.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_console/__pycache__/qt_console.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bf8dbe8729197849ad0ed7cd6b40a981afe3fa857293957457e004494ff7df0f",
+  "size": 15655,
+  "subdir": "noarch",
+  "timestamp": 1760544595000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/napari-console-0.1.4-pyhc04f84c_0.conda",
+  "version": "0.1.4"
+}

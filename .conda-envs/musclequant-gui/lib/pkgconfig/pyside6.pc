@@ -1,0 +1,14 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+libdir=lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include/PySide6
+typesystemdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/share/PySide6/typesystems
+gluedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/share/PySide6/glue
+pythonpath=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib/python3.11/site-packages
+
+Name: PySide6
+Description: Support library for Python bindings of Qt5-based libraries.
+Version: 6.9.2
+Libs: -L${libdir} -lpyside6.cpython-311-darwin
+Cflags: -I${includedir}
+Requires: shiboken6

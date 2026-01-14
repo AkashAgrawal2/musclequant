@@ -1,0 +1,14 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+libdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 59.39.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lssl -lcrypto -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

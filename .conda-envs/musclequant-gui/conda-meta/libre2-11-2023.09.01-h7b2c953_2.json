@@ -1,0 +1,53 @@
+{
+  "build": "h7b2c953_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "re2 2023.09.01.*"
+  ],
+  "depends": [
+    "libabseil * cxx17*",
+    "libabseil >=20240116.1,<20240117.0a0",
+    "libcxx >=16"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libre2-11-2023.09.01-h7b2c953_2",
+  "files": [
+    "lib/libre2.11.0.0.dylib",
+    "lib/libre2.11.dylib"
+  ],
+  "fn": "libre2-11-2023.09.01-h7b2c953_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libre2-11-2023.09.01-h7b2c953_2",
+    "type": 1
+  },
+  "md5": "0b7b2ced046d6b5fe6e9d46b1ee0324c",
+  "name": "libre2-11",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libre2-11-2023.09.01-h7b2c953_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libre2.11.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "abf5da1d39b7612aa778ded503825eb146ccca4de5d8c3931a7ded0eff01a0f7",
+        "sha256_in_prefix": "abf5da1d39b7612aa778ded503825eb146ccca4de5d8c3931a7ded0eff01a0f7",
+        "size_in_bytes": 497296
+      },
+      {
+        "_path": "lib/libre2.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "ae28d3336c65ceffb0e8a08b6ab2ada181ec38c3c21d6ece68539e4ffba83bf5",
+        "sha256_in_prefix": "ae28d3336c65ceffb0e8a08b6ab2ada181ec38c3c21d6ece68539e4ffba83bf5",
+        "size_in_bytes": 497280
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c8a0a6e7a627dc9c66ffb8858f8f6d499f67fd269b6636b25dc5169760610f05",
+  "size": 171443,
+  "subdir": "osx-arm64",
+  "timestamp": 1708947163000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libre2-11-2023.09.01-h7b2c953_2.conda",
+  "version": "2023.09.01"
+}

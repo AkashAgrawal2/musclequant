@@ -1,0 +1,2 @@
+[console_scripts]
+cellpose = cellpose.__main__:main

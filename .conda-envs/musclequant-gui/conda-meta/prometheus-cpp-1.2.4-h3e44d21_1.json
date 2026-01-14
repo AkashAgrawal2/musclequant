@@ -1,0 +1,381 @@
+{
+  "build": "h3e44d21_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcurl >=8.10.1,<9.0a0",
+    "libcxx >=17",
+    "libzlib >=1.3.1,<2.0a0",
+    "zlib"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/prometheus-cpp-1.2.4-h3e44d21_1",
+  "files": [
+    "include/prometheus/CivetServer.h",
+    "include/prometheus/check_names.h",
+    "include/prometheus/civetweb.h",
+    "include/prometheus/client_metric.h",
+    "include/prometheus/collectable.h",
+    "include/prometheus/counter.h",
+    "include/prometheus/detail/builder.h",
+    "include/prometheus/detail/ckms_quantiles.h",
+    "include/prometheus/detail/core_export.h",
+    "include/prometheus/detail/future_std.h",
+    "include/prometheus/detail/http_method.h",
+    "include/prometheus/detail/pull_export.h",
+    "include/prometheus/detail/push_export.h",
+    "include/prometheus/detail/time_window_quantiles.h",
+    "include/prometheus/detail/utils.h",
+    "include/prometheus/exposer.h",
+    "include/prometheus/family.h",
+    "include/prometheus/gateway.h",
+    "include/prometheus/gauge.h",
+    "include/prometheus/histogram.h",
+    "include/prometheus/info.h",
+    "include/prometheus/labels.h",
+    "include/prometheus/metric_family.h",
+    "include/prometheus/metric_type.h",
+    "include/prometheus/registry.h",
+    "include/prometheus/serializer.h",
+    "include/prometheus/summary.h",
+    "include/prometheus/text_serializer.h",
+    "lib/cmake/prometheus-cpp/prometheus-cpp-config.cmake",
+    "lib/cmake/prometheus-cpp/prometheus-cpp-targets-release.cmake",
+    "lib/cmake/prometheus-cpp/prometheus-cpp-targets.cmake",
+    "lib/libprometheus-cpp-core.1.2.4.dylib",
+    "lib/libprometheus-cpp-core.1.2.dylib",
+    "lib/libprometheus-cpp-core.dylib",
+    "lib/libprometheus-cpp-pull.1.2.4.dylib",
+    "lib/libprometheus-cpp-pull.1.2.dylib",
+    "lib/libprometheus-cpp-pull.dylib",
+    "lib/libprometheus-cpp-push.1.2.4.dylib",
+    "lib/libprometheus-cpp-push.1.2.dylib",
+    "lib/libprometheus-cpp-push.dylib",
+    "lib/pkgconfig/prometheus-cpp-core.pc",
+    "lib/pkgconfig/prometheus-cpp-pull.pc",
+    "lib/pkgconfig/prometheus-cpp-push.pc"
+  ],
+  "fn": "prometheus-cpp-1.2.4-h3e44d21_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/prometheus-cpp-1.2.4-h3e44d21_1",
+    "type": 1
+  },
+  "md5": "09ec2ea840f2d0e62c8e0719f4ab2a01",
+  "name": "prometheus-cpp",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/prometheus-cpp-1.2.4-h3e44d21_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/prometheus/CivetServer.h",
+        "path_type": "hardlink",
+        "sha256": "0bf8becd48bafac0a3da6a318b5d31338019ccd2303f778efaca14bcfd151be2",
+        "sha256_in_prefix": "0bf8becd48bafac0a3da6a318b5d31338019ccd2303f778efaca14bcfd151be2",
+        "size_in_bytes": 21523
+      },
+      {
+        "_path": "include/prometheus/check_names.h",
+        "path_type": "hardlink",
+        "sha256": "e2395e0281bd30fce9a482d9026285995af199f10f951ccf099291431b1db1ff",
+        "sha256_in_prefix": "e2395e0281bd30fce9a482d9026285995af199f10f951ccf099291431b1db1ff",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "include/prometheus/civetweb.h",
+        "path_type": "hardlink",
+        "sha256": "e3a12c0a659b3bc6f75aa67799232ca343572dcb3add8b2475666633fa4afad3",
+        "sha256_in_prefix": "e3a12c0a659b3bc6f75aa67799232ca343572dcb3add8b2475666633fa4afad3",
+        "size_in_bytes": 68374
+      },
+      {
+        "_path": "include/prometheus/client_metric.h",
+        "path_type": "hardlink",
+        "sha256": "e6508c1d55436d44505f3bc553a6e787b91b9e96e2574bd46e240293a1e3873b",
+        "sha256_in_prefix": "e6508c1d55436d44505f3bc553a6e787b91b9e96e2574bd46e240293a1e3873b",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "include/prometheus/collectable.h",
+        "path_type": "hardlink",
+        "sha256": "3378548e9f7994d2af523b5f92cd025df0d554f830efd57ce67ac725f06785c3",
+        "sha256_in_prefix": "3378548e9f7994d2af523b5f92cd025df0d554f830efd57ce67ac725f06785c3",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "include/prometheus/counter.h",
+        "path_type": "hardlink",
+        "sha256": "140b843c89262df250152561de7c5cb796421149cf013d548d6ea2d1a2cbd9bc",
+        "sha256_in_prefix": "140b843c89262df250152561de7c5cb796421149cf013d548d6ea2d1a2cbd9bc",
+        "size_in_bytes": 2548
+      },
+      {
+        "_path": "include/prometheus/detail/builder.h",
+        "path_type": "hardlink",
+        "sha256": "0cd4c4f99ef4321451cc0a2d25c9f56047993f997efc9c4c68e303534057ca84",
+        "sha256_in_prefix": "0cd4c4f99ef4321451cc0a2d25c9f56047993f997efc9c4c68e303534057ca84",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "include/prometheus/detail/ckms_quantiles.h",
+        "path_type": "hardlink",
+        "sha256": "03c556992d5122a7b3c61c1f2b44bed36b3b18ad1e6f2cf15d618938522e3a9d",
+        "sha256_in_prefix": "03c556992d5122a7b3c61c1f2b44bed36b3b18ad1e6f2cf15d618938522e3a9d",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "include/prometheus/detail/core_export.h",
+        "path_type": "hardlink",
+        "sha256": "dab95698e136be8d35a506df100e14d44b39da37834310fe07a61e8aafe82d58",
+        "sha256_in_prefix": "dab95698e136be8d35a506df100e14d44b39da37834310fe07a61e8aafe82d58",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "include/prometheus/detail/future_std.h",
+        "path_type": "hardlink",
+        "sha256": "aff5500c059a9861c87d1b129852ef17610a1a53387b780b9e6756217db65658",
+        "sha256_in_prefix": "aff5500c059a9861c87d1b129852ef17610a1a53387b780b9e6756217db65658",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "include/prometheus/detail/http_method.h",
+        "path_type": "hardlink",
+        "sha256": "9de3c076fb9957d76cc3c99a0aabe458de63100a71bf84a17b2206b48180bf8d",
+        "sha256_in_prefix": "9de3c076fb9957d76cc3c99a0aabe458de63100a71bf84a17b2206b48180bf8d",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "include/prometheus/detail/pull_export.h",
+        "path_type": "hardlink",
+        "sha256": "8b32e387e2af147dfcf7d91ba2d55811b9bf3c6798c000800099f2b410489858",
+        "sha256_in_prefix": "8b32e387e2af147dfcf7d91ba2d55811b9bf3c6798c000800099f2b410489858",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "include/prometheus/detail/push_export.h",
+        "path_type": "hardlink",
+        "sha256": "fac6a17e642ad6a87af45ccaa8e308b06d24396e341c189f160f8ffa026e1b1d",
+        "sha256_in_prefix": "fac6a17e642ad6a87af45ccaa8e308b06d24396e341c189f160f8ffa026e1b1d",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "include/prometheus/detail/time_window_quantiles.h",
+        "path_type": "hardlink",
+        "sha256": "5ad9a2b7fa02978b453f64b2cfa3adf4b9d090f64b39658ec296c67d09c91cb1",
+        "sha256_in_prefix": "5ad9a2b7fa02978b453f64b2cfa3adf4b9d090f64b39658ec296c67d09c91cb1",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "include/prometheus/detail/utils.h",
+        "path_type": "hardlink",
+        "sha256": "147e9dc29e6fe0e9c9138be5ac59b72b4abc2f66d940e39407635a5b18dcc579",
+        "sha256_in_prefix": "147e9dc29e6fe0e9c9138be5ac59b72b4abc2f66d940e39407635a5b18dcc579",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "include/prometheus/exposer.h",
+        "path_type": "hardlink",
+        "sha256": "da833174df2ca89dd7bd84765538221fd736d0a2b48fa374b55c9eb579298b53",
+        "sha256_in_prefix": "da833174df2ca89dd7bd84765538221fd736d0a2b48fa374b55c9eb579298b53",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "include/prometheus/family.h",
+        "path_type": "hardlink",
+        "sha256": "8ae48ad811f4796d60af1636c226dc246a2e6a85889908d235aa8dcb3596f645",
+        "sha256_in_prefix": "8ae48ad811f4796d60af1636c226dc246a2e6a85889908d235aa8dcb3596f645",
+        "size_in_bytes": 6297
+      },
+      {
+        "_path": "include/prometheus/gateway.h",
+        "path_type": "hardlink",
+        "sha256": "d1a740bf89630a5ca17ef5f28232add5a6cd9241390f30707294a0d647f3cf8d",
+        "sha256_in_prefix": "d1a740bf89630a5ca17ef5f28232add5a6cd9241390f30707294a0d647f3cf8d",
+        "size_in_bytes": 2372
+      },
+      {
+        "_path": "include/prometheus/gauge.h",
+        "path_type": "hardlink",
+        "sha256": "7c3591c9d9bf9bebecf96dbca1754e2a4fb9c69f641c4b9c318cf2a73c5f7342",
+        "sha256_in_prefix": "7c3591c9d9bf9bebecf96dbca1754e2a4fb9c69f641c4b9c318cf2a73c5f7342",
+        "size_in_bytes": 2756
+      },
+      {
+        "_path": "include/prometheus/histogram.h",
+        "path_type": "hardlink",
+        "sha256": "155e358745520c8a4a1934059f619ef0efbb36a3cc2ae6a07c94ac9b41c66aef",
+        "sha256_in_prefix": "155e358745520c8a4a1934059f619ef0efbb36a3cc2ae6a07c94ac9b41c66aef",
+        "size_in_bytes": 4235
+      },
+      {
+        "_path": "include/prometheus/info.h",
+        "path_type": "hardlink",
+        "sha256": "05122de8acb62b1098adb0610583139b9ae001e2e517c2ac2da5b44ec622f8b8",
+        "sha256_in_prefix": "05122de8acb62b1098adb0610583139b9ae001e2e517c2ac2da5b44ec622f8b8",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "include/prometheus/labels.h",
+        "path_type": "hardlink",
+        "sha256": "ef244119493aac016a466284feaa1f9747ab6984e083b81143ed6e42c38358f8",
+        "sha256_in_prefix": "ef244119493aac016a466284feaa1f9747ab6984e083b81143ed6e42c38358f8",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "include/prometheus/metric_family.h",
+        "path_type": "hardlink",
+        "sha256": "b9c517be6c866a54cc81c432ddfa8926ad0f63e690acf78eac5c2839d632f475",
+        "sha256_in_prefix": "b9c517be6c866a54cc81c432ddfa8926ad0f63e690acf78eac5c2839d632f475",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "include/prometheus/metric_type.h",
+        "path_type": "hardlink",
+        "sha256": "0c2668c6f71ac6c14965ce5028d7f598b168e24017357e2985d79b172d342ec4",
+        "sha256_in_prefix": "0c2668c6f71ac6c14965ce5028d7f598b168e24017357e2985d79b172d342ec4",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "include/prometheus/registry.h",
+        "path_type": "hardlink",
+        "sha256": "167aa89d628ee67fbc8d1c724da8196a72e0c6cbd84371a43371d1de3e6450a1",
+        "sha256_in_prefix": "167aa89d628ee67fbc8d1c724da8196a72e0c6cbd84371a43371d1de3e6450a1",
+        "size_in_bytes": 3762
+      },
+      {
+        "_path": "include/prometheus/serializer.h",
+        "path_type": "hardlink",
+        "sha256": "e257fc7b9f60c1bb47e60e53724a610b743db60270318dad93fd4afa49f875f8",
+        "sha256_in_prefix": "e257fc7b9f60c1bb47e60e53724a610b743db60270318dad93fd4afa49f875f8",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "include/prometheus/summary.h",
+        "path_type": "hardlink",
+        "sha256": "39a3a8b7165a8e0d832c4def6aed7369b266d4766415528e4c4756cebb273324",
+        "sha256_in_prefix": "39a3a8b7165a8e0d832c4def6aed7369b266d4766415528e4c4756cebb273324",
+        "size_in_bytes": 5252
+      },
+      {
+        "_path": "include/prometheus/text_serializer.h",
+        "path_type": "hardlink",
+        "sha256": "91e6f6a9f39d112ef89cf1f393a0bf4d5f6cffd8797bb97c3f6a3af38cfd2dd1",
+        "sha256_in_prefix": "91e6f6a9f39d112ef89cf1f393a0bf4d5f6cffd8797bb97c3f6a3af38cfd2dd1",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/cmake/prometheus-cpp/prometheus-cpp-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "433a0eb36e5714514f122f33b995044395b8214214cc6526cd4eceeea86b0836",
+        "sha256_in_prefix": "433a0eb36e5714514f122f33b995044395b8214214cc6526cd4eceeea86b0836",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "lib/cmake/prometheus-cpp/prometheus-cpp-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "fae2a89e83f9c767b83184d65e35902a70ec810888731a021fba8f2281671e4a",
+        "sha256_in_prefix": "fae2a89e83f9c767b83184d65e35902a70ec810888731a021fba8f2281671e4a",
+        "size_in_bytes": 2055
+      },
+      {
+        "_path": "lib/cmake/prometheus-cpp/prometheus-cpp-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "0d659ecddbcb9426efba670780fa592bb9bc03bafc731f523452bea774dee7b4",
+        "sha256_in_prefix": "0d659ecddbcb9426efba670780fa592bb9bc03bafc731f523452bea774dee7b4",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "lib/libprometheus-cpp-core.1.2.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "32b1693aafac74949187a8b2ee79419afffbda2bb170929df4134b9eeb1f3d58",
+        "sha256_in_prefix": "32b1693aafac74949187a8b2ee79419afffbda2bb170929df4134b9eeb1f3d58",
+        "size_in_bytes": 209920
+      },
+      {
+        "_path": "lib/libprometheus-cpp-core.1.2.dylib",
+        "path_type": "softlink",
+        "sha256": "32b1693aafac74949187a8b2ee79419afffbda2bb170929df4134b9eeb1f3d58",
+        "size_in_bytes": 209920
+      },
+      {
+        "_path": "lib/libprometheus-cpp-core.dylib",
+        "path_type": "softlink",
+        "sha256": "32b1693aafac74949187a8b2ee79419afffbda2bb170929df4134b9eeb1f3d58",
+        "size_in_bytes": 209920
+      },
+      {
+        "_path": "lib/libprometheus-cpp-pull.1.2.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "a65ef8346ee5527b6f70919d17fd1620a2324513b55b45522c6ef264324e2258",
+        "sha256_in_prefix": "a65ef8346ee5527b6f70919d17fd1620a2324513b55b45522c6ef264324e2258",
+        "size_in_bytes": 226784
+      },
+      {
+        "_path": "lib/libprometheus-cpp-pull.1.2.dylib",
+        "path_type": "softlink",
+        "sha256": "a65ef8346ee5527b6f70919d17fd1620a2324513b55b45522c6ef264324e2258",
+        "size_in_bytes": 226784
+      },
+      {
+        "_path": "lib/libprometheus-cpp-pull.dylib",
+        "path_type": "softlink",
+        "sha256": "a65ef8346ee5527b6f70919d17fd1620a2324513b55b45522c6ef264324e2258",
+        "size_in_bytes": 226784
+      },
+      {
+        "_path": "lib/libprometheus-cpp-push.1.2.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "6c60fd4e97e5467d8f7844f016a97d4e9a0a3e33def6b3f049794f2c9e16b82c",
+        "sha256_in_prefix": "6c60fd4e97e5467d8f7844f016a97d4e9a0a3e33def6b3f049794f2c9e16b82c",
+        "size_in_bytes": 116112
+      },
+      {
+        "_path": "lib/libprometheus-cpp-push.1.2.dylib",
+        "path_type": "softlink",
+        "sha256": "6c60fd4e97e5467d8f7844f016a97d4e9a0a3e33def6b3f049794f2c9e16b82c",
+        "size_in_bytes": 116112
+      },
+      {
+        "_path": "lib/libprometheus-cpp-push.dylib",
+        "path_type": "softlink",
+        "sha256": "6c60fd4e97e5467d8f7844f016a97d4e9a0a3e33def6b3f049794f2c9e16b82c",
+        "size_in_bytes": 116112
+      },
+      {
+        "_path": "lib/pkgconfig/prometheus-cpp-core.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/prometheus-cpp_1728281359622/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "cd373e5cedd4cd5605a5402d01987aed67012d9007b198112d8000eadc7f9cd8",
+        "sha256_in_prefix": "5953d392c5c43326b0e0186f185090b20aeefd880a0e1c73f70a54f2defa5c3b",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/pkgconfig/prometheus-cpp-pull.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/prometheus-cpp_1728281359622/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "228b0c356414c70cef7258c3d14151071e6437812d708bfe23f00468b8ecf2ce",
+        "sha256_in_prefix": "f14a98a7a9f8dac70e82b01dcdd573f84fc42487b8ca7c5a48105669fe0c3cb4",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "lib/pkgconfig/prometheus-cpp-push.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/prometheus-cpp_1728281359622/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "75350176b4c760e3e6eace916355f1ee49d79ae9d9c4bafc9ccf26a910e1ab98",
+        "sha256_in_prefix": "384b948907b2865a1e5aefe6bfbebcedfa689d900d32e947096c49e27bac02ba",
+        "size_in_bytes": 619
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8330e14ab146ffc75c118ea2427bb3013157856cdc84e759c170b2c071fd39d5",
+  "size": 170314,
+  "subdir": "osx-arm64",
+  "timestamp": 1728281615000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/prometheus-cpp-1.2.4-h3e44d21_1.conda",
+  "version": "1.2.4"
+}

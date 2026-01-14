@@ -1,0 +1,101 @@
+{
+  "build": "h00cdb27_33_cpu",
+  "build_number": 33,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libarrow 15.0.2 h7c52596_33_cpu",
+    "libarrow-acero 15.0.2 h00cdb27_33_cpu",
+    "libcxx >=16",
+    "libparquet 15.0.2 h10e5b7d_33_cpu"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libarrow-dataset-15.0.2-h00cdb27_33_cpu",
+  "files": [
+    "lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+    "lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+    "lib/libarrow_dataset.1500.2.0.dylib",
+    "lib/libarrow_dataset.1500.dylib",
+    "lib/libarrow_dataset.dylib",
+    "lib/pkgconfig/arrow-dataset.pc"
+  ],
+  "fn": "libarrow-dataset-15.0.2-h00cdb27_33_cpu.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libarrow-dataset-15.0.2-h00cdb27_33_cpu",
+    "type": 1
+  },
+  "md5": "569f7d5f440f0bbbdef8cb9a95a029ec",
+  "name": "libarrow-dataset",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libarrow-dataset-15.0.2-h00cdb27_33_cpu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "c39a2ff7af7733bc4b1e74bcc60ae09eeb86608c53c4fbb4508fb0998a7a7e02",
+        "sha256_in_prefix": "c39a2ff7af7733bc4b1e74bcc60ae09eeb86608c53c4fbb4508fb0998a7a7e02",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "1385c7704f40d343fca41a64bddd8b78fc7301de563a01934a416b73b164f94b",
+        "sha256_in_prefix": "1385c7704f40d343fca41a64bddd8b78fc7301de563a01934a416b73b164f94b",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "3478c236d45d5f76e42fcb616408289d9844d2c2cc7b7955c731193c1bd20bad",
+        "sha256_in_prefix": "3478c236d45d5f76e42fcb616408289d9844d2c2cc7b7955c731193c1bd20bad",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/cmake/ArrowDataset/ArrowDatasetTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "8ccf9ebebd552403bfb31228c1c2163e21b33227efe4526438e5f960a9dd4b4f",
+        "sha256_in_prefix": "8ccf9ebebd552403bfb31228c1c2163e21b33227efe4526438e5f960a9dd4b4f",
+        "size_in_bytes": 4289
+      },
+      {
+        "_path": "lib/libarrow_dataset.1500.2.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "2b2036f8da71706cd857a6a8d16c985d7729726701781d0e8fd15d1074ff32fe",
+        "sha256_in_prefix": "2b2036f8da71706cd857a6a8d16c985d7729726701781d0e8fd15d1074ff32fe",
+        "size_in_bytes": 2541248
+      },
+      {
+        "_path": "lib/libarrow_dataset.1500.dylib",
+        "path_type": "softlink",
+        "sha256": "2b2036f8da71706cd857a6a8d16c985d7729726701781d0e8fd15d1074ff32fe",
+        "size_in_bytes": 2541248
+      },
+      {
+        "_path": "lib/libarrow_dataset.dylib",
+        "path_type": "softlink",
+        "sha256": "2b2036f8da71706cd857a6a8d16c985d7729726701781d0e8fd15d1074ff32fe",
+        "size_in_bytes": 2541248
+      },
+      {
+        "_path": "lib/pkgconfig/arrow-dataset.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/apache-arrow_1726673208814/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "fd117a48697917d4249ef675c68f4d53e8893e6cb588abad017ef35c0139ccae",
+        "sha256_in_prefix": "e4224e7e1fd3ec71607de95bed9d8bbe5629418af6be05ea53c26e788855ab12",
+        "size_in_bytes": 1370
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ae5da22b9154e19f5a1190e80ed6701683e448af2623eb731e1827784d0ea9c3",
+  "size": 493937,
+  "subdir": "osx-arm64",
+  "timestamp": 1726675952000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libarrow-dataset-15.0.2-h00cdb27_33_cpu.conda",
+  "version": "15.0.2"
+}

@@ -1,0 +1,97 @@
+{
+  "build": "hd45b2be_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "aws-c-common >=0.9.29,<0.9.30.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/aws-c-compression-0.2.19-hd45b2be_2",
+  "files": [
+    "include/aws/compression/compression.h",
+    "include/aws/compression/exports.h",
+    "include/aws/compression/huffman.h",
+    "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+    "lib/libaws-c-compression.1.0.0.dylib",
+    "lib/libaws-c-compression.dylib"
+  ],
+  "fn": "aws-c-compression-0.2.19-hd45b2be_2.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/aws-c-compression-0.2.19-hd45b2be_2",
+    "type": 1
+  },
+  "md5": "9c634af661f50e923419e0df92633d31",
+  "name": "aws-c-compression",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/aws-c-compression-0.2.19-hd45b2be_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/compression/compression.h",
+        "path_type": "hardlink",
+        "sha256": "4a7e0eba0e35676fbacfb6c1d08ada087a21ec4b3a4245a75c95b72ad23e8aa3",
+        "sha256_in_prefix": "4a7e0eba0e35676fbacfb6c1d08ada087a21ec4b3a4245a75c95b72ad23e8aa3",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "include/aws/compression/exports.h",
+        "path_type": "hardlink",
+        "sha256": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "sha256_in_prefix": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "include/aws/compression/huffman.h",
+        "path_type": "hardlink",
+        "sha256": "a0ae03aa45aa8049d704105d6ccaf52342e94f279c04b5616a9416e5a408c43e",
+        "sha256_in_prefix": "a0ae03aa45aa8049d704105d6ccaf52342e94f279c04b5616a9416e5a408c43e",
+        "size_in_bytes": 4752
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "0b355e8406ff62a1379aa02bce03381d4489a1df03ceea0ef4ff5d6aa9e54e59",
+        "sha256_in_prefix": "0b355e8406ff62a1379aa02bce03381d4489a1df03ceea0ef4ff5d6aa9e54e59",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "7048f23514265178f848a1828a5aadccf359ee53dfe306a7144f9519d28f9aec",
+        "sha256_in_prefix": "7048f23514265178f848a1828a5aadccf359ee53dfe306a7144f9519d28f9aec",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "6694456aea87d409239c160bfd94e3b8305e99c97590544032cc36b86b1e04da",
+        "sha256_in_prefix": "6694456aea87d409239c160bfd94e3b8305e99c97590544032cc36b86b1e04da",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "lib/libaws-c-compression.1.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "cb4471a399855e3a71a4f49cf6465c85bf1ec720bdbab219ff2fdabded80fc9b",
+        "sha256_in_prefix": "cb4471a399855e3a71a4f49cf6465c85bf1ec720bdbab219ff2fdabded80fc9b",
+        "size_in_bytes": 53088
+      },
+      {
+        "_path": "lib/libaws-c-compression.dylib",
+        "path_type": "softlink",
+        "sha256": "cb4471a399855e3a71a4f49cf6465c85bf1ec720bdbab219ff2fdabded80fc9b",
+        "size_in_bytes": 53088
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "86900c68f95a2ca79cb9bcb8a3e8fd0a7912cfa3754a6a1e6b78d35c0b8db58b",
+  "size": 18065,
+  "subdir": "osx-arm64",
+  "timestamp": 1728750721000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/aws-c-compression-0.2.19-hd45b2be_2.conda",
+  "version": "0.2.19"
+}

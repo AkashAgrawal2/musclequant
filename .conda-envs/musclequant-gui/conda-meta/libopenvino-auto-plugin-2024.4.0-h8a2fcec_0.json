@@ -1,0 +1,44 @@
+{
+  "build": "h8a2fcec_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=17",
+    "libopenvino 2024.4.0 h49f535f_0",
+    "tbb >=2021.13.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libopenvino-auto-plugin-2024.4.0-h8a2fcec_0",
+  "files": [
+    "lib/openvino-2024.4.0/libopenvino_auto_plugin.so"
+  ],
+  "fn": "libopenvino-auto-plugin-2024.4.0-h8a2fcec_0.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libopenvino-auto-plugin-2024.4.0-h8a2fcec_0",
+    "type": 1
+  },
+  "md5": "9acf00ceff8360c68dc9769dbb9f9d86",
+  "name": "libopenvino-auto-plugin",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libopenvino-auto-plugin-2024.4.0-h8a2fcec_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2024.4.0/libopenvino_auto_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "b52b3ac65faad97d965307964322dce98008d8bd13da57e63b9982c390b6ec89",
+        "sha256_in_prefix": "b52b3ac65faad97d965307964322dce98008d8bd13da57e63b9982c390b6ec89",
+        "size_in_bytes": 752032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "24966b323787948507ee66ef36f6e90912781d20895c2a57c9c4c7d1e1792996",
+  "size": 210081,
+  "subdir": "osx-arm64",
+  "timestamp": 1726763845000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-auto-plugin-2024.4.0-h8a2fcec_0.conda",
+  "version": "2024.4.0"
+}

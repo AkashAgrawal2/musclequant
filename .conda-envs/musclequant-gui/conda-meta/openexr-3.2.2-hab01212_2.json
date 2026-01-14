@@ -1,0 +1,1580 @@
+{
+  "build": "hab01212_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "imath >=3.1.12,<3.1.13.0a0",
+    "libcxx >=17",
+    "libzlib >=1.3.1,<2.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/openexr-3.2.2-hab01212_2",
+  "files": [
+    "bin/exr2aces",
+    "bin/exrenvmap",
+    "bin/exrheader",
+    "bin/exrinfo",
+    "bin/exrmakepreview",
+    "bin/exrmaketiled",
+    "bin/exrmultipart",
+    "bin/exrmultiview",
+    "bin/exrstdattr",
+    "include/OpenEXR/Iex.h",
+    "include/OpenEXR/IexBaseExc.h",
+    "include/OpenEXR/IexConfig.h",
+    "include/OpenEXR/IexErrnoExc.h",
+    "include/OpenEXR/IexExport.h",
+    "include/OpenEXR/IexForward.h",
+    "include/OpenEXR/IexMacros.h",
+    "include/OpenEXR/IexMathExc.h",
+    "include/OpenEXR/IexMathFloatExc.h",
+    "include/OpenEXR/IexMathIeeeExc.h",
+    "include/OpenEXR/IexNamespace.h",
+    "include/OpenEXR/IexThrowErrnoExc.h",
+    "include/OpenEXR/IlmThread.h",
+    "include/OpenEXR/IlmThreadConfig.h",
+    "include/OpenEXR/IlmThreadExport.h",
+    "include/OpenEXR/IlmThreadForward.h",
+    "include/OpenEXR/IlmThreadMutex.h",
+    "include/OpenEXR/IlmThreadNamespace.h",
+    "include/OpenEXR/IlmThreadPool.h",
+    "include/OpenEXR/IlmThreadSemaphore.h",
+    "include/OpenEXR/ImfAcesFile.h",
+    "include/OpenEXR/ImfArray.h",
+    "include/OpenEXR/ImfAttribute.h",
+    "include/OpenEXR/ImfBoxAttribute.h",
+    "include/OpenEXR/ImfCRgbaFile.h",
+    "include/OpenEXR/ImfChannelList.h",
+    "include/OpenEXR/ImfChannelListAttribute.h",
+    "include/OpenEXR/ImfCheckFile.h",
+    "include/OpenEXR/ImfChromaticities.h",
+    "include/OpenEXR/ImfChromaticitiesAttribute.h",
+    "include/OpenEXR/ImfCompositeDeepScanLine.h",
+    "include/OpenEXR/ImfCompression.h",
+    "include/OpenEXR/ImfCompressionAttribute.h",
+    "include/OpenEXR/ImfCompressor.h",
+    "include/OpenEXR/ImfConvert.h",
+    "include/OpenEXR/ImfDeepCompositing.h",
+    "include/OpenEXR/ImfDeepFrameBuffer.h",
+    "include/OpenEXR/ImfDeepImage.h",
+    "include/OpenEXR/ImfDeepImageChannel.h",
+    "include/OpenEXR/ImfDeepImageIO.h",
+    "include/OpenEXR/ImfDeepImageLevel.h",
+    "include/OpenEXR/ImfDeepImageState.h",
+    "include/OpenEXR/ImfDeepImageStateAttribute.h",
+    "include/OpenEXR/ImfDeepScanLineInputFile.h",
+    "include/OpenEXR/ImfDeepScanLineInputPart.h",
+    "include/OpenEXR/ImfDeepScanLineOutputFile.h",
+    "include/OpenEXR/ImfDeepScanLineOutputPart.h",
+    "include/OpenEXR/ImfDeepTiledInputFile.h",
+    "include/OpenEXR/ImfDeepTiledInputPart.h",
+    "include/OpenEXR/ImfDeepTiledOutputFile.h",
+    "include/OpenEXR/ImfDeepTiledOutputPart.h",
+    "include/OpenEXR/ImfDoubleAttribute.h",
+    "include/OpenEXR/ImfEnvmap.h",
+    "include/OpenEXR/ImfEnvmapAttribute.h",
+    "include/OpenEXR/ImfExport.h",
+    "include/OpenEXR/ImfFlatImage.h",
+    "include/OpenEXR/ImfFlatImageChannel.h",
+    "include/OpenEXR/ImfFlatImageIO.h",
+    "include/OpenEXR/ImfFlatImageLevel.h",
+    "include/OpenEXR/ImfFloatAttribute.h",
+    "include/OpenEXR/ImfFloatVectorAttribute.h",
+    "include/OpenEXR/ImfForward.h",
+    "include/OpenEXR/ImfFrameBuffer.h",
+    "include/OpenEXR/ImfFramesPerSecond.h",
+    "include/OpenEXR/ImfGenericInputFile.h",
+    "include/OpenEXR/ImfGenericOutputFile.h",
+    "include/OpenEXR/ImfHeader.h",
+    "include/OpenEXR/ImfHuf.h",
+    "include/OpenEXR/ImfIDManifest.h",
+    "include/OpenEXR/ImfIDManifestAttribute.h",
+    "include/OpenEXR/ImfIO.h",
+    "include/OpenEXR/ImfImage.h",
+    "include/OpenEXR/ImfImageChannel.h",
+    "include/OpenEXR/ImfImageChannelRenaming.h",
+    "include/OpenEXR/ImfImageDataWindow.h",
+    "include/OpenEXR/ImfImageIO.h",
+    "include/OpenEXR/ImfImageLevel.h",
+    "include/OpenEXR/ImfInputFile.h",
+    "include/OpenEXR/ImfInputPart.h",
+    "include/OpenEXR/ImfInt64.h",
+    "include/OpenEXR/ImfIntAttribute.h",
+    "include/OpenEXR/ImfKeyCode.h",
+    "include/OpenEXR/ImfKeyCodeAttribute.h",
+    "include/OpenEXR/ImfLineOrder.h",
+    "include/OpenEXR/ImfLineOrderAttribute.h",
+    "include/OpenEXR/ImfLut.h",
+    "include/OpenEXR/ImfMatrixAttribute.h",
+    "include/OpenEXR/ImfMisc.h",
+    "include/OpenEXR/ImfMultiPartInputFile.h",
+    "include/OpenEXR/ImfMultiPartOutputFile.h",
+    "include/OpenEXR/ImfMultiView.h",
+    "include/OpenEXR/ImfName.h",
+    "include/OpenEXR/ImfNamespace.h",
+    "include/OpenEXR/ImfOpaqueAttribute.h",
+    "include/OpenEXR/ImfOutputFile.h",
+    "include/OpenEXR/ImfOutputPart.h",
+    "include/OpenEXR/ImfPartHelper.h",
+    "include/OpenEXR/ImfPartType.h",
+    "include/OpenEXR/ImfPixelType.h",
+    "include/OpenEXR/ImfPreviewImage.h",
+    "include/OpenEXR/ImfPreviewImageAttribute.h",
+    "include/OpenEXR/ImfRational.h",
+    "include/OpenEXR/ImfRationalAttribute.h",
+    "include/OpenEXR/ImfRgba.h",
+    "include/OpenEXR/ImfRgbaFile.h",
+    "include/OpenEXR/ImfRgbaYca.h",
+    "include/OpenEXR/ImfSampleCountChannel.h",
+    "include/OpenEXR/ImfStandardAttributes.h",
+    "include/OpenEXR/ImfStdIO.h",
+    "include/OpenEXR/ImfStringAttribute.h",
+    "include/OpenEXR/ImfStringVectorAttribute.h",
+    "include/OpenEXR/ImfTestFile.h",
+    "include/OpenEXR/ImfThreading.h",
+    "include/OpenEXR/ImfTileDescription.h",
+    "include/OpenEXR/ImfTileDescriptionAttribute.h",
+    "include/OpenEXR/ImfTiledInputFile.h",
+    "include/OpenEXR/ImfTiledInputPart.h",
+    "include/OpenEXR/ImfTiledOutputFile.h",
+    "include/OpenEXR/ImfTiledOutputPart.h",
+    "include/OpenEXR/ImfTiledRgbaFile.h",
+    "include/OpenEXR/ImfTimeCode.h",
+    "include/OpenEXR/ImfTimeCodeAttribute.h",
+    "include/OpenEXR/ImfUtilExport.h",
+    "include/OpenEXR/ImfVecAttribute.h",
+    "include/OpenEXR/ImfVersion.h",
+    "include/OpenEXR/ImfWav.h",
+    "include/OpenEXR/ImfXdr.h",
+    "include/OpenEXR/OpenEXRConfig.h",
+    "include/OpenEXR/openexr.h",
+    "include/OpenEXR/openexr_attr.h",
+    "include/OpenEXR/openexr_base.h",
+    "include/OpenEXR/openexr_chunkio.h",
+    "include/OpenEXR/openexr_coding.h",
+    "include/OpenEXR/openexr_compression.h",
+    "include/OpenEXR/openexr_config.h",
+    "include/OpenEXR/openexr_context.h",
+    "include/OpenEXR/openexr_debug.h",
+    "include/OpenEXR/openexr_decode.h",
+    "include/OpenEXR/openexr_encode.h",
+    "include/OpenEXR/openexr_errors.h",
+    "include/OpenEXR/openexr_part.h",
+    "include/OpenEXR/openexr_std_attr.h",
+    "include/OpenEXR/openexr_version.h",
+    "lib/cmake/OpenEXR/OpenEXRConfig.cmake",
+    "lib/cmake/OpenEXR/OpenEXRConfigVersion.cmake",
+    "lib/cmake/OpenEXR/OpenEXRTargets-release.cmake",
+    "lib/cmake/OpenEXR/OpenEXRTargets.cmake",
+    "lib/libIex.31.3.2.2.dylib",
+    "lib/libIex.31.dylib",
+    "lib/libIex.dylib",
+    "lib/libIlmThread.31.3.2.2.dylib",
+    "lib/libIlmThread.31.dylib",
+    "lib/libIlmThread.dylib",
+    "lib/libOpenEXR.31.3.2.2.dylib",
+    "lib/libOpenEXR.31.dylib",
+    "lib/libOpenEXR.dylib",
+    "lib/libOpenEXRCore.31.3.2.2.dylib",
+    "lib/libOpenEXRCore.31.dylib",
+    "lib/libOpenEXRCore.dylib",
+    "lib/libOpenEXRUtil.31.3.2.2.dylib",
+    "lib/libOpenEXRUtil.31.dylib",
+    "lib/libOpenEXRUtil.dylib",
+    "lib/pkgconfig/OpenEXR.pc",
+    "share/doc/OpenEXR/examples/deepExamples.cpp",
+    "share/doc/OpenEXR/examples/deepExamples.h",
+    "share/doc/OpenEXR/examples/deepTiledExamples.cpp",
+    "share/doc/OpenEXR/examples/deepTiledExamples.h",
+    "share/doc/OpenEXR/examples/drawImage.cpp",
+    "share/doc/OpenEXR/examples/drawImage.h",
+    "share/doc/OpenEXR/examples/generalInterfaceExamples.cpp",
+    "share/doc/OpenEXR/examples/generalInterfaceExamples.h",
+    "share/doc/OpenEXR/examples/generalInterfaceTiledExamples.cpp",
+    "share/doc/OpenEXR/examples/generalInterfaceTiledExamples.h",
+    "share/doc/OpenEXR/examples/lowLevelIoExamples.cpp",
+    "share/doc/OpenEXR/examples/lowLevelIoExamples.h",
+    "share/doc/OpenEXR/examples/main.cpp",
+    "share/doc/OpenEXR/examples/multipartExamples.cpp",
+    "share/doc/OpenEXR/examples/multipartExamples.h",
+    "share/doc/OpenEXR/examples/namespaceAlias.h",
+    "share/doc/OpenEXR/examples/previewImageExamples.cpp",
+    "share/doc/OpenEXR/examples/previewImageExamples.h",
+    "share/doc/OpenEXR/examples/rgbaInterfaceExamples.cpp",
+    "share/doc/OpenEXR/examples/rgbaInterfaceExamples.h",
+    "share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.cpp",
+    "share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.h"
+  ],
+  "fn": "openexr-3.2.2-hab01212_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/openexr-3.2.2-hab01212_2",
+    "type": 1
+  },
+  "md5": "104fb7fbb910fe9d66fe81d1611baf2c",
+  "name": "openexr",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/openexr-3.2.2-hab01212_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/exr2aces",
+        "path_type": "hardlink",
+        "sha256": "da89a59549bb97229bf60c72eed49b4a87b68ac081dc8d7151a7289816da6889",
+        "sha256_in_prefix": "da89a59549bb97229bf60c72eed49b4a87b68ac081dc8d7151a7289816da6889",
+        "size_in_bytes": 57024
+      },
+      {
+        "_path": "bin/exrenvmap",
+        "path_type": "hardlink",
+        "sha256": "06726c262bec9e40240de1687a1358ea40a623681c110d860b12ff2a4b4940d7",
+        "sha256_in_prefix": "06726c262bec9e40240de1687a1358ea40a623681c110d860b12ff2a4b4940d7",
+        "size_in_bytes": 105408
+      },
+      {
+        "_path": "bin/exrheader",
+        "path_type": "hardlink",
+        "sha256": "2dc3b7d01d8f06e11441489aed981de629fb94f47d53e9d7062967454347c138",
+        "sha256_in_prefix": "2dc3b7d01d8f06e11441489aed981de629fb94f47d53e9d7062967454347c138",
+        "size_in_bytes": 81024
+      },
+      {
+        "_path": "bin/exrinfo",
+        "path_type": "hardlink",
+        "sha256": "5cba78b83a119d31fcfccfc36af13c722f23653bad689ad316be437b1d5669cf",
+        "sha256_in_prefix": "5cba78b83a119d31fcfccfc36af13c722f23653bad689ad316be437b1d5669cf",
+        "size_in_bytes": 51984
+      },
+      {
+        "_path": "bin/exrmakepreview",
+        "path_type": "hardlink",
+        "sha256": "bb6d6cc2db256ff5151f21821350ceac2ada3ee446c30e4304ca171d160deb5f",
+        "sha256_in_prefix": "bb6d6cc2db256ff5151f21821350ceac2ada3ee446c30e4304ca171d160deb5f",
+        "size_in_bytes": 58016
+      },
+      {
+        "_path": "bin/exrmaketiled",
+        "path_type": "hardlink",
+        "sha256": "436451c8bb20dd4bf94fc6ea95acf5ccb781a6b3c6443dc93552fb842e1afbdf",
+        "sha256_in_prefix": "436451c8bb20dd4bf94fc6ea95acf5ccb781a6b3c6443dc93552fb842e1afbdf",
+        "size_in_bytes": 112096
+      },
+      {
+        "_path": "bin/exrmultipart",
+        "path_type": "hardlink",
+        "sha256": "b49c300c0aee9c081efed4316fbce5538702f1fbf1954a43175c3f1ab5d85200",
+        "sha256_in_prefix": "b49c300c0aee9c081efed4316fbce5538702f1fbf1954a43175c3f1ab5d85200",
+        "size_in_bytes": 131456
+      },
+      {
+        "_path": "bin/exrmultiview",
+        "path_type": "hardlink",
+        "sha256": "d86f5223ea22b1cb9130198b68825fed8c745685fc41adaa42aeb999998f5965",
+        "sha256_in_prefix": "d86f5223ea22b1cb9130198b68825fed8c745685fc41adaa42aeb999998f5965",
+        "size_in_bytes": 90000
+      },
+      {
+        "_path": "bin/exrstdattr",
+        "path_type": "hardlink",
+        "sha256": "27023d54c31b260641fd9f6fc0e609138d50ba2defb376bbdf68fea6c430334f",
+        "sha256_in_prefix": "27023d54c31b260641fd9f6fc0e609138d50ba2defb376bbdf68fea6c430334f",
+        "size_in_bytes": 107216
+      },
+      {
+        "_path": "include/OpenEXR/Iex.h",
+        "path_type": "hardlink",
+        "sha256": "f3e0330d8e4bae0214b95989f7fb4daa1d63cb7f3a9b2547919c3f925c25765d",
+        "sha256_in_prefix": "f3e0330d8e4bae0214b95989f7fb4daa1d63cb7f3a9b2547919c3f925c25765d",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "include/OpenEXR/IexBaseExc.h",
+        "path_type": "hardlink",
+        "sha256": "5105b84ea5b09a4af0bd933dde9dff5cccd9c393f931bf926740331a444dd2c4",
+        "sha256_in_prefix": "5105b84ea5b09a4af0bd933dde9dff5cccd9c393f931bf926740331a444dd2c4",
+        "size_in_bytes": 9079
+      },
+      {
+        "_path": "include/OpenEXR/IexConfig.h",
+        "path_type": "hardlink",
+        "sha256": "f7a65d20a15b135b2196e3bcfd73ff010e767c7155f416ca41341340008fc0d6",
+        "sha256_in_prefix": "f7a65d20a15b135b2196e3bcfd73ff010e767c7155f416ca41341340008fc0d6",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "include/OpenEXR/IexErrnoExc.h",
+        "path_type": "hardlink",
+        "sha256": "de4e8fcaa9931587393ba12d42c09e161dc0a9a77e871973e776471d278159c2",
+        "sha256_in_prefix": "de4e8fcaa9931587393ba12d42c09e161dc0a9a77e871973e776471d278159c2",
+        "size_in_bytes": 8324
+      },
+      {
+        "_path": "include/OpenEXR/IexExport.h",
+        "path_type": "hardlink",
+        "sha256": "2f04e130ff12e29a555adf59a121d6a13df60d313ff3fb1599f45012b3efeadb",
+        "sha256_in_prefix": "2f04e130ff12e29a555adf59a121d6a13df60d313ff3fb1599f45012b3efeadb",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "include/OpenEXR/IexForward.h",
+        "path_type": "hardlink",
+        "sha256": "cd15c411b0081c8568e203deb89fc229f2b2a3b7c7336274728fcb20c17d1494",
+        "sha256_in_prefix": "cd15c411b0081c8568e203deb89fc229f2b2a3b7c7336274728fcb20c17d1494",
+        "size_in_bytes": 3526
+      },
+      {
+        "_path": "include/OpenEXR/IexMacros.h",
+        "path_type": "hardlink",
+        "sha256": "fe3dc39c9e857937c9c682a3fa1e513ad43b8edf71b6946e2628de65b36992cd",
+        "sha256_in_prefix": "fe3dc39c9e857937c9c682a3fa1e513ad43b8edf71b6946e2628de65b36992cd",
+        "size_in_bytes": 5219
+      },
+      {
+        "_path": "include/OpenEXR/IexMathExc.h",
+        "path_type": "hardlink",
+        "sha256": "28d376b1190211d6e82aa9b5e2320b798650870066f2458f0181fb4933f2ebdc",
+        "sha256_in_prefix": "28d376b1190211d6e82aa9b5e2320b798650870066f2458f0181fb4933f2ebdc",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "include/OpenEXR/IexMathFloatExc.h",
+        "path_type": "hardlink",
+        "sha256": "187307996e80a3e791651aaa9be2e240eab817de5dbb661a417dcc81698e756f",
+        "sha256_in_prefix": "187307996e80a3e791651aaa9be2e240eab817de5dbb661a417dcc81698e756f",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "include/OpenEXR/IexMathIeeeExc.h",
+        "path_type": "hardlink",
+        "sha256": "22903861919d298453972fccb2d7f932699457668d26bdc178f2a9f3232854cb",
+        "sha256_in_prefix": "22903861919d298453972fccb2d7f932699457668d26bdc178f2a9f3232854cb",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "include/OpenEXR/IexNamespace.h",
+        "path_type": "hardlink",
+        "sha256": "3c5380dce1587f8134dccbc7f43118849ff4a6dd044e9549aba7c5636f879b1b",
+        "sha256_in_prefix": "3c5380dce1587f8134dccbc7f43118849ff4a6dd044e9549aba7c5636f879b1b",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "include/OpenEXR/IexThrowErrnoExc.h",
+        "path_type": "hardlink",
+        "sha256": "cc64f45343d9ea91c68acdbd9541d8da1f7b57ef9f8ac7dd986902cf1ed70295",
+        "sha256_in_prefix": "cc64f45343d9ea91c68acdbd9541d8da1f7b57ef9f8ac7dd986902cf1ed70295",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "include/OpenEXR/IlmThread.h",
+        "path_type": "hardlink",
+        "sha256": "b9c7fa44e7f9ae667b8a6da9d09bfa68de0d82fc70e0a51ab4ab2b412a389f8b",
+        "sha256_in_prefix": "b9c7fa44e7f9ae667b8a6da9d09bfa68de0d82fc70e0a51ab4ab2b412a389f8b",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadConfig.h",
+        "path_type": "hardlink",
+        "sha256": "b10b99509be9c7c24ee3133be0559bdaf2f66eff7a439c67d90c761807ee7829",
+        "sha256_in_prefix": "b10b99509be9c7c24ee3133be0559bdaf2f66eff7a439c67d90c761807ee7829",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadExport.h",
+        "path_type": "hardlink",
+        "sha256": "e9c413e4ff59e8b81a3738bad19970cf119784b6cb529b6cc410de078ba62797",
+        "sha256_in_prefix": "e9c413e4ff59e8b81a3738bad19970cf119784b6cb529b6cc410de078ba62797",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadForward.h",
+        "path_type": "hardlink",
+        "sha256": "d22bd95e71560653f31dfa2cba8a1fb72338fdeb2ad7d82b34cf224f5a4a369f",
+        "sha256_in_prefix": "d22bd95e71560653f31dfa2cba8a1fb72338fdeb2ad7d82b34cf224f5a4a369f",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadMutex.h",
+        "path_type": "hardlink",
+        "sha256": "34f7f2555cad3bcbb3900564fe0444a31e1e52d04dc694a212d23a6159e85ac9",
+        "sha256_in_prefix": "34f7f2555cad3bcbb3900564fe0444a31e1e52d04dc694a212d23a6159e85ac9",
+        "size_in_bytes": 1853
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadNamespace.h",
+        "path_type": "hardlink",
+        "sha256": "805747105ba8723e6fcd1e2b86c241a05e6ebbd76948b7cb68492cf1564c934d",
+        "sha256_in_prefix": "805747105ba8723e6fcd1e2b86c241a05e6ebbd76948b7cb68492cf1564c934d",
+        "size_in_bytes": 3118
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadPool.h",
+        "path_type": "hardlink",
+        "sha256": "f7003103f7cf1fb48737250831cd5f6a518703c9f35f99a7d4680a58147d7109",
+        "sha256_in_prefix": "f7003103f7cf1fb48737250831cd5f6a518703c9f35f99a7d4680a58147d7109",
+        "size_in_bytes": 7051
+      },
+      {
+        "_path": "include/OpenEXR/IlmThreadSemaphore.h",
+        "path_type": "hardlink",
+        "sha256": "3a57e0436e6d1f5d3b822df784fb5ba67988359e6153d4b4a59ee98a5952acf6",
+        "sha256_in_prefix": "3a57e0436e6d1f5d3b822df784fb5ba67988359e6153d4b4a59ee98a5952acf6",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "include/OpenEXR/ImfAcesFile.h",
+        "path_type": "hardlink",
+        "sha256": "c9b6e5be9921306cfe26405318c7080b43a19d1edef4f88ed7a3e701a3a52f18",
+        "sha256_in_prefix": "c9b6e5be9921306cfe26405318c7080b43a19d1edef4f88ed7a3e701a3a52f18",
+        "size_in_bytes": 9823
+      },
+      {
+        "_path": "include/OpenEXR/ImfArray.h",
+        "path_type": "hardlink",
+        "sha256": "f60b7e3551c095dfd1e3e44a2b0e747c0376ce80170fc2c265b37020816941cc",
+        "sha256_in_prefix": "f60b7e3551c095dfd1e3e44a2b0e747c0376ce80170fc2c265b37020816941cc",
+        "size_in_bytes": 5430
+      },
+      {
+        "_path": "include/OpenEXR/ImfAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "44521484bc7f1bee016a2028446cc6df524c0f055147b4b1cf50dca67b9b949c",
+        "sha256_in_prefix": "44521484bc7f1bee016a2028446cc6df524c0f055147b4b1cf50dca67b9b949c",
+        "size_in_bytes": 9378
+      },
+      {
+        "_path": "include/OpenEXR/ImfBoxAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "6f2c6febfcc8bedbdecbcd7194eca6641ea4aaad1f3ae797d77ebc03a2dc6b69",
+        "sha256_in_prefix": "6f2c6febfcc8bedbdecbcd7194eca6641ea4aaad1f3ae797d77ebc03a2dc6b69",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "include/OpenEXR/ImfCRgbaFile.h",
+        "path_type": "hardlink",
+        "sha256": "ab1b03784407b2e4813b2509c729231934d96294ffe4ed17f1da39acb9456bfc",
+        "sha256_in_prefix": "ab1b03784407b2e4813b2509c729231934d96294ffe4ed17f1da39acb9456bfc",
+        "size_in_bytes": 10674
+      },
+      {
+        "_path": "include/OpenEXR/ImfChannelList.h",
+        "path_type": "hardlink",
+        "sha256": "6bb5b3188f925ca3ad63cadcdef63119809e7a4cd5ad0c342a983de92cff9448",
+        "sha256_in_prefix": "6bb5b3188f925ca3ad63cadcdef63119809e7a4cd5ad0c342a983de92cff9448",
+        "size_in_bytes": 10268
+      },
+      {
+        "_path": "include/OpenEXR/ImfChannelListAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "edca7b0645121f98bb7dcf192a4e6275f1b0559c176c0c77fe28eb1e92a0cff8",
+        "sha256_in_prefix": "edca7b0645121f98bb7dcf192a4e6275f1b0559c176c0c77fe28eb1e92a0cff8",
+        "size_in_bytes": 855
+      },
+      {
+        "_path": "include/OpenEXR/ImfCheckFile.h",
+        "path_type": "hardlink",
+        "sha256": "2a833ae1c312604b4d6efcba8ee62057efa3ae3c309dfd89c42bcd99312ac395",
+        "sha256_in_prefix": "2a833ae1c312604b4d6efcba8ee62057efa3ae3c309dfd89c42bcd99312ac395",
+        "size_in_bytes": 1644
+      },
+      {
+        "_path": "include/OpenEXR/ImfChromaticities.h",
+        "path_type": "hardlink",
+        "sha256": "01fee06f8700214ca23d990e0b5ca552c70c7d6526d92dd5ee1515351b0e8637",
+        "sha256_in_prefix": "01fee06f8700214ca23d990e0b5ca552c70c7d6526d92dd5ee1515351b0e8637",
+        "size_in_bytes": 2959
+      },
+      {
+        "_path": "include/OpenEXR/ImfChromaticitiesAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "5f28666e5f3a0fb5f0a22f6e20857eaec6dd3fb24cb2ebb81313f5072bbbdc00",
+        "sha256_in_prefix": "5f28666e5f3a0fb5f0a22f6e20857eaec6dd3fb24cb2ebb81313f5072bbbdc00",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "include/OpenEXR/ImfCompositeDeepScanLine.h",
+        "path_type": "hardlink",
+        "sha256": "293cbf2f4e6a8417afbce435f114392825e13fa4662e5c751ea60a183224565d",
+        "sha256_in_prefix": "293cbf2f4e6a8417afbce435f114392825e13fa4662e5c751ea60a183224565d",
+        "size_in_bytes": 4406
+      },
+      {
+        "_path": "include/OpenEXR/ImfCompression.h",
+        "path_type": "hardlink",
+        "sha256": "fdde75fc243242e9012e9ed54af3c77cdeb3d57e16d1f141edf6f10573dfc1e8",
+        "sha256_in_prefix": "fdde75fc243242e9012e9ed54af3c77cdeb3d57e16d1f141edf6f10573dfc1e8",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "include/OpenEXR/ImfCompressionAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "46f3052241d3acdb57f016addb037fc0061c3ca7cf91538f4802a5055542ba16",
+        "sha256_in_prefix": "46f3052241d3acdb57f016addb037fc0061c3ca7cf91538f4802a5055542ba16",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "include/OpenEXR/ImfCompressor.h",
+        "path_type": "hardlink",
+        "sha256": "b4d3b8d0952b37514a869810c3cffb95aa42a1df2beaa4d5137a92a5f50221af",
+        "sha256_in_prefix": "b4d3b8d0952b37514a869810c3cffb95aa42a1df2beaa4d5137a92a5f50221af",
+        "size_in_bytes": 6970
+      },
+      {
+        "_path": "include/OpenEXR/ImfConvert.h",
+        "path_type": "hardlink",
+        "sha256": "865d0c9b5bf8efbbd2ea16b4516d7f80f40b0a4b650fcea9d491777bee96fdca",
+        "sha256_in_prefix": "865d0c9b5bf8efbbd2ea16b4516d7f80f40b0a4b650fcea9d491777bee96fdca",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepCompositing.h",
+        "path_type": "hardlink",
+        "sha256": "98586872ee51ca35e4c313a2665e641e5662e1489e1c5cf2f746f71e105d7e66",
+        "sha256_in_prefix": "98586872ee51ca35e4c313a2665e641e5662e1489e1c5cf2f746f71e105d7e66",
+        "size_in_bytes": 4014
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepFrameBuffer.h",
+        "path_type": "hardlink",
+        "sha256": "a10e8f9e055f32a2ed87ebcbba963f5989544ce16474c0085b698355545afc43",
+        "sha256_in_prefix": "a10e8f9e055f32a2ed87ebcbba963f5989544ce16474c0085b698355545afc43",
+        "size_in_bytes": 7236
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImage.h",
+        "path_type": "hardlink",
+        "sha256": "0deffa97e664f2f6fd8e5f3d0ef04506cf07ca75a76b76123c331c03898f2c13",
+        "sha256_in_prefix": "0deffa97e664f2f6fd8e5f3d0ef04506cf07ca75a76b76123c331c03898f2c13",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImageChannel.h",
+        "path_type": "hardlink",
+        "sha256": "94aa1dedc557b84590a0043584be27abceeeb737e46f624ec5d25fb03a44ec85",
+        "sha256_in_prefix": "94aa1dedc557b84590a0043584be27abceeeb737e46f624ec5d25fb03a44ec85",
+        "size_in_bytes": 7900
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImageIO.h",
+        "path_type": "hardlink",
+        "sha256": "fc38a1f16102f062fa1cfe7462bfb6dca7d9677d3b658a74749b22d27bd98133",
+        "sha256_in_prefix": "fc38a1f16102f062fa1cfe7462bfb6dca7d9677d3b658a74749b22d27bd98133",
+        "size_in_bytes": 5388
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImageLevel.h",
+        "path_type": "hardlink",
+        "sha256": "d78f95e79acc833cb236e966bda80e0907d681a876d2cfa4bce9a173fd3c89fd",
+        "sha256_in_prefix": "d78f95e79acc833cb236e966bda80e0907d681a876d2cfa4bce9a173fd3c89fd",
+        "size_in_bytes": 9613
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImageState.h",
+        "path_type": "hardlink",
+        "sha256": "3d14bb7ef7b51619df744033b92319d5f4cff0f14030a8b71b53471f633946de",
+        "sha256_in_prefix": "3d14bb7ef7b51619df744033b92319d5f4cff0f14030a8b71b53471f633946de",
+        "size_in_bytes": 2112
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepImageStateAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "c58f89c790b8c86a15853bb3c579e2d6bc90e2f4134ca8d7cb8b144bad0a2071",
+        "sha256_in_prefix": "c58f89c790b8c86a15853bb3c579e2d6bc90e2f4134ca8d7cb8b144bad0a2071",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepScanLineInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "5dca5d6bf34cae7713315f2445c2c6d7aa6a119e0b03fff7a6940a3f8a96af01",
+        "sha256_in_prefix": "5dca5d6bf34cae7713315f2445c2c6d7aa6a119e0b03fff7a6940a3f8a96af01",
+        "size_in_bytes": 9703
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepScanLineInputPart.h",
+        "path_type": "hardlink",
+        "sha256": "e0182c83c3fc197e17819467ef93230845918dc66bb6b26a112b94ef03a36f06",
+        "sha256_in_prefix": "e0182c83c3fc197e17819467ef93230845918dc66bb6b26a112b94ef03a36f06",
+        "size_in_bytes": 5092
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepScanLineOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "247537456860bad6cf9966505b31ad7406ee161c9558c8dbd6a5dd7bd87a494c",
+        "sha256_in_prefix": "247537456860bad6cf9966505b31ad7406ee161c9558c8dbd6a5dd7bd87a494c",
+        "size_in_bytes": 8062
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepScanLineOutputPart.h",
+        "path_type": "hardlink",
+        "sha256": "d27b935da609b47e694c50228a5612db025e0c5e39faa398c2222dd523380769",
+        "sha256_in_prefix": "d27b935da609b47e694c50228a5612db025e0c5e39faa398c2222dd523380769",
+        "size_in_bytes": 4888
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepTiledInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "c53e35449a1192d5c4c84e76812004594e25e48a2a18d11912b759853282c917",
+        "sha256_in_prefix": "c53e35449a1192d5c4c84e76812004594e25e48a2a18d11912b759853282c917",
+        "size_in_bytes": 14259
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepTiledInputPart.h",
+        "path_type": "hardlink",
+        "sha256": "0646a43896c3820c5e551b03192f36211cfd8766b003c16a438cc89ccdc1994a",
+        "sha256_in_prefix": "0646a43896c3820c5e551b03192f36211cfd8766b003c16a438cc89ccdc1994a",
+        "size_in_bytes": 11546
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepTiledOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "1beb3befc32f05d5da24b51ce7dfa232ff7f120e3af1f730bdc307f490f398a9",
+        "sha256_in_prefix": "1beb3befc32f05d5da24b51ce7dfa232ff7f120e3af1f730bdc307f490f398a9",
+        "size_in_bytes": 16546
+      },
+      {
+        "_path": "include/OpenEXR/ImfDeepTiledOutputPart.h",
+        "path_type": "hardlink",
+        "sha256": "1c8a1429277c427ff43b9df60c1aba36072b978c577e58a493e483bc8fe6d2dc",
+        "sha256_in_prefix": "1c8a1429277c427ff43b9df60c1aba36072b978c577e58a493e483bc8fe6d2dc",
+        "size_in_bytes": 13264
+      },
+      {
+        "_path": "include/OpenEXR/ImfDoubleAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "1a2aeb5073e2045479c9519f7ad2b10713b5f144a288cff9f0c089c9e7ff7108",
+        "sha256_in_prefix": "1a2aeb5073e2045479c9519f7ad2b10713b5f144a288cff9f0c089c9e7ff7108",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "include/OpenEXR/ImfEnvmap.h",
+        "path_type": "hardlink",
+        "sha256": "b84052d9d541f5919c76adf8b16a6ca37f18615d86d1d5c2d09546904e1bba6b",
+        "sha256_in_prefix": "b84052d9d541f5919c76adf8b16a6ca37f18615d86d1d5c2d09546904e1bba6b",
+        "size_in_bytes": 9656
+      },
+      {
+        "_path": "include/OpenEXR/ImfEnvmapAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "9f0f1b52246043b661db549c385bdead1a37778c367325993f2bf1d46128ab63",
+        "sha256_in_prefix": "9f0f1b52246043b661db549c385bdead1a37778c367325993f2bf1d46128ab63",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "include/OpenEXR/ImfExport.h",
+        "path_type": "hardlink",
+        "sha256": "640a272309e7280fc7a24de920725d3d68c8b4cbb3147ff33be75325a21381a6",
+        "sha256_in_prefix": "640a272309e7280fc7a24de920725d3d68c8b4cbb3147ff33be75325a21381a6",
+        "size_in_bytes": 2192
+      },
+      {
+        "_path": "include/OpenEXR/ImfFlatImage.h",
+        "path_type": "hardlink",
+        "sha256": "c660df3548ca9ee301de97b269523049389a29be103298ceeaa059e4a0b76160",
+        "sha256_in_prefix": "c660df3548ca9ee301de97b269523049389a29be103298ceeaa059e4a0b76160",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "include/OpenEXR/ImfFlatImageChannel.h",
+        "path_type": "hardlink",
+        "sha256": "abf0bfb3a442b56aa5eb93884cea5943a52b401fbccd6294d0c1216011015575",
+        "sha256_in_prefix": "abf0bfb3a442b56aa5eb93884cea5943a52b401fbccd6294d0c1216011015575",
+        "size_in_bytes": 6191
+      },
+      {
+        "_path": "include/OpenEXR/ImfFlatImageIO.h",
+        "path_type": "hardlink",
+        "sha256": "184884b82ea3b5697e0b9bc2f71d678c26f7b5f05f18d5dbddcb3d34fce2d84d",
+        "sha256_in_prefix": "184884b82ea3b5697e0b9bc2f71d678c26f7b5f05f18d5dbddcb3d34fce2d84d",
+        "size_in_bytes": 5362
+      },
+      {
+        "_path": "include/OpenEXR/ImfFlatImageLevel.h",
+        "path_type": "hardlink",
+        "sha256": "d7a9297a7ec4c5a40c8ed06b8971b00992d81015433fef77d439d877202f99f6",
+        "sha256_in_prefix": "d7a9297a7ec4c5a40c8ed06b8971b00992d81015433fef77d439d877202f99f6",
+        "size_in_bytes": 8609
+      },
+      {
+        "_path": "include/OpenEXR/ImfFloatAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "f6ca257294ccd6ad4484e468c0b25f9fcb7dc168b57184dde955c414a7ee2e46",
+        "sha256_in_prefix": "f6ca257294ccd6ad4484e468c0b25f9fcb7dc168b57184dde955c414a7ee2e46",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "include/OpenEXR/ImfFloatVectorAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "0a58f8829dbd92035356d59a30096289f8cb702696c57e0cce4356d204446719",
+        "sha256_in_prefix": "0a58f8829dbd92035356d59a30096289f8cb702696c57e0cce4356d204446719",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "include/OpenEXR/ImfForward.h",
+        "path_type": "hardlink",
+        "sha256": "5e9be50bd35f3bbf8a7a670117fb4fc3149f39e140d5c211f78e63f79abfabe3",
+        "sha256_in_prefix": "5e9be50bd35f3bbf8a7a670117fb4fc3149f39e140d5c211f78e63f79abfabe3",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "include/OpenEXR/ImfFrameBuffer.h",
+        "path_type": "hardlink",
+        "sha256": "4589374eb4693011482bc5d24a2989fe18588ccb7055819e8afc04710a6febf6",
+        "sha256_in_prefix": "4589374eb4693011482bc5d24a2989fe18588ccb7055819e8afc04710a6febf6",
+        "size_in_bytes": 9794
+      },
+      {
+        "_path": "include/OpenEXR/ImfFramesPerSecond.h",
+        "path_type": "hardlink",
+        "sha256": "c10bb4773fc0b3eee4ceb4345ffa7fe9aea8551638dc633070318b596d23bbb9",
+        "sha256_in_prefix": "c10bb4773fc0b3eee4ceb4345ffa7fe9aea8551638dc633070318b596d23bbb9",
+        "size_in_bytes": 2248
+      },
+      {
+        "_path": "include/OpenEXR/ImfGenericInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "6d7b9fb830b11456bbedce5e4958ba4912292a0bb1b6f6ce885bc6554fe0ad9e",
+        "sha256_in_prefix": "6d7b9fb830b11456bbedce5e4958ba4912292a0bb1b6f6ce885bc6554fe0ad9e",
+        "size_in_bytes": 594
+      },
+      {
+        "_path": "include/OpenEXR/ImfGenericOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "8a270e49332a0c6d331e3b224bd64f936909427a820506d7cb63098ec47666ec",
+        "sha256_in_prefix": "8a270e49332a0c6d331e3b224bd64f936909427a820506d7cb63098ec47666ec",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "include/OpenEXR/ImfHeader.h",
+        "path_type": "hardlink",
+        "sha256": "4b66195abb46b0e21e3b3a58feb0fb3c6d12c1acf2e82eed6d37cc12ead01306",
+        "sha256_in_prefix": "4b66195abb46b0e21e3b3a58feb0fb3c6d12c1acf2e82eed6d37cc12ead01306",
+        "size_in_bytes": 19976
+      },
+      {
+        "_path": "include/OpenEXR/ImfHuf.h",
+        "path_type": "hardlink",
+        "sha256": "61d7dfbd1e13dbd4fdc0f00be6c7269edfe48c6ba1cb90ef603f5b8c12f38e5c",
+        "sha256_in_prefix": "61d7dfbd1e13dbd4fdc0f00be6c7269edfe48c6ba1cb90ef603f5b8c12f38e5c",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "include/OpenEXR/ImfIDManifest.h",
+        "path_type": "hardlink",
+        "sha256": "e0d881611050bf5268a549e8d45fca00daf394f313e954fc2996dcbef30b508f",
+        "sha256_in_prefix": "e0d881611050bf5268a549e8d45fca00daf394f313e954fc2996dcbef30b508f",
+        "size_in_bytes": 14143
+      },
+      {
+        "_path": "include/OpenEXR/ImfIDManifestAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "12cddedd4ba650e471512fd56c61d093dc9a9d4a41d061efbc8d8844b0e551ec",
+        "sha256_in_prefix": "12cddedd4ba650e471512fd56c61d093dc9a9d4a41d061efbc8d8844b0e551ec",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "include/OpenEXR/ImfIO.h",
+        "path_type": "hardlink",
+        "sha256": "62acf9da020f560dd1889af4447ff5f8eb85d47212f984a143c984034d39315f",
+        "sha256_in_prefix": "62acf9da020f560dd1889af4447ff5f8eb85d47212f984a143c984034d39315f",
+        "size_in_bytes": 6112
+      },
+      {
+        "_path": "include/OpenEXR/ImfImage.h",
+        "path_type": "hardlink",
+        "sha256": "c39bd2327c7586c77e65cbbf145d2037a7bb71e602d07527050c346a84a591d8",
+        "sha256_in_prefix": "c39bd2327c7586c77e65cbbf145d2037a7bb71e602d07527050c346a84a591d8",
+        "size_in_bytes": 11909
+      },
+      {
+        "_path": "include/OpenEXR/ImfImageChannel.h",
+        "path_type": "hardlink",
+        "sha256": "acd08723541ec8a3582eecad9c7c513de02620ec93dd82d3b2f983d1be6a3f1f",
+        "sha256_in_prefix": "acd08723541ec8a3582eecad9c7c513de02620ec93dd82d3b2f983d1be6a3f1f",
+        "size_in_bytes": 2735
+      },
+      {
+        "_path": "include/OpenEXR/ImfImageChannelRenaming.h",
+        "path_type": "hardlink",
+        "sha256": "64348a094d59aecd48f099958a8b15aed7e093a5292b5b4fbd68804350af7254",
+        "sha256_in_prefix": "64348a094d59aecd48f099958a8b15aed7e093a5292b5b4fbd68804350af7254",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "include/OpenEXR/ImfImageDataWindow.h",
+        "path_type": "hardlink",
+        "sha256": "f45f98cb5ba61cbf9e71a5df551e344e126a196a932be7a7eab101e4a7036ca3",
+        "sha256_in_prefix": "f45f98cb5ba61cbf9e71a5df551e344e126a196a932be7a7eab101e4a7036ca3",
+        "size_in_bytes": 1109
+      },
+      {
+        "_path": "include/OpenEXR/ImfImageIO.h",
+        "path_type": "hardlink",
+        "sha256": "a39b4df479cb44c3bb6c1b1e95ded61ecfcbd2703b04c0842b8a9a036175cbbf",
+        "sha256_in_prefix": "a39b4df479cb44c3bb6c1b1e95ded61ecfcbd2703b04c0842b8a9a036175cbbf",
+        "size_in_bytes": 2545
+      },
+      {
+        "_path": "include/OpenEXR/ImfImageLevel.h",
+        "path_type": "hardlink",
+        "sha256": "e39cbf1a7a51c9ce52a4464ac640b1c5ae42cb17d02e28a27b90e5c2cb4a4200",
+        "sha256_in_prefix": "e39cbf1a7a51c9ce52a4464ac640b1c5ae42cb17d02e28a27b90e5c2cb4a4200",
+        "size_in_bytes": 2578
+      },
+      {
+        "_path": "include/OpenEXR/ImfInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "f212aeb918aa0a7c86705d301f052eb3f622ae2da0c312ddbb6cc578ef1cb78d",
+        "sha256_in_prefix": "f212aeb918aa0a7c86705d301f052eb3f622ae2da0c312ddbb6cc578ef1cb78d",
+        "size_in_bytes": 7708
+      },
+      {
+        "_path": "include/OpenEXR/ImfInputPart.h",
+        "path_type": "hardlink",
+        "sha256": "d0fe13184deebf7cbd889390785eb855bdf48043aa0984b647e48b6f367b008e",
+        "sha256_in_prefix": "d0fe13184deebf7cbd889390785eb855bdf48043aa0984b647e48b6f367b008e",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "include/OpenEXR/ImfInt64.h",
+        "path_type": "hardlink",
+        "sha256": "c7b58da463b7b4832b263e2d7e9ab95e03a61aec28aa63a709a7f6fc1c89ef77",
+        "sha256_in_prefix": "c7b58da463b7b4832b263e2d7e9ab95e03a61aec28aa63a709a7f6fc1c89ef77",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "include/OpenEXR/ImfIntAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "f11e54d65d71d5a9af5ecaf851dd2d24bf8117e9e1ee1f1cdd49eb3e3c27afec",
+        "sha256_in_prefix": "f11e54d65d71d5a9af5ecaf851dd2d24bf8117e9e1ee1f1cdd49eb3e3c27afec",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "include/OpenEXR/ImfKeyCode.h",
+        "path_type": "hardlink",
+        "sha256": "0d891a169166e2976f3d44cc7ab075132b3c8b2960e7a8e70cefbc8806f09b34",
+        "sha256_in_prefix": "0d891a169166e2976f3d44cc7ab075132b3c8b2960e7a8e70cefbc8806f09b34",
+        "size_in_bytes": 3623
+      },
+      {
+        "_path": "include/OpenEXR/ImfKeyCodeAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "2a7a5ad1acbd55cad39a04918795b8fc207c8c1f353921cda2a4e6c61d9aaf12",
+        "sha256_in_prefix": "2a7a5ad1acbd55cad39a04918795b8fc207c8c1f353921cda2a4e6c61d9aaf12",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "include/OpenEXR/ImfLineOrder.h",
+        "path_type": "hardlink",
+        "sha256": "f29dfe20f30146943bda31a74f73932493664c178898af1d8ca3f1d1013f6848",
+        "sha256_in_prefix": "f29dfe20f30146943bda31a74f73932493664c178898af1d8ca3f1d1013f6848",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "include/OpenEXR/ImfLineOrderAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "228f6ef688c89561c4e364caf58b0b24759e1b0117a4819ac6f95815b31c64a3",
+        "sha256_in_prefix": "228f6ef688c89561c4e364caf58b0b24759e1b0117a4819ac6f95815b31c64a3",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "include/OpenEXR/ImfLut.h",
+        "path_type": "hardlink",
+        "sha256": "d85a08ad4f9cff0c1cc8aa9a5476f8cc657ee432903745538cc0d199b1feaf7f",
+        "sha256_in_prefix": "d85a08ad4f9cff0c1cc8aa9a5476f8cc657ee432903745538cc0d199b1feaf7f",
+        "size_in_bytes": 3786
+      },
+      {
+        "_path": "include/OpenEXR/ImfMatrixAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "34331755f239d663a2645dbf1be912f4abe5578904df71ff92f80f5e991f6a03",
+        "sha256_in_prefix": "34331755f239d663a2645dbf1be912f4abe5578904df71ff92f80f5e991f6a03",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "include/OpenEXR/ImfMisc.h",
+        "path_type": "hardlink",
+        "sha256": "55cc73f69b93ade511a1be6c13d31d956fd3e68776fcfab559f4f0d3bd53db09",
+        "sha256_in_prefix": "55cc73f69b93ade511a1be6c13d31d956fd3e68776fcfab559f4f0d3bd53db09",
+        "size_in_bytes": 14781
+      },
+      {
+        "_path": "include/OpenEXR/ImfMultiPartInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "e9b2b058a8258ac32d13812e4350cae4e2f8fa6a3a4ac4525aacbb59080279db",
+        "sha256_in_prefix": "e9b2b058a8258ac32d13812e4350cae4e2f8fa6a3a4ac4525aacbb59080279db",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "include/OpenEXR/ImfMultiPartOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "1b4c27835a7bcfb8ded532bc6f99ac96aac12903fb116656ae93f7ec2e39f0d7",
+        "sha256_in_prefix": "1b4c27835a7bcfb8ded532bc6f99ac96aac12903fb116656ae93f7ec2e39f0d7",
+        "size_in_bytes": 2648
+      },
+      {
+        "_path": "include/OpenEXR/ImfMultiView.h",
+        "path_type": "hardlink",
+        "sha256": "917f20336bace29c0fe0a38fdf87988df6b5bdfc61ad986c026e0f2a5973c225",
+        "sha256_in_prefix": "917f20336bace29c0fe0a38fdf87988df6b5bdfc61ad986c026e0f2a5973c225",
+        "size_in_bytes": 4551
+      },
+      {
+        "_path": "include/OpenEXR/ImfName.h",
+        "path_type": "hardlink",
+        "sha256": "7adeb5aba411dace2149aca002e05cd5ae0acb2658b077dfa87f527e4ad4cb45",
+        "sha256_in_prefix": "7adeb5aba411dace2149aca002e05cd5ae0acb2658b077dfa87f527e4ad4cb45",
+        "size_in_bytes": 2719
+      },
+      {
+        "_path": "include/OpenEXR/ImfNamespace.h",
+        "path_type": "hardlink",
+        "sha256": "92510bdc014fe38726cba6f9016483059649383b2dcd54553f93a4173c617bf0",
+        "sha256_in_prefix": "92510bdc014fe38726cba6f9016483059649383b2dcd54553f93a4173c617bf0",
+        "size_in_bytes": 3021
+      },
+      {
+        "_path": "include/OpenEXR/ImfOpaqueAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "d2e6c93bcbcf9b117b36db02bfb117af5054323a9e57712988ff853a0d171cb4",
+        "sha256_in_prefix": "d2e6c93bcbcf9b117b36db02bfb117af5054323a9e57712988ff853a0d171cb4",
+        "size_in_bytes": 2137
+      },
+      {
+        "_path": "include/OpenEXR/ImfOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "aea10a03fa2e98d0164ce6e36237aa65380101af7d4bb3e67491c4cdc24d8f93",
+        "sha256_in_prefix": "aea10a03fa2e98d0164ce6e36237aa65380101af7d4bb3e67491c4cdc24d8f93",
+        "size_in_bytes": 8384
+      },
+      {
+        "_path": "include/OpenEXR/ImfOutputPart.h",
+        "path_type": "hardlink",
+        "sha256": "240bbe1cc554cd64bd6874181291c09a3969a8584b2fc41794ff4b2a818a8491",
+        "sha256_in_prefix": "240bbe1cc554cd64bd6874181291c09a3969a8584b2fc41794ff4b2a818a8491",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "include/OpenEXR/ImfPartHelper.h",
+        "path_type": "hardlink",
+        "sha256": "de25495d7b013a0f0059a8fd5d9e18733d77941ae59824d85d1fef287c24b1a2",
+        "sha256_in_prefix": "de25495d7b013a0f0059a8fd5d9e18733d77941ae59824d85d1fef287c24b1a2",
+        "size_in_bytes": 7328
+      },
+      {
+        "_path": "include/OpenEXR/ImfPartType.h",
+        "path_type": "hardlink",
+        "sha256": "5a56eab28e4bdbaa62c16858d0ac254e01d2afa903fae12ad42bdeedb05450c9",
+        "sha256_in_prefix": "5a56eab28e4bdbaa62c16858d0ac254e01d2afa903fae12ad42bdeedb05450c9",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "include/OpenEXR/ImfPixelType.h",
+        "path_type": "hardlink",
+        "sha256": "3f71ded7b7475ddf93349a1abaff34e315f48abcf7a5a025bae78f0f599f9bd8",
+        "sha256_in_prefix": "3f71ded7b7475ddf93349a1abaff34e315f48abcf7a5a025bae78f0f599f9bd8",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "include/OpenEXR/ImfPreviewImage.h",
+        "path_type": "hardlink",
+        "sha256": "3c9851abcd26a41903844f1eb2d0c6181cae3f87beaf3c24a74fc523404be0be",
+        "sha256_in_prefix": "3c9851abcd26a41903844f1eb2d0c6181cae3f87beaf3c24a74fc523404be0be",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "include/OpenEXR/ImfPreviewImageAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "2b15c8c4e60f0ecc769c487caec601421ca473895644a12ee0e33a0e0d16f813",
+        "sha256_in_prefix": "2b15c8c4e60f0ecc769c487caec601421ca473895644a12ee0e33a0e0d16f813",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "include/OpenEXR/ImfRational.h",
+        "path_type": "hardlink",
+        "sha256": "7a61cb806b0e11e4117a8e45c465f2fb92a333c76d87ad3fe75664a5dea5c1e8",
+        "sha256_in_prefix": "7a61cb806b0e11e4117a8e45c465f2fb92a333c76d87ad3fe75664a5dea5c1e8",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "include/OpenEXR/ImfRationalAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "05185d5b05c4720deeb7c4b1779c19f08704c147eae0153b99922e8955798a11",
+        "sha256_in_prefix": "05185d5b05c4720deeb7c4b1779c19f08704c147eae0153b99922e8955798a11",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "include/OpenEXR/ImfRgba.h",
+        "path_type": "hardlink",
+        "sha256": "ba4fa9fcc2bbdfcb25df475a12c36b71044b8e599472ea7aac18256e53878b0d",
+        "sha256_in_prefix": "ba4fa9fcc2bbdfcb25df475a12c36b71044b8e599472ea7aac18256e53878b0d",
+        "size_in_bytes": 1322
+      },
+      {
+        "_path": "include/OpenEXR/ImfRgbaFile.h",
+        "path_type": "hardlink",
+        "sha256": "a5fe687fcc5e5d8d6d2e9d2397567cf738402b9c9a029947afe197aeee699a75",
+        "sha256_in_prefix": "a5fe687fcc5e5d8d6d2e9d2397567cf738402b9c9a029947afe197aeee699a75",
+        "size_in_bytes": 14848
+      },
+      {
+        "_path": "include/OpenEXR/ImfRgbaYca.h",
+        "path_type": "hardlink",
+        "sha256": "7066a230aa145e869f5e38d2b90d252845a1b937bdf0a0f480e4bc31f5b5589f",
+        "sha256_in_prefix": "7066a230aa145e869f5e38d2b90d252845a1b937bdf0a0f480e4bc31f5b5589f",
+        "size_in_bytes": 6724
+      },
+      {
+        "_path": "include/OpenEXR/ImfSampleCountChannel.h",
+        "path_type": "hardlink",
+        "sha256": "c07078aa542b071e545510b5d86c23b3abb14082a2858d4b494b0c9c92a82c0a",
+        "sha256_in_prefix": "c07078aa542b071e545510b5d86c23b3abb14082a2858d4b494b0c9c92a82c0a",
+        "size_in_bytes": 10169
+      },
+      {
+        "_path": "include/OpenEXR/ImfStandardAttributes.h",
+        "path_type": "hardlink",
+        "sha256": "abd8d41394061b5a290f3a9ed4d317a777aa8a369fb941bd927ca3bb2e1e7df4",
+        "sha256_in_prefix": "abd8d41394061b5a290f3a9ed4d317a777aa8a369fb941bd927ca3bb2e1e7df4",
+        "size_in_bytes": 27347
+      },
+      {
+        "_path": "include/OpenEXR/ImfStdIO.h",
+        "path_type": "hardlink",
+        "sha256": "1e30087c2385385000becdf2d97877aa5a38aceff2ea3fafddd7733448c08827",
+        "sha256_in_prefix": "1e30087c2385385000becdf2d97877aa5a38aceff2ea3fafddd7733448c08827",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "include/OpenEXR/ImfStringAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "e6170d8773bfaa6f34db6b917752f0769618b7621ba80adeb15d16e6b3cb29c1",
+        "sha256_in_prefix": "e6170d8773bfaa6f34db6b917752f0769618b7621ba80adeb15d16e6b3cb29c1",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "include/OpenEXR/ImfStringVectorAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "fbc76e1086949f0d2b39a67d982b4f01496d096b78c6d7bfb0378d5dd87babb3",
+        "sha256_in_prefix": "fbc76e1086949f0d2b39a67d982b4f01496d096b78c6d7bfb0378d5dd87babb3",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "include/OpenEXR/ImfTestFile.h",
+        "path_type": "hardlink",
+        "sha256": "e22ee3879d07829e82ac7b63705729911259bedfda04d9ecd38df9f92b134bf2",
+        "sha256_in_prefix": "e22ee3879d07829e82ac7b63705729911259bedfda04d9ecd38df9f92b134bf2",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "include/OpenEXR/ImfThreading.h",
+        "path_type": "hardlink",
+        "sha256": "b9dac77475035572a8b50d36cc06be8d39d2f6cd3a7dd08c8d0c4bf0630cfb63",
+        "sha256_in_prefix": "b9dac77475035572a8b50d36cc06be8d39d2f6cd3a7dd08c8d0c4bf0630cfb63",
+        "size_in_bytes": 2637
+      },
+      {
+        "_path": "include/OpenEXR/ImfTileDescription.h",
+        "path_type": "hardlink",
+        "sha256": "419b4c999cc25e28fc9a0035f25b67e97eadaf14312893fce013f96358dfd3d0",
+        "sha256_in_prefix": "419b4c999cc25e28fc9a0035f25b67e97eadaf14312893fce013f96358dfd3d0",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "include/OpenEXR/ImfTileDescriptionAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "bcc87115fd5cd9affd8c81563e5497361ea8c676ee4de02a702dd3d133609ff9",
+        "sha256_in_prefix": "bcc87115fd5cd9affd8c81563e5497361ea8c676ee4de02a702dd3d133609ff9",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "include/OpenEXR/ImfTiledInputFile.h",
+        "path_type": "hardlink",
+        "sha256": "e2f4b5b7c1b6aadc8467fe4e1013c24674c133cfeb9cfc2d76fd01ecd79f310e",
+        "sha256_in_prefix": "e2f4b5b7c1b6aadc8467fe4e1013c24674c133cfeb9cfc2d76fd01ecd79f310e",
+        "size_in_bytes": 12969
+      },
+      {
+        "_path": "include/OpenEXR/ImfTiledInputPart.h",
+        "path_type": "hardlink",
+        "sha256": "5fe2f6abbb4bfc4944350228d34e9febd0d438443d7d79cb2c08efe464ff4946",
+        "sha256_in_prefix": "5fe2f6abbb4bfc4944350228d34e9febd0d438443d7d79cb2c08efe464ff4946",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "include/OpenEXR/ImfTiledOutputFile.h",
+        "path_type": "hardlink",
+        "sha256": "1098fa26af29a833352222736f973a0d18a224efd6dae439d7d24e4008e0263c",
+        "sha256_in_prefix": "1098fa26af29a833352222736f973a0d18a224efd6dae439d7d24e4008e0263c",
+        "size_in_bytes": 16892
+      },
+      {
+        "_path": "include/OpenEXR/ImfTiledOutputPart.h",
+        "path_type": "hardlink",
+        "sha256": "bf79075c94bca736e6310c1c8fd6d2accda02020f9cd6ed60802c2a5e152b747",
+        "sha256_in_prefix": "bf79075c94bca736e6310c1c8fd6d2accda02020f9cd6ed60802c2a5e152b747",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "include/OpenEXR/ImfTiledRgbaFile.h",
+        "path_type": "hardlink",
+        "sha256": "62d0bda571f06920bb5558d564d0a10cd1d6a4b945545fc29b01846b7e39fe34",
+        "sha256_in_prefix": "62d0bda571f06920bb5558d564d0a10cd1d6a4b945545fc29b01846b7e39fe34",
+        "size_in_bytes": 16556
+      },
+      {
+        "_path": "include/OpenEXR/ImfTimeCode.h",
+        "path_type": "hardlink",
+        "sha256": "e01eeaae5a99b18ef9a29004f589bd660cb22ff4434833236b3ab7777f6a32f2",
+        "sha256_in_prefix": "e01eeaae5a99b18ef9a29004f589bd660cb22ff4434833236b3ab7777f6a32f2",
+        "size_in_bytes": 6054
+      },
+      {
+        "_path": "include/OpenEXR/ImfTimeCodeAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "be7ff25c23cdb7f32b6b0be29b13e93452589d5a25dfe46c78ea1582cbc1ec01",
+        "sha256_in_prefix": "be7ff25c23cdb7f32b6b0be29b13e93452589d5a25dfe46c78ea1582cbc1ec01",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "include/OpenEXR/ImfUtilExport.h",
+        "path_type": "hardlink",
+        "sha256": "0fdfeb76c241b5a0f71436654ddd7138c365a77991c23c77de3928428aae039e",
+        "sha256_in_prefix": "0fdfeb76c241b5a0f71436654ddd7138c365a77991c23c77de3928428aae039e",
+        "size_in_bytes": 2155
+      },
+      {
+        "_path": "include/OpenEXR/ImfVecAttribute.h",
+        "path_type": "hardlink",
+        "sha256": "5532c32f0a3d03807811bd9441de660a6d6f9ca03dc23d1115e2b314971ed96f",
+        "sha256_in_prefix": "5532c32f0a3d03807811bd9441de660a6d6f9ca03dc23d1115e2b314971ed96f",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "include/OpenEXR/ImfVersion.h",
+        "path_type": "hardlink",
+        "sha256": "c8222c346f714407e63791eddee48b76e69fa9b767ebf96f96f7758a7869383b",
+        "sha256_in_prefix": "c8222c346f714407e63791eddee48b76e69fa9b767ebf96f96f7758a7869383b",
+        "size_in_bytes": 2995
+      },
+      {
+        "_path": "include/OpenEXR/ImfWav.h",
+        "path_type": "hardlink",
+        "sha256": "de43721b9ecc75325e3ea15c2c405776cc6734c95bce2f1ef103ab9561f54faf",
+        "sha256_in_prefix": "de43721b9ecc75325e3ea15c2c405776cc6734c95bce2f1ef103ab9561f54faf",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "include/OpenEXR/ImfXdr.h",
+        "path_type": "hardlink",
+        "sha256": "4860d0c534e15613ef9b4c824b1a77c2b7a953d1a521e6cfb0a6b2417bc6c277",
+        "sha256_in_prefix": "4860d0c534e15613ef9b4c824b1a77c2b7a953d1a521e6cfb0a6b2417bc6c277",
+        "size_in_bytes": 15154
+      },
+      {
+        "_path": "include/OpenEXR/OpenEXRConfig.h",
+        "path_type": "hardlink",
+        "sha256": "3179bc45e8234229a473a21185dbb8583839a53de38d3040db4bdf4771adedf6",
+        "sha256_in_prefix": "3179bc45e8234229a473a21185dbb8583839a53de38d3040db4bdf4771adedf6",
+        "size_in_bytes": 6271
+      },
+      {
+        "_path": "include/OpenEXR/openexr.h",
+        "path_type": "hardlink",
+        "sha256": "64112b55030b83dc5826db78d5ff05bd72d31bb9aed8bef268b8ba63c5649824",
+        "sha256_in_prefix": "64112b55030b83dc5826db78d5ff05bd72d31bb9aed8bef268b8ba63c5649824",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "include/OpenEXR/openexr_attr.h",
+        "path_type": "hardlink",
+        "sha256": "200f5ae81d1b6ba10ea0820159c9f155940c80142552ec384c62e2d21e30df95",
+        "sha256_in_prefix": "200f5ae81d1b6ba10ea0820159c9f155940c80142552ec384c62e2d21e30df95",
+        "size_in_bytes": 16439
+      },
+      {
+        "_path": "include/OpenEXR/openexr_base.h",
+        "path_type": "hardlink",
+        "sha256": "144dbf9feee6ec95be15f8f8d5e869e43c4727d70f99a4276d7eb430cc5b030f",
+        "sha256_in_prefix": "144dbf9feee6ec95be15f8f8d5e869e43c4727d70f99a4276d7eb430cc5b030f",
+        "size_in_bytes": 6549
+      },
+      {
+        "_path": "include/OpenEXR/openexr_chunkio.h",
+        "path_type": "hardlink",
+        "sha256": "6870ef2aae0f3916882dc7b337b96a72d18b449046a809ff38a5c7f8fb687445",
+        "sha256_in_prefix": "6870ef2aae0f3916882dc7b337b96a72d18b449046a809ff38a5c7f8fb687445",
+        "size_in_bytes": 4602
+      },
+      {
+        "_path": "include/OpenEXR/openexr_coding.h",
+        "path_type": "hardlink",
+        "sha256": "a8748c9625c7cd07db278c19f69b9eef364269125396e8d50ac9750d063d711b",
+        "sha256_in_prefix": "a8748c9625c7cd07db278c19f69b9eef364269125396e8d50ac9750d063d711b",
+        "size_in_bytes": 4325
+      },
+      {
+        "_path": "include/OpenEXR/openexr_compression.h",
+        "path_type": "hardlink",
+        "sha256": "889ea1fdef27a3d5cbee5cb3ad195f1aef4e0dfd9c3deb9a3389b478b8279cde",
+        "sha256_in_prefix": "889ea1fdef27a3d5cbee5cb3ad195f1aef4e0dfd9c3deb9a3389b478b8279cde",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "include/OpenEXR/openexr_config.h",
+        "path_type": "hardlink",
+        "sha256": "c1f8defaf56b7eb6e3f02e64fd7b72de44df5b7f453078745b44f13604be5b60",
+        "sha256_in_prefix": "c1f8defaf56b7eb6e3f02e64fd7b72de44df5b7f453078745b44f13604be5b60",
+        "size_in_bytes": 1092
+      },
+      {
+        "_path": "include/OpenEXR/openexr_context.h",
+        "path_type": "hardlink",
+        "sha256": "55d418b85e64e37085fb3b51af61c2e530ca3562066de98be74ca5bdbebf320c",
+        "sha256_in_prefix": "55d418b85e64e37085fb3b51af61c2e530ca3562066de98be74ca5bdbebf320c",
+        "size_in_bytes": 20197
+      },
+      {
+        "_path": "include/OpenEXR/openexr_debug.h",
+        "path_type": "hardlink",
+        "sha256": "b887e027b84267871b27c0ff5c8a54b9068f891e70be5bb9175568e39b569641",
+        "sha256_in_prefix": "b887e027b84267871b27c0ff5c8a54b9068f891e70be5bb9175568e39b569641",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "include/OpenEXR/openexr_decode.h",
+        "path_type": "hardlink",
+        "sha256": "82989ff8388d5acd59b3cfed9192e3fc889f46c3655731a44dc51326e4ed5fb8",
+        "sha256_in_prefix": "82989ff8388d5acd59b3cfed9192e3fc889f46c3655731a44dc51326e4ed5fb8",
+        "size_in_bytes": 11601
+      },
+      {
+        "_path": "include/OpenEXR/openexr_encode.h",
+        "path_type": "hardlink",
+        "sha256": "ece7b8476d96231cad23505c12b90cd071f2b0497a06a317f7d10d72dd56fb91",
+        "sha256_in_prefix": "ece7b8476d96231cad23505c12b90cd071f2b0497a06a317f7d10d72dd56fb91",
+        "size_in_bytes": 12561
+      },
+      {
+        "_path": "include/OpenEXR/openexr_errors.h",
+        "path_type": "hardlink",
+        "sha256": "b4eff60d9f3e589fe2089624fc4862a8954b3e514b0baca8c47773c8d65d0a79",
+        "sha256_in_prefix": "b4eff60d9f3e589fe2089624fc4862a8954b3e514b0baca8c47773c8d65d0a79",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "include/OpenEXR/openexr_part.h",
+        "path_type": "hardlink",
+        "sha256": "b943c71cd6f6a2600448b930db6512dc1aeba3efdb9c47e8336ec9653970314e",
+        "sha256_in_prefix": "b943c71cd6f6a2600448b930db6512dc1aeba3efdb9c47e8336ec9653970314e",
+        "size_in_bytes": 27778
+      },
+      {
+        "_path": "include/OpenEXR/openexr_std_attr.h",
+        "path_type": "hardlink",
+        "sha256": "3788e8a5a876f35d483997e3e067334eb0220c17e21377a923a20b4dee6b15fb",
+        "sha256_in_prefix": "3788e8a5a876f35d483997e3e067334eb0220c17e21377a923a20b4dee6b15fb",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "include/OpenEXR/openexr_version.h",
+        "path_type": "hardlink",
+        "sha256": "8b8f8e6bad4852a22228590f6fb9d88711b1d493302290147e8725fc38423cf2",
+        "sha256_in_prefix": "8b8f8e6bad4852a22228590f6fb9d88711b1d493302290147e8725fc38423cf2",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/cmake/OpenEXR/OpenEXRConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "409e3e7bb15c5c90b45d24f5d30779f8a2042c1630519d1bad464e83000e4e3c",
+        "sha256_in_prefix": "409e3e7bb15c5c90b45d24f5d30779f8a2042c1630519d1bad464e83000e4e3c",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/cmake/OpenEXR/OpenEXRConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "6cd60a91167ecd69c72723d99c7cb144857560c7f563089c601f2d1d666b04c3",
+        "sha256_in_prefix": "6cd60a91167ecd69c72723d99c7cb144857560c7f563089c601f2d1d666b04c3",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/cmake/OpenEXR/OpenEXRTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "374e51fa8d44f60c7eab79f3339fef53cd1fe1ac9c1bf9965d4192667d45706c",
+        "sha256_in_prefix": "374e51fa8d44f60c7eab79f3339fef53cd1fe1ac9c1bf9965d4192667d45706c",
+        "size_in_bytes": 2966
+      },
+      {
+        "_path": "lib/cmake/OpenEXR/OpenEXRTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "52c17399f9dd801924e8882c9bb9b07f9a4b9e53069aa26aa1e7f25fb6c04d8c",
+        "sha256_in_prefix": "52c17399f9dd801924e8882c9bb9b07f9a4b9e53069aa26aa1e7f25fb6c04d8c",
+        "size_in_bytes": 6559
+      },
+      {
+        "_path": "lib/libIex.31.3.2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "a3d82c0635564f72d48255dd43514986b4e6ac86af9e64a754c896f5bbb3dea2",
+        "sha256_in_prefix": "a3d82c0635564f72d48255dd43514986b4e6ac86af9e64a754c896f5bbb3dea2",
+        "size_in_bytes": 778768
+      },
+      {
+        "_path": "lib/libIex.31.dylib",
+        "path_type": "softlink",
+        "sha256": "a3d82c0635564f72d48255dd43514986b4e6ac86af9e64a754c896f5bbb3dea2",
+        "size_in_bytes": 778768
+      },
+      {
+        "_path": "lib/libIex.dylib",
+        "path_type": "softlink",
+        "sha256": "a3d82c0635564f72d48255dd43514986b4e6ac86af9e64a754c896f5bbb3dea2",
+        "size_in_bytes": 778768
+      },
+      {
+        "_path": "lib/libIlmThread.31.3.2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "de596046b3a2ef8f857e9f61a817a7ab6e199c8f39ebdc9e938f296d69872caa",
+        "sha256_in_prefix": "de596046b3a2ef8f857e9f61a817a7ab6e199c8f39ebdc9e938f296d69872caa",
+        "size_in_bytes": 84608
+      },
+      {
+        "_path": "lib/libIlmThread.31.dylib",
+        "path_type": "softlink",
+        "sha256": "de596046b3a2ef8f857e9f61a817a7ab6e199c8f39ebdc9e938f296d69872caa",
+        "size_in_bytes": 84608
+      },
+      {
+        "_path": "lib/libIlmThread.dylib",
+        "path_type": "softlink",
+        "sha256": "de596046b3a2ef8f857e9f61a817a7ab6e199c8f39ebdc9e938f296d69872caa",
+        "size_in_bytes": 84608
+      },
+      {
+        "_path": "lib/libOpenEXR.31.3.2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "852286b7d03c719e19659a3e6a63b719bd346cf7b368ea5b39bf556469c9c8ac",
+        "sha256_in_prefix": "852286b7d03c719e19659a3e6a63b719bd346cf7b368ea5b39bf556469c9c8ac",
+        "size_in_bytes": 3183040
+      },
+      {
+        "_path": "lib/libOpenEXR.31.dylib",
+        "path_type": "softlink",
+        "sha256": "852286b7d03c719e19659a3e6a63b719bd346cf7b368ea5b39bf556469c9c8ac",
+        "size_in_bytes": 3183040
+      },
+      {
+        "_path": "lib/libOpenEXR.dylib",
+        "path_type": "softlink",
+        "sha256": "852286b7d03c719e19659a3e6a63b719bd346cf7b368ea5b39bf556469c9c8ac",
+        "size_in_bytes": 3183040
+      },
+      {
+        "_path": "lib/libOpenEXRCore.31.3.2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "ae17ca245531ac0965082a2733a095d75013413b505673216ff72e7817c733e6",
+        "sha256_in_prefix": "ae17ca245531ac0965082a2733a095d75013413b505673216ff72e7817c733e6",
+        "size_in_bytes": 2353456
+      },
+      {
+        "_path": "lib/libOpenEXRCore.31.dylib",
+        "path_type": "softlink",
+        "sha256": "ae17ca245531ac0965082a2733a095d75013413b505673216ff72e7817c733e6",
+        "size_in_bytes": 2353456
+      },
+      {
+        "_path": "lib/libOpenEXRCore.dylib",
+        "path_type": "softlink",
+        "sha256": "ae17ca245531ac0965082a2733a095d75013413b505673216ff72e7817c733e6",
+        "size_in_bytes": 2353456
+      },
+      {
+        "_path": "lib/libOpenEXRUtil.31.3.2.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "69bd9cc2e475ae31633fa2dcc5081314246ce17c8895e369c97e35697d7e9624",
+        "sha256_in_prefix": "69bd9cc2e475ae31633fa2dcc5081314246ce17c8895e369c97e35697d7e9624",
+        "size_in_bytes": 247184
+      },
+      {
+        "_path": "lib/libOpenEXRUtil.31.dylib",
+        "path_type": "softlink",
+        "sha256": "69bd9cc2e475ae31633fa2dcc5081314246ce17c8895e369c97e35697d7e9624",
+        "size_in_bytes": 247184
+      },
+      {
+        "_path": "lib/libOpenEXRUtil.dylib",
+        "path_type": "softlink",
+        "sha256": "69bd9cc2e475ae31633fa2dcc5081314246ce17c8895e369c97e35697d7e9624",
+        "size_in_bytes": 247184
+      },
+      {
+        "_path": "lib/pkgconfig/OpenEXR.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/openexr_1726024390560/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "17cc5fbd233f90d015183a7a9171aa06530745bab31a39531de0748b70f1cbb0",
+        "sha256_in_prefix": "d4962f4d37e9fdf81ebcac89f2f765917c317179f5dbc91d45d9984986a370f4",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/deepExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "9de1ee88838a5718e2be674de9e244b4a92f99285b0d94c6ba6cc509d936c4b2",
+        "sha256_in_prefix": "9de1ee88838a5718e2be674de9e244b4a92f99285b0d94c6ba6cc509d936c4b2",
+        "size_in_bytes": 7400
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/deepExamples.h",
+        "path_type": "hardlink",
+        "sha256": "987b6a8a0f6edbb8daf87b81412360a7f5c1a1464a675cd17b92345bcb4e0597",
+        "sha256_in_prefix": "987b6a8a0f6edbb8daf87b81412360a7f5c1a1464a675cd17b92345bcb4e0597",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/deepTiledExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "ce71da4d6d12228ba8e0411e4903d57655e4cd2dc11c361b3e940acdb0f7784b",
+        "sha256_in_prefix": "ce71da4d6d12228ba8e0411e4903d57655e4cd2dc11c361b3e940acdb0f7784b",
+        "size_in_bytes": 8197
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/deepTiledExamples.h",
+        "path_type": "hardlink",
+        "sha256": "30ced3fbb1f209410aaf2cacac248db19117bf0fa9d2d0c074949822fbb672d0",
+        "sha256_in_prefix": "30ced3fbb1f209410aaf2cacac248db19117bf0fa9d2d0c074949822fbb672d0",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/drawImage.cpp",
+        "path_type": "hardlink",
+        "sha256": "86046c63ad0bfe38e989208bef13837437ce8a2932afb0bd122e5b9f80b8b78e",
+        "sha256_in_prefix": "86046c63ad0bfe38e989208bef13837437ce8a2932afb0bd122e5b9f80b8b78e",
+        "size_in_bytes": 10254
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/drawImage.h",
+        "path_type": "hardlink",
+        "sha256": "ae8def3a11e95743b2b1d3aba24c082fefef68d211022978061b0ecbdf55b7e7",
+        "sha256_in_prefix": "ae8def3a11e95743b2b1d3aba24c082fefef68d211022978061b0ecbdf55b7e7",
+        "size_in_bytes": 1679
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/generalInterfaceExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "3811b7817f701f7652be1da71b2fd7fb9102c7d648bb3c1d71f388c78b594fb0",
+        "sha256_in_prefix": "3811b7817f701f7652be1da71b2fd7fb9102c7d648bb3c1d71f388c78b594fb0",
+        "size_in_bytes": 8031
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/generalInterfaceExamples.h",
+        "path_type": "hardlink",
+        "sha256": "9ad31755241c3525e441e4f7e4601c9c7ba89938532353d44990a40a466b8400",
+        "sha256_in_prefix": "9ad31755241c3525e441e4f7e4601c9c7ba89938532353d44990a40a466b8400",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/generalInterfaceTiledExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "bd47074b4d9c60e5aed38634ec6b91c427c42132580626aa1944adc6505d4cff",
+        "sha256_in_prefix": "bd47074b4d9c60e5aed38634ec6b91c427c42132580626aa1944adc6505d4cff",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/generalInterfaceTiledExamples.h",
+        "path_type": "hardlink",
+        "sha256": "60c31221f96e65aa347bf565539116a1a0b6cd63e26e6a9420b339d0e0e95b80",
+        "sha256_in_prefix": "60c31221f96e65aa347bf565539116a1a0b6cd63e26e6a9420b339d0e0e95b80",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/lowLevelIoExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "a35bb0ec8839dfcf39fc7c798bc320803dba14975884a22d2c554aac52ed9d99",
+        "sha256_in_prefix": "a35bb0ec8839dfcf39fc7c798bc320803dba14975884a22d2c554aac52ed9d99",
+        "size_in_bytes": 5730
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/lowLevelIoExamples.h",
+        "path_type": "hardlink",
+        "sha256": "7e4a1a7dc9ab33b781cc1db42734a52c3fa66e913dcb2906552dcaa359897fb5",
+        "sha256_in_prefix": "7e4a1a7dc9ab33b781cc1db42734a52c3fa66e913dcb2906552dcaa359897fb5",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/main.cpp",
+        "path_type": "hardlink",
+        "sha256": "233032d40aaa9e202206abefef62dfc1c154037e298681d6ad40a583bbad1d93",
+        "sha256_in_prefix": "233032d40aaa9e202206abefef62dfc1c154037e298681d6ad40a583bbad1d93",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/multipartExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "2b04e65bc6242a05a7c8d412f5c6c03b118486cda57cbdcc7b8a0c66acc3da06",
+        "sha256_in_prefix": "2b04e65bc6242a05a7c8d412f5c6c03b118486cda57cbdcc7b8a0c66acc3da06",
+        "size_in_bytes": 16023
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/multipartExamples.h",
+        "path_type": "hardlink",
+        "sha256": "4874ff54ae8f01f162e4172f9f941bd73a2282e31285c160fa74061d52c46c26",
+        "sha256_in_prefix": "4874ff54ae8f01f162e4172f9f941bd73a2282e31285c160fa74061d52c46c26",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/namespaceAlias.h",
+        "path_type": "hardlink",
+        "sha256": "80fe958a1da79f1af3aa66e3258002a41c80ab60eca1c0f45e3947c6342662f5",
+        "sha256_in_prefix": "80fe958a1da79f1af3aa66e3258002a41c80ab60eca1c0f45e3947c6342662f5",
+        "size_in_bytes": 253
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/previewImageExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "58df136fc03590d49e02342ec7404704bac4fb9641fdf07b5a4ba4f95eadc903",
+        "sha256_in_prefix": "58df136fc03590d49e02342ec7404704bac4fb9641fdf07b5a4ba4f95eadc903",
+        "size_in_bytes": 5286
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/previewImageExamples.h",
+        "path_type": "hardlink",
+        "sha256": "0e0fdaa15981d4c6ac701a3fb060a9d4aa2df84991ef270d017492f0bc435896",
+        "sha256_in_prefix": "0e0fdaa15981d4c6ac701a3fb060a9d4aa2df84991ef270d017492f0bc435896",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/rgbaInterfaceExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "3814df851630afc052863fc999dc80c8147d329fc3d57133569632e6501e798d",
+        "sha256_in_prefix": "3814df851630afc052863fc999dc80c8147d329fc3d57133569632e6501e798d",
+        "size_in_bytes": 5892
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/rgbaInterfaceExamples.h",
+        "path_type": "hardlink",
+        "sha256": "6e4df6c5abcdfb88e34fc10996a28648cb63b252dfa5a20100e8d287cc6b7e94",
+        "sha256_in_prefix": "6e4df6c5abcdfb88e34fc10996a28648cb63b252dfa5a20100e8d287cc6b7e94",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.cpp",
+        "path_type": "hardlink",
+        "sha256": "228ebc303157dea681f5c796f9bbe50c325836df8a46a9b240e473d9acd76345",
+        "sha256_in_prefix": "228ebc303157dea681f5c796f9bbe50c325836df8a46a9b240e473d9acd76345",
+        "size_in_bytes": 9601
+      },
+      {
+        "_path": "share/doc/OpenEXR/examples/rgbaInterfaceTiledExamples.h",
+        "path_type": "hardlink",
+        "sha256": "a5023ff3ac11dedffe7e9209aa1a0135dbc1e796e551ec2111c9e331269f001b",
+        "sha256_in_prefix": "a5023ff3ac11dedffe7e9209aa1a0135dbc1e796e551ec2111c9e331269f001b",
+        "size_in_bytes": 138
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5317b63c63fb57f0de109dcecb38ffb8ff05747eaee90b6771697dec198f5c8d",
+  "size": 1248482,
+  "subdir": "osx-arm64",
+  "timestamp": 1726024848000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/openexr-3.2.2-hab01212_2.conda",
+  "version": "3.2.2"
+}

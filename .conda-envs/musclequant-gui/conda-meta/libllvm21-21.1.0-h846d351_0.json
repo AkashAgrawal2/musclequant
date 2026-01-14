@@ -1,0 +1,68 @@
+{
+  "build": "h846d351_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=19",
+    "libxml2 >=2.13.8,<2.14.0a0",
+    "libzlib >=1.3.1,<2.0a0",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libllvm21-21.1.0-h846d351_0",
+  "files": [
+    "lib/libLLVM-21.dylib",
+    "lib/libLLVM.21.1.dylib",
+    "lib/libLTO.21.1.dylib",
+    "lib/libRemarks.21.1.dylib"
+  ],
+  "fn": "libllvm21-21.1.0-h846d351_0.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libllvm21-21.1.0-h846d351_0",
+    "type": 1
+  },
+  "md5": "a8ec02cc70f4c56b5daaa5be62943065",
+  "name": "libllvm21",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libllvm21-21.1.0-h846d351_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-21.dylib",
+        "path_type": "softlink",
+        "sha256": "69e17c2407ea155f08560a1e6268930e4838d1e5fdd644c74cdbbd662770fdc2",
+        "size_in_bytes": 140207680
+      },
+      {
+        "_path": "lib/libLLVM.21.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "69e17c2407ea155f08560a1e6268930e4838d1e5fdd644c74cdbbd662770fdc2",
+        "sha256_in_prefix": "69e17c2407ea155f08560a1e6268930e4838d1e5fdd644c74cdbbd662770fdc2",
+        "size_in_bytes": 140207680
+      },
+      {
+        "_path": "lib/libLTO.21.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "7b5605c2bb37eff2d043a46d2be05de989a285f1db4d0aa600a057bbfe650e0d",
+        "sha256_in_prefix": "7b5605c2bb37eff2d043a46d2be05de989a285f1db4d0aa600a057bbfe650e0d",
+        "size_in_bytes": 104208
+      },
+      {
+        "_path": "lib/libRemarks.21.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "4248d9d91f9da335cb5348cdf6cfada6c02f919eddef429c6e8f4d99c41da9cc",
+        "sha256_in_prefix": "4248d9d91f9da335cb5348cdf6cfada6c02f919eddef429c6e8f4d99c41da9cc",
+        "size_in_bytes": 17920
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4b22efda81b517da3f54dc138fd03a9f9807bdbc8911273777ae0182aab0b115",
+  "size": 29414704,
+  "subdir": "osx-arm64",
+  "timestamp": 1756282753000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libllvm21-21.1.0-h846d351_0.conda",
+  "version": "21.1.0"
+}

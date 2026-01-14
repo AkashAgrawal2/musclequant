@@ -1,0 +1,2807 @@
+{
+  "build": "hce30654_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libopentelemetry-cpp-headers-1.16.1-hce30654_0",
+  "files": [
+    "include/opentelemetry/baggage/baggage.h",
+    "include/opentelemetry/baggage/baggage_context.h",
+    "include/opentelemetry/baggage/propagation/baggage_propagator.h",
+    "include/opentelemetry/common/attribute_value.h",
+    "include/opentelemetry/common/key_value_iterable.h",
+    "include/opentelemetry/common/key_value_iterable_view.h",
+    "include/opentelemetry/common/kv_properties.h",
+    "include/opentelemetry/common/macros.h",
+    "include/opentelemetry/common/spin_lock_mutex.h",
+    "include/opentelemetry/common/string_util.h",
+    "include/opentelemetry/common/timestamp.h",
+    "include/opentelemetry/config.h",
+    "include/opentelemetry/context/context.h",
+    "include/opentelemetry/context/context_value.h",
+    "include/opentelemetry/context/propagation/composite_propagator.h",
+    "include/opentelemetry/context/propagation/global_propagator.h",
+    "include/opentelemetry/context/propagation/noop_propagator.h",
+    "include/opentelemetry/context/propagation/text_map_propagator.h",
+    "include/opentelemetry/context/runtime_context.h",
+    "include/opentelemetry/detail/preprocessor.h",
+    "include/opentelemetry/exporters/memory/in_memory_data.h",
+    "include/opentelemetry/exporters/memory/in_memory_span_data.h",
+    "include/opentelemetry/exporters/memory/in_memory_span_exporter.h",
+    "include/opentelemetry/exporters/memory/in_memory_span_exporter_factory.h",
+    "include/opentelemetry/exporters/ostream/common_utils.h",
+    "include/opentelemetry/exporters/ostream/log_record_exporter.h",
+    "include/opentelemetry/exporters/ostream/log_record_exporter_factory.h",
+    "include/opentelemetry/exporters/ostream/metric_exporter.h",
+    "include/opentelemetry/exporters/ostream/metric_exporter_factory.h",
+    "include/opentelemetry/exporters/ostream/span_exporter.h",
+    "include/opentelemetry/exporters/ostream/span_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_environment.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_client.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_client_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_client.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_client_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_grpc_utils.h",
+    "include/opentelemetry/exporters/otlp/otlp_http.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_client.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter_factory.h",
+    "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter_options.h",
+    "include/opentelemetry/exporters/otlp/otlp_log_recordable.h",
+    "include/opentelemetry/exporters/otlp/otlp_metric_utils.h",
+    "include/opentelemetry/exporters/otlp/otlp_populate_attribute_utils.h",
+    "include/opentelemetry/exporters/otlp/otlp_preferred_temporality.h",
+    "include/opentelemetry/exporters/otlp/otlp_recordable.h",
+    "include/opentelemetry/exporters/otlp/otlp_recordable_utils.h",
+    "include/opentelemetry/exporters/otlp/protobuf_include_prefix.h",
+    "include/opentelemetry/exporters/otlp/protobuf_include_suffix.h",
+    "include/opentelemetry/exporters/prometheus/collector.h",
+    "include/opentelemetry/exporters/prometheus/exporter.h",
+    "include/opentelemetry/exporters/prometheus/exporter_factory.h",
+    "include/opentelemetry/exporters/prometheus/exporter_options.h",
+    "include/opentelemetry/exporters/prometheus/exporter_utils.h",
+    "include/opentelemetry/exporters/zipkin/zipkin_exporter.h",
+    "include/opentelemetry/exporters/zipkin/zipkin_exporter_factory.h",
+    "include/opentelemetry/exporters/zipkin/zipkin_exporter_options.h",
+    "include/opentelemetry/ext/http/client/curl/http_client_curl.h",
+    "include/opentelemetry/ext/http/client/curl/http_operation_curl.h",
+    "include/opentelemetry/ext/http/client/http_client.h",
+    "include/opentelemetry/ext/http/client/http_client_factory.h",
+    "include/opentelemetry/ext/http/common/url_parser.h",
+    "include/opentelemetry/ext/http/server/file_http_server.h",
+    "include/opentelemetry/ext/http/server/http_server.h",
+    "include/opentelemetry/ext/http/server/socket_tools.h",
+    "include/opentelemetry/logs/event_id.h",
+    "include/opentelemetry/logs/event_logger.h",
+    "include/opentelemetry/logs/event_logger_provider.h",
+    "include/opentelemetry/logs/log_record.h",
+    "include/opentelemetry/logs/logger.h",
+    "include/opentelemetry/logs/logger_provider.h",
+    "include/opentelemetry/logs/logger_type_traits.h",
+    "include/opentelemetry/logs/noop.h",
+    "include/opentelemetry/logs/provider.h",
+    "include/opentelemetry/logs/severity.h",
+    "include/opentelemetry/metrics/async_instruments.h",
+    "include/opentelemetry/metrics/meter.h",
+    "include/opentelemetry/metrics/meter_provider.h",
+    "include/opentelemetry/metrics/noop.h",
+    "include/opentelemetry/metrics/observer_result.h",
+    "include/opentelemetry/metrics/provider.h",
+    "include/opentelemetry/metrics/sync_instruments.h",
+    "include/opentelemetry/nostd/detail/all.h",
+    "include/opentelemetry/nostd/detail/decay.h",
+    "include/opentelemetry/nostd/detail/dependent_type.h",
+    "include/opentelemetry/nostd/detail/functional.h",
+    "include/opentelemetry/nostd/detail/invoke.h",
+    "include/opentelemetry/nostd/detail/trait.h",
+    "include/opentelemetry/nostd/detail/type_pack_element.h",
+    "include/opentelemetry/nostd/detail/valueless.h",
+    "include/opentelemetry/nostd/detail/variant_alternative.h",
+    "include/opentelemetry/nostd/detail/variant_fwd.h",
+    "include/opentelemetry/nostd/detail/variant_size.h",
+    "include/opentelemetry/nostd/detail/void.h",
+    "include/opentelemetry/nostd/function_ref.h",
+    "include/opentelemetry/nostd/internal/absl/base/attributes.h",
+    "include/opentelemetry/nostd/internal/absl/base/config.h",
+    "include/opentelemetry/nostd/internal/absl/base/internal/identity.h",
+    "include/opentelemetry/nostd/internal/absl/base/internal/inline_variable.h",
+    "include/opentelemetry/nostd/internal/absl/base/internal/invoke.h",
+    "include/opentelemetry/nostd/internal/absl/base/macros.h",
+    "include/opentelemetry/nostd/internal/absl/base/optimization.h",
+    "include/opentelemetry/nostd/internal/absl/base/options.h",
+    "include/opentelemetry/nostd/internal/absl/base/policy_checks.h",
+    "include/opentelemetry/nostd/internal/absl/base/port.h",
+    "include/opentelemetry/nostd/internal/absl/meta/type_traits.h",
+    "include/opentelemetry/nostd/internal/absl/types/bad_variant_access.h",
+    "include/opentelemetry/nostd/internal/absl/types/internal/variant.h",
+    "include/opentelemetry/nostd/internal/absl/types/variant.h",
+    "include/opentelemetry/nostd/internal/absl/utility/utility.h",
+    "include/opentelemetry/nostd/shared_ptr.h",
+    "include/opentelemetry/nostd/span.h",
+    "include/opentelemetry/nostd/string_view.h",
+    "include/opentelemetry/nostd/type_traits.h",
+    "include/opentelemetry/nostd/unique_ptr.h",
+    "include/opentelemetry/nostd/utility.h",
+    "include/opentelemetry/nostd/variant.h",
+    "include/opentelemetry/plugin/detail/dynamic_library_handle.h",
+    "include/opentelemetry/plugin/detail/dynamic_load_unix.h",
+    "include/opentelemetry/plugin/detail/dynamic_load_windows.h",
+    "include/opentelemetry/plugin/detail/loader_info.h",
+    "include/opentelemetry/plugin/detail/tracer_handle.h",
+    "include/opentelemetry/plugin/detail/utility.h",
+    "include/opentelemetry/plugin/dynamic_load.h",
+    "include/opentelemetry/plugin/factory.h",
+    "include/opentelemetry/plugin/hook.h",
+    "include/opentelemetry/plugin/tracer.h",
+    "include/opentelemetry/proto/collector/logs/v1/logs_service.grpc.pb.h",
+    "include/opentelemetry/proto/collector/logs/v1/logs_service.pb.h",
+    "include/opentelemetry/proto/collector/logs/v1/logs_service_mock.grpc.pb.h",
+    "include/opentelemetry/proto/collector/metrics/v1/metrics_service.grpc.pb.h",
+    "include/opentelemetry/proto/collector/metrics/v1/metrics_service.pb.h",
+    "include/opentelemetry/proto/collector/metrics/v1/metrics_service_mock.grpc.pb.h",
+    "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service.grpc.pb.h",
+    "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service.pb.h",
+    "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service_mock.grpc.pb.h",
+    "include/opentelemetry/proto/collector/trace/v1/trace_service.grpc.pb.h",
+    "include/opentelemetry/proto/collector/trace/v1/trace_service.pb.h",
+    "include/opentelemetry/proto/collector/trace/v1/trace_service_mock.grpc.pb.h",
+    "include/opentelemetry/proto/common/v1/common.grpc.pb.h",
+    "include/opentelemetry/proto/common/v1/common.pb.h",
+    "include/opentelemetry/proto/common/v1/common_mock.grpc.pb.h",
+    "include/opentelemetry/proto/logs/v1/logs.grpc.pb.h",
+    "include/opentelemetry/proto/logs/v1/logs.pb.h",
+    "include/opentelemetry/proto/logs/v1/logs_mock.grpc.pb.h",
+    "include/opentelemetry/proto/metrics/v1/metrics.grpc.pb.h",
+    "include/opentelemetry/proto/metrics/v1/metrics.pb.h",
+    "include/opentelemetry/proto/metrics/v1/metrics_mock.grpc.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/pprofextended.grpc.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/pprofextended.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/pprofextended_mock.grpc.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/profiles.grpc.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/profiles.pb.h",
+    "include/opentelemetry/proto/profiles/v1experimental/profiles_mock.grpc.pb.h",
+    "include/opentelemetry/proto/resource/v1/resource.grpc.pb.h",
+    "include/opentelemetry/proto/resource/v1/resource.pb.h",
+    "include/opentelemetry/proto/resource/v1/resource_mock.grpc.pb.h",
+    "include/opentelemetry/proto/trace/v1/trace.grpc.pb.h",
+    "include/opentelemetry/proto/trace/v1/trace.pb.h",
+    "include/opentelemetry/proto/trace/v1/trace_mock.grpc.pb.h",
+    "include/opentelemetry/sdk/common/atomic_shared_ptr.h",
+    "include/opentelemetry/sdk/common/atomic_unique_ptr.h",
+    "include/opentelemetry/sdk/common/attribute_utils.h",
+    "include/opentelemetry/sdk/common/attributemap_hash.h",
+    "include/opentelemetry/sdk/common/base64.h",
+    "include/opentelemetry/sdk/common/circular_buffer.h",
+    "include/opentelemetry/sdk/common/circular_buffer_range.h",
+    "include/opentelemetry/sdk/common/empty_attributes.h",
+    "include/opentelemetry/sdk/common/env_variables.h",
+    "include/opentelemetry/sdk/common/exporter_utils.h",
+    "include/opentelemetry/sdk/common/global_log_handler.h",
+    "include/opentelemetry/sdk/instrumentationlibrary/instrumentation_library.h",
+    "include/opentelemetry/sdk/instrumentationscope/instrumentation_scope.h",
+    "include/opentelemetry/sdk/logs/batch_log_record_processor.h",
+    "include/opentelemetry/sdk/logs/batch_log_record_processor_factory.h",
+    "include/opentelemetry/sdk/logs/batch_log_record_processor_options.h",
+    "include/opentelemetry/sdk/logs/event_logger.h",
+    "include/opentelemetry/sdk/logs/event_logger_provider.h",
+    "include/opentelemetry/sdk/logs/event_logger_provider_factory.h",
+    "include/opentelemetry/sdk/logs/exporter.h",
+    "include/opentelemetry/sdk/logs/logger.h",
+    "include/opentelemetry/sdk/logs/logger_context.h",
+    "include/opentelemetry/sdk/logs/logger_context_factory.h",
+    "include/opentelemetry/sdk/logs/logger_provider.h",
+    "include/opentelemetry/sdk/logs/logger_provider_factory.h",
+    "include/opentelemetry/sdk/logs/multi_log_record_processor.h",
+    "include/opentelemetry/sdk/logs/multi_log_record_processor_factory.h",
+    "include/opentelemetry/sdk/logs/multi_recordable.h",
+    "include/opentelemetry/sdk/logs/processor.h",
+    "include/opentelemetry/sdk/logs/read_write_log_record.h",
+    "include/opentelemetry/sdk/logs/readable_log_record.h",
+    "include/opentelemetry/sdk/logs/recordable.h",
+    "include/opentelemetry/sdk/logs/simple_log_record_processor.h",
+    "include/opentelemetry/sdk/logs/simple_log_record_processor_factory.h",
+    "include/opentelemetry/sdk/metrics/aggregation/aggregation.h",
+    "include/opentelemetry/sdk/metrics/aggregation/aggregation_config.h",
+    "include/opentelemetry/sdk/metrics/aggregation/base2_exponential_histogram_indexer.h",
+    "include/opentelemetry/sdk/metrics/aggregation/default_aggregation.h",
+    "include/opentelemetry/sdk/metrics/aggregation/drop_aggregation.h",
+    "include/opentelemetry/sdk/metrics/aggregation/histogram_aggregation.h",
+    "include/opentelemetry/sdk/metrics/aggregation/lastvalue_aggregation.h",
+    "include/opentelemetry/sdk/metrics/aggregation/sum_aggregation.h",
+    "include/opentelemetry/sdk/metrics/async_instruments.h",
+    "include/opentelemetry/sdk/metrics/data/circular_buffer.h",
+    "include/opentelemetry/sdk/metrics/data/exemplar_data.h",
+    "include/opentelemetry/sdk/metrics/data/metric_data.h",
+    "include/opentelemetry/sdk/metrics/data/point_data.h",
+    "include/opentelemetry/sdk/metrics/exemplar/aligned_histogram_bucket_exemplar_reservoir.h",
+    "include/opentelemetry/sdk/metrics/exemplar/filter_type.h",
+    "include/opentelemetry/sdk/metrics/exemplar/fixed_size_exemplar_reservoir.h",
+    "include/opentelemetry/sdk/metrics/exemplar/no_exemplar_reservoir.h",
+    "include/opentelemetry/sdk/metrics/exemplar/reservoir.h",
+    "include/opentelemetry/sdk/metrics/exemplar/reservoir_cell.h",
+    "include/opentelemetry/sdk/metrics/exemplar/reservoir_cell_selector.h",
+    "include/opentelemetry/sdk/metrics/exemplar/reservoir_utils.h",
+    "include/opentelemetry/sdk/metrics/exemplar/simple_fixed_size_exemplar_reservoir.h",
+    "include/opentelemetry/sdk/metrics/export/metric_producer.h",
+    "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader.h",
+    "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader_factory.h",
+    "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader_options.h",
+    "include/opentelemetry/sdk/metrics/instrument_metadata_validator.h",
+    "include/opentelemetry/sdk/metrics/instruments.h",
+    "include/opentelemetry/sdk/metrics/meter.h",
+    "include/opentelemetry/sdk/metrics/meter_context.h",
+    "include/opentelemetry/sdk/metrics/meter_context_factory.h",
+    "include/opentelemetry/sdk/metrics/meter_provider.h",
+    "include/opentelemetry/sdk/metrics/meter_provider_factory.h",
+    "include/opentelemetry/sdk/metrics/metric_reader.h",
+    "include/opentelemetry/sdk/metrics/observer_result.h",
+    "include/opentelemetry/sdk/metrics/push_metric_exporter.h",
+    "include/opentelemetry/sdk/metrics/state/async_metric_storage.h",
+    "include/opentelemetry/sdk/metrics/state/attributes_hashmap.h",
+    "include/opentelemetry/sdk/metrics/state/filtered_ordered_attribute_map.h",
+    "include/opentelemetry/sdk/metrics/state/metric_collector.h",
+    "include/opentelemetry/sdk/metrics/state/metric_storage.h",
+    "include/opentelemetry/sdk/metrics/state/multi_metric_storage.h",
+    "include/opentelemetry/sdk/metrics/state/observable_registry.h",
+    "include/opentelemetry/sdk/metrics/state/sync_metric_storage.h",
+    "include/opentelemetry/sdk/metrics/state/temporal_metric_storage.h",
+    "include/opentelemetry/sdk/metrics/sync_instruments.h",
+    "include/opentelemetry/sdk/metrics/view/attributes_processor.h",
+    "include/opentelemetry/sdk/metrics/view/instrument_selector.h",
+    "include/opentelemetry/sdk/metrics/view/instrument_selector_factory.h",
+    "include/opentelemetry/sdk/metrics/view/meter_selector.h",
+    "include/opentelemetry/sdk/metrics/view/meter_selector_factory.h",
+    "include/opentelemetry/sdk/metrics/view/predicate.h",
+    "include/opentelemetry/sdk/metrics/view/predicate_factory.h",
+    "include/opentelemetry/sdk/metrics/view/view.h",
+    "include/opentelemetry/sdk/metrics/view/view_factory.h",
+    "include/opentelemetry/sdk/metrics/view/view_registry.h",
+    "include/opentelemetry/sdk/metrics/view/view_registry_factory.h",
+    "include/opentelemetry/sdk/resource/resource.h",
+    "include/opentelemetry/sdk/resource/resource_detector.h",
+    "include/opentelemetry/sdk/resource/semantic_conventions.h",
+    "include/opentelemetry/sdk/trace/batch_span_processor.h",
+    "include/opentelemetry/sdk/trace/batch_span_processor_factory.h",
+    "include/opentelemetry/sdk/trace/batch_span_processor_options.h",
+    "include/opentelemetry/sdk/trace/exporter.h",
+    "include/opentelemetry/sdk/trace/id_generator.h",
+    "include/opentelemetry/sdk/trace/multi_recordable.h",
+    "include/opentelemetry/sdk/trace/multi_span_processor.h",
+    "include/opentelemetry/sdk/trace/processor.h",
+    "include/opentelemetry/sdk/trace/random_id_generator.h",
+    "include/opentelemetry/sdk/trace/random_id_generator_factory.h",
+    "include/opentelemetry/sdk/trace/recordable.h",
+    "include/opentelemetry/sdk/trace/sampler.h",
+    "include/opentelemetry/sdk/trace/samplers/always_off.h",
+    "include/opentelemetry/sdk/trace/samplers/always_off_factory.h",
+    "include/opentelemetry/sdk/trace/samplers/always_on.h",
+    "include/opentelemetry/sdk/trace/samplers/always_on_factory.h",
+    "include/opentelemetry/sdk/trace/samplers/parent.h",
+    "include/opentelemetry/sdk/trace/samplers/parent_factory.h",
+    "include/opentelemetry/sdk/trace/samplers/trace_id_ratio.h",
+    "include/opentelemetry/sdk/trace/samplers/trace_id_ratio_factory.h",
+    "include/opentelemetry/sdk/trace/simple_processor.h",
+    "include/opentelemetry/sdk/trace/simple_processor_factory.h",
+    "include/opentelemetry/sdk/trace/span_data.h",
+    "include/opentelemetry/sdk/trace/tracer.h",
+    "include/opentelemetry/sdk/trace/tracer_context.h",
+    "include/opentelemetry/sdk/trace/tracer_context_factory.h",
+    "include/opentelemetry/sdk/trace/tracer_provider.h",
+    "include/opentelemetry/sdk/trace/tracer_provider_factory.h",
+    "include/opentelemetry/sdk/version/version.h",
+    "include/opentelemetry/sdk_config.h",
+    "include/opentelemetry/std/shared_ptr.h",
+    "include/opentelemetry/std/span.h",
+    "include/opentelemetry/std/string_view.h",
+    "include/opentelemetry/std/type_traits.h",
+    "include/opentelemetry/std/unique_ptr.h",
+    "include/opentelemetry/std/utility.h",
+    "include/opentelemetry/std/variant.h",
+    "include/opentelemetry/trace/context.h",
+    "include/opentelemetry/trace/default_span.h",
+    "include/opentelemetry/trace/noop.h",
+    "include/opentelemetry/trace/propagation/b3_propagator.h",
+    "include/opentelemetry/trace/propagation/detail/hex.h",
+    "include/opentelemetry/trace/propagation/detail/string.h",
+    "include/opentelemetry/trace/propagation/http_trace_context.h",
+    "include/opentelemetry/trace/propagation/jaeger.h",
+    "include/opentelemetry/trace/provider.h",
+    "include/opentelemetry/trace/scope.h",
+    "include/opentelemetry/trace/semantic_conventions.h",
+    "include/opentelemetry/trace/span.h",
+    "include/opentelemetry/trace/span_context.h",
+    "include/opentelemetry/trace/span_context_kv_iterable.h",
+    "include/opentelemetry/trace/span_context_kv_iterable_view.h",
+    "include/opentelemetry/trace/span_id.h",
+    "include/opentelemetry/trace/span_metadata.h",
+    "include/opentelemetry/trace/span_startoptions.h",
+    "include/opentelemetry/trace/trace_flags.h",
+    "include/opentelemetry/trace/trace_id.h",
+    "include/opentelemetry/trace/trace_state.h",
+    "include/opentelemetry/trace/tracer.h",
+    "include/opentelemetry/trace/tracer_provider.h",
+    "include/opentelemetry/version.h",
+    "lib/pkgconfig/opentelemetry_api.pc",
+    "lib/pkgconfig/opentelemetry_common.pc",
+    "lib/pkgconfig/opentelemetry_logs.pc",
+    "lib/pkgconfig/opentelemetry_metrics.pc",
+    "lib/pkgconfig/opentelemetry_resources.pc",
+    "lib/pkgconfig/opentelemetry_trace.pc",
+    "lib/pkgconfig/opentelemetry_version.pc"
+  ],
+  "fn": "libopentelemetry-cpp-headers-1.16.1-hce30654_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libopentelemetry-cpp-headers-1.16.1-hce30654_0",
+    "type": 1
+  },
+  "md5": "2d3122478ef15ab9267d065d3b6d176b",
+  "name": "libopentelemetry-cpp-headers",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libopentelemetry-cpp-headers-1.16.1-hce30654_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/opentelemetry/baggage/baggage.h",
+        "path_type": "hardlink",
+        "sha256": "04c8a2917e75acddc384215f871c226bc199569d15cc6bb1e75d8a429310037f",
+        "sha256_in_prefix": "04c8a2917e75acddc384215f871c226bc199569d15cc6bb1e75d8a429310037f",
+        "size_in_bytes": 8796
+      },
+      {
+        "_path": "include/opentelemetry/baggage/baggage_context.h",
+        "path_type": "hardlink",
+        "sha256": "26f40e92456adbb6739fae4631b2778936307ec671011f7b93abac58a176f9c0",
+        "sha256_in_prefix": "26f40e92456adbb6739fae4631b2778936307ec671011f7b93abac58a176f9c0",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "include/opentelemetry/baggage/propagation/baggage_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "9751924a6c3cd5dbf2474fd8d1691ddd41368833929995e3774639816037eb71",
+        "sha256_in_prefix": "9751924a6c3cd5dbf2474fd8d1691ddd41368833929995e3774639816037eb71",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "include/opentelemetry/common/attribute_value.h",
+        "path_type": "hardlink",
+        "sha256": "d9c578c590ecd55ad7d31bb9d93a7b83b3fd1cd449770619e9f16ab82cccbd2e",
+        "sha256_in_prefix": "d9c578c590ecd55ad7d31bb9d93a7b83b3fd1cd449770619e9f16ab82cccbd2e",
+        "size_in_bytes": 2737
+      },
+      {
+        "_path": "include/opentelemetry/common/key_value_iterable.h",
+        "path_type": "hardlink",
+        "sha256": "f35699ff9acef9bf15bba57388220f91a955937f0628d7731ad9fd4e915916d4",
+        "sha256_in_prefix": "f35699ff9acef9bf15bba57388220f91a955937f0628d7731ad9fd4e915916d4",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "include/opentelemetry/common/key_value_iterable_view.h",
+        "path_type": "hardlink",
+        "sha256": "e7f8f7406c73525f1281f819838db469f731effe763f99adbcff5cd6d633ac02",
+        "sha256_in_prefix": "e7f8f7406c73525f1281f819838db469f731effe763f99adbcff5cd6d633ac02",
+        "size_in_bytes": 4588
+      },
+      {
+        "_path": "include/opentelemetry/common/kv_properties.h",
+        "path_type": "hardlink",
+        "sha256": "40599c411a542800403cdfc0384db72668f34330dd0f41e0d9f3beb227cf8c53",
+        "sha256_in_prefix": "40599c411a542800403cdfc0384db72668f34330dd0f41e0d9f3beb227cf8c53",
+        "size_in_bytes": 7394
+      },
+      {
+        "_path": "include/opentelemetry/common/macros.h",
+        "path_type": "hardlink",
+        "sha256": "b3a7d7fc59d7bfa1cb9f59d2911d1c2922aa2eb8530a6415683fc6604c21f143",
+        "sha256_in_prefix": "b3a7d7fc59d7bfa1cb9f59d2911d1c2922aa2eb8530a6415683fc6604c21f143",
+        "size_in_bytes": 15841
+      },
+      {
+        "_path": "include/opentelemetry/common/spin_lock_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "8e71e96926a198ef9ea8d87cda2776b83beb6966f5585df3bdb8151a6eaf306c",
+        "sha256_in_prefix": "8e71e96926a198ef9ea8d87cda2776b83beb6966f5585df3bdb8151a6eaf306c",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "include/opentelemetry/common/string_util.h",
+        "path_type": "hardlink",
+        "sha256": "8512d940c54bd065f0155475493ce01f1bda8dacf5795f3f4375b5319d8e4d3a",
+        "sha256_in_prefix": "8512d940c54bd065f0155475493ce01f1bda8dacf5795f3f4375b5319d8e4d3a",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "include/opentelemetry/common/timestamp.h",
+        "path_type": "hardlink",
+        "sha256": "127c900bafd0228f1aeaa301b215f99d963e1a2612dad78c0310aa44428ddeed",
+        "sha256_in_prefix": "127c900bafd0228f1aeaa301b215f99d963e1a2612dad78c0310aa44428ddeed",
+        "size_in_bytes": 5995
+      },
+      {
+        "_path": "include/opentelemetry/config.h",
+        "path_type": "hardlink",
+        "sha256": "1791a9199e3950b7eda587e6c14400d303773265c34856fa5d486bf025932047",
+        "sha256_in_prefix": "1791a9199e3950b7eda587e6c14400d303773265c34856fa5d486bf025932047",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "include/opentelemetry/context/context.h",
+        "path_type": "hardlink",
+        "sha256": "1d5492882b836716998b538d4aa671b622121fcdf4d5cef8cee9a8544f877819",
+        "sha256_in_prefix": "1d5492882b836716998b538d4aa671b622121fcdf4d5cef8cee9a8544f877819",
+        "size_in_bytes": 4542
+      },
+      {
+        "_path": "include/opentelemetry/context/context_value.h",
+        "path_type": "hardlink",
+        "sha256": "7fddffa6b3b1bc4393b9dd1b6dd884caaaf9c63c2a0cdaa5dfb0981f2bb61277",
+        "sha256_in_prefix": "7fddffa6b3b1bc4393b9dd1b6dd884caaaf9c63c2a0cdaa5dfb0981f2bb61277",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "include/opentelemetry/context/propagation/composite_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "468626319b5ffaf278d612411c48151ae697f304177fee21830ecd3ea8265fff",
+        "sha256_in_prefix": "468626319b5ffaf278d612411c48151ae697f304177fee21830ecd3ea8265fff",
+        "size_in_bytes": 2482
+      },
+      {
+        "_path": "include/opentelemetry/context/propagation/global_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "3e19ca70b182e891997350c930f26eaf561ab4153821c0017f1d6c5c0dd4f120",
+        "sha256_in_prefix": "3e19ca70b182e891997350c930f26eaf561ab4153821c0017f1d6c5c0dd4f120",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "include/opentelemetry/context/propagation/noop_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "05e64bd0cc209433a9ee480e2e526748009147da59586d0e08cd04044c837c58",
+        "sha256_in_prefix": "05e64bd0cc209433a9ee480e2e526748009147da59586d0e08cd04044c837c58",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "include/opentelemetry/context/propagation/text_map_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "105c8b07287d127b04ed3d557f8d00bffeec65bbfc332e8256cb144cc33bc157",
+        "sha256_in_prefix": "105c8b07287d127b04ed3d557f8d00bffeec65bbfc332e8256cb144cc33bc157",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "include/opentelemetry/context/runtime_context.h",
+        "path_type": "hardlink",
+        "sha256": "e1c9cdf46e7c70a67780ca42e21e9062f0959328755b51e6515b5b0b25e4958e",
+        "sha256_in_prefix": "e1c9cdf46e7c70a67780ca42e21e9062f0959328755b51e6515b5b0b25e4958e",
+        "size_in_bytes": 9516
+      },
+      {
+        "_path": "include/opentelemetry/detail/preprocessor.h",
+        "path_type": "hardlink",
+        "sha256": "e65b85a5cc60aa4f1e07f4134680fc95b8161a88fcde5e86157acf1f2155a49b",
+        "sha256_in_prefix": "e65b85a5cc60aa4f1e07f4134680fc95b8161a88fcde5e86157acf1f2155a49b",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "include/opentelemetry/exporters/memory/in_memory_data.h",
+        "path_type": "hardlink",
+        "sha256": "7986a5b6b4849f79898f1f7f68e0482461ddc57147e1d3ed2eaabfc39ad4e319",
+        "sha256_in_prefix": "7986a5b6b4849f79898f1f7f68e0482461ddc57147e1d3ed2eaabfc39ad4e319",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "include/opentelemetry/exporters/memory/in_memory_span_data.h",
+        "path_type": "hardlink",
+        "sha256": "bc6926007604b8ced8eff3fe5d8f06821e0eb6cb947e65b2a823d277674728bc",
+        "sha256_in_prefix": "bc6926007604b8ced8eff3fe5d8f06821e0eb6cb947e65b2a823d277674728bc",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "include/opentelemetry/exporters/memory/in_memory_span_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "d9218682e26bfc521b26d10f2fbab297848202fe5fbc266f22eea8e9c107e405",
+        "sha256_in_prefix": "d9218682e26bfc521b26d10f2fbab297848202fe5fbc266f22eea8e9c107e405",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "include/opentelemetry/exporters/memory/in_memory_span_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "d1c67555227f965ca6aade84a84f3c98c5664a9277a5f06da9530360b6da8071",
+        "sha256_in_prefix": "d1c67555227f965ca6aade84a84f3c98c5664a9277a5f06da9530360b6da8071",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/common_utils.h",
+        "path_type": "hardlink",
+        "sha256": "b5bc31fefc9ba90f3ddb51946ef9ce136b9fda1ea25a0f355b5b9831dbba1d05",
+        "sha256_in_prefix": "b5bc31fefc9ba90f3ddb51946ef9ce136b9fda1ea25a0f355b5b9831dbba1d05",
+        "size_in_bytes": 2950
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/log_record_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "f386ab845e817d63aa685adba427ea0c5eca15c9a3f2daaadf37ee9b0f2c901d",
+        "sha256_in_prefix": "f386ab845e817d63aa685adba427ea0c5eca15c9a3f2daaadf37ee9b0f2c901d",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/log_record_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "93c45ae88fc9fe09e41c3231c4fe78ce92a21055762d72f605232b2018047177",
+        "sha256_in_prefix": "93c45ae88fc9fe09e41c3231c4fe78ce92a21055762d72f605232b2018047177",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/metric_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "29ca31eeb33b652a28490d388f3d8fad57ffc2a15e90d55c59f88db0eae0bc32",
+        "sha256_in_prefix": "29ca31eeb33b652a28490d388f3d8fad57ffc2a15e90d55c59f88db0eae0bc32",
+        "size_in_bytes": 3009
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/metric_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "b875c66d26667ff2751066bf3225aaaeb19f14b301c816e47fb06d99a3d6084c",
+        "sha256_in_prefix": "b875c66d26667ff2751066bf3225aaaeb19f14b301c816e47fb06d99a3d6084c",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/span_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "169e347f9a01eee35f28b20ff9f63075cf413412a15c1e88ff75cf219cd4acb1",
+        "sha256_in_prefix": "169e347f9a01eee35f28b20ff9f63075cf413412a15c1e88ff75cf219cd4acb1",
+        "size_in_bytes": 2813
+      },
+      {
+        "_path": "include/opentelemetry/exporters/ostream/span_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "e9f9a8e9e0d3562fd28b8fad135d0945867d7e6310887c8398f1ff0829bc4197",
+        "sha256_in_prefix": "e9f9a8e9e0d3562fd28b8fad135d0945867d7e6310887c8398f1ff0829bc4197",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_environment.h",
+        "path_type": "hardlink",
+        "sha256": "244ac99e5e8e49a4877b0c1b93d20281535160c4e725926d25b743dd360e9bc7",
+        "sha256_in_prefix": "244ac99e5e8e49a4877b0c1b93d20281535160c4e725926d25b743dd360e9bc7",
+        "size_in_bytes": 4652
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_client.h",
+        "path_type": "hardlink",
+        "sha256": "35eadf1d4f364edc06fba58470c56e7a4bc498d83e8b78a2ddc43c271cf6a510",
+        "sha256_in_prefix": "35eadf1d4f364edc06fba58470c56e7a4bc498d83e8b78a2ddc43c271cf6a510",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_client_options.h",
+        "path_type": "hardlink",
+        "sha256": "cacf8415e6ba4326c89bc1940213d6811198bebe990ceb963bf40f7b8adc6289",
+        "sha256_in_prefix": "cacf8415e6ba4326c89bc1940213d6811198bebe990ceb963bf40f7b8adc6289",
+        "size_in_bytes": 3118
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "5f703cdb0df2b51900fd71bf2ed1090d2a973395b2efcd57854781f44986bf9e",
+        "sha256_in_prefix": "5f703cdb0df2b51900fd71bf2ed1090d2a973395b2efcd57854781f44986bf9e",
+        "size_in_bytes": 2301
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "93200750954a278520e16676cf0ef81ca03a6d67d2e5d06a91bc05cb8aeb57de",
+        "sha256_in_prefix": "93200750954a278520e16676cf0ef81ca03a6d67d2e5d06a91bc05cb8aeb57de",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "8cd49c76a66f13fb2fbc59071ed72a0aba0950dd6efe41df87efcb19912bf896",
+        "sha256_in_prefix": "8cd49c76a66f13fb2fbc59071ed72a0aba0950dd6efe41df87efcb19912bf896",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "e46556a31e38e592c953deeb64aadfcaad0a98f22ce6ed98cb21c155d1007180",
+        "sha256_in_prefix": "e46556a31e38e592c953deeb64aadfcaad0a98f22ce6ed98cb21c155d1007180",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "3c73e3b6efa171cdb0eb8bce5813d0e75480b71e33818d91e38f376cbca8bc84",
+        "sha256_in_prefix": "3c73e3b6efa171cdb0eb8bce5813d0e75480b71e33818d91e38f376cbca8bc84",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_log_record_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "f77bc3663b17c7dc4321c5ec738f984bad993e00c5c4f48cd278151f8aa6ed47",
+        "sha256_in_prefix": "f77bc3663b17c7dc4321c5ec738f984bad993e00c5c4f48cd278151f8aa6ed47",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "9cd83bc10673a4c0055a16106f78e803f9e71157a0f949f1f3098dcd84e4b35a",
+        "sha256_in_prefix": "9cd83bc10673a4c0055a16106f78e803f9e71157a0f949f1f3098dcd84e4b35a",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "6296b82e669e8c60e5996f4ceb7c8dddbcba3e5a60e6592c6b5380006e708788",
+        "sha256_in_prefix": "6296b82e669e8c60e5996f4ceb7c8dddbcba3e5a60e6592c6b5380006e708788",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_file_metric_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "7c0f90d5311e0ceb52a0e501d16c82c805e344eb5f038b0304b1e3a7131463f5",
+        "sha256_in_prefix": "7c0f90d5311e0ceb52a0e501d16c82c805e344eb5f038b0304b1e3a7131463f5",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_client.h",
+        "path_type": "hardlink",
+        "sha256": "e1e51cc8d7f896fd5decd196e9ec235ebfd0d3eac0d8e578db05d7605ec32d17",
+        "sha256_in_prefix": "e1e51cc8d7f896fd5decd196e9ec235ebfd0d3eac0d8e578db05d7605ec32d17",
+        "size_in_bytes": 7178
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_client_options.h",
+        "path_type": "hardlink",
+        "sha256": "a55c41f898352f58998e350656baa9a87967739e853622bc4093a8fc7a7c34cd",
+        "sha256_in_prefix": "a55c41f898352f58998e350656baa9a87967739e853622bc4093a8fc7a7c34cd",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "acee12c87b8df33d2a457fc2c4e55e34345728a5b19e37476f0aa043e7a2226c",
+        "sha256_in_prefix": "acee12c87b8df33d2a457fc2c4e55e34345728a5b19e37476f0aa043e7a2226c",
+        "size_in_bytes": 2949
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "d40df7471b2b632827b68191be759603fb4078c52603198316e37bdb11b0b947",
+        "sha256_in_prefix": "d40df7471b2b632827b68191be759603fb4078c52603198316e37bdb11b0b947",
+        "size_in_bytes": 821
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "792d9f0163fd3c9dee9005bf91074e84612c66d1b393c90b57b5dafa078963b7",
+        "sha256_in_prefix": "792d9f0163fd3c9dee9005bf91074e84612c66d1b393c90b57b5dafa078963b7",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "bac1c4fbec9838f6987d321342c83b54604d8610084fe62827c5807deb547445",
+        "sha256_in_prefix": "bac1c4fbec9838f6987d321342c83b54604d8610084fe62827c5807deb547445",
+        "size_in_bytes": 3176
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "bb549f4e85df8493dc15e1e5a2e61957bad4df4ea672432a3ee9baa410bfcb83",
+        "sha256_in_prefix": "bb549f4e85df8493dc15e1e5a2e61957bad4df4ea672432a3ee9baa410bfcb83",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_log_record_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "7dceedacce20fcc7d32085dd7703d9335fbbe7b427477e54c4c1a5bd1b01d738",
+        "sha256_in_prefix": "7dceedacce20fcc7d32085dd7703d9335fbbe7b427477e54c4c1a5bd1b01d738",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "b7ad8eea173705e5cccc3298124e97c40d73267da0b4e10e552f9e7385c20322",
+        "sha256_in_prefix": "b7ad8eea173705e5cccc3298124e97c40d73267da0b4e10e552f9e7385c20322",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "125ba9e237097e30966a01ec73959f9b794abf966d22d19d31113028f228b3e9",
+        "sha256_in_prefix": "125ba9e237097e30966a01ec73959f9b794abf966d22d19d31113028f228b3e9",
+        "size_in_bytes": 817
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_metric_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "7c8437958499fa9f6317d98c6e1ed4cfc232d6bf76015576e01e7bc7cef52ec7",
+        "sha256_in_prefix": "7c8437958499fa9f6317d98c6e1ed4cfc232d6bf76015576e01e7bc7cef52ec7",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_grpc_utils.h",
+        "path_type": "hardlink",
+        "sha256": "ac71e6368d47b4e90ad3f4f7cb17f5ed1119856ea9258413bf989f55350c6553",
+        "sha256_in_prefix": "ac71e6368d47b4e90ad3f4f7cb17f5ed1119856ea9258413bf989f55350c6553",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http.h",
+        "path_type": "hardlink",
+        "sha256": "95c3af685ea94d0c78b7729a8f4772941316a8f3ba5563af2bc5c4b3adb7b91f",
+        "sha256_in_prefix": "95c3af685ea94d0c78b7729a8f4772941316a8f3ba5563af2bc5c4b3adb7b91f",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_client.h",
+        "path_type": "hardlink",
+        "sha256": "40771e9b52b3d5c87c2657fda29618b2e6658f774b063af03dd58cddc5aa4768",
+        "sha256_in_prefix": "40771e9b52b3d5c87c2657fda29618b2e6658f774b063af03dd58cddc5aa4768",
+        "size_in_bytes": 10667
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "c4929ad14b90aaa2e5ef0acff1c4eff105bd7cfb3b57d92fc63c00063311b4b0",
+        "sha256_in_prefix": "c4929ad14b90aaa2e5ef0acff1c4eff105bd7cfb3b57d92fc63c00063311b4b0",
+        "size_in_bytes": 2641
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "3d3682acf724c66dfc20ffaad52b45a919d97a3b9358db7116397408eaea0627",
+        "sha256_in_prefix": "3d3682acf724c66dfc20ffaad52b45a919d97a3b9358db7116397408eaea0627",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "546215636787152c2f4153c65a234785243df4731f169d6d05035bd146b8be68",
+        "sha256_in_prefix": "546215636787152c2f4153c65a234785243df4731f169d6d05035bd146b8be68",
+        "size_in_bytes": 2396
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "0f05d0362c39a7971941922470c3440aa6e0d6f2e7600c9bc54472efaeb5a732",
+        "sha256_in_prefix": "0f05d0362c39a7971941922470c3440aa6e0d6f2e7600c9bc54472efaeb5a732",
+        "size_in_bytes": 2843
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "643c4b4859fdea6ddc431230898bc905e2a3cdf4056a503b238e4daa6edc819c",
+        "sha256_in_prefix": "643c4b4859fdea6ddc431230898bc905e2a3cdf4056a503b238e4daa6edc819c",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_log_record_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "4d4a07fafbf1ca282f40e43565fc32162bdad77196142d51c836af84f646f7d4",
+        "sha256_in_prefix": "4d4a07fafbf1ca282f40e43565fc32162bdad77196142d51c836af84f646f7d4",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "16353c6ac9349f5bc514a9dc95ebecf92b0deea64b0ae32c3020ddd681aab232",
+        "sha256_in_prefix": "16353c6ac9349f5bc514a9dc95ebecf92b0deea64b0ae32c3020ddd681aab232",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "e7d507f2be73864672d189dccdc9abdea725492ad16bae4c74af956798c74991",
+        "sha256_in_prefix": "e7d507f2be73864672d189dccdc9abdea725492ad16bae4c74af956798c74991",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_http_metric_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "cdece19db07f09345a8c004e8751e545c3503cd6f5f9714e7cd5360fe9ef4e43",
+        "sha256_in_prefix": "cdece19db07f09345a8c004e8751e545c3503cd6f5f9714e7cd5360fe9ef4e43",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_log_recordable.h",
+        "path_type": "hardlink",
+        "sha256": "20b437764ae0699fb9df6e9e5efee6bbe0af297605edae138dd4907c5ae6af1e",
+        "sha256_in_prefix": "20b437764ae0699fb9df6e9e5efee6bbe0af297605edae138dd4907c5ae6af1e",
+        "size_in_bytes": 3939
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_metric_utils.h",
+        "path_type": "hardlink",
+        "sha256": "8bd49888d87b9132f6158beab727b16bdc4c6b6dcc726d33bf368417fa121498",
+        "sha256_in_prefix": "8bd49888d87b9132f6158beab727b16bdc4c6b6dcc726d33bf368417fa121498",
+        "size_in_bytes": 3106
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_populate_attribute_utils.h",
+        "path_type": "hardlink",
+        "sha256": "c13e53b4ed16f135e9861985b9de4a1978d2cf83665ac7b81296e12c1d8e439d",
+        "sha256_in_prefix": "c13e53b4ed16f135e9861985b9de4a1978d2cf83665ac7b81296e12c1d8e439d",
+        "size_in_bytes": 1866
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_preferred_temporality.h",
+        "path_type": "hardlink",
+        "sha256": "c632446673eb77532eca6e883cfcdbdc972a7b2c0998f7f46506d70886fe9de4",
+        "sha256_in_prefix": "c632446673eb77532eca6e883cfcdbdc972a7b2c0998f7f46506d70886fe9de4",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_recordable.h",
+        "path_type": "hardlink",
+        "sha256": "0909890c23996ccde59c56c0ae46a0150913415a763cfb0883ca4f2b5ba81dbd",
+        "sha256_in_prefix": "0909890c23996ccde59c56c0ae46a0150913415a763cfb0883ca4f2b5ba81dbd",
+        "size_in_bytes": 3699
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/otlp_recordable_utils.h",
+        "path_type": "hardlink",
+        "sha256": "2a5dc356cec7cc5359c9003467fab9d05ff5c6ea067a5667c403c6da30be113d",
+        "sha256_in_prefix": "2a5dc356cec7cc5359c9003467fab9d05ff5c6ea067a5667c403c6da30be113d",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/protobuf_include_prefix.h",
+        "path_type": "hardlink",
+        "sha256": "14feb1b9b09ae990cf802a3729d0fc81ece933266ef4639e10b9930512d28d96",
+        "sha256_in_prefix": "14feb1b9b09ae990cf802a3729d0fc81ece933266ef4639e10b9930512d28d96",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "include/opentelemetry/exporters/otlp/protobuf_include_suffix.h",
+        "path_type": "hardlink",
+        "sha256": "e15309724d83aa59b82dd176df1d2ac29b0de96e7055efd25bb2f59a24a2c905",
+        "sha256_in_prefix": "e15309724d83aa59b82dd176df1d2ac29b0de96e7055efd25bb2f59a24a2c905",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "include/opentelemetry/exporters/prometheus/collector.h",
+        "path_type": "hardlink",
+        "sha256": "5b1bac7a49978fe5d608cf2d1910eae2301bd2971c98893d18a74c55c88c8deb",
+        "sha256_in_prefix": "5b1bac7a49978fe5d608cf2d1910eae2301bd2971c98893d18a74c55c88c8deb",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "include/opentelemetry/exporters/prometheus/exporter.h",
+        "path_type": "hardlink",
+        "sha256": "ce91e7434a97c430e353420c89c1e8e4d9902a4ed06b157a97169435a1feec4a",
+        "sha256_in_prefix": "ce91e7434a97c430e353420c89c1e8e4d9902a4ed06b157a97169435a1feec4a",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "include/opentelemetry/exporters/prometheus/exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "6f5b8b3de1ea4bbc183c9979eeeb44f9c21c2230d2fbc4d310dab0af5482a928",
+        "sha256_in_prefix": "6f5b8b3de1ea4bbc183c9979eeeb44f9c21c2230d2fbc4d310dab0af5482a928",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "include/opentelemetry/exporters/prometheus/exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "752d7fa2064f10be314e15387cb5abca559232eb44af3766aa4598bfe5449956",
+        "sha256_in_prefix": "752d7fa2064f10be314e15387cb5abca559232eb44af3766aa4598bfe5449956",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "include/opentelemetry/exporters/prometheus/exporter_utils.h",
+        "path_type": "hardlink",
+        "sha256": "56b73d5a61b61cff4569e2a78ebae5973fd95ae3f552a9398e86354ea7ce594e",
+        "sha256_in_prefix": "56b73d5a61b61cff4569e2a78ebae5973fd95ae3f552a9398e86354ea7ce594e",
+        "size_in_bytes": 8982
+      },
+      {
+        "_path": "include/opentelemetry/exporters/zipkin/zipkin_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "4f01be327179ef2ca20c5c3b0aadfc15a9a91c3e0d59eeb6f51548a8e1bc4b33",
+        "sha256_in_prefix": "4f01be327179ef2ca20c5c3b0aadfc15a9a91c3e0d59eeb6f51548a8e1bc4b33",
+        "size_in_bytes": 2842
+      },
+      {
+        "_path": "include/opentelemetry/exporters/zipkin/zipkin_exporter_factory.h",
+        "path_type": "hardlink",
+        "sha256": "e9fb2d467735b5cc17682c354eaa3522d57a4e4224f4864a67cccddceb7a28da",
+        "sha256_in_prefix": "e9fb2d467735b5cc17682c354eaa3522d57a4e4224f4864a67cccddceb7a28da",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "include/opentelemetry/exporters/zipkin/zipkin_exporter_options.h",
+        "path_type": "hardlink",
+        "sha256": "7b3adc3f83871d398acf67b9c0d64a9b74216b8fd26897c9a85e64ed2120f3fc",
+        "sha256_in_prefix": "7b3adc3f83871d398acf67b9c0d64a9b74216b8fd26897c9a85e64ed2120f3fc",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/client/curl/http_client_curl.h",
+        "path_type": "hardlink",
+        "sha256": "2153ba4fd88a532ecbd4f80f13bea2f7d4973d32938ccd3917deaa9a1dbf62c1",
+        "sha256_in_prefix": "2153ba4fd88a532ecbd4f80f13bea2f7d4973d32938ccd3917deaa9a1dbf62c1",
+        "size_in_bytes": 11543
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/client/curl/http_operation_curl.h",
+        "path_type": "hardlink",
+        "sha256": "2177e4bb2b73e248c3932e8c233672a123fee2166554ad7f25b26d5c1d8d2c96",
+        "sha256_in_prefix": "2177e4bb2b73e248c3932e8c233672a123fee2166554ad7f25b26d5c1d8d2c96",
+        "size_in_bytes": 9309
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/client/http_client.h",
+        "path_type": "hardlink",
+        "sha256": "913bec33865f95e02ecb1dc03668fea699b8a6bc4c45195328e1a9b71d194d36",
+        "sha256_in_prefix": "913bec33865f95e02ecb1dc03668fea699b8a6bc4c45195328e1a9b71d194d36",
+        "size_in_bytes": 10516
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/client/http_client_factory.h",
+        "path_type": "hardlink",
+        "sha256": "e79f8d2cf732120d4009248b6884be34a6c75f104774689e9816fdeb32665795",
+        "sha256_in_prefix": "e79f8d2cf732120d4009248b6884be34a6c75f104774689e9816fdeb32665795",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/common/url_parser.h",
+        "path_type": "hardlink",
+        "sha256": "79fe39179c2bc47f55b5484a2a9bca1e691e8f48f29d2e75223eec8486e89905",
+        "sha256_in_prefix": "79fe39179c2bc47f55b5484a2a9bca1e691e8f48f29d2e75223eec8486e89905",
+        "size_in_bytes": 4069
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/server/file_http_server.h",
+        "path_type": "hardlink",
+        "sha256": "e7fd48444b6884b622123d0b39be4fd1bcaa116281a7ce13966fd9949f391147",
+        "sha256_in_prefix": "e7fd48444b6884b622123d0b39be4fd1bcaa116281a7ce13966fd9949f391147",
+        "size_in_bytes": 5167
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/server/http_server.h",
+        "path_type": "hardlink",
+        "sha256": "bfaa6e2a799f9d1675c4601028a445d1b7d95879c80e1a218cf8cfc409d76ea7",
+        "sha256_in_prefix": "bfaa6e2a799f9d1675c4601028a445d1b7d95879c80e1a218cf8cfc409d76ea7",
+        "size_in_bytes": 23075
+      },
+      {
+        "_path": "include/opentelemetry/ext/http/server/socket_tools.h",
+        "path_type": "hardlink",
+        "sha256": "7984ee2bd7ef7e3540d91ee5b9faa899e7f0b66394a5037224495a23db3a9383",
+        "sha256_in_prefix": "7984ee2bd7ef7e3540d91ee5b9faa899e7f0b66394a5037224495a23db3a9383",
+        "size_in_bytes": 20609
+      },
+      {
+        "_path": "include/opentelemetry/logs/event_id.h",
+        "path_type": "hardlink",
+        "sha256": "7aecf8e0d13ec9ac696ce8244642c7d6d6e2d5b7ece21a9445f90ea02f6dbefe",
+        "sha256_in_prefix": "7aecf8e0d13ec9ac696ce8244642c7d6d6e2d5b7ece21a9445f90ea02f6dbefe",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "include/opentelemetry/logs/event_logger.h",
+        "path_type": "hardlink",
+        "sha256": "135677a103b9cbf803535e8d4b5b1a7c3efde31b6d7b77acb116784833006ee3",
+        "sha256_in_prefix": "135677a103b9cbf803535e8d4b5b1a7c3efde31b6d7b77acb116784833006ee3",
+        "size_in_bytes": 2686
+      },
+      {
+        "_path": "include/opentelemetry/logs/event_logger_provider.h",
+        "path_type": "hardlink",
+        "sha256": "56d78291186213ded0d76f3fde8631ddb084d5270a080f114072d7c03ed22641",
+        "sha256_in_prefix": "56d78291186213ded0d76f3fde8631ddb084d5270a080f114072d7c03ed22641",
+        "size_in_bytes": 702
+      },
+      {
+        "_path": "include/opentelemetry/logs/log_record.h",
+        "path_type": "hardlink",
+        "sha256": "4908c5bc8c3b5a4ff0c294eb48183c15e91ff66a7676478d1876d7a56242ab82",
+        "sha256_in_prefix": "4908c5bc8c3b5a4ff0c294eb48183c15e91ff66a7676478d1876d7a56242ab82",
+        "size_in_bytes": 2340
+      },
+      {
+        "_path": "include/opentelemetry/logs/logger.h",
+        "path_type": "hardlink",
+        "sha256": "75e4a6d13606717e81ea74af5e81e609876c4f57d38f142248ef88eeda1d512d",
+        "sha256_in_prefix": "75e4a6d13606717e81ea74af5e81e609876c4f57d38f142248ef88eeda1d512d",
+        "size_in_bytes": 17796
+      },
+      {
+        "_path": "include/opentelemetry/logs/logger_provider.h",
+        "path_type": "hardlink",
+        "sha256": "d84a728be8550f62c706320b412e76078150529a96702ae81b3bbaaf1476c33b",
+        "sha256_in_prefix": "d84a728be8550f62c706320b412e76078150529a96702ae81b3bbaaf1476c33b",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "include/opentelemetry/logs/logger_type_traits.h",
+        "path_type": "hardlink",
+        "sha256": "0e01e7b9826278582da9e36037df9cbd419513195c4cf6c9de2a938d72e2a00b",
+        "sha256_in_prefix": "0e01e7b9826278582da9e36037df9cbd419513195c4cf6c9de2a938d72e2a00b",
+        "size_in_bytes": 5653
+      },
+      {
+        "_path": "include/opentelemetry/logs/noop.h",
+        "path_type": "hardlink",
+        "sha256": "c65037028278f9512d43dd3d9d795952017df16eeb6cad91c27c7b6146d60aaf",
+        "sha256_in_prefix": "c65037028278f9512d43dd3d9d795952017df16eeb6cad91c27c7b6146d60aaf",
+        "size_in_bytes": 4209
+      },
+      {
+        "_path": "include/opentelemetry/logs/provider.h",
+        "path_type": "hardlink",
+        "sha256": "7fab0ed31d8e5eacc6714d34c0ac9ad5da2696dbafdf33091ff7061048beac11",
+        "sha256_in_prefix": "7fab0ed31d8e5eacc6714d34c0ac9ad5da2696dbafdf33091ff7061048beac11",
+        "size_in_bytes": 2405
+      },
+      {
+        "_path": "include/opentelemetry/logs/severity.h",
+        "path_type": "hardlink",
+        "sha256": "278354b2d5bcd8cc3b44bdcb9bd621d84bab502a9581c86875fcba7ba57854e0",
+        "sha256_in_prefix": "278354b2d5bcd8cc3b44bdcb9bd621d84bab502a9581c86875fcba7ba57854e0",
+        "size_in_bytes": 1676
+      },
+      {
+        "_path": "include/opentelemetry/metrics/async_instruments.h",
+        "path_type": "hardlink",
+        "sha256": "bfb7966e7e2346234fd4b016035bdbf33e8aca7dcc5de22491c9ea3d7f5bedf8",
+        "sha256_in_prefix": "bfb7966e7e2346234fd4b016035bdbf33e8aca7dcc5de22491c9ea3d7f5bedf8",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "include/opentelemetry/metrics/meter.h",
+        "path_type": "hardlink",
+        "sha256": "62ff97356e9ccc138cd178085c44e9846ab361587085bab0f1458f25495d15d5",
+        "sha256_in_prefix": "62ff97356e9ccc138cd178085c44e9846ab361587085bab0f1458f25495d15d5",
+        "size_in_bytes": 5728
+      },
+      {
+        "_path": "include/opentelemetry/metrics/meter_provider.h",
+        "path_type": "hardlink",
+        "sha256": "ef94c84bd2a17cf7f5e33b1fc172ac1313c57533a213ea1d454527053428ef3a",
+        "sha256_in_prefix": "ef94c84bd2a17cf7f5e33b1fc172ac1313c57533a213ea1d454527053428ef3a",
+        "size_in_bytes": 4948
+      },
+      {
+        "_path": "include/opentelemetry/metrics/noop.h",
+        "path_type": "hardlink",
+        "sha256": "1fcd39f48202485f4c2950e8cddd86ed9d050382227d3b231c2fe66437879d64",
+        "sha256_in_prefix": "1fcd39f48202485f4c2950e8cddd86ed9d050382227d3b231c2fe66437879d64",
+        "size_in_bytes": 7980
+      },
+      {
+        "_path": "include/opentelemetry/metrics/observer_result.h",
+        "path_type": "hardlink",
+        "sha256": "36dc05224a8a9616972bc2b486677bb059d0532b60d42e2e915b8d52a0a7dd9d",
+        "sha256_in_prefix": "36dc05224a8a9616972bc2b486677bb059d0532b60d42e2e915b8d52a0a7dd9d",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "include/opentelemetry/metrics/provider.h",
+        "path_type": "hardlink",
+        "sha256": "9ed5cee074278557547d92e53bb021b0d850d43278b5dd77e8af2280bbad1295",
+        "sha256_in_prefix": "9ed5cee074278557547d92e53bb021b0d850d43278b5dd77e8af2280bbad1295",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "include/opentelemetry/metrics/sync_instruments.h",
+        "path_type": "hardlink",
+        "sha256": "6827768abe19d6f69dd501b6797fdfb10a103451c0adb59eadad7d9a3d9b7791",
+        "sha256_in_prefix": "6827768abe19d6f69dd501b6797fdfb10a103451c0adb59eadad7d9a3d9b7791",
+        "size_in_bytes": 8217
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/all.h",
+        "path_type": "hardlink",
+        "sha256": "2febc12636c6ae3f1db1b83e64d3f494ff5cc87b964ddc44d7fa3a95f3843870",
+        "sha256_in_prefix": "2febc12636c6ae3f1db1b83e64d3f494ff5cc87b964ddc44d7fa3a95f3843870",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/decay.h",
+        "path_type": "hardlink",
+        "sha256": "aa79d555b46d159fbc627780bcf4a2a5c3d66319c3092637189ef155b43d8893",
+        "sha256_in_prefix": "aa79d555b46d159fbc627780bcf4a2a5c3d66319c3092637189ef155b43d8893",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/dependent_type.h",
+        "path_type": "hardlink",
+        "sha256": "87d30479f964c89993c08b54d4dfded796b5d5e218c1befa844c946a8fc4c8b5",
+        "sha256_in_prefix": "87d30479f964c89993c08b54d4dfded796b5d5e218c1befa844c946a8fc4c8b5",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/functional.h",
+        "path_type": "hardlink",
+        "sha256": "e9431d68fe8a8544657d7a3608f3626ed703aa211940a167f1b290019cc0ef61",
+        "sha256_in_prefix": "e9431d68fe8a8544657d7a3608f3626ed703aa211940a167f1b290019cc0ef61",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/invoke.h",
+        "path_type": "hardlink",
+        "sha256": "1b91c0cbfb2944f48d2b97bdf73f5fef326dc075d5783ca181869dbfe8957df1",
+        "sha256_in_prefix": "1b91c0cbfb2944f48d2b97bdf73f5fef326dc075d5783ca181869dbfe8957df1",
+        "size_in_bytes": 5039
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/trait.h",
+        "path_type": "hardlink",
+        "sha256": "d98d739978f8f9117fefcc714265547eb03d223a25ae2685eb58f1c27a1732e2",
+        "sha256_in_prefix": "d98d739978f8f9117fefcc714265547eb03d223a25ae2685eb58f1c27a1732e2",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/type_pack_element.h",
+        "path_type": "hardlink",
+        "sha256": "5451dbae39e6cc8f663d4b67311b61c74364592e29e5c83b2c184152d92db046",
+        "sha256_in_prefix": "5451dbae39e6cc8f663d4b67311b61c74364592e29e5c83b2c184152d92db046",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/valueless.h",
+        "path_type": "hardlink",
+        "sha256": "b89cadab0a5b0299adb8f7269664338aaf505414a6b3a7784c08f1761b797f9b",
+        "sha256_in_prefix": "b89cadab0a5b0299adb8f7269664338aaf505414a6b3a7784c08f1761b797f9b",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/variant_alternative.h",
+        "path_type": "hardlink",
+        "sha256": "0cf06c4e2439dccba842d8113738862e7d7d91610e3255ee708c4af9d9e35451",
+        "sha256_in_prefix": "0cf06c4e2439dccba842d8113738862e7d7d91610e3255ee708c4af9d9e35451",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/variant_fwd.h",
+        "path_type": "hardlink",
+        "sha256": "294f16f4adc23d8ceace4e72be365b7966e39139a426d68bdbd28e703dea66b6",
+        "sha256_in_prefix": "294f16f4adc23d8ceace4e72be365b7966e39139a426d68bdbd28e703dea66b6",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/variant_size.h",
+        "path_type": "hardlink",
+        "sha256": "08210ec3d0b52e7f9041add86331039f480170874e20f8b503fd10926d242574",
+        "sha256_in_prefix": "08210ec3d0b52e7f9041add86331039f480170874e20f8b503fd10926d242574",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "include/opentelemetry/nostd/detail/void.h",
+        "path_type": "hardlink",
+        "sha256": "aff15271fa5f527b8262271e9d0017888c59b5337d18c56abe4029354e3bf1c2",
+        "sha256_in_prefix": "aff15271fa5f527b8262271e9d0017888c59b5337d18c56abe4029354e3bf1c2",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "include/opentelemetry/nostd/function_ref.h",
+        "path_type": "hardlink",
+        "sha256": "3da608492310fe0e523646462cd4281862e9d6dabaabbd379900ed263dc8b7e9",
+        "sha256_in_prefix": "3da608492310fe0e523646462cd4281862e9d6dabaabbd379900ed263dc8b7e9",
+        "size_in_bytes": 2546
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/attributes.h",
+        "path_type": "hardlink",
+        "sha256": "cf8ab888548572d4fa8cb98b56b03d6c9653e9b89ffd38cb310209fd7eea05ad",
+        "sha256_in_prefix": "cf8ab888548572d4fa8cb98b56b03d6c9653e9b89ffd38cb310209fd7eea05ad",
+        "size_in_bytes": 24884
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/config.h",
+        "path_type": "hardlink",
+        "sha256": "9cca07605e9fbf099e9526bb4abbb3e821b4177491d4f6ac1f4022e558a3cec5",
+        "sha256_in_prefix": "9cca07605e9fbf099e9526bb4abbb3e821b4177491d4f6ac1f4022e558a3cec5",
+        "size_in_bytes": 26237
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/internal/identity.h",
+        "path_type": "hardlink",
+        "sha256": "5a575af60c67ac888f6e9dba65f0bde9faf65c2c0dd978700245fd902917f4d6",
+        "sha256_in_prefix": "5a575af60c67ac888f6e9dba65f0bde9faf65c2c0dd978700245fd902917f4d6",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/internal/inline_variable.h",
+        "path_type": "hardlink",
+        "sha256": "6c2eacede1d8553faa65f7d44a28fab6ca1e09263424fe25ffc0d7042ed3a4d4",
+        "sha256_in_prefix": "6c2eacede1d8553faa65f7d44a28fab6ca1e09263424fe25ffc0d7042ed3a4d4",
+        "size_in_bytes": 4895
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/internal/invoke.h",
+        "path_type": "hardlink",
+        "sha256": "7c76cab9a407f238bdb881577fee9108c192e76ca51a5ee420fa97f0fc0858fb",
+        "sha256_in_prefix": "7c76cab9a407f238bdb881577fee9108c192e76ca51a5ee420fa97f0fc0858fb",
+        "size_in_bytes": 7696
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/macros.h",
+        "path_type": "hardlink",
+        "sha256": "8819bbf0a2c1799c6bb4b8e20bda11fc5b18e1386c5897c3968fafb47a26ea52",
+        "sha256_in_prefix": "8819bbf0a2c1799c6bb4b8e20bda11fc5b18e1386c5897c3968fafb47a26ea52",
+        "size_in_bytes": 7969
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/optimization.h",
+        "path_type": "hardlink",
+        "sha256": "a0ef3891475a22c1103def334a2d59c45215893f375f6a6270a3da08e2fc5b1e",
+        "sha256_in_prefix": "a0ef3891475a22c1103def334a2d59c45215893f375f6a6270a3da08e2fc5b1e",
+        "size_in_bytes": 7049
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/options.h",
+        "path_type": "hardlink",
+        "sha256": "d78ec821efc757eb8534c126ee57c5ff1d24735dc13872a4229262d36eae7666",
+        "sha256_in_prefix": "d78ec821efc757eb8534c126ee57c5ff1d24735dc13872a4229262d36eae7666",
+        "size_in_bytes": 10308
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/policy_checks.h",
+        "path_type": "hardlink",
+        "sha256": "b99f825175920daeb6c618daa758ff280d0b5a321869cb8baf8e4fe46bfcbe2a",
+        "sha256_in_prefix": "b99f825175920daeb6c618daa758ff280d0b5a321869cb8baf8e4fe46bfcbe2a",
+        "size_in_bytes": 4361
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/base/port.h",
+        "path_type": "hardlink",
+        "sha256": "d7ffad881437c5fc01b0e65ad56aab0b49470b9313c7807035181957b9122593",
+        "sha256_in_prefix": "d7ffad881437c5fc01b0e65ad56aab0b49470b9313c7807035181957b9122593",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/meta/type_traits.h",
+        "path_type": "hardlink",
+        "sha256": "d7ad2d309123de370c2237a60acd0ed9cb38634caa48582ee2a87c3c7a5d4e57",
+        "sha256_in_prefix": "d7ad2d309123de370c2237a60acd0ed9cb38634caa48582ee2a87c3c7a5d4e57",
+        "size_in_bytes": 31269
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/types/bad_variant_access.h",
+        "path_type": "hardlink",
+        "sha256": "23596c256d687deb48850f2c6940918331094821c68336a59bc4f39356b39b42",
+        "sha256_in_prefix": "23596c256d687deb48850f2c6940918331094821c68336a59bc4f39356b39b42",
+        "size_in_bytes": 2846
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/types/internal/variant.h",
+        "path_type": "hardlink",
+        "sha256": "969a752f91eaf85c06f4dc466fce1dfa129489c93c837051fe44d0b963f7f066",
+        "sha256_in_prefix": "969a752f91eaf85c06f4dc466fce1dfa129489c93c837051fe44d0b963f7f066",
+        "size_in_bytes": 56813
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/types/variant.h",
+        "path_type": "hardlink",
+        "sha256": "c049ff351d6f2d037dbfd68b47ffeaa488bb36c01319b2e282bdd846fe9766b8",
+        "sha256_in_prefix": "c049ff351d6f2d037dbfd68b47ffeaa488bb36c01319b2e282bdd846fe9766b8",
+        "size_in_bytes": 34067
+      },
+      {
+        "_path": "include/opentelemetry/nostd/internal/absl/utility/utility.h",
+        "path_type": "hardlink",
+        "sha256": "f6932b62aecf083c33a556c361da13e94edc7a11e2d9d6bc6b69a1078611713d",
+        "sha256_in_prefix": "f6932b62aecf083c33a556c361da13e94edc7a11e2d9d6bc6b69a1078611713d",
+        "size_in_bytes": 11739
+      },
+      {
+        "_path": "include/opentelemetry/nostd/shared_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "68a1015c3e47f24f14ce70321914d5271c89b7c5ddf5edb6038ccf551d857cc2",
+        "sha256_in_prefix": "68a1015c3e47f24f14ce70321914d5271c89b7c5ddf5edb6038ccf551d857cc2",
+        "size_in_bytes": 5286
+      },
+      {
+        "_path": "include/opentelemetry/nostd/span.h",
+        "path_type": "hardlink",
+        "sha256": "73c57105261052e2658614b32103ad8d8afcf288e933736293ed1fa5b50fbdb3",
+        "sha256_in_prefix": "73c57105261052e2658614b32103ad8d8afcf288e933736293ed1fa5b50fbdb3",
+        "size_in_bytes": 8448
+      },
+      {
+        "_path": "include/opentelemetry/nostd/string_view.h",
+        "path_type": "hardlink",
+        "sha256": "906d21f2cdb2c0fb538f80553106533f248f5d1f96593acda9f223b31601d710",
+        "sha256_in_prefix": "906d21f2cdb2c0fb538f80553106533f248f5d1f96593acda9f223b31601d710",
+        "size_in_bytes": 5987
+      },
+      {
+        "_path": "include/opentelemetry/nostd/type_traits.h",
+        "path_type": "hardlink",
+        "sha256": "9970c25bf732fe90a117f9d6e770f2de592b2137186b1f838d4b1a2ea7367e1c",
+        "sha256_in_prefix": "9970c25bf732fe90a117f9d6e770f2de592b2137186b1f838d4b1a2ea7367e1c",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "include/opentelemetry/nostd/unique_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "1087a28701b614ffa43765572829194b071bc6c90832a54b1bb795db35aaf47c",
+        "sha256_in_prefix": "1087a28701b614ffa43765572829194b071bc6c90832a54b1bb795db35aaf47c",
+        "size_in_bytes": 4002
+      },
+      {
+        "_path": "include/opentelemetry/nostd/utility.h",
+        "path_type": "hardlink",
+        "sha256": "ef3a988bc439d58d385bdd1af8f3094ce5d224e18b710d2605fe65684a83df30",
+        "sha256_in_prefix": "ef3a988bc439d58d385bdd1af8f3094ce5d224e18b710d2605fe65684a83df30",
+        "size_in_bytes": 3250
+      },
+      {
+        "_path": "include/opentelemetry/nostd/variant.h",
+        "path_type": "hardlink",
+        "sha256": "59fb75591d78b0f87ab7703f4cff58508b6089b220e7ed7779ef411af2306582",
+        "sha256_in_prefix": "59fb75591d78b0f87ab7703f4cff58508b6089b220e7ed7779ef411af2306582",
+        "size_in_bytes": 2137
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/dynamic_library_handle.h",
+        "path_type": "hardlink",
+        "sha256": "76e16e3e0dd56a4fcdf5a0debd3d7e7aa0a1ec43f410abef1a4082f86aba5c76",
+        "sha256_in_prefix": "76e16e3e0dd56a4fcdf5a0debd3d7e7aa0a1ec43f410abef1a4082f86aba5c76",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/dynamic_load_unix.h",
+        "path_type": "hardlink",
+        "sha256": "49d6b6a559e254d65139da0650fbd3e7120b1dc7490444b09cb1d60218c6ed99",
+        "sha256_in_prefix": "49d6b6a559e254d65139da0650fbd3e7120b1dc7490444b09cb1d60218c6ed99",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/dynamic_load_windows.h",
+        "path_type": "hardlink",
+        "sha256": "72bb4521336424b5d4512a0142b57442134abeb72a2362d6e46d56e5fa126ef7",
+        "sha256_in_prefix": "72bb4521336424b5d4512a0142b57442134abeb72a2362d6e46d56e5fa126ef7",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/loader_info.h",
+        "path_type": "hardlink",
+        "sha256": "081d32f34d64606cfc155c10aa58b337c4bd8d689e915dacc99988c27c675cc4",
+        "sha256_in_prefix": "081d32f34d64606cfc155c10aa58b337c4bd8d689e915dacc99988c27c675cc4",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/tracer_handle.h",
+        "path_type": "hardlink",
+        "sha256": "e3b5ead1d52bd3776ddeda04cea64b2bcae51e5187b5acf619e8c07637c02d55",
+        "sha256_in_prefix": "e3b5ead1d52bd3776ddeda04cea64b2bcae51e5187b5acf619e8c07637c02d55",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "include/opentelemetry/plugin/detail/utility.h",
+        "path_type": "hardlink",
+        "sha256": "70ffb3f5b1021c48852744dfdd81751d19f54107685d065a573c28756c90dbe0",
+        "sha256_in_prefix": "70ffb3f5b1021c48852744dfdd81751d19f54107685d065a573c28756c90dbe0",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "include/opentelemetry/plugin/dynamic_load.h",
+        "path_type": "hardlink",
+        "sha256": "22c46e559e030b6bb715339b3cdb9cb40707407dc8e1afbefc03d5a37e247dce",
+        "sha256_in_prefix": "22c46e559e030b6bb715339b3cdb9cb40707407dc8e1afbefc03d5a37e247dce",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "include/opentelemetry/plugin/factory.h",
+        "path_type": "hardlink",
+        "sha256": "7101646cb68d64b2badc0cbe2adeac111f93c2c6a8777e1e41744248d91b1fef",
+        "sha256_in_prefix": "7101646cb68d64b2badc0cbe2adeac111f93c2c6a8777e1e41744248d91b1fef",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "include/opentelemetry/plugin/hook.h",
+        "path_type": "hardlink",
+        "sha256": "610b8128b2bb295cab02c0bc6b273a48b37c56fba45f176d24e97078dcc1b631",
+        "sha256_in_prefix": "610b8128b2bb295cab02c0bc6b273a48b37c56fba45f176d24e97078dcc1b631",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "include/opentelemetry/plugin/tracer.h",
+        "path_type": "hardlink",
+        "sha256": "e664370d97ad42f9b3d08520b9f8503cd4973920219f06e88896385a68b2768e",
+        "sha256_in_prefix": "e664370d97ad42f9b3d08520b9f8503cd4973920219f06e88896385a68b2768e",
+        "size_in_bytes": 3908
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/logs/v1/logs_service.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "8ce25311950b6542214211746b8642b5d51273c6d085e131b0ea3c125b1f3865",
+        "sha256_in_prefix": "8ce25311950b6542214211746b8642b5d51273c6d085e131b0ea3c125b1f3865",
+        "size_in_bytes": 17522
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/logs/v1/logs_service.pb.h",
+        "path_type": "hardlink",
+        "sha256": "4bb338c424d2e0608b952741c03dab83194efa4ddbdecc2aed85127d64880333",
+        "sha256_in_prefix": "4bb338c424d2e0608b952741c03dab83194efa4ddbdecc2aed85127d64880333",
+        "size_in_bytes": 38911
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/logs/v1/logs_service_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "13e51d2aa1599c59c902b8ba216bd0c94ff5f80bf1f894dd9685f40d936c68b7",
+        "sha256_in_prefix": "13e51d2aa1599c59c902b8ba216bd0c94ff5f80bf1f894dd9685f40d936c68b7",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/metrics/v1/metrics_service.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "4e5df30c45129ffd1673b9fe07c5d4c9f3ea0cb1283a005a2cc8e7197aeed832",
+        "sha256_in_prefix": "4e5df30c45129ffd1673b9fe07c5d4c9f3ea0cb1283a005a2cc8e7197aeed832",
+        "size_in_bytes": 17884
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/metrics/v1/metrics_service.pb.h",
+        "path_type": "hardlink",
+        "sha256": "b2b7608282663f4b8b9416d1f6b796c7b7801e0a8257c6d13499500a2ca90b8c",
+        "sha256_in_prefix": "b2b7608282663f4b8b9416d1f6b796c7b7801e0a8257c6d13499500a2ca90b8c",
+        "size_in_bytes": 39982
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/metrics/v1/metrics_service_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "277c5a43475383ff214572122f0815b752cf322810950b43f38fb932ca3f6ec3",
+        "sha256_in_prefix": "277c5a43475383ff214572122f0815b752cf322810950b43f38fb932ca3f6ec3",
+        "size_in_bytes": 1926
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "a252b74c71be9dcf2158036c5dac8e90a18a78a761513e66ec5322adc97fd64b",
+        "sha256_in_prefix": "a252b74c71be9dcf2158036c5dac8e90a18a78a761513e66ec5322adc97fd64b",
+        "size_in_bytes": 18889
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service.pb.h",
+        "path_type": "hardlink",
+        "sha256": "67e2b2c00e5885811278edb815c7d211c495314c8191b5fb6850c039c747f284",
+        "sha256_in_prefix": "67e2b2c00e5885811278edb815c7d211c495314c8191b5fb6850c039c747f284",
+        "size_in_bytes": 41358
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/profiles/v1experimental/profiles_service_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "6c10e744c9d33696d5b5a9c9c81dd3947d2fa9daa3799c6632c8c23bfa394d98",
+        "sha256_in_prefix": "6c10e744c9d33696d5b5a9c9c81dd3947d2fa9daa3799c6632c8c23bfa394d98",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/trace/v1/trace_service.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "1c52183cb4778b0e47d7e5a72cfeb84dfdd7d283c149903a4e2cd803fc99ce1c",
+        "sha256_in_prefix": "1c52183cb4778b0e47d7e5a72cfeb84dfdd7d283c149903a4e2cd803fc99ce1c",
+        "size_in_bytes": 17665
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/trace/v1/trace_service.pb.h",
+        "path_type": "hardlink",
+        "sha256": "bcee2715a33fee5bbbe1354ff1748009424ffed808440609352313bfa45c3b02",
+        "sha256_in_prefix": "bcee2715a33fee5bbbe1354ff1748009424ffed808440609352313bfa45c3b02",
+        "size_in_bytes": 39143
+      },
+      {
+        "_path": "include/opentelemetry/proto/collector/trace/v1/trace_service_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "5aa1be5ebeafe60150cf02961790ea601927a3e479986bd6cd50eb129173998f",
+        "sha256_in_prefix": "5aa1be5ebeafe60150cf02961790ea601927a3e479986bd6cd50eb129173998f",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "include/opentelemetry/proto/common/v1/common.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "7416842e3b18981407f5e80b5a29d756dc4d9072268188038b0f96711ee54750",
+        "sha256_in_prefix": "7416842e3b18981407f5e80b5a29d756dc4d9072268188038b0f96711ee54750",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "include/opentelemetry/proto/common/v1/common.pb.h",
+        "path_type": "hardlink",
+        "sha256": "44b3c4b43e9f6b40bc5628c9a21da57f4cd29b7893459d41daad01178cef82ba",
+        "sha256_in_prefix": "44b3c4b43e9f6b40bc5628c9a21da57f4cd29b7893459d41daad01178cef82ba",
+        "size_in_bytes": 80820
+      },
+      {
+        "_path": "include/opentelemetry/proto/common/v1/common_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "b97e05c261fbbbd261b0163c815f92a38eebae24800a6330b6b39a31c5bae882",
+        "sha256_in_prefix": "b97e05c261fbbbd261b0163c815f92a38eebae24800a6330b6b39a31c5bae882",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "include/opentelemetry/proto/logs/v1/logs.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "37cb3ba343a2797bd7976000263bbd23bccaa7e4f43d36cc695eb30bd33d47a5",
+        "sha256_in_prefix": "37cb3ba343a2797bd7976000263bbd23bccaa7e4f43d36cc695eb30bd33d47a5",
+        "size_in_bytes": 1929
+      },
+      {
+        "_path": "include/opentelemetry/proto/logs/v1/logs.pb.h",
+        "path_type": "hardlink",
+        "sha256": "414e77469d366c8ae180240a2fb15acf95b6f37217895a6731abe6dd93e84553",
+        "sha256_in_prefix": "414e77469d366c8ae180240a2fb15acf95b6f37217895a6731abe6dd93e84553",
+        "size_in_bytes": 82406
+      },
+      {
+        "_path": "include/opentelemetry/proto/logs/v1/logs_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "6e7c159a87f21f8dc716537b119179c349b811ba11080262d2e6d9c1ffaa4e9c",
+        "sha256_in_prefix": "6e7c159a87f21f8dc716537b119179c349b811ba11080262d2e6d9c1ffaa4e9c",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "include/opentelemetry/proto/metrics/v1/metrics.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "fd4528301daeb5ad2d0e7cbe501008f050122c6b22c8440975998670696dbb2e",
+        "sha256_in_prefix": "fd4528301daeb5ad2d0e7cbe501008f050122c6b22c8440975998670696dbb2e",
+        "size_in_bytes": 1965
+      },
+      {
+        "_path": "include/opentelemetry/proto/metrics/v1/metrics.pb.h",
+        "path_type": "hardlink",
+        "sha256": "75f382232db9cb7b2dc885517b649cf2041bcd60e8a393854a6857acd447c701",
+        "sha256_in_prefix": "75f382232db9cb7b2dc885517b649cf2041bcd60e8a393854a6857acd447c701",
+        "size_in_bytes": 297244
+      },
+      {
+        "_path": "include/opentelemetry/proto/metrics/v1/metrics_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "8bf2b15c262553bf217dbcb8332243af7c325491984859946a295563d2fe6650",
+        "sha256_in_prefix": "8bf2b15c262553bf217dbcb8332243af7c325491984859946a295563d2fe6650",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/pprofextended.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "803a3ce79fe8d7c307691c16f4bd14a1ce5582150054112be2d01e060d343914",
+        "sha256_in_prefix": "803a3ce79fe8d7c307691c16f4bd14a1ce5582150054112be2d01e060d343914",
+        "size_in_bytes": 3811
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/pprofextended.pb.h",
+        "path_type": "hardlink",
+        "sha256": "b050ea7b0c6ccd6f684e805aacd1c8097ad948ade5be8669ff507ae538843aa4",
+        "sha256_in_prefix": "b050ea7b0c6ccd6f684e805aacd1c8097ad948ade5be8669ff507ae538843aa4",
+        "size_in_bytes": 194609
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/pprofextended_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "9f90137ff01d7e2fb417dbcec8b675040dbc8034f760dd01a263413aafb3f299",
+        "sha256_in_prefix": "9f90137ff01d7e2fb417dbcec8b675040dbc8034f760dd01a263413aafb3f299",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/profiles.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "398eb47174f9cfcb34fb0ffa85a6072c0e951d884f6d3f576750ca1695840e2d",
+        "sha256_in_prefix": "398eb47174f9cfcb34fb0ffa85a6072c0e951d884f6d3f576750ca1695840e2d",
+        "size_in_bytes": 2061
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/profiles.pb.h",
+        "path_type": "hardlink",
+        "sha256": "65ecbffa73a3609a1fa3920bcce138ed888faa14745802d8d30d13da298c101d",
+        "sha256_in_prefix": "65ecbffa73a3609a1fa3920bcce138ed888faa14745802d8d30d13da298c101d",
+        "size_in_bytes": 81748
+      },
+      {
+        "_path": "include/opentelemetry/proto/profiles/v1experimental/profiles_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "e7cf32c5059d2b9e2634f2d5117f8139e6f81c3d8c83f1d27eb08890a83b8d73",
+        "sha256_in_prefix": "e7cf32c5059d2b9e2634f2d5117f8139e6f81c3d8c83f1d27eb08890a83b8d73",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "include/opentelemetry/proto/resource/v1/resource.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "ab73cc95f2616528a29a03af219679cb7b3f341abc26543f35ed496a967522ca",
+        "sha256_in_prefix": "ab73cc95f2616528a29a03af219679cb7b3f341abc26543f35ed496a967522ca",
+        "size_in_bytes": 1977
+      },
+      {
+        "_path": "include/opentelemetry/proto/resource/v1/resource.pb.h",
+        "path_type": "hardlink",
+        "sha256": "a412b02bc377dd6f97a8d4fd712c2a38a1cdd01335d7fa85bec127470d3a20c7",
+        "sha256_in_prefix": "a412b02bc377dd6f97a8d4fd712c2a38a1cdd01335d7fa85bec127470d3a20c7",
+        "size_in_bytes": 14099
+      },
+      {
+        "_path": "include/opentelemetry/proto/resource/v1/resource_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "bf049880eef13fca2a174bea73118fff7d8128398ea5d14b09d44785daaea218",
+        "sha256_in_prefix": "bf049880eef13fca2a174bea73118fff7d8128398ea5d14b09d44785daaea218",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "include/opentelemetry/proto/trace/v1/trace.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "38a5dea54e56782eb8f91f5e8c6d9dab5e1da500ccd289b5ec0ddf105e2a1ac5",
+        "sha256_in_prefix": "38a5dea54e56782eb8f91f5e8c6d9dab5e1da500ccd289b5ec0ddf105e2a1ac5",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "include/opentelemetry/proto/trace/v1/trace.pb.h",
+        "path_type": "hardlink",
+        "sha256": "05982885a6cf35288025a7f133e5d51a79e53e99b9700a278a02428d2fbbc8e0",
+        "sha256_in_prefix": "05982885a6cf35288025a7f133e5d51a79e53e99b9700a278a02428d2fbbc8e0",
+        "size_in_bytes": 145348
+      },
+      {
+        "_path": "include/opentelemetry/proto/trace/v1/trace_mock.grpc.pb.h",
+        "path_type": "hardlink",
+        "sha256": "08a9b1d5bf99b3f81ca39dc65062ef4f836419c7fd8abda7bf02f11d7e4c66b4",
+        "sha256_in_prefix": "08a9b1d5bf99b3f81ca39dc65062ef4f836419c7fd8abda7bf02f11d7e4c66b4",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/atomic_shared_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "6410757017c804f30e9069b8348b49b6d73bc88b410c1f329c4dd3260d8f042c",
+        "sha256_in_prefix": "6410757017c804f30e9069b8348b49b6d73bc88b410c1f329c4dd3260d8f042c",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/atomic_unique_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "bcf0cef5a5c7ddeb5848a278451cdd1269615ddb4e19dfc8f5bd73ad1173fbf7",
+        "sha256_in_prefix": "bcf0cef5a5c7ddeb5848a278451cdd1269615ddb4e19dfc8f5bd73ad1173fbf7",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/attribute_utils.h",
+        "path_type": "hardlink",
+        "sha256": "914e31df99334cdb0e65d082c263340891e93baf84339d56fd926899e1f6156f",
+        "sha256_in_prefix": "914e31df99334cdb0e65d082c263340891e93baf84339d56fd926899e1f6156f",
+        "size_in_bytes": 7169
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/attributemap_hash.h",
+        "path_type": "hardlink",
+        "sha256": "515a0c57e00a65afe3a3eda2162199d8cbfb1e849e508b74935d060da7665d8b",
+        "sha256_in_prefix": "515a0c57e00a65afe3a3eda2162199d8cbfb1e849e508b74935d060da7665d8b",
+        "size_in_bytes": 2495
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/base64.h",
+        "path_type": "hardlink",
+        "sha256": "9ddd76ee615211fe59311b3d7ccff1e77581d62e03828a0bc85efab6c2462f32",
+        "sha256_in_prefix": "9ddd76ee615211fe59311b3d7ccff1e77581d62e03828a0bc85efab6c2462f32",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/circular_buffer.h",
+        "path_type": "hardlink",
+        "sha256": "1f7c0d17595cc0a0f72d0f6a3bee865c4a5f6d243d1e8b01fd5b1d009d595334",
+        "sha256_in_prefix": "1f7c0d17595cc0a0f72d0f6a3bee865c4a5f6d243d1e8b01fd5b1d009d595334",
+        "size_in_bytes": 5368
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/circular_buffer_range.h",
+        "path_type": "hardlink",
+        "sha256": "e5c65fb68409d488d73fe80de5697aff405bda1096c962d0333a3da248420d15",
+        "sha256_in_prefix": "e5c65fb68409d488d73fe80de5697aff405bda1096c962d0333a3da248420d15",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/empty_attributes.h",
+        "path_type": "hardlink",
+        "sha256": "475d7da9f977e236f7b28ef902ce99143f3d2805e18e535ffa85f3ff7688ee9e",
+        "sha256_in_prefix": "475d7da9f977e236f7b28ef902ce99143f3d2805e18e535ffa85f3ff7688ee9e",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/env_variables.h",
+        "path_type": "hardlink",
+        "sha256": "8a61e4858faf642da39b7193306b234fb1e596eb820679c236e98490b0119d50",
+        "sha256_in_prefix": "8a61e4858faf642da39b7193306b234fb1e596eb820679c236e98490b0119d50",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/exporter_utils.h",
+        "path_type": "hardlink",
+        "sha256": "9fb58cf44c988ae3ff1adb225471d150107314c857aa3ce9251c9c17dd7ac396",
+        "sha256_in_prefix": "9fb58cf44c988ae3ff1adb225471d150107314c857aa3ce9251c9c17dd7ac396",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "include/opentelemetry/sdk/common/global_log_handler.h",
+        "path_type": "hardlink",
+        "sha256": "5a4e6be6c5c30b527fc1d8e57539f601eea32bffb5b31cd54a9ebf7427cbec67",
+        "sha256_in_prefix": "5a4e6be6c5c30b527fc1d8e57539f601eea32bffb5b31cd54a9ebf7427cbec67",
+        "size_in_bytes": 9118
+      },
+      {
+        "_path": "include/opentelemetry/sdk/instrumentationlibrary/instrumentation_library.h",
+        "path_type": "hardlink",
+        "sha256": "658a209367f433832cc6c46dc6b66ca98d37a903c342b78652fab0301c8d51ee",
+        "sha256_in_prefix": "658a209367f433832cc6c46dc6b66ca98d37a903c342b78652fab0301c8d51ee",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "include/opentelemetry/sdk/instrumentationscope/instrumentation_scope.h",
+        "path_type": "hardlink",
+        "sha256": "844cad118641e5aa74c6c1dc699d04908e661c02f4fa71afb8d6f3f2f11934a3",
+        "sha256_in_prefix": "844cad118641e5aa74c6c1dc699d04908e661c02f4fa71afb8d6f3f2f11934a3",
+        "size_in_bytes": 6219
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/batch_log_record_processor.h",
+        "path_type": "hardlink",
+        "sha256": "00baaee8d73e9d786eced57d892691fae17ed9bd7b170d408f0bdc77afa2a64b",
+        "sha256_in_prefix": "00baaee8d73e9d786eced57d892691fae17ed9bd7b170d408f0bdc77afa2a64b",
+        "size_in_bytes": 5855
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/batch_log_record_processor_factory.h",
+        "path_type": "hardlink",
+        "sha256": "acefbe2aee68921efe24ebb09756817bf7f72990791436b9cef2d78c20859af1",
+        "sha256_in_prefix": "acefbe2aee68921efe24ebb09756817bf7f72990791436b9cef2d78c20859af1",
+        "size_in_bytes": 820
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/batch_log_record_processor_options.h",
+        "path_type": "hardlink",
+        "sha256": "32b009d2a373fc36cc981a75d1aad474e9ce71fab2a4467ad2961ac227fb2bff",
+        "sha256_in_prefix": "32b009d2a373fc36cc981a75d1aad474e9ce71fab2a4467ad2961ac227fb2bff",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/event_logger.h",
+        "path_type": "hardlink",
+        "sha256": "016e2cd9e2fbaae3491770b7b3c083dfdda021dce65245ba886b04b7c5d4551b",
+        "sha256_in_prefix": "016e2cd9e2fbaae3491770b7b3c083dfdda021dce65245ba886b04b7c5d4551b",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/event_logger_provider.h",
+        "path_type": "hardlink",
+        "sha256": "3bb08ce58204d36c0a0880b36394293c3f89e8b7a7ced8a07f52006a5131c3dd",
+        "sha256_in_prefix": "3bb08ce58204d36c0a0880b36394293c3f89e8b7a7ced8a07f52006a5131c3dd",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/event_logger_provider_factory.h",
+        "path_type": "hardlink",
+        "sha256": "53de41815ceda4afae67d2f8c78678e971d6ec5d2836324dbb298f64c758d136",
+        "sha256_in_prefix": "53de41815ceda4afae67d2f8c78678e971d6ec5d2836324dbb298f64c758d136",
+        "size_in_bytes": 864
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/exporter.h",
+        "path_type": "hardlink",
+        "sha256": "152d2cafe456aef0d2b7fd993c927063d4392c8ebdefed3933669b81b49631de",
+        "sha256_in_prefix": "152d2cafe456aef0d2b7fd993c927063d4392c8ebdefed3933669b81b49631de",
+        "size_in_bytes": 2295
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/logger.h",
+        "path_type": "hardlink",
+        "sha256": "4fda7260e9b18dfe036adad948e613198e9bca8943d6d12c85360aa39acab305",
+        "sha256_in_prefix": "4fda7260e9b18dfe036adad948e613198e9bca8943d6d12c85360aa39acab305",
+        "size_in_bytes": 2205
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/logger_context.h",
+        "path_type": "hardlink",
+        "sha256": "39366dca5f0cf554f9bc9643d5cde99376ef5d9bdc4d4b9a4aeaffa4b6c87fd3",
+        "sha256_in_prefix": "39366dca5f0cf554f9bc9643d5cde99376ef5d9bdc4d4b9a4aeaffa4b6c87fd3",
+        "size_in_bytes": 2859
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/logger_context_factory.h",
+        "path_type": "hardlink",
+        "sha256": "0b5d1aded5963c0d4b48275ab3e4606fd380c4877500548c56726133d3228531",
+        "sha256_in_prefix": "0b5d1aded5963c0d4b48275ab3e4606fd380c4877500548c56726133d3228531",
+        "size_in_bytes": 912
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/logger_provider.h",
+        "path_type": "hardlink",
+        "sha256": "6d9078ac698039e0ab607c86a8b3ebe3d991e117c06e18c108e84a1803658912",
+        "sha256_in_prefix": "6d9078ac698039e0ab607c86a8b3ebe3d991e117c06e18c108e84a1803658912",
+        "size_in_bytes": 4035
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/logger_provider_factory.h",
+        "path_type": "hardlink",
+        "sha256": "ac9ed53b8db2e3c31cc638c61445dfac483f96120700926b04912145f735ce90",
+        "sha256_in_prefix": "ac9ed53b8db2e3c31cc638c61445dfac483f96120700926b04912145f735ce90",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/multi_log_record_processor.h",
+        "path_type": "hardlink",
+        "sha256": "5f98bad9d4f433094c50cec65a56a62ef02a91ece6b6df43b370d918b5a56952",
+        "sha256_in_prefix": "5f98bad9d4f433094c50cec65a56a62ef02a91ece6b6df43b370d918b5a56952",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/multi_log_record_processor_factory.h",
+        "path_type": "hardlink",
+        "sha256": "ae9354c0b68f963cad13f6062a3fc4ef2a0bf3f08001d48a44d47cdec71dd125",
+        "sha256_in_prefix": "ae9354c0b68f963cad13f6062a3fc4ef2a0bf3f08001d48a44d47cdec71dd125",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/multi_recordable.h",
+        "path_type": "hardlink",
+        "sha256": "c1a2d00b5be24dbce49e4ffe0e552950f1ba968bfcb0ab42f9b3a04715cc71a1",
+        "sha256_in_prefix": "c1a2d00b5be24dbce49e4ffe0e552950f1ba968bfcb0ab42f9b3a04715cc71a1",
+        "size_in_bytes": 3379
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/processor.h",
+        "path_type": "hardlink",
+        "sha256": "76f2e4ed8e01d47a5e5ce30fe17f32fd1fa811d07adb90e9fe714a74eeb36812",
+        "sha256_in_prefix": "76f2e4ed8e01d47a5e5ce30fe17f32fd1fa811d07adb90e9fe714a74eeb36812",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/read_write_log_record.h",
+        "path_type": "hardlink",
+        "sha256": "f95f2465720a272fc22dbf3f0efcccd9b65dc970b9402ff3bc1c13b156e20352",
+        "sha256_in_prefix": "f95f2465720a272fc22dbf3f0efcccd9b65dc970b9402ff3bc1c13b156e20352",
+        "size_in_bytes": 6331
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/readable_log_record.h",
+        "path_type": "hardlink",
+        "sha256": "ad5f00014e82375d9e2c37a12df1aa25b6a268b07e10df108c6f00d435c0e6cf",
+        "sha256_in_prefix": "ad5f00014e82375d9e2c37a12df1aa25b6a268b07e10df108c6f00d435c0e6cf",
+        "size_in_bytes": 3807
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/recordable.h",
+        "path_type": "hardlink",
+        "sha256": "1daac555b7666c849e94338d25749e6c05dbd0084bcf237017e707a8af427181",
+        "sha256_in_prefix": "1daac555b7666c849e94338d25749e6c05dbd0084bcf237017e707a8af427181",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/simple_log_record_processor.h",
+        "path_type": "hardlink",
+        "sha256": "e0e52bd17bd9984ebcdba6fd36ed73d87d5234fef26471276f6d9f0d086bf8f4",
+        "sha256_in_prefix": "e0e52bd17bd9984ebcdba6fd36ed73d87d5234fef26471276f6d9f0d086bf8f4",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "include/opentelemetry/sdk/logs/simple_log_record_processor_factory.h",
+        "path_type": "hardlink",
+        "sha256": "543da8e5ff8370e3f1e91bde58653a165103d68f51f25106e974f2736a3ccf0e",
+        "sha256_in_prefix": "543da8e5ff8370e3f1e91bde58653a165103d68f51f25106e974f2736a3ccf0e",
+        "size_in_bytes": 632
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "39cae05fa1b2a3c9793b1ad4572b98e2d8c7361fa92acdce9cb59519a0aefc54",
+        "sha256_in_prefix": "39cae05fa1b2a3c9793b1ad4572b98e2d8c7361fa92acdce9cb59519a0aefc54",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/aggregation_config.h",
+        "path_type": "hardlink",
+        "sha256": "73f2aa9862990717d30d89616d26074799a2bdebb70f6d781978d706101b197e",
+        "sha256_in_prefix": "73f2aa9862990717d30d89616d26074799a2bdebb70f6d781978d706101b197e",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/base2_exponential_histogram_indexer.h",
+        "path_type": "hardlink",
+        "sha256": "da8a177fd523be9e0de71b71169169091bde8ab15be61b28c4dafc42da100acf",
+        "sha256_in_prefix": "da8a177fd523be9e0de71b71169169091bde8ab15be61b28c4dafc42da100acf",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/default_aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "ce45ddf59295f9631907d006a5c315a0324e3313823803ff3bcbba4f8eda0da4",
+        "sha256_in_prefix": "ce45ddf59295f9631907d006a5c315a0324e3313823803ff3bcbba4f8eda0da4",
+        "size_in_bytes": 7002
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/drop_aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "66fb0f79359ae9e306562105945eeeccd5a95d34c4ef919cce49889ffd086869",
+        "sha256_in_prefix": "66fb0f79359ae9e306562105945eeeccd5a95d34c4ef919cce49889ffd086869",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/histogram_aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "681ecbc7a778998b799eec8c5e3490a2ad4c89fd26b8966a38c7b8ef7da947d8",
+        "sha256_in_prefix": "681ecbc7a778998b799eec8c5e3490a2ad4c89fd26b8966a38c7b8ef7da947d8",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/lastvalue_aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "05aaadde429b4c22307753142ecdea0598d7d21b0a47564cbe6921b8b935dade",
+        "sha256_in_prefix": "05aaadde429b4c22307753142ecdea0598d7d21b0a47564cbe6921b8b935dade",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/aggregation/sum_aggregation.h",
+        "path_type": "hardlink",
+        "sha256": "9cfb708edd172ae63420fea70fffe023e5e65fedcd39f982fa75150271bd4904",
+        "sha256_in_prefix": "9cfb708edd172ae63420fea70fffe023e5e65fedcd39f982fa75150271bd4904",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/async_instruments.h",
+        "path_type": "hardlink",
+        "sha256": "e19fc29d15d3f9fb7a4440043c482be4765c63105dad423a41788b1b458dd6d4",
+        "sha256_in_prefix": "e19fc29d15d3f9fb7a4440043c482be4765c63105dad423a41788b1b458dd6d4",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/data/circular_buffer.h",
+        "path_type": "hardlink",
+        "sha256": "bd47fe2f830afd4d4e98880a1a420d377527ad0581836b2f14c0063fda716eab",
+        "sha256_in_prefix": "bd47fe2f830afd4d4e98880a1a420d377527ad0581836b2f14c0063fda716eab",
+        "size_in_bytes": 5168
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/data/exemplar_data.h",
+        "path_type": "hardlink",
+        "sha256": "96ab3116aca278dae5f138b2de19d5590b42644d3a4bbdfddeea6d990808336a",
+        "sha256_in_prefix": "96ab3116aca278dae5f138b2de19d5590b42644d3a4bbdfddeea6d990808336a",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/data/metric_data.h",
+        "path_type": "hardlink",
+        "sha256": "d118b550a3e869fe96d0a3fb6e70bab1ef05b8577002835e93180fdffac9c4c6",
+        "sha256_in_prefix": "d118b550a3e869fe96d0a3fb6e70bab1ef05b8577002835e93180fdffac9c4c6",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/data/point_data.h",
+        "path_type": "hardlink",
+        "sha256": "ae32b65ec1585c0718ed0362ec043a36cf688ffbf93cba687b67a42872228120",
+        "sha256_in_prefix": "ae32b65ec1585c0718ed0362ec043a36cf688ffbf93cba687b67a42872228120",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/aligned_histogram_bucket_exemplar_reservoir.h",
+        "path_type": "hardlink",
+        "sha256": "a25591df9cbfdd30b518d39dc948a02b6e908040974ddc601bbe40262542bdba",
+        "sha256_in_prefix": "a25591df9cbfdd30b518d39dc948a02b6e908040974ddc601bbe40262542bdba",
+        "size_in_bytes": 2831
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/filter_type.h",
+        "path_type": "hardlink",
+        "sha256": "28abb911d55b5213003fb7de9c175c9a974a175546b5c25ce5104099e09f5d25",
+        "sha256_in_prefix": "28abb911d55b5213003fb7de9c175c9a974a175546b5c25ce5104099e09f5d25",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/fixed_size_exemplar_reservoir.h",
+        "path_type": "hardlink",
+        "sha256": "a58bdaee31a5f2f4384b6ff6874435bc9c02a80aae46347a3ee66d093cfa2ae1",
+        "sha256_in_prefix": "a58bdaee31a5f2f4384b6ff6874435bc9c02a80aae46347a3ee66d093cfa2ae1",
+        "size_in_bytes": 3033
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/no_exemplar_reservoir.h",
+        "path_type": "hardlink",
+        "sha256": "286bb1dbd0e491307cdb186190cee23a55a389632d31c6f2035531cf9bd4d2fd",
+        "sha256_in_prefix": "286bb1dbd0e491307cdb186190cee23a55a389632d31c6f2035531cf9bd4d2fd",
+        "size_in_bytes": 1543
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/reservoir.h",
+        "path_type": "hardlink",
+        "sha256": "dea4d4d92b104f3e5cbe8ada0467cbcb3ae54865c533ab8d8174ffbebfebd0ed",
+        "sha256_in_prefix": "dea4d4d92b104f3e5cbe8ada0467cbcb3ae54865c533ab8d8174ffbebfebd0ed",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/reservoir_cell.h",
+        "path_type": "hardlink",
+        "sha256": "848d3d4f087985de452feee665cac10fb09c06334e09e64eeb87e631bca69dc1",
+        "sha256_in_prefix": "848d3d4f087985de452feee665cac10fb09c06334e09e64eeb87e631bca69dc1",
+        "size_in_bytes": 4588
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/reservoir_cell_selector.h",
+        "path_type": "hardlink",
+        "sha256": "3116e3b7801afd692906c59ac49e20fb2383cf0527037dbd87f3f506069ef2cf",
+        "sha256_in_prefix": "3116e3b7801afd692906c59ac49e20fb2383cf0527037dbd87f3f506069ef2cf",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/reservoir_utils.h",
+        "path_type": "hardlink",
+        "sha256": "6e01e40fda84b6037499a9ba4bdc5528b748439d1e0851d05fbb3f4fb23f98d7",
+        "sha256_in_prefix": "6e01e40fda84b6037499a9ba4bdc5528b748439d1e0851d05fbb3f4fb23f98d7",
+        "size_in_bytes": 2288
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/exemplar/simple_fixed_size_exemplar_reservoir.h",
+        "path_type": "hardlink",
+        "sha256": "a891ba59653072b0c9ce99c9e559ed7c366d9e3efaa0955f7c7c78e5a915f8ef",
+        "sha256_in_prefix": "a891ba59653072b0c9ce99c9e559ed7c366d9e3efaa0955f7c7c78e5a915f8ef",
+        "size_in_bytes": 3264
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/export/metric_producer.h",
+        "path_type": "hardlink",
+        "sha256": "24a42f649b034010d13b7085d72ba85adfc68c3554b51f06dcb2d5023f83bbb8",
+        "sha256_in_prefix": "24a42f649b034010d13b7085d72ba85adfc68c3554b51f06dcb2d5023f83bbb8",
+        "size_in_bytes": 2774
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader.h",
+        "path_type": "hardlink",
+        "sha256": "26b0122d29e801e4779e2df97dd8e6fd5aecedf1aebb2aafca7bade920466a1e",
+        "sha256_in_prefix": "26b0122d29e801e4779e2df97dd8e6fd5aecedf1aebb2aafca7bade920466a1e",
+        "size_in_bytes": 1792
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader_factory.h",
+        "path_type": "hardlink",
+        "sha256": "8320af453527c4d283ea674d7951456d25e281315d401e965caeb398f0fa9075",
+        "sha256_in_prefix": "8320af453527c4d283ea674d7951456d25e281315d401e965caeb398f0fa9075",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/export/periodic_exporting_metric_reader_options.h",
+        "path_type": "hardlink",
+        "sha256": "72c87a72ada2130c1d0c1ab028e2d4f12f0255e0c3597fe9b6236b1c4b9b6ea6",
+        "sha256_in_prefix": "72c87a72ada2130c1d0c1ab028e2d4f12f0255e0c3597fe9b6236b1c4b9b6ea6",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/instrument_metadata_validator.h",
+        "path_type": "hardlink",
+        "sha256": "ce9d65dc434f006becdfc5441362d0c0a07ce2fcc701bd65a0a1ae8d8f7bbc2d",
+        "sha256_in_prefix": "ce9d65dc434f006becdfc5441362d0c0a07ce2fcc701bd65a0a1ae8d8f7bbc2d",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/instruments.h",
+        "path_type": "hardlink",
+        "sha256": "66b7f2206575669fd31baa24bd954c7627a4cc5fe8480835311a38b5c660ec67",
+        "sha256_in_prefix": "66b7f2206575669fd31baa24bd954c7627a4cc5fe8480835311a38b5c660ec67",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/meter.h",
+        "path_type": "hardlink",
+        "sha256": "0d112323bfd13b5505b6f818164514720404835fd592dd34d4b644beac6e7029",
+        "sha256_in_prefix": "0d112323bfd13b5505b6f818164514720404835fd592dd34d4b644beac6e7029",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/meter_context.h",
+        "path_type": "hardlink",
+        "sha256": "6c27e3081c22b06800be2fa2a80fcfcdb5099148651b4e23b15d354204df899a",
+        "sha256_in_prefix": "6c27e3081c22b06800be2fa2a80fcfcdb5099148651b4e23b15d354204df899a",
+        "size_in_bytes": 5481
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/meter_context_factory.h",
+        "path_type": "hardlink",
+        "sha256": "1f11d46b147bac542164a1dcb8afe6a947fa1b96d5c2e4299995ce102deb90fc",
+        "sha256_in_prefix": "1f11d46b147bac542164a1dcb8afe6a947fa1b96d5c2e4299995ce102deb90fc",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/meter_provider.h",
+        "path_type": "hardlink",
+        "sha256": "795cda8cfe0bbdbe39d7142f735cf18d497057aae259b476ec16747f03384ae3",
+        "sha256_in_prefix": "795cda8cfe0bbdbe39d7142f735cf18d497057aae259b476ec16747f03384ae3",
+        "size_in_bytes": 4292
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/meter_provider_factory.h",
+        "path_type": "hardlink",
+        "sha256": "834e3a07a31d5c82150b59fe8613c231383a30c5b89dd7f8c89f2a8e1d75f6a0",
+        "sha256_in_prefix": "834e3a07a31d5c82150b59fe8613c231383a30c5b89dd7f8c89f2a8e1d75f6a0",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/metric_reader.h",
+        "path_type": "hardlink",
+        "sha256": "6e1c79c253b00d511099a708a3e81c827bbd58bfa3b467256bd6decd7b6c7e38",
+        "sha256_in_prefix": "6e1c79c253b00d511099a708a3e81c827bbd58bfa3b467256bd6decd7b6c7e38",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/observer_result.h",
+        "path_type": "hardlink",
+        "sha256": "fbf60b5312336b8299a5b66b8ff71fbe7b73305540597199eb5c0d4d09b5b94c",
+        "sha256_in_prefix": "fbf60b5312336b8299a5b66b8ff71fbe7b73305540597199eb5c0d4d09b5b94c",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/push_metric_exporter.h",
+        "path_type": "hardlink",
+        "sha256": "fd33832794b9ab7e8ad972053026a7debe9cb274f5c370dea05915d3123659f2",
+        "sha256_in_prefix": "fd33832794b9ab7e8ad972053026a7debe9cb274f5c370dea05915d3123659f2",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/async_metric_storage.h",
+        "path_type": "hardlink",
+        "sha256": "edd6b891f6a809e43109439f0aadb42c1125330c836c871d84a90050bea2d6ee",
+        "sha256_in_prefix": "edd6b891f6a809e43109439f0aadb42c1125330c836c871d84a90050bea2d6ee",
+        "size_in_bytes": 5866
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/attributes_hashmap.h",
+        "path_type": "hardlink",
+        "sha256": "9f621d97e76d1dcb306c70de52d8c1f4d6075d9f66030365203ee5507896b00c",
+        "sha256_in_prefix": "9f621d97e76d1dcb306c70de52d8c1f4d6075d9f66030365203ee5507896b00c",
+        "size_in_bytes": 6407
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/filtered_ordered_attribute_map.h",
+        "path_type": "hardlink",
+        "sha256": "57c84ec976035b1393dd41c3fb41cde497f61c395213948b0f3e62e86f6873a0",
+        "sha256_in_prefix": "57c84ec976035b1393dd41c3fb41cde497f61c395213948b0f3e62e86f6873a0",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/metric_collector.h",
+        "path_type": "hardlink",
+        "sha256": "174471850e872523703e1d0c21666c59679f64c6057eb18864094f5ada6ab927",
+        "sha256_in_prefix": "174471850e872523703e1d0c21666c59679f64c6057eb18864094f5ada6ab927",
+        "size_in_bytes": 1909
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/metric_storage.h",
+        "path_type": "hardlink",
+        "sha256": "0d8f560ef254a463ec70af9cc557202e9b6dd1f46fae97df89f1bdc250626c8e",
+        "sha256_in_prefix": "0d8f560ef254a463ec70af9cc557202e9b6dd1f46fae97df89f1bdc250626c8e",
+        "size_in_bytes": 4670
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/multi_metric_storage.h",
+        "path_type": "hardlink",
+        "sha256": "ed219ef8664fd3f69431b9aacdcb46f9eeae47615a484f5d9d15eb576eab785d",
+        "sha256_in_prefix": "ed219ef8664fd3f69431b9aacdcb46f9eeae47615a484f5d9d15eb576eab785d",
+        "size_in_bytes": 2849
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/observable_registry.h",
+        "path_type": "hardlink",
+        "sha256": "bbff68c1442fec544ce49c76e05c9cc1cd1bb826e0c3051ecdae8eeec4f6f376",
+        "sha256_in_prefix": "bbff68c1442fec544ce49c76e05c9cc1cd1bb826e0c3051ecdae8eeec4f6f376",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/sync_metric_storage.h",
+        "path_type": "hardlink",
+        "sha256": "333b1360d3876da9960b20e9465520c30da9dbce11a44f08fb3ffb89fdcd129f",
+        "sha256_in_prefix": "333b1360d3876da9960b20e9465520c30da9dbce11a44f08fb3ffb89fdcd129f",
+        "size_in_bytes": 8246
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/state/temporal_metric_storage.h",
+        "path_type": "hardlink",
+        "sha256": "a28252b538d12c4fee5ef0b1b7e8df38f3c1a8c71c3cf0624fbe1550ef8213a8",
+        "sha256_in_prefix": "a28252b538d12c4fee5ef0b1b7e8df38f3c1a8c71c3cf0624fbe1550ef8213a8",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/sync_instruments.h",
+        "path_type": "hardlink",
+        "sha256": "39cfbc52d8dba46e729bc2bfb511df3acb6fb2b978c341343322cd33e8d81117",
+        "sha256_in_prefix": "39cfbc52d8dba46e729bc2bfb511df3acb6fb2b978c341343322cd33e8d81117",
+        "size_in_bytes": 5176
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/attributes_processor.h",
+        "path_type": "hardlink",
+        "sha256": "f15bf1fda23d33b5075457351338edcddb78480be59b88dceb467bc65d02b888",
+        "sha256_in_prefix": "f15bf1fda23d33b5075457351338edcddb78480be59b88dceb467bc65d02b888",
+        "size_in_bytes": 2757
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/instrument_selector.h",
+        "path_type": "hardlink",
+        "sha256": "51c798d08989ed03756426ea2b559d163d633c9cddfcca115604198f1384b87a",
+        "sha256_in_prefix": "51c798d08989ed03756426ea2b559d163d633c9cddfcca115604198f1384b87a",
+        "size_in_bytes": 1489
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/instrument_selector_factory.h",
+        "path_type": "hardlink",
+        "sha256": "19995c3044a50fdce86290d8642dc57f7066a9cec05005e99e5e89f5381e36e4",
+        "sha256_in_prefix": "19995c3044a50fdce86290d8642dc57f7066a9cec05005e99e5e89f5381e36e4",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/meter_selector.h",
+        "path_type": "hardlink",
+        "sha256": "f67456cdbba7eed50ebf2d3fb59ac3d7767fef0a67dbfa7d6da9df2808828bb9",
+        "sha256_in_prefix": "f67456cdbba7eed50ebf2d3fb59ac3d7767fef0a67dbfa7d6da9df2808828bb9",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/meter_selector_factory.h",
+        "path_type": "hardlink",
+        "sha256": "667ae21a5e5d810fa630478ee98ffaf3cea5fa7f671f97daa8f3d3b2cf4af0dc",
+        "sha256_in_prefix": "667ae21a5e5d810fa630478ee98ffaf3cea5fa7f671f97daa8f3d3b2cf4af0dc",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/predicate.h",
+        "path_type": "hardlink",
+        "sha256": "0fc7f0b30d2cd28b7ce5f37130c398c109254e8e2cc6f8895baff1983518616d",
+        "sha256_in_prefix": "0fc7f0b30d2cd28b7ce5f37130c398c109254e8e2cc6f8895baff1983518616d",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/predicate_factory.h",
+        "path_type": "hardlink",
+        "sha256": "dca0874c2db8c0bcaf519049073d25ae78b0a05819658cf48380cec770e61b03",
+        "sha256_in_prefix": "dca0874c2db8c0bcaf519049073d25ae78b0a05819658cf48380cec770e61b03",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/view.h",
+        "path_type": "hardlink",
+        "sha256": "a9a87c52a6a163d6ec4d64c63f751ccd390ed76aeb2540e71423e61219883639",
+        "sha256_in_prefix": "a9a87c52a6a163d6ec4d64c63f751ccd390ed76aeb2540e71423e61219883639",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/view_factory.h",
+        "path_type": "hardlink",
+        "sha256": "0b558e0442611de953c06d6bb86ecf7d8699b0538c4ce550ed405ec5a64baf42",
+        "sha256_in_prefix": "0b558e0442611de953c06d6bb86ecf7d8699b0538c4ce550ed405ec5a64baf42",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/view_registry.h",
+        "path_type": "hardlink",
+        "sha256": "aaa6a2ee465876b26f6130ed6c91449955dd0df38c73b1bebb278bbfb93defc5",
+        "sha256_in_prefix": "aaa6a2ee465876b26f6130ed6c91449955dd0df38c73b1bebb278bbfb93defc5",
+        "size_in_bytes": 3841
+      },
+      {
+        "_path": "include/opentelemetry/sdk/metrics/view/view_registry_factory.h",
+        "path_type": "hardlink",
+        "sha256": "08f701496c3c0c4bef150f7dfa294c2c7c184d02facfd75566fba5714c554d40",
+        "sha256_in_prefix": "08f701496c3c0c4bef150f7dfa294c2c7c184d02facfd75566fba5714c554d40",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "include/opentelemetry/sdk/resource/resource.h",
+        "path_type": "hardlink",
+        "sha256": "6577a51d45dcfa36d06c6a0a27e2ed470c4a29c52c85e23e87f889d75d7dd0b6",
+        "sha256_in_prefix": "6577a51d45dcfa36d06c6a0a27e2ed470c4a29c52c85e23e87f889d75d7dd0b6",
+        "size_in_bytes": 2175
+      },
+      {
+        "_path": "include/opentelemetry/sdk/resource/resource_detector.h",
+        "path_type": "hardlink",
+        "sha256": "ab5afe8ec92e8a0480aa483d2e03287932a20a851e67dbeabbf8391d1b60a166",
+        "sha256_in_prefix": "ab5afe8ec92e8a0480aa483d2e03287932a20a851e67dbeabbf8391d1b60a166",
+        "size_in_bytes": 763
+      },
+      {
+        "_path": "include/opentelemetry/sdk/resource/semantic_conventions.h",
+        "path_type": "hardlink",
+        "sha256": "d90651bf156556a1f0bf9bcc21f34bb63495c704c6fa9029b126ddaafb169909",
+        "sha256_in_prefix": "d90651bf156556a1f0bf9bcc21f34bb63495c704c6fa9029b126ddaafb169909",
+        "size_in_bytes": 164897
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/batch_span_processor.h",
+        "path_type": "hardlink",
+        "sha256": "8bce7d1b7b8b27e7a8e60b37a95bcd48c9ca21759fa451f8342e600a5fed93e6",
+        "sha256_in_prefix": "8bce7d1b7b8b27e7a8e60b37a95bcd48c9ca21759fa451f8342e600a5fed93e6",
+        "size_in_bytes": 5681
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/batch_span_processor_factory.h",
+        "path_type": "hardlink",
+        "sha256": "1c602ea6387a5ba37cee959fc11289508a07fae40e1adb9d63d3f5791d7f0e84",
+        "sha256_in_prefix": "1c602ea6387a5ba37cee959fc11289508a07fae40e1adb9d63d3f5791d7f0e84",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/batch_span_processor_options.h",
+        "path_type": "hardlink",
+        "sha256": "35073958bc8542ba44ffcf6f1cd6d2f4ce0eb4c7d8563632e73eb51e88a1678d",
+        "sha256_in_prefix": "35073958bc8542ba44ffcf6f1cd6d2f4ce0eb4c7d8563632e73eb51e88a1678d",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/exporter.h",
+        "path_type": "hardlink",
+        "sha256": "5e9302b41b2b36aaca088a4fa1ec78561285be61ae0b2a5aa21b8ec9e2f6396d",
+        "sha256_in_prefix": "5e9302b41b2b36aaca088a4fa1ec78561285be61ae0b2a5aa21b8ec9e2f6396d",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/id_generator.h",
+        "path_type": "hardlink",
+        "sha256": "f75b04ab49531ff6dcb55a2400ee948902e7b5d8efa9d0ff0302c34968e6bcca",
+        "sha256_in_prefix": "f75b04ab49531ff6dcb55a2400ee948902e7b5d8efa9d0ff0302c34968e6bcca",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/multi_recordable.h",
+        "path_type": "hardlink",
+        "sha256": "093edaa8c4690207f82471ecffa038d3fd1f3343f5248b5e1f726e86e6767f9e",
+        "sha256_in_prefix": "093edaa8c4690207f82471ecffa038d3fd1f3343f5248b5e1f726e86e6767f9e",
+        "size_in_bytes": 4363
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/multi_span_processor.h",
+        "path_type": "hardlink",
+        "sha256": "8d9963fa40b23699fa1b7a6c9c86e5c0366958bb599a1ca842d4b84d1bd10581",
+        "sha256_in_prefix": "8d9963fa40b23699fa1b7a6c9c86e5c0366958bb599a1ca842d4b84d1bd10581",
+        "size_in_bytes": 4611
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/processor.h",
+        "path_type": "hardlink",
+        "sha256": "ae473b6abc7224fcda08224560777c6a18245847f3348be1c49efea13cbcdd6a",
+        "sha256_in_prefix": "ae473b6abc7224fcda08224560777c6a18245847f3348be1c49efea13cbcdd6a",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/random_id_generator.h",
+        "path_type": "hardlink",
+        "sha256": "a3e9170d847660ea6a76ac6499e692d88eab44bb9b6b5e6a58ac6298873a2b60",
+        "sha256_in_prefix": "a3e9170d847660ea6a76ac6499e692d88eab44bb9b6b5e6a58ac6298873a2b60",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/random_id_generator_factory.h",
+        "path_type": "hardlink",
+        "sha256": "e278a75066d630327ea38ee915c0102a4de769e8ca5468f3969cd2c4a1b26cf9",
+        "sha256_in_prefix": "e278a75066d630327ea38ee915c0102a4de769e8ca5468f3969cd2c4a1b26cf9",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/recordable.h",
+        "path_type": "hardlink",
+        "sha256": "45b2699668f8c823c66e5cecd8c372a7cc2add8a14096227f0c995453f1f0565",
+        "sha256_in_prefix": "45b2699668f8c823c66e5cecd8c372a7cc2add8a14096227f0c995453f1f0565",
+        "size_in_bytes": 5773
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/sampler.h",
+        "path_type": "hardlink",
+        "sha256": "8e1d08a62418d1a70970d4928f32a4642bb7574033a2859d406cd425f0f9690b",
+        "sha256_in_prefix": "8e1d08a62418d1a70970d4928f32a4642bb7574033a2859d406cd425f0f9690b",
+        "size_in_bytes": 3328
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/always_off.h",
+        "path_type": "hardlink",
+        "sha256": "4e3a952514b847603730e99a5d8bf6cf1b812bb4a1cc92e84fb6cf0fd71f4a90",
+        "sha256_in_prefix": "4e3a952514b847603730e99a5d8bf6cf1b812bb4a1cc92e84fb6cf0fd71f4a90",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/always_off_factory.h",
+        "path_type": "hardlink",
+        "sha256": "2effe0b8f34773d216be14e622014f2ae75678992aea1ee14bee292fa5cb1490",
+        "sha256_in_prefix": "2effe0b8f34773d216be14e622014f2ae75678992aea1ee14bee292fa5cb1490",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/always_on.h",
+        "path_type": "hardlink",
+        "sha256": "faeaf602e0ca35db739fafeddfeac896f4583c8bda9785b34852caa82ddcf16a",
+        "sha256_in_prefix": "faeaf602e0ca35db739fafeddfeac896f4583c8bda9785b34852caa82ddcf16a",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/always_on_factory.h",
+        "path_type": "hardlink",
+        "sha256": "201f22130b064ec676cf789af79f6daf8e1586db9bbdc4b7d9f2e0173b3a21d8",
+        "sha256_in_prefix": "201f22130b064ec676cf789af79f6daf8e1586db9bbdc4b7d9f2e0173b3a21d8",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/parent.h",
+        "path_type": "hardlink",
+        "sha256": "0bc0fb1d65654ffaf0a37f0cd6fd91347844f2256c06facc942669bed3cf6e47",
+        "sha256_in_prefix": "0bc0fb1d65654ffaf0a37f0cd6fd91347844f2256c06facc942669bed3cf6e47",
+        "size_in_bytes": 1703
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/parent_factory.h",
+        "path_type": "hardlink",
+        "sha256": "d15d0dfab49c645cbb1c82c097ff74f0e6c3a1fd03257e635b68438aa66131f5",
+        "sha256_in_prefix": "d15d0dfab49c645cbb1c82c097ff74f0e6c3a1fd03257e635b68438aa66131f5",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/trace_id_ratio.h",
+        "path_type": "hardlink",
+        "sha256": "f2f8b767caf8c49b003ba2d0d41c7f68f8602029753d5a40f2e9dea2d868616c",
+        "sha256_in_prefix": "f2f8b767caf8c49b003ba2d0d41c7f68f8602029753d5a40f2e9dea2d868616c",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/samplers/trace_id_ratio_factory.h",
+        "path_type": "hardlink",
+        "sha256": "ed13a72b4de50d0975a290f591da50c832130c4bcbbfba7b700e7779e3dbd237",
+        "sha256_in_prefix": "ed13a72b4de50d0975a290f591da50c832130c4bcbbfba7b700e7779e3dbd237",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/simple_processor.h",
+        "path_type": "hardlink",
+        "sha256": "7db08eaaf1f208556b7a4a279838cb563c82ce6782eed7a6abf48ebbdf778683",
+        "sha256_in_prefix": "7db08eaaf1f208556b7a4a279838cb563c82ce6782eed7a6abf48ebbdf778683",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/simple_processor_factory.h",
+        "path_type": "hardlink",
+        "sha256": "28bb0449e3260df809a78fb0fdf60186507a3d0de6b47de7950130edca66ac56",
+        "sha256_in_prefix": "28bb0449e3260df809a78fb0fdf60186507a3d0de6b47de7950130edca66ac56",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/span_data.h",
+        "path_type": "hardlink",
+        "sha256": "8a183cf9c4a88da9460cefe441cf3937bfe1de3126653ba13743d88ba99e4cce",
+        "sha256_in_prefix": "8a183cf9c4a88da9460cefe441cf3937bfe1de3126653ba13743d88ba99e4cce",
+        "size_in_bytes": 10097
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/tracer.h",
+        "path_type": "hardlink",
+        "sha256": "3f4753d5eb376a0c9ad249a0d98fb1fedefcfeeaae00869f6390e7914cdde779",
+        "sha256_in_prefix": "3f4753d5eb376a0c9ad249a0d98fb1fedefcfeeaae00869f6390e7914cdde779",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/tracer_context.h",
+        "path_type": "hardlink",
+        "sha256": "ab020b1e91c8ae5b33b9325894d6bc975a7e059efa7181023a40a486e43e7e1e",
+        "sha256_in_prefix": "ab020b1e91c8ae5b33b9325894d6bc975a7e059efa7181023a40a486e43e7e1e",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/tracer_context_factory.h",
+        "path_type": "hardlink",
+        "sha256": "65e6445e1074e5cfa170e97d883c3606cfa35458f974e3fa0c6f984fd839ce73",
+        "sha256_in_prefix": "65e6445e1074e5cfa170e97d883c3606cfa35458f974e3fa0c6f984fd839ce73",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/tracer_provider.h",
+        "path_type": "hardlink",
+        "sha256": "b8df0ffcd4735343130eaa7d9a06f6b562cffef010a5930406808d3dc49d3c46",
+        "sha256_in_prefix": "b8df0ffcd4735343130eaa7d9a06f6b562cffef010a5930406808d3dc49d3c46",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "include/opentelemetry/sdk/trace/tracer_provider_factory.h",
+        "path_type": "hardlink",
+        "sha256": "5597498270ae5a5939ee1d571f299740dacc690513f9ca504ddf4297d8273963",
+        "sha256_in_prefix": "5597498270ae5a5939ee1d571f299740dacc690513f9ca504ddf4297d8273963",
+        "size_in_bytes": 5119
+      },
+      {
+        "_path": "include/opentelemetry/sdk/version/version.h",
+        "path_type": "hardlink",
+        "sha256": "7bbda487197443ab97e1b9e29592aecd78d4da29980b46c03b79b749020ef013",
+        "sha256_in_prefix": "7bbda487197443ab97e1b9e29592aecd78d4da29980b46c03b79b749020ef013",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "include/opentelemetry/sdk_config.h",
+        "path_type": "hardlink",
+        "sha256": "98a09414a5456c7a93a4fd7fa79a94562c4c74bc5be248fd527fc24e8b8a496d",
+        "sha256_in_prefix": "98a09414a5456c7a93a4fd7fa79a94562c4c74bc5be248fd527fc24e8b8a496d",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "include/opentelemetry/std/shared_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "704e04752d290433a857e8ba8cf8ae889aa80f60aa8e276460b9f0bca7d1626f",
+        "sha256_in_prefix": "704e04752d290433a857e8ba8cf8ae889aa80f60aa8e276460b9f0bca7d1626f",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "include/opentelemetry/std/span.h",
+        "path_type": "hardlink",
+        "sha256": "a8ae8a9917cf72e365d8383a1a5033460b39eba49460b9513c9e674027a380ee",
+        "sha256_in_prefix": "a8ae8a9917cf72e365d8383a1a5033460b39eba49460b9513c9e674027a380ee",
+        "size_in_bytes": 2204
+      },
+      {
+        "_path": "include/opentelemetry/std/string_view.h",
+        "path_type": "hardlink",
+        "sha256": "a1cba6e6df9629a8c8cc037ec60f71297bd3c7ad1f4072ab55015b774678057e",
+        "sha256_in_prefix": "a1cba6e6df9629a8c8cc037ec60f71297bd3c7ad1f4072ab55015b774678057e",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "include/opentelemetry/std/type_traits.h",
+        "path_type": "hardlink",
+        "sha256": "2f8a036194eec030efe2d6c60a5566e16e28b643d8089378420e4327fe788c2e",
+        "sha256_in_prefix": "2f8a036194eec030efe2d6c60a5566e16e28b643d8089378420e4327fe788c2e",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "include/opentelemetry/std/unique_ptr.h",
+        "path_type": "hardlink",
+        "sha256": "170c9eec7838091c1f786e6ee7d4ce135bc2dc80dda8688877958579f8724750",
+        "sha256_in_prefix": "170c9eec7838091c1f786e6ee7d4ce135bc2dc80dda8688877958579f8724750",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "include/opentelemetry/std/utility.h",
+        "path_type": "hardlink",
+        "sha256": "6304e557e730ff2ddc753e181c257e10770f33e369dbde6603e13b909d117910",
+        "sha256_in_prefix": "6304e557e730ff2ddc753e181c257e10770f33e369dbde6603e13b909d117910",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "include/opentelemetry/std/variant.h",
+        "path_type": "hardlink",
+        "sha256": "9a28968c1f958821651706cbc25b7c0ef8626dab73ce513a0e5a16b8fecff20d",
+        "sha256_in_prefix": "9a28968c1f958821651706cbc25b7c0ef8626dab73ce513a0e5a16b8fecff20d",
+        "size_in_bytes": 6059
+      },
+      {
+        "_path": "include/opentelemetry/trace/context.h",
+        "path_type": "hardlink",
+        "sha256": "e66824c3e048c5be9fcc0a4a554fba5ca8aeef020d30eff1b9c88c64852cbd9a",
+        "sha256_in_prefix": "e66824c3e048c5be9fcc0a4a554fba5ca8aeef020d30eff1b9c88c64852cbd9a",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "include/opentelemetry/trace/default_span.h",
+        "path_type": "hardlink",
+        "sha256": "f1e1934fdfb07ee41bf88f085f927fa088fa1699aae18ec6a83e4250f95238b7",
+        "sha256_in_prefix": "f1e1934fdfb07ee41bf88f085f927fa088fa1699aae18ec6a83e4250f95238b7",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "include/opentelemetry/trace/noop.h",
+        "path_type": "hardlink",
+        "sha256": "94e99485758e2c1e2b36fe559407e480b68d821c347ca94e5a446f57211584e9",
+        "sha256_in_prefix": "94e99485758e2c1e2b36fe559407e480b68d821c347ca94e5a446f57211584e9",
+        "size_in_bytes": 4820
+      },
+      {
+        "_path": "include/opentelemetry/trace/propagation/b3_propagator.h",
+        "path_type": "hardlink",
+        "sha256": "8547f18f856224ee36aa646d32af5a439b796b0242f22793ff2b5fc4dcaaeb78",
+        "sha256_in_prefix": "8547f18f856224ee36aa646d32af5a439b796b0242f22793ff2b5fc4dcaaeb78",
+        "size_in_bytes": 7001
+      },
+      {
+        "_path": "include/opentelemetry/trace/propagation/detail/hex.h",
+        "path_type": "hardlink",
+        "sha256": "9a8b5fe823a8352584686385e89747c8a5f9c44766c9b025d0bfed861384ea23",
+        "sha256_in_prefix": "9a8b5fe823a8352584686385e89747c8a5f9c44766c9b025d0bfed861384ea23",
+        "size_in_bytes": 2627
+      },
+      {
+        "_path": "include/opentelemetry/trace/propagation/detail/string.h",
+        "path_type": "hardlink",
+        "sha256": "d771b50f64b50afdfd07414df46025025f4ee961b9243757f5b5a53c99f32259",
+        "sha256_in_prefix": "d771b50f64b50afdfd07414df46025025f4ee961b9243757f5b5a53c99f32259",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "include/opentelemetry/trace/propagation/http_trace_context.h",
+        "path_type": "hardlink",
+        "sha256": "80967c4fb5d8ff990e7b4161c136399183e1de24beb920728e4dc14da101be4a",
+        "sha256_in_prefix": "80967c4fb5d8ff990e7b4161c136399183e1de24beb920728e4dc14da101be4a",
+        "size_in_bytes": 5966
+      },
+      {
+        "_path": "include/opentelemetry/trace/propagation/jaeger.h",
+        "path_type": "hardlink",
+        "sha256": "64196388d3eb174fccc8ee14a98d54ad216be4d42eb54350f14e5f61bb9b1b49",
+        "sha256_in_prefix": "64196388d3eb174fccc8ee14a98d54ad216be4d42eb54350f14e5f61bb9b1b49",
+        "size_in_bytes": 4014
+      },
+      {
+        "_path": "include/opentelemetry/trace/provider.h",
+        "path_type": "hardlink",
+        "sha256": "d27fa9f65a5b2b4203f42cc56c94b7f3fea1326450096506b1e7719e46aec788",
+        "sha256_in_prefix": "d27fa9f65a5b2b4203f42cc56c94b7f3fea1326450096506b1e7719e46aec788",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "include/opentelemetry/trace/scope.h",
+        "path_type": "hardlink",
+        "sha256": "a73dfd54a251cf774543db04687929b13ad1020cb66a84214b6312bd9dc57c79",
+        "sha256_in_prefix": "a73dfd54a251cf774543db04687929b13ad1020cb66a84214b6312bd9dc57c79",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "include/opentelemetry/trace/semantic_conventions.h",
+        "path_type": "hardlink",
+        "sha256": "ccb419ba84679dfd3d67b3da2c323a50f8c51f4a34d0810bc0af56e8c586662e",
+        "sha256_in_prefix": "ccb419ba84679dfd3d67b3da2c323a50f8c51f4a34d0810bc0af56e8c586662e",
+        "size_in_bytes": 164855
+      },
+      {
+        "_path": "include/opentelemetry/trace/span.h",
+        "path_type": "hardlink",
+        "sha256": "5ce6f80c28a93bd5631dcd5acd01108273a4bedfbcfeae54ff34a5261ea73a04",
+        "sha256_in_prefix": "5ce6f80c28a93bd5631dcd5acd01108273a4bedfbcfeae54ff34a5261ea73a04",
+        "size_in_bytes": 8581
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_context.h",
+        "path_type": "hardlink",
+        "sha256": "82463eeea6a9042ac4dd65ac0491222f6f25f9cafe45e7e527dc6d4c5f25b17d",
+        "sha256_in_prefix": "82463eeea6a9042ac4dd65ac0491222f6f25f9cafe45e7e527dc6d4c5f25b17d",
+        "size_in_bytes": 3198
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_context_kv_iterable.h",
+        "path_type": "hardlink",
+        "sha256": "bf98f8f2491b81adb2b4f59ff50a65ca4380c7d6e28ba65f0c8f5fc1dee9f72a",
+        "sha256_in_prefix": "bf98f8f2491b81adb2b4f59ff50a65ca4380c7d6e28ba65f0c8f5fc1dee9f72a",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_context_kv_iterable_view.h",
+        "path_type": "hardlink",
+        "sha256": "76ab07bbb777e24053b736445cd7d78f087e77d89ec7af1d61dd812857678027",
+        "sha256_in_prefix": "76ab07bbb777e24053b736445cd7d78f087e77d89ec7af1d61dd812857678027",
+        "size_in_bytes": 3795
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_id.h",
+        "path_type": "hardlink",
+        "sha256": "b0d4481aaf45207f9389ad5a5fd710662a4bcddaf8e4f151dc83f6a42c1fb5d8",
+        "sha256_in_prefix": "b0d4481aaf45207f9389ad5a5fd710662a4bcddaf8e4f151dc83f6a42c1fb5d8",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_metadata.h",
+        "path_type": "hardlink",
+        "sha256": "2bbd09e1cd2d07740cbef77fcb73d9701e7864f3da168294c2c31bc3c2085895",
+        "sha256_in_prefix": "2bbd09e1cd2d07740cbef77fcb73d9701e7864f3da168294c2c31bc3c2085895",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "include/opentelemetry/trace/span_startoptions.h",
+        "path_type": "hardlink",
+        "sha256": "7aec4c51d3840de6d0782fa49b63a8cd09f6fba5702ca8d8f6d74607893ac2d8",
+        "sha256_in_prefix": "7aec4c51d3840de6d0782fa49b63a8cd09f6fba5702ca8d8f6d74607893ac2d8",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "include/opentelemetry/trace/trace_flags.h",
+        "path_type": "hardlink",
+        "sha256": "d4884f3d0a43034fbece0c74f4f2dcde291594d3adeba8951393443d58cfeadc",
+        "sha256_in_prefix": "d4884f3d0a43034fbece0c74f4f2dcde291594d3adeba8951393443d58cfeadc",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "include/opentelemetry/trace/trace_id.h",
+        "path_type": "hardlink",
+        "sha256": "c03552ebfd4982ee04c2344d9309ccf9d29dbccfe90dbe6904130f5bad7c5950",
+        "sha256_in_prefix": "c03552ebfd4982ee04c2344d9309ccf9d29dbccfe90dbe6904130f5bad7c5950",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "include/opentelemetry/trace/trace_state.h",
+        "path_type": "hardlink",
+        "sha256": "d3503a5d5bea90f3fd37f37fd36450701c7cd6520d98c4412b9a3fd8b1c0cb83",
+        "sha256_in_prefix": "d3503a5d5bea90f3fd37f37fd36450701c7cd6520d98c4412b9a3fd8b1c0cb83",
+        "size_in_bytes": 9797
+      },
+      {
+        "_path": "include/opentelemetry/trace/tracer.h",
+        "path_type": "hardlink",
+        "sha256": "7ada339f278183f9fa7fa6d1f9a06e4a8dbf443206020b437f8327a2c02714db",
+        "sha256_in_prefix": "7ada339f278183f9fa7fa6d1f9a06e4a8dbf443206020b437f8327a2c02714db",
+        "size_in_bytes": 7438
+      },
+      {
+        "_path": "include/opentelemetry/trace/tracer_provider.h",
+        "path_type": "hardlink",
+        "sha256": "ea44e64e15e82165831ae585a6fddc3011c8c29b5afcfa08555d582ffc5ceae9",
+        "sha256_in_prefix": "ea44e64e15e82165831ae585a6fddc3011c8c29b5afcfa08555d582ffc5ceae9",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "include/opentelemetry/version.h",
+        "path_type": "hardlink",
+        "sha256": "e8201f7813fa0cdf75e89606478d930ef5fc5112857bd22b756e11bcecc5d92a",
+        "sha256_in_prefix": "e8201f7813fa0cdf75e89606478d930ef5fc5112857bd22b756e11bcecc5d92a",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_api.pc",
+        "path_type": "hardlink",
+        "sha256": "a5bd6400f0f0d697e46f05f2c1f3327c27f03e40277558dced61bed2689ece71",
+        "sha256_in_prefix": "a5bd6400f0f0d697e46f05f2c1f3327c27f03e40277558dced61bed2689ece71",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_common.pc",
+        "path_type": "hardlink",
+        "sha256": "c80c76cad1f8442fde01403553df02e43565772d8830770ed49bb45882b9e516",
+        "sha256_in_prefix": "c80c76cad1f8442fde01403553df02e43565772d8830770ed49bb45882b9e516",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_logs.pc",
+        "path_type": "hardlink",
+        "sha256": "0b64fd8f465b65471f8889048abe9a9f99b06049c3e6af7bbd841ca0be739a93",
+        "sha256_in_prefix": "0b64fd8f465b65471f8889048abe9a9f99b06049c3e6af7bbd841ca0be739a93",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_metrics.pc",
+        "path_type": "hardlink",
+        "sha256": "d3eca2458c2c3ed50ac9ce2bfa9f568ccf0666208c6717abc5d18644d0fc20a3",
+        "sha256_in_prefix": "d3eca2458c2c3ed50ac9ce2bfa9f568ccf0666208c6717abc5d18644d0fc20a3",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_resources.pc",
+        "path_type": "hardlink",
+        "sha256": "ee891dab7404d97a264170326da921f512973bd52a24f54d74bbfe8be3743632",
+        "sha256_in_prefix": "ee891dab7404d97a264170326da921f512973bd52a24f54d74bbfe8be3743632",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_trace.pc",
+        "path_type": "hardlink",
+        "sha256": "e0325a091b8939e3e54fb86428a037e7bb4b4daaf66b3ef109da5bdaf47a33b8",
+        "sha256_in_prefix": "e0325a091b8939e3e54fb86428a037e7bb4b4daaf66b3ef109da5bdaf47a33b8",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/pkgconfig/opentelemetry_version.pc",
+        "path_type": "hardlink",
+        "sha256": "0818eb0164efd96cb478235c4ed125b8ec2673d0b2105899f8555206bedc1f91",
+        "sha256_in_prefix": "0818eb0164efd96cb478235c4ed125b8ec2673d0b2105899f8555206bedc1f91",
+        "size_in_bytes": 399
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d524c079f82b337e5f0888a825693c46e7f613c1c74375965f0ba95ebc97874b",
+  "size": 280100,
+  "subdir": "osx-arm64",
+  "timestamp": 1721691075000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopentelemetry-cpp-headers-1.16.1-hce30654_0.conda",
+  "version": "1.16.1"
+}

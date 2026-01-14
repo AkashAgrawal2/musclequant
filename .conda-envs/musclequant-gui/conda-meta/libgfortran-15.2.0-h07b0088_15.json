@@ -1,0 +1,33 @@
+{
+  "build": "h07b0088_15",
+  "build_number": 15,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "libgfortran-ng ==15.2.0 *_15"
+  ],
+  "depends": [
+    "libgfortran5 15.2.0 hdae7583_15"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libgfortran-15.2.0-h07b0088_15",
+  "files": [],
+  "fn": "libgfortran-15.2.0-h07b0088_15.conda",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libgfortran-15.2.0-h07b0088_15",
+    "type": 1
+  },
+  "md5": "5c9f004d0b98ce792a022f1095d1b338",
+  "name": "libgfortran",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libgfortran-15.2.0-h07b0088_15.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aca978d4fe96c3838e87fe607888267a9d5a3a99159535a0ba418f781639eaab",
+  "size": 138828,
+  "subdir": "osx-arm64",
+  "timestamp": 1764837867000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-15.2.0-h07b0088_15.conda",
+  "version": "15.2.0"
+}

@@ -1,0 +1,160 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "python >=3.10"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/roifile-2025.5.10-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/METADATA",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/RECORD",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/WHEEL",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/roifile-2025.5.10.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/roifile/__init__.py",
+    "lib/python3.11/site-packages/roifile/__main__.py",
+    "lib/python3.11/site-packages/roifile/py.typed",
+    "lib/python3.11/site-packages/roifile/roifile.py",
+    "lib/python3.11/site-packages/roifile/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/roifile/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/roifile/__pycache__/roifile.cpython-311.pyc",
+    "bin/roifile"
+  ],
+  "fn": "roifile-2025.5.10-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/roifile-2025.5.10-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "63abb35be3242151382805a8d029e041",
+  "name": "roifile",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/roifile-2025.5.10-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1c08d7549f0daec783a10904a33d11703bbbcc526b8627bb129fda79eaf9da11",
+        "sha256_in_prefix": "1c08d7549f0daec783a10904a33d11703bbbcc526b8627bb129fda79eaf9da11",
+        "size_in_bytes": 5679
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "837642f4e8723e500814233c45c4dea40fcde1abd02c265e133365d535c7c02c",
+        "sha256_in_prefix": "837642f4e8723e500814233c45c4dea40fcde1abd02c265e133365d535c7c02c",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cda68e20d2444a449f9bfe07415739b2c3731c23d78499b490451a929b041da5",
+        "sha256_in_prefix": "cda68e20d2444a449f9bfe07415739b2c3731c23d78499b490451a929b041da5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "353d6dc3e7f5647c4a7e862893dc29d73c67124401c086390815895c369e0e47",
+        "sha256_in_prefix": "353d6dc3e7f5647c4a7e862893dc29d73c67124401c086390815895c369e0e47",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c4ff1cc0451b01479138b5cd45a9c99c0225d77b5a81b8d248319f5567f6be1d",
+        "sha256_in_prefix": "c4ff1cc0451b01479138b5cd45a9c99c0225d77b5a81b8d248319f5567f6be1d",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d725f079bfb3eae13a25a211333d94a4d385fac60d6ea4f21d88664475a3c842",
+        "sha256_in_prefix": "d725f079bfb3eae13a25a211333d94a4d385fac60d6ea4f21d88664475a3c842",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "site-packages/roifile-2025.5.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4257cba26c4fc6e60d5344d347b317a150401005c28f6589c8abe8089c4dc1e9",
+        "sha256_in_prefix": "4257cba26c4fc6e60d5344d347b317a150401005c28f6589c8abe8089c4dc1e9",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/roifile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "deb228d2f6b7960f27a20de96dc5b211b631184b31741f6e5d451fdf37d3786e",
+        "sha256_in_prefix": "deb228d2f6b7960f27a20de96dc5b211b631184b31741f6e5d451fdf37d3786e",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "site-packages/roifile/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "31f9f7c26fb87114428484689db11c6594fb7915fa445952df54bcc12d490153",
+        "sha256_in_prefix": "31f9f7c26fb87114428484689db11c6594fb7915fa445952df54bcc12d490153",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/roifile/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/roifile/roifile.py",
+        "path_type": "hardlink",
+        "sha256": "0c9f707c3de6c3a56c71b30179642df9b727a741a2d17d8da99550ccf7812889",
+        "sha256_in_prefix": "0c9f707c3de6c3a56c71b30179642df9b727a741a2d17d8da99550ccf7812889",
+        "size_in_bytes": 48713
+      },
+      {
+        "_path": "lib/python3.11/site-packages/roifile/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/roifile/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/roifile/__pycache__/roifile.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/roifile",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7bfb13a154531a2e9279819b674e6fd9fff762b211cf6f734b666d9592546a6b",
+  "size": 21220,
+  "subdir": "noarch",
+  "timestamp": 1748112810000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/roifile-2025.5.10-pyhd8ed1ab_0.conda",
+  "version": "2025.5.10"
+}

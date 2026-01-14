@@ -1,0 +1,14 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+libdir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib
+includedir=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 10.4.100
+Requires: 
+Requires.private: libswscale >= 8.3.100, libpostproc >= 58.3.100, libavformat >= 61.7.100, libavcodec >= 61.19.100, libswresample >= 5.3.100, libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -framework OpenGL -framework OpenGL -pthread -lm -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lharfbuzz -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lass -framework Metal -framework VideoToolbox -framework CoreImage -framework AppKit -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lfontconfig -lfreetype -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lfreetype -L/Users/akashagr/musclequant/.conda-envs/musclequant-gui/lib -lopenvino_onnx_frontend -lopenvino_paddle_frontend -lopenvino_pytorch_frontend -lopenvino_tensorflow_frontend -lopenvino_tensorflow_lite_frontend -lopenvino_c -lopenvino -ltbb -lpugixml -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

@@ -1,0 +1,188 @@
+{
+  "build": "h81086ad_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libogg",
+    "__osx >=11.0",
+    "libcxx >=19",
+    "libogg >=1.3.5,<1.4.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libvorbis-1.3.7-h81086ad_2",
+  "files": [
+    "include/vorbis/codec.h",
+    "include/vorbis/vorbisenc.h",
+    "include/vorbis/vorbisfile.h",
+    "lib/cmake/Vorbis/VorbisConfig.cmake",
+    "lib/cmake/Vorbis/VorbisConfigVersion.cmake",
+    "lib/cmake/Vorbis/VorbisTargets-release.cmake",
+    "lib/cmake/Vorbis/VorbisTargets.cmake",
+    "lib/libvorbis.0.4.9.dylib",
+    "lib/libvorbis.0.dylib",
+    "lib/libvorbis.dylib",
+    "lib/libvorbisenc.2.0.12.dylib",
+    "lib/libvorbisenc.2.dylib",
+    "lib/libvorbisenc.dylib",
+    "lib/libvorbisfile.3.3.8.dylib",
+    "lib/libvorbisfile.3.dylib",
+    "lib/libvorbisfile.dylib",
+    "lib/pkgconfig/vorbis.pc",
+    "lib/pkgconfig/vorbisenc.pc",
+    "lib/pkgconfig/vorbisfile.pc"
+  ],
+  "fn": "libvorbis-1.3.7-h81086ad_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libvorbis-1.3.7-h81086ad_2",
+    "type": 1
+  },
+  "md5": "719e7653178a09f5ca0aa05f349b41f7",
+  "name": "libvorbis",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libvorbis-1.3.7-h81086ad_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/vorbis/codec.h",
+        "path_type": "hardlink",
+        "sha256": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5",
+        "sha256_in_prefix": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5",
+        "size_in_bytes": 8387
+      },
+      {
+        "_path": "include/vorbis/vorbisenc.h",
+        "path_type": "hardlink",
+        "sha256": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f",
+        "sha256_in_prefix": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f",
+        "size_in_bytes": 16990
+      },
+      {
+        "_path": "include/vorbis/vorbisfile.h",
+        "path_type": "hardlink",
+        "sha256": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803",
+        "sha256_in_prefix": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803",
+        "size_in_bytes": 7990
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "15d7787d026bf77e74bd967ba4f557814d207db0e7f18a8fc8f3ff7d07e93eba",
+        "sha256_in_prefix": "15d7787d026bf77e74bd967ba4f557814d207db0e7f18a8fc8f3ff7d07e93eba",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "b5b2f4148bcea8230933514ebb15f58aa46b5266a995de0b9bcdb54405ad0d2c",
+        "sha256_in_prefix": "b5b2f4148bcea8230933514ebb15f58aa46b5266a995de0b9bcdb54405ad0d2c",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "12587d52bb28a92e7dd7adf45d471adc588b0d9bbea5c248aed122bb6003b704",
+        "sha256_in_prefix": "12587d52bb28a92e7dd7adf45d471adc588b0d9bbea5c248aed122bb6003b704",
+        "size_in_bytes": 1866
+      },
+      {
+        "_path": "lib/cmake/Vorbis/VorbisTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "8705aaf7930b3b2de56fa258271825f52ed312dfe1ce6d6646449b2c04bac5fb",
+        "sha256_in_prefix": "8705aaf7930b3b2de56fa258271825f52ed312dfe1ce6d6646449b2c04bac5fb",
+        "size_in_bytes": 4696
+      },
+      {
+        "_path": "lib/libvorbis.0.4.9.dylib",
+        "path_type": "softlink",
+        "sha256": "dd05fdfa9132b44ececa40f206bfd8a13d302cb7c50f9d7cf300dc034bdc44a7",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/libvorbis.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "dd05fdfa9132b44ececa40f206bfd8a13d302cb7c50f9d7cf300dc034bdc44a7",
+        "sha256_in_prefix": "dd05fdfa9132b44ececa40f206bfd8a13d302cb7c50f9d7cf300dc034bdc44a7",
+        "size_in_bytes": 243200
+      },
+      {
+        "_path": "lib/libvorbis.dylib",
+        "path_type": "softlink",
+        "sha256": "dd05fdfa9132b44ececa40f206bfd8a13d302cb7c50f9d7cf300dc034bdc44a7",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/libvorbisenc.2.0.12.dylib",
+        "path_type": "softlink",
+        "sha256": "d8fcc24d5930d15d9bbf88d2f068b6ea48b41d465cd155ae6d6623b209aa1c3a",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/libvorbisenc.2.dylib",
+        "path_type": "hardlink",
+        "sha256": "d8fcc24d5930d15d9bbf88d2f068b6ea48b41d465cd155ae6d6623b209aa1c3a",
+        "sha256_in_prefix": "d8fcc24d5930d15d9bbf88d2f068b6ea48b41d465cd155ae6d6623b209aa1c3a",
+        "size_in_bytes": 714496
+      },
+      {
+        "_path": "lib/libvorbisenc.dylib",
+        "path_type": "softlink",
+        "sha256": "d8fcc24d5930d15d9bbf88d2f068b6ea48b41d465cd155ae6d6623b209aa1c3a",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/libvorbisfile.3.3.8.dylib",
+        "path_type": "softlink",
+        "sha256": "1878b9ac2304724b567db60a330c7c27d17ff4be5347baa37417d4e7f87ef060",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/libvorbisfile.3.dylib",
+        "path_type": "hardlink",
+        "sha256": "1878b9ac2304724b567db60a330c7c27d17ff4be5347baa37417d4e7f87ef060",
+        "sha256_in_prefix": "1878b9ac2304724b567db60a330c7c27d17ff4be5347baa37417d4e7f87ef060",
+        "size_in_bytes": 73248
+      },
+      {
+        "_path": "lib/libvorbisfile.dylib",
+        "path_type": "softlink",
+        "sha256": "1878b9ac2304724b567db60a330c7c27d17ff4be5347baa37417d4e7f87ef060",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/pkgconfig/vorbis.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libvorbis_1753879389/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "c2cc9abd26ad90093035541069e60bd66c4b72f430ae02deeebbda48346238fd",
+        "sha256_in_prefix": "17ec692c46116d9d59041c0b9f688fdffb760381bbdb80d69094fed499edbb4b",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/pkgconfig/vorbisenc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libvorbis_1753879389/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "5f203e709e7d99c55138132d2c2eeefd9a7bd2f76e6dee9c6cdec30181e370fb",
+        "sha256_in_prefix": "2e7ad0732e3e9471117cda77d7931d2830519d96fdf62d7cab108adf22e7e877",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "lib/pkgconfig/vorbisfile.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libvorbis_1753879389/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "07e2bf35bb15f56d2952b9e4d8b71cb179d2fe5ce368987bc76ab41315eedffb",
+        "sha256_in_prefix": "fba01070c12bfd8d5b80523f0d3152d39d2c34725b64b6b8a150e8efc8162433",
+        "size_in_bytes": 1386
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "95768e4eceaffb973081fd986d03da15d93aa10609ed202e6fd5ca1e490a3dce",
+  "size": 259122,
+  "subdir": "osx-arm64",
+  "timestamp": 1753879389000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libvorbis-1.3.7-h81086ad_2.conda",
+  "version": "1.3.7"
+}

@@ -1,0 +1,243 @@
+{
+  "build": "pyha07c04f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "numpy >=1.16.0",
+    "imageio >=2.5.0",
+    "vispy >=0.6.4"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/napari-svg-0.2.1-pyha07c04f_0",
+  "files": [
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/napari_svg-0.2.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/napari_svg/__init__.py",
+    "lib/python3.11/site-packages/napari_svg/_shape_to_xml.py",
+    "lib/python3.11/site-packages/napari_svg/_tests/__init__.py",
+    "lib/python3.11/site-packages/napari_svg/_tests/test_get_writer.py",
+    "lib/python3.11/site-packages/napari_svg/_tests/test_write_layer.py",
+    "lib/python3.11/site-packages/napari_svg/_tests/test_write_points_with_attributes-expected.svg",
+    "lib/python3.11/site-packages/napari_svg/_version.py",
+    "lib/python3.11/site-packages/napari_svg/hook_implementations.py",
+    "lib/python3.11/site-packages/napari_svg/layer_to_xml.py",
+    "lib/python3.11/site-packages/napari_svg/napari.yaml",
+    "lib/python3.11/site-packages/napari_svg/xml_to_svg.py",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/_shape_to_xml.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/test_get_writer.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/test_write_layer.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/hook_implementations.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/layer_to_xml.cpython-311.pyc",
+    "lib/python3.11/site-packages/napari_svg/__pycache__/xml_to_svg.cpython-311.pyc"
+  ],
+  "fn": "napari-svg-0.2.1-pyha07c04f_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/napari-svg-0.2.1-pyha07c04f_0",
+    "type": 1
+  },
+  "md5": "551d03bb20b0bd0e06aba272a032bb53",
+  "name": "napari-svg",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/napari-svg-0.2.1-pyha07c04f_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "2fedd69fe0698cb078959fb7e35939dbdba941c12313bd59b5c53729de45c3e6",
+        "sha256_in_prefix": "2fedd69fe0698cb078959fb7e35939dbdba941c12313bd59b5c53729de45c3e6",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2a649e24ae5b7a3239c2cd2fbb7f7c63481489be8bf9e42a813f044d4c68fa86",
+        "sha256_in_prefix": "2a649e24ae5b7a3239c2cd2fbb7f7c63481489be8bf9e42a813f044d4c68fa86",
+        "size_in_bytes": 3592
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ff73dc664927e16d527bdea86478b4ce478407266fb3f4e8a42c3416ca20f65a",
+        "sha256_in_prefix": "ff73dc664927e16d527bdea86478b4ce478407266fb3f4e8a42c3416ca20f65a",
+        "size_in_bytes": 2270
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "590efe03cf033199851128ea2707f29f6195e7a0cb2a8f6ad41c5beffe022d5b",
+        "sha256_in_prefix": "590efe03cf033199851128ea2707f29f6195e7a0cb2a8f6ad41c5beffe022d5b",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ad4c9f444adfb329faf03db60eec1ad16afeddd4d6fe51527f0e58976d21b8de",
+        "sha256_in_prefix": "ad4c9f444adfb329faf03db60eec1ad16afeddd4d6fe51527f0e58976d21b8de",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/napari_svg-0.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f1a253fb42d92c6fd362daff21f78d17a382787bdf8cde2c10470214bc5a04bd",
+        "sha256_in_prefix": "f1a253fb42d92c6fd362daff21f78d17a382787bdf8cde2c10470214bc5a04bd",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/napari_svg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5c7de3abb5b2ece6b6915fc36b9cf34f67e32027d999a2549646824e55fee89",
+        "sha256_in_prefix": "f5c7de3abb5b2ece6b6915fc36b9cf34f67e32027d999a2549646824e55fee89",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "site-packages/napari_svg/_shape_to_xml.py",
+        "path_type": "hardlink",
+        "sha256": "60758b2cf2ce7f03f9c2a97fb970f629349dbfd98ce4f25186f6c762574ae071",
+        "sha256_in_prefix": "60758b2cf2ce7f03f9c2a97fb970f629349dbfd98ce4f25186f6c762574ae071",
+        "size_in_bytes": 5071
+      },
+      {
+        "_path": "site-packages/napari_svg/_tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/napari_svg/_tests/test_get_writer.py",
+        "path_type": "hardlink",
+        "sha256": "4d958732587e14e9b91d344c0870de3937683af562714b6cf0754cb57d5e152b",
+        "sha256_in_prefix": "4d958732587e14e9b91d344c0870de3937683af562714b6cf0754cb57d5e152b",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "site-packages/napari_svg/_tests/test_write_layer.py",
+        "path_type": "hardlink",
+        "sha256": "a2c25237a1448d80aaccf1a6868106843fd63a8776708bc19df2ad802475a042",
+        "sha256_in_prefix": "a2c25237a1448d80aaccf1a6868106843fd63a8776708bc19df2ad802475a042",
+        "size_in_bytes": 7563
+      },
+      {
+        "_path": "site-packages/napari_svg/_tests/test_write_points_with_attributes-expected.svg",
+        "path_type": "hardlink",
+        "sha256": "460c6b2e7a13482c2c78990a49f838644601ff658ac80b62d6997e808dd1b88a",
+        "sha256_in_prefix": "460c6b2e7a13482c2c78990a49f838644601ff658ac80b62d6997e808dd1b88a",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "site-packages/napari_svg/_version.py",
+        "path_type": "hardlink",
+        "sha256": "331521ccb2486507c4a434d370a4b17224c6acc2dde6fd9598c9476b61c67a8d",
+        "sha256_in_prefix": "331521ccb2486507c4a434d370a4b17224c6acc2dde6fd9598c9476b61c67a8d",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/napari_svg/hook_implementations.py",
+        "path_type": "hardlink",
+        "sha256": "1b6944be0ebb68925fb63967a9b27306243bd033cd7b09472eb4fa651a3d887c",
+        "sha256_in_prefix": "1b6944be0ebb68925fb63967a9b27306243bd033cd7b09472eb4fa651a3d887c",
+        "size_in_bytes": 9006
+      },
+      {
+        "_path": "site-packages/napari_svg/layer_to_xml.py",
+        "path_type": "hardlink",
+        "sha256": "dfd1782f57c2e7cda840e2660ed2e213afb4d08ea3a5dc0f999f32c5eee58600",
+        "sha256_in_prefix": "dfd1782f57c2e7cda840e2660ed2e213afb4d08ea3a5dc0f999f32c5eee58600",
+        "size_in_bytes": 16127
+      },
+      {
+        "_path": "site-packages/napari_svg/napari.yaml",
+        "path_type": "hardlink",
+        "sha256": "162f5632fd80938c872be6cd7d2ef46264326ca449deb24384499ad7a1b5acb3",
+        "sha256_in_prefix": "162f5632fd80938c872be6cd7d2ef46264326ca449deb24384499ad7a1b5acb3",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "site-packages/napari_svg/xml_to_svg.py",
+        "path_type": "hardlink",
+        "sha256": "31ab184f9c9c6b7b882675875b783dbacc2c07616a1d905086ae1216230c9f63",
+        "sha256_in_prefix": "31ab184f9c9c6b7b882675875b783dbacc2c07616a1d905086ae1216230c9f63",
+        "size_in_bytes": 1548
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/_shape_to_xml.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/test_get_writer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/_tests/__pycache__/test_write_layer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/hook_implementations.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/layer_to_xml.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/napari_svg/__pycache__/xml_to_svg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "45e9a75c7af0f7b2ecc2f20932c289894a68b361033ca6657d620f342fdfaded",
+  "size": 19988,
+  "subdir": "noarch",
+  "timestamp": 1736862579000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/napari-svg-0.2.1-pyha07c04f_0.conda",
+  "version": "0.2.1"
+}

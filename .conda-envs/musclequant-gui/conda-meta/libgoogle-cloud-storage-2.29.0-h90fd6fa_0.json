@@ -1,0 +1,55 @@
+{
+  "build": "h90fd6fa_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libabseil",
+    "libcrc32c >=1.1.2,<1.2.0a0",
+    "libcurl",
+    "libcxx >=17",
+    "libgoogle-cloud 2.29.0 hfa33a2f_0",
+    "libzlib >=1.3.1,<2.0a0",
+    "openssl"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libgoogle-cloud-storage-2.29.0-h90fd6fa_0",
+  "files": [
+    "lib/libgoogle_cloud_cpp_storage.2.29.0.dylib",
+    "lib/libgoogle_cloud_cpp_storage.2.dylib"
+  ],
+  "fn": "libgoogle-cloud-storage-2.29.0-h90fd6fa_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libgoogle-cloud-storage-2.29.0-h90fd6fa_0",
+    "type": 1
+  },
+  "md5": "baee0b9cb1c5319f370a534ca5a16267",
+  "name": "libgoogle-cloud-storage",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libgoogle-cloud-storage-2.29.0-h90fd6fa_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgoogle_cloud_cpp_storage.2.29.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "7d7fd60bd3ea1e7ad0aaea8ad982a29fd2075cc4614c745dbc859bab8da82c57",
+        "sha256_in_prefix": "7d7fd60bd3ea1e7ad0aaea8ad982a29fd2075cc4614c745dbc859bab8da82c57",
+        "size_in_bytes": 2892032
+      },
+      {
+        "_path": "lib/libgoogle_cloud_cpp_storage.2.dylib",
+        "path_type": "softlink",
+        "sha256": "7d7fd60bd3ea1e7ad0aaea8ad982a29fd2075cc4614c745dbc859bab8da82c57",
+        "size_in_bytes": 2892032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ec80383fbb6fae95d2ff7d04ba46b282ab48219b7ce85b3cd5ee7d0d8bae74e1",
+  "size": 535346,
+  "subdir": "osx-arm64",
+  "timestamp": 1725641618000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgoogle-cloud-storage-2.29.0-h90fd6fa_0.conda",
+  "version": "2.29.0"
+}

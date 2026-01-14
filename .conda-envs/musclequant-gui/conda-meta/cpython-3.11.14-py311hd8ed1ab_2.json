@@ -1,0 +1,34 @@
+{
+  "build": "py311hd8ed1ab_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0",
+    "python_abi * *_cp311"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/cpython-3.11.14-py311hd8ed1ab_2",
+  "files": [],
+  "fn": "cpython-3.11.14-py311hd8ed1ab_2.conda",
+  "license": "Python-2.0",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/cpython-3.11.14-py311hd8ed1ab_2",
+    "type": 1
+  },
+  "md5": "43ed151bed1a0eb7181d305fed7cf051",
+  "name": "cpython",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/cpython-3.11.14-py311hd8ed1ab_2.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c871fe68dcc6b79b322e4fcf9f2b131162094c32a68d48c87aa8582995948a01",
+  "size": 47257,
+  "subdir": "noarch",
+  "timestamp": 1761172995000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cpython-3.11.14-py311hd8ed1ab_2.conda",
+  "version": "3.11.14"
+}

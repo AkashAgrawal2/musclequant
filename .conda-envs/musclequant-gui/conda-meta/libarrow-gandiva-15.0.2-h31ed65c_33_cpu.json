@@ -1,0 +1,691 @@
+{
+  "build": "h31ed65c_33_cpu",
+  "build_number": 33,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libarrow 15.0.2 h7c52596_33_cpu",
+    "libcxx >=16",
+    "libllvm16 >=16.0.6,<16.1.0a0",
+    "libre2-11 >=2023.9.1",
+    "libutf8proc >=2.8.0,<3.0a0",
+    "openssl >=3.3.2,<4.0a0",
+    "re2",
+    "libutf8proc <2.9"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libarrow-gandiva-15.0.2-h31ed65c_33_cpu",
+  "files": [
+    "include/gandiva/annotator.h",
+    "include/gandiva/arrow.h",
+    "include/gandiva/basic_decimal_scalar.h",
+    "include/gandiva/bitmap_accumulator.h",
+    "include/gandiva/cache.h",
+    "include/gandiva/compiled_expr.h",
+    "include/gandiva/condition.h",
+    "include/gandiva/configuration.h",
+    "include/gandiva/date_utils.h",
+    "include/gandiva/decimal_ir.h",
+    "include/gandiva/decimal_scalar.h",
+    "include/gandiva/decimal_type_util.h",
+    "include/gandiva/decimal_xlarge.h",
+    "include/gandiva/dex.h",
+    "include/gandiva/dex_visitor.h",
+    "include/gandiva/encrypt_utils.h",
+    "include/gandiva/engine.h",
+    "include/gandiva/eval_batch.h",
+    "include/gandiva/execution_context.h",
+    "include/gandiva/exported_funcs.h",
+    "include/gandiva/exported_funcs_registry.h",
+    "include/gandiva/expr_decomposer.h",
+    "include/gandiva/expr_validator.h",
+    "include/gandiva/expression.h",
+    "include/gandiva/expression_cache_key.h",
+    "include/gandiva/expression_registry.h",
+    "include/gandiva/field_descriptor.h",
+    "include/gandiva/filter.h",
+    "include/gandiva/formatting_utils.h",
+    "include/gandiva/func_descriptor.h",
+    "include/gandiva/function_holder.h",
+    "include/gandiva/function_holder_maker_registry.h",
+    "include/gandiva/function_ir_builder.h",
+    "include/gandiva/function_registry.h",
+    "include/gandiva/function_registry_arithmetic.h",
+    "include/gandiva/function_registry_common.h",
+    "include/gandiva/function_registry_datetime.h",
+    "include/gandiva/function_registry_hash.h",
+    "include/gandiva/function_registry_math_ops.h",
+    "include/gandiva/function_registry_string.h",
+    "include/gandiva/function_registry_timestamp_arithmetic.h",
+    "include/gandiva/function_signature.h",
+    "include/gandiva/gandiva_aliases.h",
+    "include/gandiva/gandiva_object_cache.h",
+    "include/gandiva/gdv_function_stubs.h",
+    "include/gandiva/hash_utils.h",
+    "include/gandiva/in_holder.h",
+    "include/gandiva/interval_holder.h",
+    "include/gandiva/literal_holder.h",
+    "include/gandiva/llvm_generator.h",
+    "include/gandiva/llvm_includes.h",
+    "include/gandiva/llvm_types.h",
+    "include/gandiva/local_bitmaps_holder.h",
+    "include/gandiva/lru_cache.h",
+    "include/gandiva/lvalue.h",
+    "include/gandiva/native_function.h",
+    "include/gandiva/node.h",
+    "include/gandiva/node_visitor.h",
+    "include/gandiva/pch.h",
+    "include/gandiva/projector.h",
+    "include/gandiva/random_generator_holder.h",
+    "include/gandiva/regex_functions_holder.h",
+    "include/gandiva/regex_util.h",
+    "include/gandiva/selection_vector.h",
+    "include/gandiva/selection_vector_impl.h",
+    "include/gandiva/simple_arena.h",
+    "include/gandiva/to_date_holder.h",
+    "include/gandiva/tree_expr_builder.h",
+    "include/gandiva/value_validity_pair.h",
+    "include/gandiva/visibility.h",
+    "lib/cmake/Gandiva/FindLLVMAlt.cmake",
+    "lib/cmake/Gandiva/FindzstdAlt.cmake",
+    "lib/cmake/Gandiva/GandivaAddBitcode.cmake",
+    "lib/cmake/Gandiva/GandivaConfig.cmake",
+    "lib/cmake/Gandiva/GandivaConfigVersion.cmake",
+    "lib/cmake/Gandiva/GandivaTargets-release.cmake",
+    "lib/cmake/Gandiva/GandivaTargets.cmake",
+    "lib/libgandiva.1500.2.0.dylib",
+    "lib/libgandiva.1500.dylib",
+    "lib/libgandiva.dylib",
+    "lib/pkgconfig/gandiva.pc"
+  ],
+  "fn": "libarrow-gandiva-15.0.2-h31ed65c_33_cpu.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libarrow-gandiva-15.0.2-h31ed65c_33_cpu",
+    "type": 1
+  },
+  "md5": "c0ff025296163ea65094ef0c82798bfa",
+  "name": "libarrow-gandiva",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libarrow-gandiva-15.0.2-h31ed65c_33_cpu.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/gandiva/annotator.h",
+        "path_type": "hardlink",
+        "sha256": "2d19cb1b308d990994c272d6630c509edafd0a0a2aeae4e4f0e6e678c6c02791",
+        "sha256_in_prefix": "2d19cb1b308d990994c272d6630c509edafd0a0a2aeae4e4f0e6e678c6c02791",
+        "size_in_bytes": 3664
+      },
+      {
+        "_path": "include/gandiva/arrow.h",
+        "path_type": "hardlink",
+        "sha256": "90dc6ba34ccf1c0b2762cac4473f2ad0054762d840c8ff6c52d25d6b69829fe8",
+        "sha256_in_prefix": "90dc6ba34ccf1c0b2762cac4473f2ad0054762d840c8ff6c52d25d6b69829fe8",
+        "size_in_bytes": 2238
+      },
+      {
+        "_path": "include/gandiva/basic_decimal_scalar.h",
+        "path_type": "hardlink",
+        "sha256": "d737b0f766b764c20a0e9a2280f343e31b1fa622fed65396ebc1e0acb1222b58",
+        "sha256_in_prefix": "d737b0f766b764c20a0e9a2280f343e31b1fa622fed65396ebc1e0acb1222b58",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "include/gandiva/bitmap_accumulator.h",
+        "path_type": "hardlink",
+        "sha256": "cf8c7413eea38dc10f8f8e141ed0be24be6b937bc4f8fc5140d166f1e78f6b4a",
+        "sha256_in_prefix": "cf8c7413eea38dc10f8f8e141ed0be24be6b937bc4f8fc5140d166f1e78f6b4a",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "include/gandiva/cache.h",
+        "path_type": "hardlink",
+        "sha256": "ab1c076a923ae562dac96ff47b1f264f3e2149fc54ddf583e964aaa772d08243",
+        "sha256_in_prefix": "ab1c076a923ae562dac96ff47b1f264f3e2149fc54ddf583e964aaa772d08243",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "include/gandiva/compiled_expr.h",
+        "path_type": "hardlink",
+        "sha256": "b543c237b5c0316400663e154001881918c0b3f38ea9a778542ca0fa05ae85c9",
+        "sha256_in_prefix": "b543c237b5c0316400663e154001881918c0b3f38ea9a778542ca0fa05ae85c9",
+        "size_in_bytes": 2558
+      },
+      {
+        "_path": "include/gandiva/condition.h",
+        "path_type": "hardlink",
+        "sha256": "8aa4b2258c5175dabaf78c7b8cbef384fed151993946a15ddc0618c21dd029ea",
+        "sha256_in_prefix": "8aa4b2258c5175dabaf78c7b8cbef384fed151993946a15ddc0618c21dd029ea",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "include/gandiva/configuration.h",
+        "path_type": "hardlink",
+        "sha256": "dd7497c96ec5a7ad6d9ec8c28323f5ffecdccaff8066e7b2e5782145fee57bb0",
+        "sha256_in_prefix": "dd7497c96ec5a7ad6d9ec8c28323f5ffecdccaff8066e7b2e5782145fee57bb0",
+        "size_in_bytes": 4178
+      },
+      {
+        "_path": "include/gandiva/date_utils.h",
+        "path_type": "hardlink",
+        "sha256": "1ddab2f47d78a4e4b89fe1042a933e24f2e70aac5b68b9f0da2a1f20f8517c97",
+        "sha256_in_prefix": "1ddab2f47d78a4e4b89fe1042a933e24f2e70aac5b68b9f0da2a1f20f8517c97",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "include/gandiva/decimal_ir.h",
+        "path_type": "hardlink",
+        "sha256": "e884a862a66c30758e9bde0629d5a76378ff52aced793cfa7c77b40d33849071",
+        "sha256_in_prefix": "e884a862a66c30758e9bde0629d5a76378ff52aced793cfa7c77b40d33849071",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "include/gandiva/decimal_scalar.h",
+        "path_type": "hardlink",
+        "sha256": "9e896466faa475f9c39ab59b33696800208019ff78eab2574b54dd252f47bf62",
+        "sha256_in_prefix": "9e896466faa475f9c39ab59b33696800208019ff78eab2574b54dd252f47bf62",
+        "size_in_bytes": 2698
+      },
+      {
+        "_path": "include/gandiva/decimal_type_util.h",
+        "path_type": "hardlink",
+        "sha256": "f2fc20a783f52a104fac94dec260a4f23f6a59bf1edd7a025e56fedbc9a960fa",
+        "sha256_in_prefix": "f2fc20a783f52a104fac94dec260a4f23f6a59bf1edd7a025e56fedbc9a960fa",
+        "size_in_bytes": 2884
+      },
+      {
+        "_path": "include/gandiva/decimal_xlarge.h",
+        "path_type": "hardlink",
+        "sha256": "081831b540e7ac7c836558a61fbcc8e480760979144f0cb400140ece3ea49db1",
+        "sha256_in_prefix": "081831b540e7ac7c836558a61fbcc8e480760979144f0cb400140ece3ea49db1",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "include/gandiva/dex.h",
+        "path_type": "hardlink",
+        "sha256": "1d3963c28dacd27b2bc48f892552d70afe0d74d1064f06440733e6c66b384272",
+        "sha256_in_prefix": "1d3963c28dacd27b2bc48f892552d70afe0d74d1064f06440733e6c66b384272",
+        "size_in_bytes": 13617
+      },
+      {
+        "_path": "include/gandiva/dex_visitor.h",
+        "path_type": "hardlink",
+        "sha256": "757180a314395df914edc562068d0a023b60a0b805116df63a1a39f3a99ce195",
+        "sha256_in_prefix": "757180a314395df914edc562068d0a023b60a0b805116df63a1a39f3a99ce195",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "include/gandiva/encrypt_utils.h",
+        "path_type": "hardlink",
+        "sha256": "6e5d68fc54e2b187eed125b90c3fbf52c3f8619c3bcec454816c619dfab70509",
+        "sha256_in_prefix": "6e5d68fc54e2b187eed125b90c3fbf52c3f8619c3bcec454816c619dfab70509",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "include/gandiva/engine.h",
+        "path_type": "hardlink",
+        "sha256": "f5b5cad6900b3044a05ad60c6556177539587a63b385c9b309e540762900b223",
+        "sha256_in_prefix": "f5b5cad6900b3044a05ad60c6556177539587a63b385c9b309e540762900b223",
+        "size_in_bytes": 4582
+      },
+      {
+        "_path": "include/gandiva/eval_batch.h",
+        "path_type": "hardlink",
+        "sha256": "7c19f2701817002279c12e82682bb40d74fba3e490adb3c0059be84337d652db",
+        "sha256_in_prefix": "7c19f2701817002279c12e82682bb40d74fba3e490adb3c0059be84337d652db",
+        "size_in_bytes": 3993
+      },
+      {
+        "_path": "include/gandiva/execution_context.h",
+        "path_type": "hardlink",
+        "sha256": "8b82c13e43236ab16f1150c82851ba6a00e4fb05bb9137fa493af8637004a1a1",
+        "sha256_in_prefix": "8b82c13e43236ab16f1150c82851ba6a00e4fb05bb9137fa493af8637004a1a1",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "include/gandiva/exported_funcs.h",
+        "path_type": "hardlink",
+        "sha256": "aef629c2cb903cc364cefcb692185f8f56b58428a5413ad3a5129403427eb3b1",
+        "sha256_in_prefix": "aef629c2cb903cc364cefcb692185f8f56b58428a5413ad3a5129403427eb3b1",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "include/gandiva/exported_funcs_registry.h",
+        "path_type": "hardlink",
+        "sha256": "5441b84d1f9e78850c2fc838e1b47d64e846bfd1e1607eecb93729c178deb38c",
+        "sha256_in_prefix": "5441b84d1f9e78850c2fc838e1b47d64e846bfd1e1607eecb93729c178deb38c",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "include/gandiva/expr_decomposer.h",
+        "path_type": "hardlink",
+        "sha256": "66fe2716fe026d6afb0384cf37ccbd74b12accdbc22a268b4aa3db77067b46da",
+        "sha256_in_prefix": "66fe2716fe026d6afb0384cf37ccbd74b12accdbc22a268b4aa3db77067b46da",
+        "size_in_bytes": 4532
+      },
+      {
+        "_path": "include/gandiva/expr_validator.h",
+        "path_type": "hardlink",
+        "sha256": "389fb1b436ca59b5da415be4203e8523c07b00de2f180715cb251540a7a93d7e",
+        "sha256_in_prefix": "389fb1b436ca59b5da415be4203e8523c07b00de2f180715cb251540a7a93d7e",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "include/gandiva/expression.h",
+        "path_type": "hardlink",
+        "sha256": "fedf664e4fc3f73f8b5f2ae1f326b814accc3cf8252cf321721568ccccec606d",
+        "sha256_in_prefix": "fedf664e4fc3f73f8b5f2ae1f326b814accc3cf8252cf321721568ccccec606d",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "include/gandiva/expression_cache_key.h",
+        "path_type": "hardlink",
+        "sha256": "730cd0df0682574486a018ea8a38c6a2a5a4345a488378dbb59c50bc4814707e",
+        "sha256_in_prefix": "730cd0df0682574486a018ea8a38c6a2a5a4345a488378dbb59c50bc4814707e",
+        "size_in_bytes": 3908
+      },
+      {
+        "_path": "include/gandiva/expression_registry.h",
+        "path_type": "hardlink",
+        "sha256": "e0362c4c5c00cc1e8534b34ec27a2249d8cd7c478765293e55c7edb2e5e86e99",
+        "sha256_in_prefix": "e0362c4c5c00cc1e8534b34ec27a2249d8cd7c478765293e55c7edb2e5e86e99",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "include/gandiva/field_descriptor.h",
+        "path_type": "hardlink",
+        "sha256": "affdad64ce4570f0e321d3692beb94f3211586d54c58d5bf630c6d7cbee92d06",
+        "sha256_in_prefix": "affdad64ce4570f0e321d3692beb94f3211586d54c58d5bf630c6d7cbee92d06",
+        "size_in_bytes": 2335
+      },
+      {
+        "_path": "include/gandiva/filter.h",
+        "path_type": "hardlink",
+        "sha256": "b26937503ce526287764dcfdd817a33e3aca6eb6565d42fe68d3891eb6ac7503",
+        "sha256_in_prefix": "b26937503ce526287764dcfdd817a33e3aca6eb6565d42fe68d3891eb6ac7503",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "include/gandiva/formatting_utils.h",
+        "path_type": "hardlink",
+        "sha256": "6aacd113407df3369bb15f8b3d0041aa3b307d5f8b3d1d9093512b92ec840d14",
+        "sha256_in_prefix": "6aacd113407df3369bb15f8b3d0041aa3b307d5f8b3d1d9093512b92ec840d14",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "include/gandiva/func_descriptor.h",
+        "path_type": "hardlink",
+        "sha256": "8666091567691009ba3af004c8f440a992da0094dd396d5cf28bfe82d00b4be5",
+        "sha256_in_prefix": "8666091567691009ba3af004c8f440a992da0094dd396d5cf28bfe82d00b4be5",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "include/gandiva/function_holder.h",
+        "path_type": "hardlink",
+        "sha256": "d33b667254208f35e56a256282034931c3e1f7090fff940752881f92ddb80923",
+        "sha256_in_prefix": "d33b667254208f35e56a256282034931c3e1f7090fff940752881f92ddb80923",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "include/gandiva/function_holder_maker_registry.h",
+        "path_type": "hardlink",
+        "sha256": "8107f93c17b72514cdbc60bc26eed34e544f4ef13c60321d70755700873a6d84",
+        "sha256_in_prefix": "8107f93c17b72514cdbc60bc26eed34e544f4ef13c60321d70755700873a6d84",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "include/gandiva/function_ir_builder.h",
+        "path_type": "hardlink",
+        "sha256": "cbea812327517b8539962ec51ce528e643d7305d6e14305ddfe3ac7d047f8a79",
+        "sha256_in_prefix": "cbea812327517b8539962ec51ce528e643d7305d6e14305ddfe3ac7d047f8a79",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "include/gandiva/function_registry.h",
+        "path_type": "hardlink",
+        "sha256": "03ca754c45b89298a74d4f78528e3f7886c7b555e0cae45eab58d208c86b1b74",
+        "sha256_in_prefix": "03ca754c45b89298a74d4f78528e3f7886c7b555e0cae45eab58d208c86b1b74",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "include/gandiva/function_registry_arithmetic.h",
+        "path_type": "hardlink",
+        "sha256": "a5dabf82d485ede81e1dad98ee0399d1855e0512581b77b8de0f9cbcea17c3df",
+        "sha256_in_prefix": "a5dabf82d485ede81e1dad98ee0399d1855e0512581b77b8de0f9cbcea17c3df",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "include/gandiva/function_registry_common.h",
+        "path_type": "hardlink",
+        "sha256": "9b2641b094194764fabd3a27dc3d9d7a6136f401f2f2d70116de96c1df639d33",
+        "sha256_in_prefix": "9b2641b094194764fabd3a27dc3d9d7a6136f401f2f2d70116de96c1df639d33",
+        "size_in_bytes": 14131
+      },
+      {
+        "_path": "include/gandiva/function_registry_datetime.h",
+        "path_type": "hardlink",
+        "sha256": "3c3f4bb8bcdb05864f3972debedf7338f03754f8626d574940df6700aca0ca3b",
+        "sha256_in_prefix": "3c3f4bb8bcdb05864f3972debedf7338f03754f8626d574940df6700aca0ca3b",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "include/gandiva/function_registry_hash.h",
+        "path_type": "hardlink",
+        "sha256": "ea525fd903ac5cfd351be280745d68e9e0e0452cbc69a13736dae6aaa701640a",
+        "sha256_in_prefix": "ea525fd903ac5cfd351be280745d68e9e0e0452cbc69a13736dae6aaa701640a",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "include/gandiva/function_registry_math_ops.h",
+        "path_type": "hardlink",
+        "sha256": "601ff5c3383003c0cdf80c5cba366753e167bd9cfc18fec41c5bade515935f86",
+        "sha256_in_prefix": "601ff5c3383003c0cdf80c5cba366753e167bd9cfc18fec41c5bade515935f86",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "include/gandiva/function_registry_string.h",
+        "path_type": "hardlink",
+        "sha256": "e7aff0fc334a22427395d729b502144e06483ef344151ddf723daf39260c45bc",
+        "sha256_in_prefix": "e7aff0fc334a22427395d729b502144e06483ef344151ddf723daf39260c45bc",
+        "size_in_bytes": 975
+      },
+      {
+        "_path": "include/gandiva/function_registry_timestamp_arithmetic.h",
+        "path_type": "hardlink",
+        "sha256": "dec26d079ad471047d0e0d919c37fd157b4a8a78f0f4fa57e22788855aebc74b",
+        "sha256_in_prefix": "dec26d079ad471047d0e0d919c37fd157b4a8a78f0f4fa57e22788855aebc74b",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "include/gandiva/function_signature.h",
+        "path_type": "hardlink",
+        "sha256": "8881fb702d845f5a85fb4067d43e534a476a51fc43adc2b5f6cd5f25f7818ad9",
+        "sha256_in_prefix": "8881fb702d845f5a85fb4067d43e534a476a51fc43adc2b5f6cd5f25f7818ad9",
+        "size_in_bytes": 1717
+      },
+      {
+        "_path": "include/gandiva/gandiva_aliases.h",
+        "path_type": "hardlink",
+        "sha256": "1605db9571c544e0b51e79c6a3a689dfbd6f7c5ecda41b6cd282121d3522c8d9",
+        "sha256_in_prefix": "1605db9571c544e0b51e79c6a3a689dfbd6f7c5ecda41b6cd282121d3522c8d9",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "include/gandiva/gandiva_object_cache.h",
+        "path_type": "hardlink",
+        "sha256": "2897783745b5f16ca0928e2d40c3341549f308e16c21bb367c40c7ee3abea1db",
+        "sha256_in_prefix": "2897783745b5f16ca0928e2d40c3341549f308e16c21bb367c40c7ee3abea1db",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "include/gandiva/gdv_function_stubs.h",
+        "path_type": "hardlink",
+        "sha256": "aaed41c1444b31993af47ee744d16e20b187c6316c9db5834c09dcb1b7c7aed8",
+        "sha256_in_prefix": "aaed41c1444b31993af47ee744d16e20b187c6316c9db5834c09dcb1b7c7aed8",
+        "size_in_bytes": 15832
+      },
+      {
+        "_path": "include/gandiva/hash_utils.h",
+        "path_type": "hardlink",
+        "sha256": "19a2f5685477809125c7a7d19b020cf4c04335ec6d02c8e9569c31e633c534f9",
+        "sha256_in_prefix": "19a2f5685477809125c7a7d19b020cf4c04335ec6d02c8e9569c31e633c534f9",
+        "size_in_bytes": 1967
+      },
+      {
+        "_path": "include/gandiva/in_holder.h",
+        "path_type": "hardlink",
+        "sha256": "be22ef0c4c25ba2ae8ec45ed22ec9aff0101b5c75b426daf9360042764751f79",
+        "sha256_in_prefix": "be22ef0c4c25ba2ae8ec45ed22ec9aff0101b5c75b426daf9360042764751f79",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "include/gandiva/interval_holder.h",
+        "path_type": "hardlink",
+        "sha256": "0937586a84d4c732e0a32d73dfc2792497e71882b8b5de4da690a6be58f3b36b",
+        "sha256_in_prefix": "0937586a84d4c732e0a32d73dfc2792497e71882b8b5de4da690a6be58f3b36b",
+        "size_in_bytes": 6166
+      },
+      {
+        "_path": "include/gandiva/literal_holder.h",
+        "path_type": "hardlink",
+        "sha256": "881804c6e7debbe62d0aa65a35167fc42ae67137ae34f48664e0a079999037bf",
+        "sha256_in_prefix": "881804c6e7debbe62d0aa65a35167fc42ae67137ae34f48664e0a079999037bf",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "include/gandiva/llvm_generator.h",
+        "path_type": "hardlink",
+        "sha256": "dc4360002ece2019ee5c4730ffc8fc1a3d2567722b91b752bc29d9d3eda434e9",
+        "sha256_in_prefix": "dc4360002ece2019ee5c4730ffc8fc1a3d2567722b91b752bc29d9d3eda434e9",
+        "size_in_bytes": 11901
+      },
+      {
+        "_path": "include/gandiva/llvm_includes.h",
+        "path_type": "hardlink",
+        "sha256": "c52ebfad67a777ce353deef9ba01583b0f433f134660fc49e12a4b6df3ee5a62",
+        "sha256_in_prefix": "c52ebfad67a777ce353deef9ba01583b0f433f134660fc49e12a4b6df3ee5a62",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "include/gandiva/llvm_types.h",
+        "path_type": "hardlink",
+        "sha256": "b321b887d66f8dc2d3af54df9497098f9be58043c905a81bde6f6fadf38a4163",
+        "sha256_in_prefix": "b321b887d66f8dc2d3af54df9497098f9be58043c905a81bde6f6fadf38a4163",
+        "size_in_bytes": 4620
+      },
+      {
+        "_path": "include/gandiva/local_bitmaps_holder.h",
+        "path_type": "hardlink",
+        "sha256": "7450196ffc8403aa2f2a1de7edf9fde18f9f888977061062673fd0e9b41fbbbf",
+        "sha256_in_prefix": "7450196ffc8403aa2f2a1de7edf9fde18f9f888977061062673fd0e9b41fbbbf",
+        "size_in_bytes": 2894
+      },
+      {
+        "_path": "include/gandiva/lru_cache.h",
+        "path_type": "hardlink",
+        "sha256": "66c78a0627a7fe50da2831ce035d83c80d692d8ff3ce4e3d964801b72a6782dc",
+        "sha256_in_prefix": "66c78a0627a7fe50da2831ce035d83c80d692d8ff3ce4e3d964801b72a6782dc",
+        "size_in_bytes": 3671
+      },
+      {
+        "_path": "include/gandiva/lvalue.h",
+        "path_type": "hardlink",
+        "sha256": "990fa9a685b4355780bba6edc5f53e878d94560cbd21b8b3615ff3048aad2d3c",
+        "sha256_in_prefix": "990fa9a685b4355780bba6edc5f53e878d94560cbd21b8b3615ff3048aad2d3c",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "include/gandiva/native_function.h",
+        "path_type": "hardlink",
+        "sha256": "78f55ba283c728f74b8350db42c47364ec9eecd5ec6fb0fc274ed7bc22f435d2",
+        "sha256_in_prefix": "78f55ba283c728f74b8350db42c47364ec9eecd5ec6fb0fc274ed7bc22f435d2",
+        "size_in_bytes": 2870
+      },
+      {
+        "_path": "include/gandiva/node.h",
+        "path_type": "hardlink",
+        "sha256": "29fba8cefb722672283b06f02e3f8264cdcb93bb7c0f9babf4d301a324da0241",
+        "sha256_in_prefix": "29fba8cefb722672283b06f02e3f8264cdcb93bb7c0f9babf4d301a324da0241",
+        "size_in_bytes": 9533
+      },
+      {
+        "_path": "include/gandiva/node_visitor.h",
+        "path_type": "hardlink",
+        "sha256": "927a8b1239692790baeefbc634d550b70192fc90f7b6e956307e0cc80bc10eda",
+        "sha256_in_prefix": "927a8b1239692790baeefbc634d550b70192fc90f7b6e956307e0cc80bc10eda",
+        "size_in_bytes": 1946
+      },
+      {
+        "_path": "include/gandiva/pch.h",
+        "path_type": "hardlink",
+        "sha256": "7d28e22639fa94aef44c337a3d05f88c9b82813ca71b8c53831c203fae041487",
+        "sha256_in_prefix": "7d28e22639fa94aef44c337a3d05f88c9b82813ca71b8c53831c203fae041487",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "include/gandiva/projector.h",
+        "path_type": "hardlink",
+        "sha256": "96a4218b2701326afc3afaebbb498e13590ee84e3245e574f3263a856fb37c62",
+        "sha256_in_prefix": "96a4218b2701326afc3afaebbb498e13590ee84e3245e574f3263a856fb37c62",
+        "size_in_bytes": 6709
+      },
+      {
+        "_path": "include/gandiva/random_generator_holder.h",
+        "path_type": "hardlink",
+        "sha256": "491c8956be6440b656bda6a5b0e534ff3f3cd1dc8457965f9eb178d9a377c927",
+        "sha256_in_prefix": "491c8956be6440b656bda6a5b0e534ff3f3cd1dc8457965f9eb178d9a377c927",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "include/gandiva/regex_functions_holder.h",
+        "path_type": "hardlink",
+        "sha256": "3e6b4ea4c9aa21468377fe56cd93bdfee5e437a424ec714577aa70c036b3dd10",
+        "sha256_in_prefix": "3e6b4ea4c9aa21468377fe56cd93bdfee5e437a424ec714577aa70c036b3dd10",
+        "size_in_bytes": 5530
+      },
+      {
+        "_path": "include/gandiva/regex_util.h",
+        "path_type": "hardlink",
+        "sha256": "cbce92a2df97970874bca466793d8fc58a04a1999ef399160c70a7dc979fae3d",
+        "sha256_in_prefix": "cbce92a2df97970874bca466793d8fc58a04a1999ef399160c70a7dc979fae3d",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "include/gandiva/selection_vector.h",
+        "path_type": "hardlink",
+        "sha256": "337d33cfefe1b5b57ed58e7986212a9091636750f277d89de7e0f3eb06030435",
+        "sha256_in_prefix": "337d33cfefe1b5b57ed58e7986212a9091636750f277d89de7e0f3eb06030435",
+        "size_in_bytes": 6216
+      },
+      {
+        "_path": "include/gandiva/selection_vector_impl.h",
+        "path_type": "hardlink",
+        "sha256": "a1a7dc94879078152c481b290680916e13adc0135da4c1a90bfa2b756ccac660",
+        "sha256_in_prefix": "a1a7dc94879078152c481b290680916e13adc0135da4c1a90bfa2b756ccac660",
+        "size_in_bytes": 3686
+      },
+      {
+        "_path": "include/gandiva/simple_arena.h",
+        "path_type": "hardlink",
+        "sha256": "ec96eb8c83fe8c020fdaeddc5402cb4b18beabfd7f00758955c0697942faf7da",
+        "sha256_in_prefix": "ec96eb8c83fe8c020fdaeddc5402cb4b18beabfd7f00758955c0697942faf7da",
+        "size_in_bytes": 4393
+      },
+      {
+        "_path": "include/gandiva/to_date_holder.h",
+        "path_type": "hardlink",
+        "sha256": "77c4811d20563feddba11469cc8329a7d30e0019064fe8cc63dad1c3b1ae06d5",
+        "sha256_in_prefix": "77c4811d20563feddba11469cc8329a7d30e0019064fe8cc63dad1c3b1ae06d5",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "include/gandiva/tree_expr_builder.h",
+        "path_type": "hardlink",
+        "sha256": "008466ee736f10160db442aaaf9b9d185a4972e6f161d621aada593e1127d685",
+        "sha256_in_prefix": "008466ee736f10160db442aaaf9b9d185a4972e6f161d621aada593e1127d685",
+        "size_in_bytes": 5786
+      },
+      {
+        "_path": "include/gandiva/value_validity_pair.h",
+        "path_type": "hardlink",
+        "sha256": "7788fbda2f375d37f2a49b9aed687c858512e4663b4a39ed24260b8c720318c2",
+        "sha256_in_prefix": "7788fbda2f375d37f2a49b9aed687c858512e4663b4a39ed24260b8c720318c2",
+        "size_in_bytes": 1641
+      },
+      {
+        "_path": "include/gandiva/visibility.h",
+        "path_type": "hardlink",
+        "sha256": "43a21728d2c63b053dab98d7d0eb7e668db0133022906e046d3f8ce8482b9192",
+        "sha256_in_prefix": "43a21728d2c63b053dab98d7d0eb7e668db0133022906e046d3f8ce8482b9192",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "lib/cmake/Gandiva/FindLLVMAlt.cmake",
+        "path_type": "hardlink",
+        "sha256": "9c767f85a71f2d8d43e233dcfaef0e3e3efe0b3409ec2315a0db2f9aafee0f15",
+        "sha256_in_prefix": "9c767f85a71f2d8d43e233dcfaef0e3e3efe0b3409ec2315a0db2f9aafee0f15",
+        "size_in_bytes": 4634
+      },
+      {
+        "_path": "lib/cmake/Gandiva/FindzstdAlt.cmake",
+        "path_type": "hardlink",
+        "sha256": "0dd0901581f591b88832b9941da7c9aed814d11bd19325a21545fef00f47d217",
+        "sha256_in_prefix": "0dd0901581f591b88832b9941da7c9aed814d11bd19325a21545fef00f47d217",
+        "size_in_bytes": 5077
+      },
+      {
+        "_path": "lib/cmake/Gandiva/GandivaAddBitcode.cmake",
+        "path_type": "hardlink",
+        "sha256": "838802b36574e210cefa4efcb4ba10ce1b774f2372aa42024ec8cd4231fdf85a",
+        "sha256_in_prefix": "838802b36574e210cefa4efcb4ba10ce1b774f2372aa42024ec8cd4231fdf85a",
+        "size_in_bytes": 2784
+      },
+      {
+        "_path": "lib/cmake/Gandiva/GandivaConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "6d382ac380de751fcc6f4549ca24712426a836b7283d30552164fe7e34511327",
+        "sha256_in_prefix": "6d382ac380de751fcc6f4549ca24712426a836b7283d30552164fe7e34511327",
+        "size_in_bytes": 2933
+      },
+      {
+        "_path": "lib/cmake/Gandiva/GandivaConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "1385c7704f40d343fca41a64bddd8b78fc7301de563a01934a416b73b164f94b",
+        "sha256_in_prefix": "1385c7704f40d343fca41a64bddd8b78fc7301de563a01934a416b73b164f94b",
+        "size_in_bytes": 2765
+      },
+      {
+        "_path": "lib/cmake/Gandiva/GandivaTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "2b06ab148f349c738b138dd4299090ec6fc5cd5f80a60242138b668e030152ed",
+        "sha256_in_prefix": "2b06ab148f349c738b138dd4299090ec6fc5cd5f80a60242138b668e030152ed",
+        "size_in_bytes": 978
+      },
+      {
+        "_path": "lib/cmake/Gandiva/GandivaTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "b6cd7e58cbe8ad0a266eabf4e843b55687c71baa044c029cd08e66904bb5be76",
+        "sha256_in_prefix": "b6cd7e58cbe8ad0a266eabf4e843b55687c71baa044c029cd08e66904bb5be76",
+        "size_in_bytes": 4224
+      },
+      {
+        "_path": "lib/libgandiva.1500.2.0.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/apache-arrow_1726673208814/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "67c447c00e1b833c61f2fa2e0a736dbfdc5c2460e63337ab06272e6921fdeaa8",
+        "sha256_in_prefix": "82efd321a98f3e9509fc01f5e98e6e9fbef766ef1b69acd49e779bcd19f2b675",
+        "size_in_bytes": 2259584
+      },
+      {
+        "_path": "lib/libgandiva.1500.dylib",
+        "path_type": "softlink",
+        "sha256": "67c447c00e1b833c61f2fa2e0a736dbfdc5c2460e63337ab06272e6921fdeaa8",
+        "size_in_bytes": 2259584
+      },
+      {
+        "_path": "lib/libgandiva.dylib",
+        "path_type": "softlink",
+        "sha256": "67c447c00e1b833c61f2fa2e0a736dbfdc5c2460e63337ab06272e6921fdeaa8",
+        "size_in_bytes": 2259584
+      },
+      {
+        "_path": "lib/pkgconfig/gandiva.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/apache-arrow_1726673208814/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a8be85cef64d79814760053f2dd110a8a0a6e2bdd3a0307a8ca611ab608ebc65",
+        "sha256_in_prefix": "2ed0ebe2bbe786cb56640976141e7aa221053519c8586b26f450485583c35f2c",
+        "size_in_bytes": 1321
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6f81ac9d5f1cb4972cadf4b4f0b04db14d6cb7467542e074a77e9be1abdf4e68",
+  "size": 691643,
+  "subdir": "osx-arm64",
+  "timestamp": 1726675808000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libarrow-gandiva-15.0.2-h31ed65c_33_cpu.conda",
+  "version": "15.0.2"
+}

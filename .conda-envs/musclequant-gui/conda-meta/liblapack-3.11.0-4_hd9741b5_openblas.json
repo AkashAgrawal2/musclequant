@@ -1,0 +1,51 @@
+{
+  "build": "4_hd9741b5_openblas",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "libcblas 3.11.0 4*_openblas",
+    "blas 2.304 openblas",
+    "liblapacke 3.11.0 4*_openblas"
+  ],
+  "depends": [
+    "libblas 3.11.0 4_h51639a9_openblas"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/liblapack-3.11.0-4_hd9741b5_openblas",
+  "files": [
+    "lib/liblapack.3.dylib",
+    "lib/liblapack.dylib"
+  ],
+  "fn": "liblapack-3.11.0-4_hd9741b5_openblas.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/liblapack-3.11.0-4_hd9741b5_openblas",
+    "type": 1
+  },
+  "md5": "3b949d8c584bc30932e41c755507bdc1",
+  "name": "liblapack",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/liblapack-3.11.0-4_hd9741b5_openblas.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/liblapack.3.dylib",
+        "path_type": "softlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      },
+      {
+        "_path": "lib/liblapack.dylib",
+        "path_type": "softlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "63c9ac0c44c99fdf8de038b66f549d29a7b71e51223ad3fac1b4ba79080581c1",
+  "size": 18764,
+  "subdir": "osx-arm64",
+  "timestamp": 1764824468000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/liblapack-3.11.0-4_hd9741b5_openblas.conda",
+  "version": "3.11.0"
+}

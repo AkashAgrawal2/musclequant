@@ -1,0 +1,45 @@
+{
+  "build": "h49f535f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=17",
+    "libopenvino 2024.4.0 h49f535f_0",
+    "pugixml >=1.14,<1.15.0a0",
+    "tbb >=2021.13.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2024.4.0-h49f535f_0",
+  "files": [
+    "lib/openvino-2024.4.0/libopenvino_arm_cpu_plugin.so"
+  ],
+  "fn": "libopenvino-arm-cpu-plugin-2024.4.0-h49f535f_0.conda",
+  "license": "",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2024.4.0-h49f535f_0",
+    "type": 1
+  },
+  "md5": "4465615ce019e1185853f333dceb0cd5",
+  "name": "libopenvino-arm-cpu-plugin",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libopenvino-arm-cpu-plugin-2024.4.0-h49f535f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2024.4.0/libopenvino_arm_cpu_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "8df3df21f70a45eeaf766ea9ef2c81f066f4467bf30744ce779dc09f00b3b2ba",
+        "sha256_in_prefix": "8df3df21f70a45eeaf766ea9ef2c81f066f4467bf30744ce779dc09f00b3b2ba",
+        "size_in_bytes": 57842304
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a1670c8c5554d6152d09e238ea713917795358255c44e1ffd630fde887d20ab5",
+  "size": 7426860,
+  "subdir": "osx-arm64",
+  "timestamp": 1726763782000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenvino-arm-cpu-plugin-2024.4.0-h49f535f_0.conda",
+  "version": "2024.4.0"
+}

@@ -1,0 +1,675 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "pyyaml",
+    "rich",
+    "pydantic",
+    "typer",
+    "tomli",
+    "platformdirs",
+    "tomli-w",
+    "python-build",
+    "python >=3.9",
+    "psygnal >=0.3.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/npe2-0.7.9-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/METADATA",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/RECORD",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/WHEEL",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/npe2-0.7.9.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/npe2/__init__.py",
+    "lib/python3.11/site-packages/npe2/__main__.py",
+    "lib/python3.11/site-packages/npe2/_command_registry.py",
+    "lib/python3.11/site-packages/npe2/_dynamic_plugin.py",
+    "lib/python3.11/site-packages/npe2/_inspection/__init__.py",
+    "lib/python3.11/site-packages/npe2/_inspection/_compile.py",
+    "lib/python3.11/site-packages/npe2/_inspection/_fetch.py",
+    "lib/python3.11/site-packages/npe2/_inspection/_from_npe1.py",
+    "lib/python3.11/site-packages/npe2/_inspection/_setuputils.py",
+    "lib/python3.11/site-packages/npe2/_inspection/_visitors.py",
+    "lib/python3.11/site-packages/npe2/_plugin_manager.py",
+    "lib/python3.11/site-packages/npe2/_pydantic_compat.py",
+    "lib/python3.11/site-packages/npe2/_pytest_plugin.py",
+    "lib/python3.11/site-packages/npe2/_setuptools_plugin.py",
+    "lib/python3.11/site-packages/npe2/cli.py",
+    "lib/python3.11/site-packages/npe2/implements.py",
+    "lib/python3.11/site-packages/npe2/implements.pyi",
+    "lib/python3.11/site-packages/npe2/io_utils.py",
+    "lib/python3.11/site-packages/npe2/manifest/__init__.py",
+    "lib/python3.11/site-packages/npe2/manifest/_bases.py",
+    "lib/python3.11/site-packages/npe2/manifest/_npe1_adapter.py",
+    "lib/python3.11/site-packages/npe2/manifest/_package_metadata.py",
+    "lib/python3.11/site-packages/npe2/manifest/_validators.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__init__.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_commands.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_configuration.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_contributions.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_icon.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_json_schema.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_keybindings.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_menus.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_readers.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_sample_data.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_submenu.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_themes.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_widgets.py",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/_writers.py",
+    "lib/python3.11/site-packages/npe2/manifest/menus.py",
+    "lib/python3.11/site-packages/npe2/manifest/package_metadata.py",
+    "lib/python3.11/site-packages/npe2/manifest/schema.py",
+    "lib/python3.11/site-packages/npe2/manifest/utils.py",
+    "lib/python3.11/site-packages/npe2/plugin_manager.py",
+    "lib/python3.11/site-packages/npe2/py.typed",
+    "lib/python3.11/site-packages/npe2/types.py",
+    "lib/python3.11/site-packages/npe2/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_command_registry.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_dynamic_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_compile.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_fetch.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_from_npe1.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_setuputils.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_visitors.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_plugin_manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_pydantic_compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_pytest_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/_setuptools_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/implements.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/io_utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/_bases.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/_npe1_adapter.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/_package_metadata.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/_validators.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_commands.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_configuration.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_contributions.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_icon.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_json_schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_keybindings.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_menus.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_readers.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_sample_data.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_submenu.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_themes.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_widgets.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_writers.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/menus.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/package_metadata.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/manifest/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/plugin_manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/npe2/__pycache__/types.cpython-311.pyc",
+    "bin/npe2"
+  ],
+  "fn": "npe2-0.7.9-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/npe2-0.7.9-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "58068d8038cce508a9e39d8b3664bd1d",
+  "name": "npe2",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/npe2-0.7.9-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "032b0e11bcf09329bd5474d7799c5bc41282893b6936b341b1d0c584cd4f3c9a",
+        "sha256_in_prefix": "032b0e11bcf09329bd5474d7799c5bc41282893b6936b341b1d0c584cd4f3c9a",
+        "size_in_bytes": 5970
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ddc6fc0293a5c7f69971eda44a15efa5b4ed31b52180164106c58f8ce932d3d4",
+        "sha256_in_prefix": "ddc6fc0293a5c7f69971eda44a15efa5b4ed31b52180164106c58f8ce932d3d4",
+        "size_in_bytes": 6947
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "684363547a8dd7de004358c2dc64fa093e311b7ae1266f86a81993e693cfa8e8",
+        "sha256_in_prefix": "684363547a8dd7de004358c2dc64fa093e311b7ae1266f86a81993e693cfa8e8",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e73a1e80cb9d3bc1e49fae7cf469405c85b8f40af91d25998d345cd13909bb7b",
+        "sha256_in_prefix": "e73a1e80cb9d3bc1e49fae7cf469405c85b8f40af91d25998d345cd13909bb7b",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "site-packages/npe2-0.7.9.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bb25f663643b0fe5b339473a10a6550ee69d9167a70564984d1fbe06c7b01a98",
+        "sha256_in_prefix": "bb25f663643b0fe5b339473a10a6550ee69d9167a70564984d1fbe06c7b01a98",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "site-packages/npe2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "204f3a9c52c7cc5ca92da80b1379459a2785408346abee690c7ec801edfd9415",
+        "sha256_in_prefix": "204f3a9c52c7cc5ca92da80b1379459a2785408346abee690c7ec801edfd9415",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "site-packages/npe2/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "3706f26085386c4d583c00c7eb3c4b1778bbff9d6810ba4ad545f3eb5e358b01",
+        "sha256_in_prefix": "3706f26085386c4d583c00c7eb3c4b1778bbff9d6810ba4ad545f3eb5e358b01",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/npe2/_command_registry.py",
+        "path_type": "hardlink",
+        "sha256": "f8bd902de8a4a9c15a94893eb5982a9201068c75026699b970818fd13c73a0df",
+        "sha256_in_prefix": "f8bd902de8a4a9c15a94893eb5982a9201068c75026699b970818fd13c73a0df",
+        "size_in_bytes": 5056
+      },
+      {
+        "_path": "site-packages/npe2/_dynamic_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "77ee41728c9c4484fb0a77fb6437d07a2441bf7dcebfd981a07dd4fdb17c03c8",
+        "sha256_in_prefix": "77ee41728c9c4484fb0a77fb6437d07a2441bf7dcebfd981a07dd4fdb17c03c8",
+        "size_in_bytes": 10024
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "676df0fe60776873f501994b60307838c1e381740cb8100fcce21811dd47b859",
+        "sha256_in_prefix": "676df0fe60776873f501994b60307838c1e381740cb8100fcce21811dd47b859",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/_compile.py",
+        "path_type": "hardlink",
+        "sha256": "b088dca727e06844c7addac007f8cfc8b1ddd87c4eb967672a40e8b57b8e4e4f",
+        "sha256_in_prefix": "b088dca727e06844c7addac007f8cfc8b1ddd87c4eb967672a40e8b57b8e4e4f",
+        "size_in_bytes": 3941
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/_fetch.py",
+        "path_type": "hardlink",
+        "sha256": "580d64a7c2ab5138715e923819c2b00bc97b8d1fb55fb6c9cc86a56c1db45609",
+        "sha256_in_prefix": "580d64a7c2ab5138715e923819c2b00bc97b8d1fb55fb6c9cc86a56c1db45609",
+        "size_in_bytes": 14298
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/_from_npe1.py",
+        "path_type": "hardlink",
+        "sha256": "58fe26bcca2e1b146bf4a94399c40dba4cd2e92713de2cc5d1694037583dd68f",
+        "sha256_in_prefix": "58fe26bcca2e1b146bf4a94399c40dba4cd2e92713de2cc5d1694037583dd68f",
+        "size_in_bytes": 23607
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/_setuputils.py",
+        "path_type": "hardlink",
+        "sha256": "1149cdabbac02789d59ccc9a1b3b42b9f6d3d490f17092b71bda37a26aa67795",
+        "sha256_in_prefix": "1149cdabbac02789d59ccc9a1b3b42b9f6d3d490f17092b71bda37a26aa67795",
+        "size_in_bytes": 4575
+      },
+      {
+        "_path": "site-packages/npe2/_inspection/_visitors.py",
+        "path_type": "hardlink",
+        "sha256": "5ea8c247656a80e945281c364af2497d6854084aa87d2b88c59f1e70bca2ee4d",
+        "sha256_in_prefix": "5ea8c247656a80e945281c364af2497d6854084aa87d2b88c59f1e70bca2ee4d",
+        "size_in_bytes": 19738
+      },
+      {
+        "_path": "site-packages/npe2/_plugin_manager.py",
+        "path_type": "hardlink",
+        "sha256": "d2c3ee8e3cc9a9dc74ddef81b9796732feb9d8eb4ed7cfb1c8fb89025bdadf6d",
+        "sha256_in_prefix": "d2c3ee8e3cc9a9dc74ddef81b9796732feb9d8eb4ed7cfb1c8fb89025bdadf6d",
+        "size_in_bytes": 30694
+      },
+      {
+        "_path": "site-packages/npe2/_pydantic_compat.py",
+        "path_type": "hardlink",
+        "sha256": "4bbb270628eb9d8b08a2f5a6966899f756db40d99b2ee7edafc0947039de936d",
+        "sha256_in_prefix": "4bbb270628eb9d8b08a2f5a6966899f756db40d99b2ee7edafc0947039de936d",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/npe2/_pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "0f0ef7fde1c5a014ff9a2be6173afbdd91b005ed70c2849befdd0c9354252a7f",
+        "sha256_in_prefix": "0f0ef7fde1c5a014ff9a2be6173afbdd91b005ed70c2849befdd0c9354252a7f",
+        "size_in_bytes": 3610
+      },
+      {
+        "_path": "site-packages/npe2/_setuptools_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "55e7c5d6031c9d1c40d32a7cb526247280789a479f69fecd493e5fd0f5879be3",
+        "sha256_in_prefix": "55e7c5d6031c9d1c40d32a7cb526247280789a479f69fecd493e5fd0f5879be3",
+        "size_in_bytes": 6786
+      },
+      {
+        "_path": "site-packages/npe2/cli.py",
+        "path_type": "hardlink",
+        "sha256": "4374ac0f274f1f3c71a46026db7271047427a76ca8e1955847eba0de11d4ddd9",
+        "sha256_in_prefix": "4374ac0f274f1f3c71a46026db7271047427a76ca8e1955847eba0de11d4ddd9",
+        "size_in_bytes": 15637
+      },
+      {
+        "_path": "site-packages/npe2/implements.py",
+        "path_type": "hardlink",
+        "sha256": "466cd34b8d9d08d3cb7c228adbdad794b050d068fb833ec0fdec1bc4a47fd97d",
+        "sha256_in_prefix": "466cd34b8d9d08d3cb7c228adbdad794b050d068fb833ec0fdec1bc4a47fd97d",
+        "size_in_bytes": 4023
+      },
+      {
+        "_path": "site-packages/npe2/implements.pyi",
+        "path_type": "hardlink",
+        "sha256": "29c0137a4fc13316461a5a5dd72060c0148591e789a09857f12f341aea6b611c",
+        "sha256_in_prefix": "29c0137a4fc13316461a5a5dd72060c0148591e789a09857f12f341aea6b611c",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "site-packages/npe2/io_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d239c21d68c74a955e2845c39acbc15f2c1c871771dabf0911620898607ac017",
+        "sha256_in_prefix": "d239c21d68c74a955e2845c39acbc15f2c1c871771dabf0911620898607ac017",
+        "size_in_bytes": 10042
+      },
+      {
+        "_path": "site-packages/npe2/manifest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b1f8077de0b600aa1ec304609c0a97f385f453e4e10c7c66b743a589d9e66a5a",
+        "sha256_in_prefix": "b1f8077de0b600aa1ec304609c0a97f385f453e4e10c7c66b743a589d9e66a5a",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "site-packages/npe2/manifest/_bases.py",
+        "path_type": "hardlink",
+        "sha256": "16cfe3b8bffcb12def47afc5750fcee51112893114111ec1408d02f199ca382d",
+        "sha256_in_prefix": "16cfe3b8bffcb12def47afc5750fcee51112893114111ec1408d02f199ca382d",
+        "size_in_bytes": 3649
+      },
+      {
+        "_path": "site-packages/npe2/manifest/_npe1_adapter.py",
+        "path_type": "hardlink",
+        "sha256": "e992c6492cbe53aa0441e917788da5f865d3242dc3b964e5168c276c8e5ef26a",
+        "sha256_in_prefix": "e992c6492cbe53aa0441e917788da5f865d3242dc3b964e5168c276c8e5ef26a",
+        "size_in_bytes": 5217
+      },
+      {
+        "_path": "site-packages/npe2/manifest/_package_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "350a44a2ae74bcf2b550b5599c641527936cf53519130b5cb50574b3f929a7bf",
+        "sha256_in_prefix": "350a44a2ae74bcf2b550b5599c641527936cf53519130b5cb50574b3f929a7bf",
+        "size_in_bytes": 9241
+      },
+      {
+        "_path": "site-packages/npe2/manifest/_validators.py",
+        "path_type": "hardlink",
+        "sha256": "bff19a5b60c4d40ef1dc9f9503a98858c2d73be0228cbbd981fe3e91ca507d62",
+        "sha256_in_prefix": "bff19a5b60c4d40ef1dc9f9503a98858c2d73be0228cbbd981fe3e91ca507d62",
+        "size_in_bytes": 2875
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6f978da942f9b6c912ea057087fcda9410ac3f15fa1ced51d6d36f1bd0379baf",
+        "sha256_in_prefix": "6f978da942f9b6c912ea057087fcda9410ac3f15fa1ced51d6d36f1bd0379baf",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_commands.py",
+        "path_type": "hardlink",
+        "sha256": "7fbc75c83a074b618102341a146a8872ca8d0b56afaadafaa38c3f4597077b1b",
+        "sha256_in_prefix": "7fbc75c83a074b618102341a146a8872ca8d0b56afaadafaa38c3f4597077b1b",
+        "size_in_bytes": 4329
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_configuration.py",
+        "path_type": "hardlink",
+        "sha256": "8bc0cf0547e9259e18fc7ba0d44d45182b0b8af77a4a965998667ff3459d15e8",
+        "sha256_in_prefix": "8bc0cf0547e9259e18fc7ba0d44d45182b0b8af77a4a965998667ff3459d15e8",
+        "size_in_bytes": 6516
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_contributions.py",
+        "path_type": "hardlink",
+        "sha256": "802f7eccc9e62d0ace6eef184cbff8345e2ccc3d758ec3799acf677fb2bc603f",
+        "sha256_in_prefix": "802f7eccc9e62d0ace6eef184cbff8345e2ccc3d758ec3799acf677fb2bc603f",
+        "size_in_bytes": 2476
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_icon.py",
+        "path_type": "hardlink",
+        "sha256": "3577803f2d6aa0f2dc1411e940affb8f8a6ac471986d9d206f7c825ebe3b08b3",
+        "sha256_in_prefix": "3577803f2d6aa0f2dc1411e940affb8f8a6ac471986d9d206f7c825ebe3b08b3",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_json_schema.py",
+        "path_type": "hardlink",
+        "sha256": "ac8111691333549cf1e583e4767194c900eb7cadcf37e78b33e80e3ae985c870",
+        "sha256_in_prefix": "ac8111691333549cf1e583e4767194c900eb7cadcf37e78b33e80e3ae985c870",
+        "size_in_bytes": 10953
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_keybindings.py",
+        "path_type": "hardlink",
+        "sha256": "13f9ab4b39e05c41aec887f2b4f2ce73458bec16f565e6dacddb75370e99843d",
+        "sha256_in_prefix": "13f9ab4b39e05c41aec887f2b4f2ce73458bec16f565e6dacddb75370e99843d",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_menus.py",
+        "path_type": "hardlink",
+        "sha256": "1409177694861dd0ea8c0e32af63b16fadb1ecf397258ec44c072cdb70094c56",
+        "sha256_in_prefix": "1409177694861dd0ea8c0e32af63b16fadb1ecf397258ec44c072cdb70094c56",
+        "size_in_bytes": 2233
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_readers.py",
+        "path_type": "hardlink",
+        "sha256": "5f38925a926badb4bf089e9bbcf8461f8bf0299ab98a7f2496cd3b8f54c0757c",
+        "sha256_in_prefix": "5f38925a926badb4bf089e9bbcf8461f8bf0299ab98a7f2496cd3b8f54c0757c",
+        "size_in_bytes": 2513
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_sample_data.py",
+        "path_type": "hardlink",
+        "sha256": "291676bc40e1774426bfd1ce6ba7bf0dbf6c4f32eb3dcd95b13b0579641b9afc",
+        "sha256_in_prefix": "291676bc40e1774426bfd1ce6ba7bf0dbf6c4f32eb3dcd95b13b0579641b9afc",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_submenu.py",
+        "path_type": "hardlink",
+        "sha256": "8d150574a0758888147c00de687255f6b677feedd27d88f07c68177a58447d7b",
+        "sha256_in_prefix": "8d150574a0758888147c00de687255f6b677feedd27d88f07c68177a58447d7b",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_themes.py",
+        "path_type": "hardlink",
+        "sha256": "15e1c17aa6b264e20de1c7328a4d713d9df4704fbfdd7afb6a8ce2972a1a9a26",
+        "sha256_in_prefix": "15e1c17aa6b264e20de1c7328a4d713d9df4704fbfdd7afb6a8ce2972a1a9a26",
+        "size_in_bytes": 2683
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_widgets.py",
+        "path_type": "hardlink",
+        "sha256": "ba7838b7a478101e91cfd5e695be19e3a8a53871e69285a410cb87402e24001c",
+        "sha256_in_prefix": "ba7838b7a478101e91cfd5e695be19e3a8a53871e69285a410cb87402e24001c",
+        "size_in_bytes": 2217
+      },
+      {
+        "_path": "site-packages/npe2/manifest/contributions/_writers.py",
+        "path_type": "hardlink",
+        "sha256": "8b5baccbfb51ff55c87fdddcf075eed003cb248dd0ace254734fb49f12eb2db2",
+        "sha256_in_prefix": "8b5baccbfb51ff55c87fdddcf075eed003cb248dd0ace254734fb49f12eb2db2",
+        "size_in_bytes": 7867
+      },
+      {
+        "_path": "site-packages/npe2/manifest/menus.py",
+        "path_type": "hardlink",
+        "sha256": "48c272a75c08e39b9bf2175950aa908bd4946771a91656ab1ec389d59c0031bb",
+        "sha256_in_prefix": "48c272a75c08e39b9bf2175950aa908bd4946771a91656ab1ec389d59c0031bb",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/npe2/manifest/package_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "b1130f521a5fc7ede79f98b773404a95bc3b291f00ce0228fa28caab4b9d5d45",
+        "sha256_in_prefix": "b1130f521a5fc7ede79f98b773404a95bc3b291f00ce0228fa28caab4b9d5d45",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "site-packages/npe2/manifest/schema.py",
+        "path_type": "hardlink",
+        "sha256": "89496785f308ec9aa00b311552a539a25227eeb827d84236437d121a2f6e83b0",
+        "sha256_in_prefix": "89496785f308ec9aa00b311552a539a25227eeb827d84236437d121a2f6e83b0",
+        "size_in_bytes": 20285
+      },
+      {
+        "_path": "site-packages/npe2/manifest/utils.py",
+        "path_type": "hardlink",
+        "sha256": "7ee1c2cb9ef7672247e06162fca74e527240d31443634aa237576574ffda4d31",
+        "sha256_in_prefix": "7ee1c2cb9ef7672247e06162fca74e527240d31443634aa237576574ffda4d31",
+        "size_in_bytes": 12355
+      },
+      {
+        "_path": "site-packages/npe2/plugin_manager.py",
+        "path_type": "hardlink",
+        "sha256": "7ba7a03f1dc7e2d9722757cc261b247bdb8a0add4176ea4047a4be101c7501f8",
+        "sha256_in_prefix": "7ba7a03f1dc7e2d9722757cc261b247bdb8a0add4176ea4047a4be101c7501f8",
+        "size_in_bytes": 4466
+      },
+      {
+        "_path": "site-packages/npe2/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/npe2/types.py",
+        "path_type": "hardlink",
+        "sha256": "dc208843ce324f051b73cac705fbe930682fec583debc3055fe6eb5db6e19352",
+        "sha256_in_prefix": "dc208843ce324f051b73cac705fbe930682fec583debc3055fe6eb5db6e19352",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_command_registry.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_dynamic_plugin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_compile.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_fetch.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_from_npe1.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_setuputils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/_inspection/__pycache__/_visitors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_plugin_manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_pydantic_compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_pytest_plugin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/_setuptools_plugin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/implements.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/io_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/_bases.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/_npe1_adapter.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/_package_metadata.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/_validators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_commands.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_configuration.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_contributions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_icon.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_json_schema.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_keybindings.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_menus.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_readers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_sample_data.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_submenu.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_themes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_widgets.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/contributions/__pycache__/_writers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/menus.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/package_metadata.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/schema.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/manifest/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/plugin_manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/npe2/__pycache__/types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/npe2",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6521a07b6a5b95839ec3160e8675bb9108a45c8c25bb8f1c4e34bcc2842074fb",
+  "size": 76343,
+  "subdir": "noarch",
+  "timestamp": 1752163546000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/npe2-0.7.9-pyhd8ed1ab_0.conda",
+  "version": "0.7.9"
+}

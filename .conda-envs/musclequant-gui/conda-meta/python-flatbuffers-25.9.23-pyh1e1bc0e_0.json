@@ -1,0 +1,221 @@
+{
+  "build": "pyh1e1bc0e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/python-flatbuffers-25.9.23-pyh1e1bc0e_0",
+  "files": [
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/METADATA",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/RECORD",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/WHEEL",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/flatbuffers-25.9.23.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/flatbuffers/__init__.py",
+    "lib/python3.11/site-packages/flatbuffers/_version.py",
+    "lib/python3.11/site-packages/flatbuffers/builder.py",
+    "lib/python3.11/site-packages/flatbuffers/compat.py",
+    "lib/python3.11/site-packages/flatbuffers/encode.py",
+    "lib/python3.11/site-packages/flatbuffers/flexbuffers.py",
+    "lib/python3.11/site-packages/flatbuffers/number_types.py",
+    "lib/python3.11/site-packages/flatbuffers/packer.py",
+    "lib/python3.11/site-packages/flatbuffers/table.py",
+    "lib/python3.11/site-packages/flatbuffers/util.py",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/builder.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/encode.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/flexbuffers.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/number_types.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/packer.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/table.cpython-311.pyc",
+    "lib/python3.11/site-packages/flatbuffers/__pycache__/util.cpython-311.pyc"
+  ],
+  "fn": "python-flatbuffers-25.9.23-pyh1e1bc0e_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/python-flatbuffers-25.9.23-pyh1e1bc0e_0",
+    "type": 1
+  },
+  "md5": "611207751a2c0b5b999b07b78985d7a0",
+  "name": "python-flatbuffers",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/python-flatbuffers-25.9.23-pyh1e1bc0e_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "33e2e398a93153ad9234210017fcf934ff3b6ed8385abe7572d8451cf7e6ec9b",
+        "sha256_in_prefix": "33e2e398a93153ad9234210017fcf934ff3b6ed8385abe7572d8451cf7e6ec9b",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "61ce9e5e7bd931a0064dda81f6bcb2de5a04465b0fd78eab13ceabc2e4a0efca",
+        "sha256_in_prefix": "61ce9e5e7bd931a0064dda81f6bcb2de5a04465b0fd78eab13ceabc2e4a0efca",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
+        "sha256_in_prefix": "24d5a1d459b551dc08415d3be609429f8315b8246cd2ca2d248abe27aadbc425",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bee1fdc4f25d08b90f07e9ae4ccaefc299601af52beba1259d90777ddc061bc2",
+        "sha256_in_prefix": "bee1fdc4f25d08b90f07e9ae4ccaefc299601af52beba1259d90777ddc061bc2",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/flatbuffers-25.9.23.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5175562c0f32b3a1dea93cfaadf29eb28714aba967f992fc9a1642fdcab90447",
+        "sha256_in_prefix": "5175562c0f32b3a1dea93cfaadf29eb28714aba967f992fc9a1642fdcab90447",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/flatbuffers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc966ba9938e4ca74134c6bf89329403a5891bf73f373286a455ce7b5220b62c",
+        "sha256_in_prefix": "bc966ba9938e4ca74134c6bf89329403a5891bf73f373286a455ce7b5220b62c",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "site-packages/flatbuffers/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1952fa33fc897e80249437db7d360557bd8b0db214f988115cbe1dd725f7115c",
+        "sha256_in_prefix": "1952fa33fc897e80249437db7d360557bd8b0db214f988115cbe1dd725f7115c",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/flatbuffers/builder.py",
+        "path_type": "hardlink",
+        "sha256": "baeb038520caa672cbcfa291e2f7e50bb4fbe1537041ec3d411911bb11994c38",
+        "sha256_in_prefix": "baeb038520caa672cbcfa291e2f7e50bb4fbe1537041ec3d411911bb11994c38",
+        "size_in_bytes": 25048
+      },
+      {
+        "_path": "site-packages/flatbuffers/compat.py",
+        "path_type": "hardlink",
+        "sha256": "8a1052a560c248bfaf80b4b266d72ef0b5f7648df0cfd2e1b6a22d6361906608",
+        "sha256_in_prefix": "8a1052a560c248bfaf80b4b266d72ef0b5f7648df0cfd2e1b6a22d6361906608",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "site-packages/flatbuffers/encode.py",
+        "path_type": "hardlink",
+        "sha256": "d8eaf79a05910242625a0f868186ac0d4e33207a505375b4e9f9888706f3e6e3",
+        "sha256_in_prefix": "d8eaf79a05910242625a0f868186ac0d4e33207a505375b4e9f9888706f3e6e3",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "site-packages/flatbuffers/flexbuffers.py",
+        "path_type": "hardlink",
+        "sha256": "c85f16af82e8f1625bfa98fd34d6886312f0ce51c7c93ae833488ef1fc83c1b5",
+        "sha256_in_prefix": "c85f16af82e8f1625bfa98fd34d6886312f0ce51c7c93ae833488ef1fc83c1b5",
+        "size_in_bytes": 44454
+      },
+      {
+        "_path": "site-packages/flatbuffers/number_types.py",
+        "path_type": "hardlink",
+        "sha256": "8a33b441c262bb19507a0a0139e774bfd9b40ddcd36475b1a5305952acec5870",
+        "sha256_in_prefix": "8a33b441c262bb19507a0a0139e774bfd9b40ddcd36475b1a5305952acec5870",
+        "size_in_bytes": 3762
+      },
+      {
+        "_path": "site-packages/flatbuffers/packer.py",
+        "path_type": "hardlink",
+        "sha256": "2cd5b29bc620151a878dc3de1a9618de29c21961fa5e76e440ab403ed14455ab",
+        "sha256_in_prefix": "2cd5b29bc620151a878dc3de1a9618de29c21961fa5e76e440ab403ed14455ab",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "site-packages/flatbuffers/table.py",
+        "path_type": "hardlink",
+        "sha256": "7226139aafc2cc0b98a5bdca0159e5ef933ce2278285f6f22a77be7451f3c305",
+        "sha256_in_prefix": "7226139aafc2cc0b98a5bdca0159e5ef933ce2278285f6f22a77be7451f3c305",
+        "size_in_bytes": 4818
+      },
+      {
+        "_path": "site-packages/flatbuffers/util.py",
+        "path_type": "hardlink",
+        "sha256": "991550d55a07a7430930db514d4195cc02f03784ff0be535e2d31b8fdf69cb60",
+        "sha256_in_prefix": "991550d55a07a7430930db514d4195cc02f03784ff0be535e2d31b8fdf69cb60",
+        "size_in_bytes": 1608
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/builder.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/encode.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/flexbuffers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/number_types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/packer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/table.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/flatbuffers/__pycache__/util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1933243d9f839bb7bc6c9b75481b6445f50f8b727eb926086e8a2a347fb0467d",
+  "size": 34827,
+  "subdir": "noarch",
+  "timestamp": 1758880404000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-flatbuffers-25.9.23-pyh1e1bc0e_0.conda",
+  "version": "25.9.23"
+}

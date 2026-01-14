@@ -1,0 +1,43 @@
+{
+  "build": "default_h6e8f826_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libcxx >=21.1.0",
+    "libllvm21 >=21.1.0,<21.2.0a0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/miniforge3/pkgs/libclang13-21.1.0-default_h6e8f826_1",
+  "files": [
+    "lib/libclang.13.dylib"
+  ],
+  "fn": "libclang13-21.1.0-default_h6e8f826_1.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/Users/akashagr/miniforge3/pkgs/libclang13-21.1.0-default_h6e8f826_1",
+    "type": 1
+  },
+  "md5": "a29a6b4c1a926fbb64813ecab5450483",
+  "name": "libclang13",
+  "package_tarball_full_path": "/Users/akashagr/miniforge3/pkgs/libclang13-21.1.0-default_h6e8f826_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.13.dylib",
+        "path_type": "hardlink",
+        "sha256": "32b60fe25bab74cf55eb2775e6e26a1eb787f8a74803c139b0f7b87576f720bf",
+        "sha256_in_prefix": "32b60fe25bab74cf55eb2775e6e26a1eb787f8a74803c139b0f7b87576f720bf",
+        "size_in_bytes": 37218912
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d4517eb5c79e386eacdfa0424c94c822a04cf0d344d6730483de1dcbce24a5dd",
+  "size": 8513708,
+  "subdir": "osx-arm64",
+  "timestamp": 1757383978000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libclang13-21.1.0-default_h6e8f826_1.conda",
+  "version": "21.1.0"
+}

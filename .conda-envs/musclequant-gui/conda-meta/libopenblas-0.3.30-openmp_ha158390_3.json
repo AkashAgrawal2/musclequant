@@ -1,0 +1,67 @@
+{
+  "build": "openmp_ha158390_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "openblas >=0.3.30,<0.3.31.0a0"
+  ],
+  "depends": [
+    "libgfortran",
+    "__osx >=11.0",
+    "llvm-openmp >=19.1.7",
+    "libgfortran5 >=14.3.0"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/libopenblas-0.3.30-openmp_ha158390_3",
+  "files": [
+    "lib/libopenblas.0.dylib",
+    "lib/libopenblas_armv8p-r0.3.30.dylib",
+    "lib/libopenblas_vortexp-r0.3.30.dylib",
+    "lib/libopenblasp-r0.3.30.dylib"
+  ],
+  "fn": "libopenblas-0.3.30-openmp_ha158390_3.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/libopenblas-0.3.30-openmp_ha158390_3",
+    "type": 1
+  },
+  "md5": "a18a7f471c517062ee71b843ef95eb8a",
+  "name": "libopenblas",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/libopenblas-0.3.30-openmp_ha158390_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libopenblas.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "sha256_in_prefix": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      },
+      {
+        "_path": "lib/libopenblas_armv8p-r0.3.30.dylib",
+        "path_type": "softlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      },
+      {
+        "_path": "lib/libopenblas_vortexp-r0.3.30.dylib",
+        "path_type": "softlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.30.dylib",
+        "path_type": "softlink",
+        "sha256": "efd52af93361149375163fbc33884f8130ff72d2c51fba6c046e4cf9902495de",
+        "size_in_bytes": 13330848
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dcc626c7103503d1dfc0371687ad553cb948b8ed0249c2a721147bdeb8db4a73",
+  "size": 4285762,
+  "subdir": "osx-arm64",
+  "timestamp": 1761749506000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.30-openmp_ha158390_3.conda",
+  "version": "0.3.30"
+}

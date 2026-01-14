@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/hsluv-5.0.4-pyhd8ed1ab_2",
+  "files": [
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/licenses/LICENSE.txt",
+    "lib/python3.11/site-packages/hsluv-5.0.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/hsluv.py",
+    "lib/python3.11/site-packages/__pycache__/hsluv.cpython-311.pyc"
+  ],
+  "fn": "hsluv-5.0.4-pyhd8ed1ab_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/hsluv-5.0.4-pyhd8ed1ab_2",
+    "type": 1
+  },
+  "md5": "daa9557a8f284c66f8b6f8014ed190f3",
+  "name": "hsluv",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/hsluv-5.0.4-pyhd8ed1ab_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2299bfc45d608fd26660517a8eab2a7324735b1e427a982bb965735be7ec8127",
+        "sha256_in_prefix": "2299bfc45d608fd26660517a8eab2a7324735b1e427a982bb965735be7ec8127",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2e2c6ec502ee0a290e09c2fd259d45e4ac43da541b4bd5498de146ea7aeb86ea",
+        "sha256_in_prefix": "2e2c6ec502ee0a290e09c2fd259d45e4ac43da541b4bd5498de146ea7aeb86ea",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "fe2b58ddb66594a6cb93dde2d20ccdcddc1e02de5ea1c25d7cdedab6b8ce9ef4",
+        "sha256_in_prefix": "fe2b58ddb66594a6cb93dde2d20ccdcddc1e02de5ea1c25d7cdedab6b8ce9ef4",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5865637a214530bf45c3f68c902c3b1ffeb38f3bdb40177a121079f215983b4e",
+        "sha256_in_prefix": "5865637a214530bf45c3f68c902c3b1ffeb38f3bdb40177a121079f215983b4e",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "092cd62d642081a92e81c12da3ad7659e18b38fd1ac7e273d5fcec265d192f3b",
+        "sha256_in_prefix": "092cd62d642081a92e81c12da3ad7659e18b38fd1ac7e273d5fcec265d192f3b",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "site-packages/hsluv-5.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5004f1a32a74d83e2155281cf2a58f126cfd42ae0b07ac95cbab2b262e28f382",
+        "sha256_in_prefix": "5004f1a32a74d83e2155281cf2a58f126cfd42ae0b07ac95cbab2b262e28f382",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/hsluv.py",
+        "path_type": "hardlink",
+        "sha256": "088d22234cb9bbd94d87d0f2a4ac1c9428f710bc87ec9e4478f234e82fc6f41e",
+        "sha256_in_prefix": "088d22234cb9bbd94d87d0f2a4ac1c9428f710bc87ec9e4478f234e82fc6f41e",
+        "size_in_bytes": 7390
+      },
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/hsluv.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b811866d42204e06fc798e9fbf1a2f5cc4167a88a0d08767c0a816c71b8099be",
+  "size": 12097,
+  "subdir": "noarch",
+  "timestamp": 1746185557000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/hsluv-5.0.4-pyhd8ed1ab_2.conda",
+  "version": "5.0.4"
+}

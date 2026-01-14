@@ -1,0 +1,120 @@
+{
+  "build": "pyhd8ed1ab_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/Users/akashagr/musclequant/.conda-pkgs/heapdict-1.0.1-pyhd8ed1ab_2",
+  "files": [
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/HeapDict-1.0.1.dist-info/zip-safe",
+    "lib/python3.11/site-packages/heapdict.py",
+    "lib/python3.11/site-packages/__pycache__/heapdict.cpython-311.pyc"
+  ],
+  "fn": "heapdict-1.0.1-pyhd8ed1ab_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/akashagr/musclequant/.conda-pkgs/heapdict-1.0.1-pyhd8ed1ab_2",
+    "type": 1
+  },
+  "md5": "9f203f36c466edeced192b7c5694c480",
+  "name": "heapdict",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/akashagr/musclequant/.conda-pkgs/heapdict-1.0.1-pyhd8ed1ab_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1363ba6c467e3b4d7f0ecbe8d2a8b219d05aeb97d3228e3f1b84f8475d79300b",
+        "sha256_in_prefix": "1363ba6c467e3b4d7f0ecbe8d2a8b219d05aeb97d3228e3f1b84f8475d79300b",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3a2ab19bb2d493eb3687d05caa3cdaa800816276277038e2861e202a76482531",
+        "sha256_in_prefix": "3a2ab19bb2d493eb3687d05caa3cdaa800816276277038e2861e202a76482531",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fcd94b9b5017a44e1b53acf689c4d072efce7b4b39d6b350ea80a69f1d2b33a1",
+        "sha256_in_prefix": "fcd94b9b5017a44e1b53acf689c4d072efce7b4b39d6b350ea80a69f1d2b33a1",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "525b9d74344a3ed8e2cab664fa52c8b37be9c3209dbaf3862fde4a35b9d4c9db",
+        "sha256_in_prefix": "525b9d74344a3ed8e2cab664fa52c8b37be9c3209dbaf3862fde4a35b9d4c9db",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4aa2165a4f7fb22d2518da04292232a8a0efa380840fbc116f393e407a7c455f",
+        "sha256_in_prefix": "4aa2165a4f7fb22d2518da04292232a8a0efa380840fbc116f393e407a7c455f",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/HeapDict-1.0.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/heapdict.py",
+        "path_type": "hardlink",
+        "sha256": "a433ee2f086c43223841b33de4f6e19b3eaff00ea41996484c46b3362ccc22b3",
+        "sha256_in_prefix": "a433ee2f086c43223841b33de4f6e19b3eaff00ea41996484c46b3362ccc22b3",
+        "size_in_bytes": 2947
+      },
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/heapdict.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "028d035e09e5119e2defee4e8387460b0e31429616aa0999392ec0ad20da6181",
+  "size": 10169,
+  "subdir": "noarch",
+  "timestamp": 1733762704000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/heapdict-1.0.1-pyhd8ed1ab_2.conda",
+  "version": "1.0.1"
+}

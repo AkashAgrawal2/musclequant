@@ -1,0 +1,12 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+bindir=${prefix}/lib/qt6/bin
+libexecdir=${prefix}/lib/qt6
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt6
+
+Name: Qt6 QuickControls2ImagineStyleImpl
+Description: Qt QuickControls2ImagineStyleImpl module
+Version: 6.9.2
+Libs: -L${libdir} -lQt6QuickControls2ImagineStyleImpl
+Cflags: -I${includedir}/QtQuickControls2ImagineStyleImpl -I${includedir} -DQT_QUICKCONTROLS2IMAGINESTYLEIMPL_LIB

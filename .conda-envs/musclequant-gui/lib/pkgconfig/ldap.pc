@@ -1,0 +1,13 @@
+prefix=/Users/akashagr/musclequant/.conda-envs/musclequant-gui
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: ldap (OpenLDAP)
+Description: OpenLDAP Lightweight Directory Access Protocol library
+URL: https://www.openldap.org
+Version: 2.6.10
+Requires: lber
+Cflags: -I${includedir}
+Libs: -L${libdir} -lldap
+Libs.private: -lresolv  -lsasl2 -lssl -lcrypto 
