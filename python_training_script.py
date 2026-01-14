@@ -4,7 +4,7 @@ import torch
 from cellpose import io, models, train
 
 # 1) Paths
-train_dir = Path("/Users/akashagr/Desktop/Training Data/Utrophin Background")
+train_dir = Path("/Path/to/folder")
 save_dir = train_dir / "models"
 save_dir.mkdir(parents=True, exist_ok=True)
 
