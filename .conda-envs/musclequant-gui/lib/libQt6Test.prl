@@ -1,5 +1,0 @@
-QMAKE_PRL_TARGET = libQt6Test.dylib
-QMAKE_PRL_CONFIG = shared
-QMAKE_PRL_VERSION = 6.9.2
-QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6Core.dylib -framework DiskArbitration -framework UniformTypeIdentifiers -framework Security -framework AppKit -framework ApplicationServices -framework Foundation -framework IOKit
-QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6Core.dylib;-framework DiskArbitration;-framework UniformTypeIdentifiers;-framework Security;-framework AppKit;-framework ApplicationServices;-framework Foundation;-framework IOKit

@@ -1,5 +1,0 @@
-if (NOT PYTHON_CONFIG_SUFFIX)
-    message(STATUS "PySide6QmlConfig: Using default python: .cpython-311-darwin")
-    SET(PYTHON_CONFIG_SUFFIX .cpython-311-darwin)
-endif()
-include(${CMAKE_CURRENT_LIST_DIR}/PySide6QmlConfig${PYTHON_CONFIG_SUFFIX}.cmake)

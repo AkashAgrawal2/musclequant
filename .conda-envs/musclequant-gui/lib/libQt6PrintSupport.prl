@@ -1,5 +1,0 @@
-QMAKE_PRL_TARGET = libQt6PrintSupport.dylib
-QMAKE_PRL_CONFIG = shared
-QMAKE_PRL_VERSION = 6.9.2
-QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6Widgets.dylib $$[QT_INSTALL_LIBS]/libQt6Gui.dylib $$[QT_INSTALL_LIBS]/libQt6Core.dylib -framework IOKit -framework DiskArbitration -framework UniformTypeIdentifiers -framework AppKit -framework OpenGL -framework ImageIO -framework Metal -framework ApplicationServices -lcups
-QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6Widgets.dylib;$$[QT_INSTALL_LIBS]/libQt6Gui.dylib;$$[QT_INSTALL_LIBS]/libQt6Core.dylib;-framework IOKit;-framework DiskArbitration;-framework UniformTypeIdentifiers;-framework AppKit;-framework OpenGL;-framework ImageIO;-framework Metal;-framework ApplicationServices;-lcups

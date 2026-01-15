@@ -4,6 +4,30 @@ MuscleQuant is a Python GUI app (napari + Qt) for muscle image segmentation and 
 
 There are two options for downloading this program.
 
+## 0. Simple download (no Git required)
+
+For users who are not familiar with programming, this is the easiest way.
+
+1) Open the GitHub page: https://github.com/AkashAgrawal2/musclequant
+2) Click the green "Code" button, then choose "Download ZIP".
+3) Unzip the file.
+4) Open a terminal:
+   - Windows: open "Anaconda Prompt"
+   - macOS: open "Terminal"
+5) Go into the unzipped folder:
+
+Windows example:
+```bat
+cd "C:\Users\YOUR_NAME\Downloads\musclequant-main\musclequant-main"
+```
+
+macOS example:
+```bash
+cd ~/Downloads/musclequant-main/musclequant-main
+```
+
+Then continue with the setup steps in "Run locally (setup from scratch)" below.
+
 ## 1. Run locally (setup from scratch)
 
 Assumes Python is already installed. Steps below create a virtual environment and install all dependencies.

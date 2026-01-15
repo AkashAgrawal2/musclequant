@@ -1,4 +1,0 @@
-[Thumbnailer Entry]
-TryExec=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/bin/gdk-pixbuf-thumbnailer
-Exec=/Users/akashagr/musclequant/.conda-envs/musclequant-gui/bin/gdk-pixbuf-thumbnailer -s %s %u %o
-MimeType=image/svg+xml;image/svg+xml-compressed;
